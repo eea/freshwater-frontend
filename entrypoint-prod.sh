@@ -22,5 +22,7 @@ function apply_path {
 # Should we monkey patch?
 test -n "$API_PATH" && apply_path
 
+# ./create-sentry-release.sh
+
 echo "Starting Volto"
 exec "$@"

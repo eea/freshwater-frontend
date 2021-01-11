@@ -22,5 +22,8 @@ function apply_path {
 # Should we monkey patch?
 test -n "$RAZZLE_API_PATH" && apply_path
 
+
+# ./create-sentry-release.sh
+
 echo "Starting Volto"
 exec "$@"
