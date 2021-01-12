@@ -2,12 +2,6 @@
     "compilerOptions": {
         "baseUrl": "src",
         "paths": {
-            "volto-freshwater": [
-                "addons/volto-freshwater/src"
-            ],
-            "volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
             "volto-blocks": [
                 "addons/volto-blocks/src"
             ],
@@ -20,14 +14,23 @@
             "volto-drafteditor": [
                 "addons/volto-drafteditor/src"
             ],
-            "volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
             "volto-sidebar": [
                 "addons/volto-sidebar/src"
             ],
             "volto-base": [
                 "addons/volto-base/src"
+            ],
+            "volto-freshwater": [
+                "addons/volto-freshwater/src"
+            ],
+            "volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-corsproxy": [
+                "addons/volto-corsproxy/src"
             ],
             "volto-embed": [
                 "addons/volto-embed/src"
@@ -41,14 +44,11 @@
             "@eeacms/volto-grid-block": [
                 "addons/volto-grid-block/src"
             ],
-            "@eeacms/volto-slate-footnote": [
-                "addons/volto-slate-footnote/src"
-            ],
             "@eeacms/volto-object-widget": [
                 "addons/volto-object-widget/src"
             ],
-            "@eeacms/volto-corsproxy": [
-                "addons/volto-corsproxy/src"
+            "@eeacms/volto-slate-footnote": [
+                "addons/volto-slate-footnote/src"
             ],
             "volto-dropdownmenu": [
                 "addons/volto-dropdownmenu/src"
@@ -56,14 +56,17 @@
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
             ],
+            "@eeacms/volto-blocks-form": [
+                "addons/volto-blocks-form/src"
+            ],
             "@eeacms/volto-slate-dataentity": [
                 "addons/volto-slate-dataentity/src"
             ],
-            "volto-searchkit": [
-                "addons/volto-searchkit/src"
+            "@eeacms/volto-slate-metadata-mentions": [
+                "addons/volto-slate-metadata-mentions/src"
             ],
-            "@eeacms/volto-blocks-form": [
-                "addons/volto-blocks-form/src"
+            "@eeacms/volto-widgets-view": [
+                "addons/volto-widgets-view/src"
             ],
             "@eeacms/volto-webmap": [
                 "addons/volto-webmap/src"
@@ -79,12 +82,6 @@
             ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
-            ],
-            "@eeacms/volto-slate-metadata-mentions": [
-                "addons/volto-slate-metadata-mentions/src"
-            ],
-            "@eeacms/volto-widgets-view": [
-                "addons/volto-widgets-view/src"
             ],
             "@eeacms/volto-matomo": [
                 "addons/volto-matomo/src"

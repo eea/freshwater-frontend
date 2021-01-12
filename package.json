@@ -15,7 +15,6 @@
     "src/addons/volto-block-style",
     "src/addons/volto-webmap",
     "src/addons/volto-matomo",
-    "src/addons/volto-searchkit",
     "src/addons/volto-blocks-form"
   ],
   "addons": [
@@ -37,7 +36,6 @@
     "@eeacms/volto-taxonomy",
     "@eeacms/volto-middleware-rdf",
     "@eeacms/volto-matomo",
-    "volto-searchkit",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-block-style"

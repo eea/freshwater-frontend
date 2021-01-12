@@ -47,6 +47,18 @@ A training on how to create your own website using Volto is available as part of
     * Add `Plone` site with add-ons enabled (**user:** `admin`, **password:** `admin`):
         * `kitconcept.volto`
 
+
+### mrs_developer
+
+[mrs_developer](https://www.npmjs.com/package/mrs-developer) is a great tool
+for developing multiple packages at the same time.
+
+mrs_developer should work with this project by using the `--config` config option:
+
+```bash
+missdev --config=jsconfig.json --output=addons
+```
+
 1. Start frontend
 
         $ yarn start
