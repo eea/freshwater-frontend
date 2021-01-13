@@ -1357,10 +1357,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.0.tgz#d02cdd33e5b055f5f4b112c1e1384ce47b1f5723"
   integrity sha512-qJHAtV+wgm51P8waGUqwMKfaL8Pw9R3Hc6MgiAGwgOI69D+dDvBe6CaJEbf/Dn+uTnOqWCTL6Mb2n9J+TvBipw==
 
-"@eeacms/volto-matomo@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-0.1.0.tgz#0f7a7d690741373dc88d805dff44060f37b721cb"
-  integrity sha512-Q0U7klgifPPtzXrZOED5QpCdIe7JtA0oOncX9WGr0pg/c44TY1G0xfflCZlvxa2DEU2LFlOX4x0nxjXMicyooA==
+"@eeacms/volto-matomo@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-0.1.1.tgz#ec431d3eda1b89776ae714ee7967f40120a9b7cb"
+  integrity sha512-LC+1Ws51mL5Xz5BordTWQkGveLa1JXpJgJJBtUOMZTe1mGa4i2wTmeC6pqOw953lpNDDfIQaRPZI2MAXh3W1hQ==
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 

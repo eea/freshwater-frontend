@@ -65,7 +65,7 @@
     "@eeacms/volto-columns-block": "1.0.4",
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-freshwater": "0.1.0",
-    "@eeacms/volto-matomo":  "0.1.0",
+    "@eeacms/volto-matomo":  "0.1.1",
     "@eeacms/volto-object-widget": "1.0.3",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
