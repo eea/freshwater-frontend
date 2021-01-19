@@ -8,7 +8,7 @@
     "src/addons/volto-freshwater"
   ],
   "addons": [
-    "@eeacms/volto-slate",
+    "volto-slate:asDefault",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
@@ -72,7 +72,7 @@
     "@eeacms/volto-matomo":  "0.1.1",
     "@eeacms/volto-object-widget": "1.0.3",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
-    "@eeacms/volto-slate": "1.0.7",
+    "volto-slate": "1.0.7",
     "@eeacms/volto-slate-footnote": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
     "@plone/volto": "plone/volto#10.9.2",
