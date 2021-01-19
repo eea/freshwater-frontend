@@ -17,8 +17,6 @@
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-widgets-view",
-    "@eeacms/volto-taxonomy",
-    "@eeacms/volto-middleware-rdf",
     "@eeacms/volto-matomo",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
