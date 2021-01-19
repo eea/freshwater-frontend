@@ -2,20 +2,10 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "private": "true",
   "workspaces": [
     "src/addons/volto-freshwater",
-    "src/addons/volto-slate",
-    "src/addons/volto-datablocks",
-    "src/addons/volto-plotlycharts",
-    "src/addons/volto-object-widget",
-    "src/addons/volto-columns-block",
-    "src/addons/volto-slate-footnote",
-    "src/addons/volto-block-style",
-    "src/addons/volto-webmap",
-    "src/addons/volto-matomo",
-    "src/addons/volto-blocks-form"
   ],
   "addons": [
     "volto-slate:asDefault",
