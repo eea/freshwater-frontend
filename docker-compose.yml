@@ -2,9 +2,11 @@ version: '3'
 
 services:
   frontend:
-    image: eeacms/freshwater-frontend
+    image: eeacms/freshwater-frontend:develop
     ports:
     - "${FRONTEND:-8000}:3000"
+    volumes:
+    - freshwater_devel_addons:/opt/frontend/src/addons
     depends_on:
     - ploneapi
     environment:
@@ -30,4 +32,6 @@ services:
 
 volumes:
   data:
+    driver: local
+  freshwater_devel_addons:
     driver: local
