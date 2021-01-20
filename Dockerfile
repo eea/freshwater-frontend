@@ -7,6 +7,7 @@ RUN runDeps="openssl ca-certificates patch git" \
  && rm -rf /var/lib/apt/lists/*
 
 COPY . /opt/frontend/
+RUN mkdir -p /opt/frontend/src/addons
 RUN chown -R node /opt/frontend/
 
 WORKDIR /opt/frontend/
