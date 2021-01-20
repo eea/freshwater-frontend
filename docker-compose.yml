@@ -3,10 +3,11 @@ version: '3'
 services:
   frontend:
     image: eeacms/freshwater-frontend:develop
+    user: "node:node"
     ports:
     - "${FRONTEND:-8000}:3000"
     volumes:
-    - freshwater_devel_addons:/opt/frontend/src/addons
+    - freshwater_devel_addons:/opt/frontend/src/addons:rw
     depends_on:
     - ploneapi
     environment:
