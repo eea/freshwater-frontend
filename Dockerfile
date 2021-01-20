@@ -12,14 +12,14 @@ RUN chown -R node /opt/frontend/
 WORKDIR /opt/frontend/
 USER node
 
-RUN mkdir -p /opt/frontend/src/addons
 USER root
 RUN npm install -g mrs-developer
-VOLUME ./src/addons
 
 USER node
 RUN RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
  && RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn develop
+
+VOLUME ./src/addons
 
 EXPOSE 3000 3001 4000 4001
 
