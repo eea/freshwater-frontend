@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
         "paths": {
-        },
-        "baseUrl": "src",
-        "paths": {
-            "volto-freshwater": [
+            "volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
             ]
-        }
+        },
+        "baseUrl": "src"
     }
 }

@@ -3,5 +3,10 @@
     "url": "https://github.com/eea/volto-freshwater.git",
     "package": "@eeacms/volto-freshwater",
     "path": "src"
+  },
+  "volto-block-image-cards": {
+    "url": "https://github.com/eea/volto-block-image-cards.git",
+    "package": "volto-block-image-cards",
+    "path": "src"
   }
 }
