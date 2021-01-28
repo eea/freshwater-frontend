@@ -4,11 +4,7 @@
   "license": "MIT",
   "version": "0.0.2",
   "private": "true",
-  "workspaces": [
-    "src/addons/volto-freshwater",
-    "src/addons/volto-block-image-cards",
-    "src/addons/volto-dropdownmenu"
-  ],
+  "workspaces": [ "src/addons/*" ],
    "customizationPaths": [
     "src/customizations",
     "src/addons/volto-dropdownmenu/src/customizations"
