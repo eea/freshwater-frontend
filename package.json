@@ -5,7 +5,13 @@
   "version": "0.0.2",
   "private": "true",
   "workspaces": [
-    "src/addons/volto-freshwater"
+    "src/addons/volto-freshwater",
+    "src/addons/volto-block-image-cards",
+    "src/addons/volto-dropdownmenu"
+  ],
+   "customizationPaths": [
+    "src/customizations",
+    "src/addons/volto-dropdownmenu/src/customizations"
   ],
   "addons": [
     "volto-slate:asDefault",
@@ -13,14 +19,16 @@
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
-    "volto-freshwater",
+    "@eeacms/volto-freshwater",
+    "volto-block-image-cards",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-matomo",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "volto-dropdownmenu"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -68,7 +76,7 @@
     "@eeacms/volto-columns-block": "1.0.4",
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-matomo": "0.1.1",
-    "@eeacms/volto-object-widget": "1.0.3",
+    "@eeacms/volto-object-widget": "1.0.4",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",

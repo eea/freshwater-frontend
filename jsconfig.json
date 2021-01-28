@@ -6,6 +6,9 @@
             ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
+            ],
+            "volto-dropdownmenu": [
+                "addons/volto-dropdownmenu/src"
             ]
         },
         "baseUrl": "src"
