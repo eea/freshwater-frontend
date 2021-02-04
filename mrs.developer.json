@@ -8,10 +8,5 @@
     "url": "https://github.com/eea/volto-block-image-cards.git",
     "package": "volto-block-image-cards",
     "path": "src"
-  },
-  "volto-dropdownmenu": {
-    "url": "https://github.com/collective/volto-dropdownmenu.git",
-    "package": "volto-dropdownmenu",
-    "path": "src"
   }
 }
