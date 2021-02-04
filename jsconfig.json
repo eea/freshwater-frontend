@@ -4,6 +4,12 @@
             "volto-block-image-cards": [
                 "addons/volto-block-image-cards/src"
             ],
+            "volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
             ]
