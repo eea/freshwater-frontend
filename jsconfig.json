@@ -7,6 +7,9 @@
             "volto-datablocks": [
                 "addons/volto-datablocks/src"
             ],
+            "volto-embed": [
+                "addons/volto-embed/src"
+            ],
             "volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
             ],
