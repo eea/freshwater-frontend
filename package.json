@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": "true",
   "workspaces": [
     "src/addons/*"
@@ -14,7 +14,6 @@
     "volto-slate:asDefault",
     "volto-datablocks",
     "volto-embed",
-    "volto-plotlycharts",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
@@ -79,7 +78,7 @@
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
-    "@plone/volto": "11.0.0",
+    "@plone/volto": "11.1.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
