@@ -21,5 +21,10 @@
     "url": "https://github.com/eea/volto-plotlycharts.git",
     "path": "src",
     "branch": "master"
+  },
+  "volto-slate": {
+    "url": "https://github.com/eea/volto-slate.git",
+    "path": "src",
+    "branch": "develop"
   }
 }

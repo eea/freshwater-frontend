@@ -15,6 +15,9 @@
             ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
+            ],
+            "volto-slate": [
+                "addons/volto-slate/src"
             ]
         },
         "baseUrl": "src"
