@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "private": "true",
   "workspaces": [
     "src/addons/*"
@@ -18,6 +18,7 @@
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
+    "@eeacms/volto-columns-tabs-block",
     "@eeacms/volto-freshwater",
     "volto-block-image-cards",
     "@eeacms/volto-block-divider",
@@ -72,6 +73,7 @@
     "@eeacms/volto-block-toc": "1.0.0",
     "@eeacms/volto-blocks-form": "1.0.3",
     "@eeacms/volto-columns-block": "1.0.4",
+    "@eeacms/volto-columns-tabs-block":  "github:eea/volto-columns-tabs-block#master",
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "1.0.4",
