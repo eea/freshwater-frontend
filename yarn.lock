@@ -1489,6 +1489,15 @@
     "@eeacms/volto-blocks-form" "^1.0.0"
     react-color "~2.18.1"
 
+"@eeacms/volto-columns-tabs-block@github:eea/volto-columns-tabs-block#master":
+  version "1.3.0"
+  resolved "https://codeload.github.com/eea/volto-columns-tabs-block/tar.gz/553c2f6ceca7af3d40df696f779cc28e6e45dce6"
+  dependencies:
+    css-to-react-native "3.0.0"
+    react-color "~2.18.1"
+    react-slick "^0.24.0"
+    slick-carousel "^1.8.1"
+
 "@eeacms/volto-corsproxy@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
@@ -2190,10 +2199,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-11.0.0.tgz#16e71874e6aee90d76b863cde540b3b85e109767"
-  integrity sha512-oCKyvcUbXC8EL5exa6LO84rCxA04JWIDTm+fcBLp7B9YOfwI0wD/jFmli1CmgW8SLoZmo1mmqXRstVhnXDZ01Q==
+"@plone/volto@12.2.0":
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.2.0.tgz#64be6d72e09b082261c91d4bd27602b4094efcd6"
+  integrity sha512-FSEm3tmXPc4+1Sik/aHbwEUrh5FwYqXiJwll31kZQhNU7wiK389TMIxKjXrEfmng84nmu9ucPy2h14NlTYEDHw==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2220,12 +2229,14 @@
     babel-plugin-root-import "6.1.0"
     bundlesize "0.18.0"
     bundlewatch "0.2.7"
+    circular-dependency-plugin "5.2.2"
     classnames "2.2.6"
     connected-react-router "6.8.0"
     coveralls "3.0.2"
     cypress "5.6.0"
     cypress-axe "0.8.1"
     cypress-file-upload "4.1.1"
+    dependency-graph "0.10.0"
     detect-browser "5.1.0"
     diff "3.5.0"
     draft-js "0.10.5"
@@ -2280,7 +2291,7 @@
     postcss-overrides "3.1.4"
     prettier "2.0.5"
     pretty-bytes "5.3.0"
-    prismjs "1.21.0"
+    prismjs "1.23.0"
     promise-file-reader "1.0.2"
     prop-types "15.7.2"
     query-string "4.1.0"
@@ -5080,6 +5091,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+circular-dependency-plugin@5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/circular-dependency-plugin/-/circular-dependency-plugin-5.2.2.tgz#39e836079db1d3cf2f988dc48c5188a44058b600"
+  integrity sha512-g38K9Cm5WRwlaH6g03B9OEz/0qRizI+2I7n+Gz+L5DxXJAPAiWQvwlYNm1V1jkdpUv95bOe/ASm2vfi/G560jQ==
+
 circumcenter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/circumcenter/-/circumcenter-1.0.0.tgz#20d7aa13b17fbac52f52da4f54c6ac8b906ee529"
@@ -6093,7 +6109,7 @@ css-system-font-keywords@^1.0.0:
   resolved "https://registry.yarnpkg.com/css-system-font-keywords/-/css-system-font-keywords-1.0.0.tgz#85c6f086aba4eb32c571a3086affc434b84823ed"
   integrity sha1-hcbwhquk6zLFcaMIav/ENLhII+0=
 
-css-to-react-native@^3.0.0:
+css-to-react-native@3.0.0, css-to-react-native@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-3.0.0.tgz#62dbe678072a824a689bcfee011fc96e02a7d756"
   integrity sha512-Ro1yETZA813eoyUp2GDBhG2j+YggidUmzO1/v9eYBKR2EHVEniE2MI/NqpTQ954BMpTPZFsGNPm46qFB9dpaPQ==
@@ -6717,6 +6733,11 @@ depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+
+dependency-graph@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.10.0.tgz#dfebe384f1f36faf7782be203a7a71102a6335a6"
+  integrity sha512-c9amUgpgxSi1bE5/sbLwcs5diLD0ygCQYmhfM5H1s5VH1mCsYkcmAL3CcNdv4kdSw6JuMoHeDGzLgj/gAXdWVg==
 
 deprecated-obj@2.0.0:
   version "2.0.0"
@@ -15708,10 +15729,10 @@ print-message@^3.0.1:
   dependencies:
     kleur "3.0.3"
 
-prismjs@1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
-  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
+prismjs@1.23.0:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -18460,7 +18481,7 @@ slate-react@^0.59:
     lodash "^4.17.4"
     scroll-into-view-if-needed "^2.2.20"
 
-slate@^0.59:
+slate@0.59.0, slate@^0.59:
   version "0.59.0"
   resolved "https://registry.yarnpkg.com/slate/-/slate-0.59.0.tgz#3169daf2f036e84aa149f60e0d12ef2fc4c0839e"
   integrity sha512-M4UTMkXExxuq8tCD+knn7BtV2pmY8pepay++EF59rmg/v4RB6X1gNzA0xP3aw2rqYl8TmWdOBdy9InFrm3WyXw==
@@ -20673,10 +20694,34 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+"volto-embed@github:eea/volto-embed#1.1.0":
+  version "1.1.0"
+  resolved "https://codeload.github.com/eea/volto-embed/tar.gz/82a2708510eddce42599c10bb6c3a0401d2facf6"
+  dependencies:
+    react-visibility-sensor "5.1.1"
+
 volto-slate@1.0.7, volto-slate@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.0.7.tgz#982c810dfb53b6778cbe3016280a54e1cdd24abc"
   integrity sha512-J6uDVWp+bhX8AdEER381LYITiuPNSbcLPw7dyLN2n10DFPAAzRJ6pVwIAsBuXTfuBnP2D0Wpnivrhmpl+Sq4bw==
+  dependencies:
+    "@eeacms/volto-object-widget" "^1.0.0"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-visibility-sensor "5.1.1"
+    slate "^0.59"
+    slate-history "^0.59"
+    slate-hyperscript "^0.59"
+    slate-plain-serializer "0.7.13"
+    slate-react "^0.59"
+    weak-key "^1.0.2"
+
+volto-slate@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.2.0.tgz#36cd038ec525dfc0fd114671c5ca395c659105e1"
+  integrity sha512-PbfKiwqoZhopNtxlP2gQqy1z6azvqAi/dB1bX6KoSvrS4L7usgqBBlijWsMRO6gGnOO3jnyu0tlaJUNVW0a9nQ==
   dependencies:
     "@eeacms/volto-object-widget" "^1.0.0"
     classnames "2.2.6"
