@@ -19,7 +19,6 @@
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-columns-tabs-block",
-    "@eeacms/volto-freshwater",
     "volto-block-image-cards",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
@@ -27,7 +26,8 @@
     "@eeacms/volto-matomo",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-freshwater"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -145,7 +145,8 @@
       }
     },
     "setupFiles": [
-      "@plone/volto/test-setup.js"
+      "@plone/volto/test-setup-globals.js",
+      "@plone/volto/test-setup-config.js"
     ],
     "globals": {
       "__DEV__": true
