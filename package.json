@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "private": "true",
   "workspaces": [
     "src/addons/*"
