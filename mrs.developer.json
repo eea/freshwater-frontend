@@ -9,6 +9,31 @@
     "package": "volto-block-image-cards",
     "path": "src"
   },
+
+  "volto-block-style": {
+    "url": "https://github.com/eea/volto-block-style.git",
+    "package": "volto-block-style",
+    "path": "src"
+  },
+
+  "volto-object-widget": {
+    "url": "https://github.com/eea/volto-object-widget.git",
+    "package": "volto-object-widget",
+    "path": "src"
+  },
+
+  "volto-columns-block": {
+    "url": "https://github.com/eea/volto-columns-block.git",
+    "package": "volto-columns-block",
+    "path": "src"
+  },
+
+  "volto-columns-tabs-block": {
+    "url": "https://github.com/eea/volto-columns-tabs-block.git",
+    "package": "volto-columns-tabs-block",
+    "path": "src"
+  },
+
   "volto-datablocks": {
     "url": "https://github.com/eea/volto-datablocks.git",
     "path": "src"

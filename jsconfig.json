@@ -15,6 +15,18 @@
             ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
+            ],
+            "volto-block-style": [
+                "addons/volto-block-style/src"
+            ],
+            "volto-object-widget": [
+                "addons/volto-object-widget/src"
+            ],
+            "volto-columns-tabs-block": [
+                "addons/volto-columns-tabs-block/src"
+            ],
+            "volto-columns-block": [
+                "addons/volto-columns-block/src"
             ]
         },
         "baseUrl": "src"
