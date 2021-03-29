@@ -35,6 +35,7 @@ services:
     - memcached
     volumes:
     - ./data:/data
+    - ./backend/site.cfg:/plone/instance/site.cfg
     - ./backend/src:/plone/instance/src
     entrypoint: sh -c "tail -f /dev/null"
 
