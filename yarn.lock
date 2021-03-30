@@ -1467,13 +1467,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-1.0.0.tgz#13c2e644ec51914ae5426c8406ad36b6a6060db2"
   integrity sha512-IdKD0KSEZJ73ezak2oX5jsbCgxD8bZbqnRret7gR6WfDsRwZIObrz7xhE3P33S89sdvd5uXD12+Q13LTKjN4zA==
 
-"@eeacms/volto-blocks-form@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.3.tgz#a47b5c04a1d45c8a6eee11c2ed29ee82255fe7af"
-  integrity sha512-4CdA38woaAmJdNgZHBIBv+ygi/uC9yTY2WcHVtTLhH9YF5zX9/32hO7+07PJOiwXGu38WF7y9ii97eDMepJgSQ==
-  dependencies:
-    react-beautiful-dnd "13.0.0"
-
 "@eeacms/volto-blocks-form@^1.0.0":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.4.tgz#ad939b3918db4721b28a2a910e3c13a18e9e66ad"
@@ -1495,7 +1488,7 @@
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
-"@eeacms/volto-object-widget@1.0.4", "@eeacms/volto-object-widget@^1.0.0":
+"@eeacms/volto-object-widget@^1.0.0":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-1.0.4.tgz#a7fa9da6ee02ac5cd110e944e893937c0e3bf07b"
   integrity sha512-0DVFRW7C5Q8fy3jY8Kf0IxTHS1cAGuw1iDJuM1jMiRxWK8DA80XoX4vB0hqlOtXzhtcZc553PTDDyKFL2Hxk3A==
@@ -2260,10 +2253,10 @@
   dependencies:
     "@octokit/openapi-types" "^5.3.2"
 
-"@plone/volto@12.3.0":
-  version "12.3.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.3.0.tgz#bacbda51d15d3c97556afd7c95594caac06e5e96"
-  integrity sha512-RWJc1nYi+E3E0d1EXQ6zGp7El4C/xoAi09Mq5nPwcRuSgZV0D4+doHjxGUN9vS05WGOr4Cis5qsLxRtbXW/Lnw==
+"@plone/volto@12.4.2":
+  version "12.4.2"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.4.2.tgz#5bcee14ad351604f2b87466c41b55a9d5bd4834d"
+  integrity sha512-GKeWOIwD/LleExukGKlXRcNJ5RoXAaodgiU1lx2EwU9fptLSINJ+cKfvRQr5VVseXW3x4tTVCfgs7yQjAGPb2g==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
