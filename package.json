@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-divider": "1.1.1",
-    "@eeacms/volto-block-style": "1.1.0",
+    "@eeacms/volto-block-style": "2.5.1",
     "@eeacms/volto-block-toc": "1.0.0",
     "@eeacms/volto-blocks-form": "1.0.3",
     "@eeacms/volto-corsproxy": "1.0.1",
