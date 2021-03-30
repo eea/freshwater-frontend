@@ -13,9 +13,6 @@
             "volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
             ],
-            "@eeacms/volto-freshwater": [
-                "addons/volto-freshwater/src"
-            ],
             "volto-block-style": [
                 "addons/volto-block-style/src"
             ],
@@ -27,6 +24,9 @@
             ],
             "volto-columns-block": [
                 "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-freshwater": [
+                "addons/volto-freshwater/src"
             ]
         },
         "baseUrl": "src"
