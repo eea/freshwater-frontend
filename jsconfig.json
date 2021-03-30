@@ -27,6 +27,9 @@
             ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
+            ],
+            "volto-tabs-block": [
+                "addons/volto-tabs-block/src"
             ]
         },
         "baseUrl": "src"

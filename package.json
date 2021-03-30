@@ -19,6 +19,7 @@
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-columns-tabs-block",
+    "@eeacms/volto-tabs-block",
     "volto-block-image-cards",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",

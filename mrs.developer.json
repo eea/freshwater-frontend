@@ -34,6 +34,11 @@
     "path": "src"
   },
 
+  "volto-tabs-block": {
+    "url": "https://github.com/eea/volto-tabs-block.git",
+    "package": "volto-tabs-block",
+    "path": "src"
+  },
   "volto-datablocks": {
     "url": "https://github.com/eea/volto-datablocks.git",
     "path": "src"
