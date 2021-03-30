@@ -1481,8 +1481,6 @@
   dependencies:
     react-beautiful-dnd "13.0.0"
 
-
-
 "@eeacms/volto-corsproxy@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
@@ -2063,6 +2061,13 @@
   dependencies:
     "@octokit/types" "^2.0.0"
 
+"@octokit/auth-token@^2.4.4":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-2.4.5.tgz#568ccfb8cb46f36441fac094ce34f7a875b197f3"
+  integrity sha512-BpGYsPgJt05M7/L/5FoE1PiAbdxXFZkX/3kDYcsvd1v6UhlnE5e96dTDr0ezX/EFwciQxf3cNV0loipsURU+WA==
+  dependencies:
+    "@octokit/types" "^6.0.3"
+
 "@octokit/core@^3.0.0":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@octokit/core/-/core-3.1.2.tgz#c937d5f9621b764573068fcd2e5defcc872fd9cc"
@@ -2073,6 +2078,19 @@
     "@octokit/request" "^5.4.0"
     "@octokit/types" "^5.0.0"
     before-after-hook "^2.1.0"
+    universal-user-agent "^6.0.0"
+
+"@octokit/core@^3.2.3":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@octokit/core/-/core-3.3.1.tgz#c6bb6ba171ad84a5f430853a98892cfe8f93d8cd"
+  integrity sha512-Dc5NNQOYjgZU5S1goN6A/E500yXOfDUFRGQB8/2Tl16AcfvS3H9PudyOe3ZNE/MaVyHPIfC0htReHMJb1tMrvw==
+  dependencies:
+    "@octokit/auth-token" "^2.4.4"
+    "@octokit/graphql" "^4.5.8"
+    "@octokit/request" "^5.4.12"
+    "@octokit/request-error" "^2.0.5"
+    "@octokit/types" "^6.0.3"
+    before-after-hook "^2.2.0"
     universal-user-agent "^6.0.0"
 
 "@octokit/endpoint@^6.0.1":
@@ -2093,6 +2111,20 @@
     "@octokit/types" "^2.0.0"
     universal-user-agent "^5.0.0"
 
+"@octokit/graphql@^4.5.8":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@octokit/graphql/-/graphql-4.6.1.tgz#f975486a46c94b7dbe58a0ca751935edc7e32cc9"
+  integrity sha512-2lYlvf4YTDgZCTXTW4+OX+9WTLFtEUc6hGm4qM1nlZjzxj+arizM4aHWzBVBCxY9glh7GIs0WEuiSgbVzv8cmA==
+  dependencies:
+    "@octokit/request" "^5.3.0"
+    "@octokit/types" "^6.0.3"
+    universal-user-agent "^6.0.0"
+
+"@octokit/openapi-types@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-6.0.0.tgz#7da8d7d5a72d3282c1a3ff9f951c8133a707480d"
+  integrity sha512-CnDdK7ivHkBtJYzWzZm7gEkanA7gKH6a09Eguz7flHw//GacPJLmkHA3f3N++MJmlxD1Fl+mB7B32EEpSCwztQ==
+
 "@octokit/plugin-paginate-rest@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.2.0.tgz#9ae0c14c1b90ec0d96d2ef1b44706b4505a91cee"
@@ -2100,10 +2132,30 @@
   dependencies:
     "@octokit/types" "^2.12.1"
 
+"@octokit/plugin-paginate-rest@^2.6.2":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.13.3.tgz#f0f1792230805108762d87906fb02d573b9e070a"
+  integrity sha512-46lptzM9lTeSmIBt/sVP/FLSTPGx6DCzAdSX3PfeJ3mTf4h9sGC26WpaQzMEq/Z44cOcmx8VsOhO+uEgE3cjYg==
+  dependencies:
+    "@octokit/types" "^6.11.0"
+
 "@octokit/plugin-request-log@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-request-log/-/plugin-request-log-1.0.0.tgz#eef87a431300f6148c39a7f75f8cfeb218b2547e"
   integrity sha512-ywoxP68aOT3zHCLgWZgwUJatiENeHE7xJzYjfz8WI0goynp96wETBF+d95b8g/uL4QmS6owPVlaxiz3wyMAzcw==
+
+"@octokit/plugin-request-log@^1.0.2":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-request-log/-/plugin-request-log-1.0.3.tgz#70a62be213e1edc04bb8897ee48c311482f9700d"
+  integrity sha512-4RFU4li238jMJAzLgAwkBAw+4Loile5haQMQr+uhFq27BmyJXcXSKvoQKqh0agsZEiUlW6iSv3FAgvmGkur7OQ==
+
+"@octokit/plugin-rest-endpoint-methods@4.13.5":
+  version "4.13.5"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-4.13.5.tgz#ad76285b82fe05fbb4adf2774a9c887f3534a880"
+  integrity sha512-kYKcWkFm4Ldk8bZai2RVEP1z97k1C/Ay2FN9FNTBg7JIyKoiiJjks4OtT6cuKeZX39tqa+C3J9xeYc6G+6g8uQ==
+  dependencies:
+    "@octokit/types" "^6.12.2"
+    deprecation "^2.3.1"
 
 "@octokit/plugin-rest-endpoint-methods@4.2.0":
   version "4.2.0"
@@ -2122,6 +2174,15 @@
     deprecation "^2.0.0"
     once "^1.4.0"
 
+"@octokit/request-error@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@octokit/request-error/-/request-error-2.0.5.tgz#72cc91edc870281ad583a42619256b380c600143"
+  integrity sha512-T/2wcCFyM7SkXzNoyVNWjyVlUwBvW3igM3Btr/eKYiPmucXTtkxt2RBsf6gn3LTzaLSLTQtNmvg+dGsOxQrjZg==
+  dependencies:
+    "@octokit/types" "^6.0.3"
+    deprecation "^2.0.0"
+    once "^1.4.0"
+
 "@octokit/request@^5.3.0", "@octokit/request@^5.4.0":
   version "5.4.2"
   resolved "https://registry.yarnpkg.com/@octokit/request/-/request-5.4.2.tgz#74f8e5bbd39dc738a1b127629791f8ad1b3193ee"
@@ -2136,6 +2197,20 @@
     once "^1.4.0"
     universal-user-agent "^5.0.0"
 
+"@octokit/request@^5.4.12":
+  version "5.4.14"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-5.4.14.tgz#ec5f96f78333bb2af390afa5ff66f114b063bc96"
+  integrity sha512-VkmtacOIQp9daSnBmDI92xNIeLuSRDOIuplp/CJomkvzt7M18NXgG044Cx/LFKLgjKt9T2tZR6AtJayba9GTSA==
+  dependencies:
+    "@octokit/endpoint" "^6.0.1"
+    "@octokit/request-error" "^2.0.0"
+    "@octokit/types" "^6.7.1"
+    deprecation "^2.0.0"
+    is-plain-object "^5.0.0"
+    node-fetch "^2.6.1"
+    once "^1.4.0"
+    universal-user-agent "^6.0.0"
+
 "@octokit/rest@18.0.7":
   version "18.0.7"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-18.0.7.tgz#236514417084334bc0ef62416a19f6030db3d907"
@@ -2145,6 +2220,16 @@
     "@octokit/plugin-paginate-rest" "^2.2.0"
     "@octokit/plugin-request-log" "^1.0.0"
     "@octokit/plugin-rest-endpoint-methods" "4.2.0"
+
+"@octokit/rest@18.3.5":
+  version "18.3.5"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-18.3.5.tgz#a89903d46e0b4273bd3234674ec2777a651d68ab"
+  integrity sha512-ZPeRms3WhWxQBEvoIh0zzf8xdU2FX0Capa7+lTca8YHmRsO3QNJzf1H3PcuKKsfgp91/xVDRtX91sTe1kexlbw==
+  dependencies:
+    "@octokit/core" "^3.2.3"
+    "@octokit/plugin-paginate-rest" "^2.6.2"
+    "@octokit/plugin-request-log" "^1.0.2"
+    "@octokit/plugin-rest-endpoint-methods" "4.13.5"
 
 "@octokit/types@^2.0.0", "@octokit/types@^2.11.1", "@octokit/types@^2.12.1":
   version "2.16.2"
@@ -2160,10 +2245,17 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@12.4.0":
-  version "12.4.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.4.0.tgz#cc4452203b94cf15347d09492d4b6ff5f7046a49"
-  integrity sha512-elo/nogNrayHLO8ZDvrCaDmZSqL03XhxhaElsI7WtMnkoxUBLtAqDBKl8nCHWNk2R5J0csDmuxAIqpw/KijJig==
+"@octokit/types@^6.0.3", "@octokit/types@^6.11.0", "@octokit/types@^6.12.2", "@octokit/types@^6.7.1":
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-6.13.0.tgz#779e5b7566c8dde68f2f6273861dd2f0409480d0"
+  integrity sha512-W2J9qlVIU11jMwKHUp5/rbVUeErqelCsO5vW5PKNb7wAXQVUz87Rc+imjlEvpvbH8yUb+KHmv8NEjVZdsdpyxA==
+  dependencies:
+    "@octokit/openapi-types" "^6.0.0"
+
+"@plone/volto@12.4.2":
+  version "12.4.2"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.4.2.tgz#5bcee14ad351604f2b87466c41b55a9d5bd4834d"
+  integrity sha512-GKeWOIwD/LleExukGKlXRcNJ5RoXAaodgiU1lx2EwU9fptLSINJ+cKfvRQr5VVseXW3x4tTVCfgs7yQjAGPb2g==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -7267,6 +7359,13 @@ element-resize-detector@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/element-resize-detector/-/element-resize-detector-1.2.1.tgz#b0305194447a4863155e58f13323a0aef30851d1"
   integrity sha512-BdFsPepnQr9fznNPF9nF4vQ457U/ZJXQDSNF1zBe7yaga8v9AdZf3/NElYxFdUh7SitSGt040QygiTo6dtatIw==
+  dependencies:
+    batch-processor "1.0.0"
+
+element-resize-detector@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/element-resize-detector/-/element-resize-detector-1.2.2.tgz#bf7c3ff915957e4e62e86241ed2f9c86b078892b"
+  integrity sha512-+LOXRkCJc4I5WhEJxIDjhmE3raF8jtOMBDqSCgZTMz2TX3oXAX5pE2+MDeopJlGdXzP7KzPbBJaUGfNaP9HG4A==
   dependencies:
     batch-processor "1.0.0"
 
@@ -16562,7 +16661,7 @@ react-colorscales@0.7.3:
     rc-slider "^8.4.0"
     react-select "^1.2.1"
 
-react-component-queries@^2.3.0:
+react-component-queries@2.3.0, react-component-queries@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/react-component-queries/-/react-component-queries-2.3.0.tgz#e2e92c5c49e21254ad496d31a3d3edeebc927777"
   integrity sha512-u6gMrRm5BgnOBI+znLCCx7wvLSRqZeKpeVhCkZJ4/QZMv8Cb1EfP2i3htYXQkcy9S+PV4fs4FR4TQHdAKUCm0w==
@@ -17009,6 +17108,16 @@ react-sizeme@2.6.12:
     invariant "^2.2.4"
     shallowequal "^1.1.0"
     throttle-debounce "^2.1.0"
+
+react-sizeme@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-sizeme/-/react-sizeme-3.0.1.tgz#4d12f4244e0e6a0fb97253e7af0314dc7c83a5a0"
+  integrity sha512-9Hf1NLgSbny1bha77l9HwvwwxQUJxFUqi44Ih+y3evA+PezBpGdCGlnvye6avss2cIgs9PgdYgMnfuzJWn/RUw==
+  dependencies:
+    element-resize-detector "^1.2.2"
+    invariant "^2.2.4"
+    shallowequal "^1.1.0"
+    throttle-debounce "^3.0.1"
 
 react-slick@^0.24.0:
   version "0.24.0"
@@ -19866,6 +19975,11 @@ throttle-debounce@^2.1.0:
   resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.3.0.tgz#fd31865e66502071e411817e241465b3e9c372e2"
   integrity sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==
 
+throttle-debounce@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-3.0.1.tgz#32f94d84dfa894f786c9a1f290e7a645b6a19abb"
+  integrity sha512-dTEWWNu6JmeVXY0ZYoPuH5cRIwc0MeGbJwah9KUNYSJwommQpCzTySTpEe8Gs1J23aeWEuAobe4Ag7EHVt/LOg==
+
 throttleit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/throttleit/-/throttleit-1.0.0.tgz#9e785836daf46743145a5984b6268d828528ac6c"
@@ -20951,13 +21065,42 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-embed@github:eea/volto-embed#1.1.0":
-  version "1.1.0"
-  resolved "https://codeload.github.com/eea/volto-embed/tar.gz/82a2708510eddce42599c10bb6c3a0401d2facf6"
+volto-datablocks@eea/volto-datablocks#master:
+  version "2.0.0"
+  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/8c97316de57b969468d42eafb6a6f1f7a11c99d0"
+  dependencies:
+    humanize-plus "^1.8.2"
+    performant-array-to-tree "^1.7.1"
+    plotly.js "1.57.0"
+    react-plotly.js "~2.5.0"
+    slate "0.59.0"
+    volto-embed "github:eea/volto-embed#2.0.0"
+
+"volto-embed@github:eea/volto-embed#2.0.0":
+  version "2.0.0"
+  resolved "https://codeload.github.com/eea/volto-embed/tar.gz/dc33fed8c5a9b2c8c08eed5a7b69df9bd891e9f3"
   dependencies:
     react-visibility-sensor "5.1.1"
 
-volto-slate@1.0.7, volto-slate@^1.0.0:
+volto-slate@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.2.0.tgz#36cd038ec525dfc0fd114671c5ca395c659105e1"
+  integrity sha512-PbfKiwqoZhopNtxlP2gQqy1z6azvqAi/dB1bX6KoSvrS4L7usgqBBlijWsMRO6gGnOO3jnyu0tlaJUNVW0a9nQ==
+  dependencies:
+    "@eeacms/volto-object-widget" "^1.0.0"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-visibility-sensor "5.1.1"
+    slate "^0.59"
+    slate-history "^0.59"
+    slate-hyperscript "^0.59"
+    slate-plain-serializer "0.7.13"
+    slate-react "^0.59"
+    weak-key "^1.0.2"
+
+volto-slate@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.0.7.tgz#982c810dfb53b6778cbe3016280a54e1cdd24abc"
   integrity sha512-J6uDVWp+bhX8AdEER381LYITiuPNSbcLPw7dyLN2n10DFPAAzRJ6pVwIAsBuXTfuBnP2D0Wpnivrhmpl+Sq4bw==
@@ -20975,12 +21118,12 @@ volto-slate@1.0.7, volto-slate@^1.0.0:
     slate-react "^0.59"
     weak-key "^1.0.2"
 
-volto-slate@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.2.0.tgz#36cd038ec525dfc0fd114671c5ca395c659105e1"
-  integrity sha512-PbfKiwqoZhopNtxlP2gQqy1z6azvqAi/dB1bX6KoSvrS4L7usgqBBlijWsMRO6gGnOO3jnyu0tlaJUNVW0a9nQ==
+volto-slate@^2.0.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.3.1.tgz#b273e6aeb17cd9357e0f28b8938d81f43b5a6a81"
+  integrity sha512-qQQnFpT8krDYonC5S+GO5bkoTeWzF4raaZy521paUJgiYrg5ej0RPMrVn/iorVAYgRyP4dy9kVn+yJumltOWCw==
   dependencies:
-    "@eeacms/volto-object-widget" "^1.0.0"
+    "@eeacms/volto-object-widget" "^2.0.0"
     classnames "2.2.6"
     image-extensions "1.1.0"
     is-url "1.2.4"
@@ -20989,7 +21132,6 @@ volto-slate@1.2.0:
     slate "^0.59"
     slate-history "^0.59"
     slate-hyperscript "^0.59"
-    slate-plain-serializer "0.7.13"
     slate-react "^0.59"
     weak-key "^1.0.2"
 
