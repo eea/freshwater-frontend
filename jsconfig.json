@@ -4,9 +4,6 @@
             "volto-block-image-cards": [
                 "addons/volto-block-image-cards/src"
             ],
-            "volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
             "volto-embed": [
                 "addons/volto-embed/src"
             ],
@@ -30,6 +27,9 @@
             ],
             "volto-tabs-block": [
                 "addons/volto-tabs-block/src"
+            ],
+            "volto-datablocks": [
+                "addons/volto-datablocks/src"
             ]
         },
         "baseUrl": "src"

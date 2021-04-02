@@ -5,7 +5,7 @@ services:
     image: eeacms/freshwater-frontend:develop
     user: "node:node"
     volumes:
-    - freshwater_devel_addons:/opt/frontend/src/addons:rw
+    - ./src/addons:/opt/frontend/src/addons
     depends_on:
     - ploneapi
     environment:
@@ -45,8 +45,3 @@ services:
     - "-m"
     - "512"
 
-volumes:
-  data:
-    driver: local
-  freshwater_devel_addons:
-    driver: local

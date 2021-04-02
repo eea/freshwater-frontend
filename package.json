@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "private": "true",
   "workspaces": [
     "src/addons/*"
@@ -12,7 +12,6 @@
   ],
   "addons": [
     "volto-slate:asDefault",
-    "volto-datablocks",
     "volto-embed",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-slate-footnote",
@@ -25,7 +24,6 @@
     "@eeacms/volto-block-toc",
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-matomo",
-    "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-block-style",
     "@eeacms/volto-freshwater"
@@ -72,7 +70,6 @@
     "@eeacms/volto-block-divider": "1.1.1",
     "@eeacms/volto-block-style": "2.5.1",
     "@eeacms/volto-block-toc": "1.0.0",
-    "@eeacms/volto-blocks-form": "1.0.3",
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "2.1.0",
@@ -91,7 +88,7 @@
     "react-stickynode": "^2.1.1",
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
-    "volto-slate": "1.2.0",
+    "volto-slate": "eea/volto-slate#master",
     "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
