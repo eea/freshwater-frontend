@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "private": "true",
   "workspaces": [
     "src/addons/*"
@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-divider": "1.1.1",
-    "@eeacms/volto-block-style": "2.5.1",
+    "@eeacms/volto-block-style": "3.0.0",
     "@eeacms/volto-block-toc": "1.0.0",
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-matomo": "0.1.1",
@@ -76,7 +76,7 @@
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
-    "@plone/volto": "12.5.0",
+    "@plone/volto": "12.7.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
