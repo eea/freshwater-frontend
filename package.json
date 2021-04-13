@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "private": "true",
   "workspaces": [
     "src/addons/*"
@@ -17,7 +17,6 @@
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
-    "@eeacms/volto-columns-tabs-block",
     "@eeacms/volto-tabs-block",
     "volto-block-image-cards",
     "@eeacms/volto-block-divider",
