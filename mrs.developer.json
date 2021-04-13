@@ -10,11 +10,6 @@
     "path": "src"
   },
 
-  "volto-block-style": {
-    "url": "https://github.com/eea/volto-block-style.git",
-    "package": "volto-block-style",
-    "path": "src"
-  },
 
   "volto-object-widget": {
     "url": "https://github.com/eea/volto-object-widget.git",
@@ -39,17 +34,14 @@
     "package": "volto-tabs-block",
     "path": "src"
   },
-  "volto-datablocks": {
-    "url": "https://github.com/eea/volto-datablocks.git",
-    "path": "src"
-  },
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",
     "path": "src"
   },
-  "volto-plotlycharts": {
-    "url": "https://github.com/eea/volto-plotlycharts.git",
-    "path": "src",
-    "branch": "master"
+
+  "volto-block-style": {
+    "url": "https://github.com/eea/volto-block-style.git",
+    "package": "volto-block-style",
+    "path": "src"
   }
 }

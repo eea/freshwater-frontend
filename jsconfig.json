@@ -7,12 +7,6 @@
             "volto-embed": [
                 "addons/volto-embed/src"
             ],
-            "volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "volto-block-style": [
-                "addons/volto-block-style/src"
-            ],
             "volto-object-widget": [
                 "addons/volto-object-widget/src"
             ],
@@ -28,8 +22,8 @@
             "volto-tabs-block": [
                 "addons/volto-tabs-block/src"
             ],
-            "volto-datablocks": [
-                "addons/volto-datablocks/src"
+            "volto-block-style": [
+                "addons/volto-block-style/src"
             ]
         },
         "baseUrl": "src"
