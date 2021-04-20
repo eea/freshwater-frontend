@@ -24,6 +24,9 @@
             ],
             "volto-block-style": [
                 "addons/volto-block-style/src"
+            ],
+            "volto-block-toc": [
+                "addons/volto-block-toc/src"
             ]
         },
         "baseUrl": "src"

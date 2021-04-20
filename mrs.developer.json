@@ -10,6 +10,12 @@
     "path": "src"
   },
 
+  "volto-block-toc": {
+    "url": "https://github.com/eea/volto-block-toc.git",
+    "package": "volto-block-toc",
+    "path": "src",
+    "branch": "develop"
+  },
 
   "volto-object-widget": {
     "url": "https://github.com/eea/volto-object-widget.git",
@@ -20,7 +26,8 @@
   "volto-columns-block": {
     "url": "https://github.com/eea/volto-columns-block.git",
     "package": "volto-columns-block",
-    "path": "src"
+    "path": "src",
+    "branch": "develop"
   },
 
   "volto-columns-tabs-block": {
