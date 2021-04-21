@@ -2245,8 +2245,8 @@
     "@octokit/openapi-types" "^6.0.0"
 
 "@plone/volto@plone/volto#persistent_slots":
-  version "12.9.0"
-  resolved "https://codeload.github.com/plone/volto/tar.gz/ff644af0f664662d155a6a7111873a4644065ca6"
+  version "12.10.1"
+  resolved "https://codeload.github.com/plone/volto/tar.gz/4b2371c42687ed05214230b8e6414e0b7b1190c8"
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
