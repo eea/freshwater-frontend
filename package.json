@@ -62,7 +62,7 @@
     "@eeacms/volto-block-style": "3.2.2",
     "@eeacms/volto-block-toc": "1.0.0",
     "@eeacms/volto-blocks-form": "1.0.3",
-    "@eeacms/volto-columns-block": "1.0.4",
+    "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-freshwater": "0.1.0",
     "@eeacms/volto-matomo":  "0.1.1",
