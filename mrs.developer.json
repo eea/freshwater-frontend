@@ -39,7 +39,8 @@
   "volto-tabs-block": {
     "url": "https://github.com/eea/volto-tabs-block.git",
     "package": "volto-tabs-block",
-    "path": "src"
+    "path": "src",
+    "branch": "develop"
   },
   "volto-embed": {
     "url": "https://github.com/eea/volto-embed.git",
@@ -49,6 +50,7 @@
   "volto-block-style": {
     "url": "https://github.com/eea/volto-block-style.git",
     "package": "volto-block-style",
-    "path": "src"
+    "path": "src",
+    "branch": "develop"
   }
 }
