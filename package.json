@@ -25,6 +25,8 @@
     "@eeacms/volto-matomo",
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-freshwater",
+    "@eeacms/volto-widget-temporal-coverage",
+    "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-block-style"
   ],
   "scripts": {
@@ -72,6 +74,8 @@
     "@eeacms/volto-object-widget": "2.1.0",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
+    "@eeacms/volto-widget-geolocation": "2.2.0",
+    "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
     "@plone/volto": "plone/volto#persistent_slots",
     "react-anchor-link-smooth-scroll": "^1.0.12",
