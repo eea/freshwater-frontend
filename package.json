@@ -11,6 +11,7 @@
     "src/customizations"
   ],
   "addons": [
+    "@kitconcept/volto-blocks-grid",
     "volto-slate:asDefault",
     "volto-embed",
     "@eeacms/volto-object-widget",
@@ -24,9 +25,9 @@
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-matomo",
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-freshwater",
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
+    "@eeacms/volto-freshwater",
     "@eeacms/volto-block-style"
   ],
   "scripts": {
@@ -77,6 +78,7 @@
     "@eeacms/volto-widget-geolocation": "2.2.0",
     "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
+    "@kitconcept/volto-blocks-grid": "1.0.0",
     "@plone/volto": "plone/volto#persistent_slots",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
