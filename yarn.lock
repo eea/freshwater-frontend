@@ -1454,17 +1454,6 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-image-cards@eea/volto-block-image-cards#master":
-  version "0.1.1"
-  resolved "https://codeload.github.com/eea/volto-block-image-cards/tar.gz/75650aa77846eb03088c4b761c4262ac678a3651"
-  dependencies:
-    "@eeacms/volto-block-style" eea/volto-block-style#master
-    "@eeacms/volto-object-widget" "^2.0.0"
-    react-lazy-load-image-component "^1.4.0"
-    react-slick "^0.24.0"
-    slick-carousel "^1.8.1"
-    volto-slate "^2.0.0"
-
 "@eeacms/volto-block-style@^2.1.0", "@eeacms/volto-block-style@^2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.5.1.tgz#c16077800e7943f644c460918296022e81475be6"
@@ -1501,11 +1490,6 @@
   integrity sha512-LC+1Ws51mL5Xz5BordTWQkGveLa1JXpJgJJBtUOMZTe1mGa4i2wTmeC6pqOw953lpNDDfIQaRPZI2MAXh3W1hQ==
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
-
-"@eeacms/volto-object-widget@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.1.0.tgz#3116a9fd2016d0c85959830a7ae719a6ad0afb06"
-  integrity sha512-hu6jO6CRPmR6X2h9iMqsW3LQYCcraUi6fMrp2j4kijFQHkFcw0iWe2Bq72BT3PC9kyrII96LSMTJqkvZx/EHRw==
 
 "@eeacms/volto-object-widget@^1.0.0":
   version "1.0.4"
