@@ -1,2 +1,8 @@
 **/node_modules
 npm-cache
+src/addons
+build
+data
+omelette
+.yalc
+backend

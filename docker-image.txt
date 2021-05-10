@@ -1,1 +1,1 @@
-eeacms/freshwater-frontend:0.1
+eeacms/freshwater-frontend:develop

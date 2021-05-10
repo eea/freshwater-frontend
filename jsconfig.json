@@ -1,6 +1,33 @@
 {
     "compilerOptions": {
         "paths": {
+            "volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "volto-embed": [
+                "addons/volto-embed/src"
+            ],
+            "volto-object-widget": [
+                "addons/volto-object-widget/src"
+            ],
+            "volto-columns-tabs-block": [
+                "addons/volto-columns-tabs-block/src"
+            ],
+            "volto-columns-block": [
+                "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-freshwater": [
+                "addons/volto-freshwater/src"
+            ],
+            "volto-tabs-block": [
+                "addons/volto-tabs-block/src"
+            ],
+            "volto-block-style": [
+                "addons/volto-block-style/src"
+            ],
+            "volto-block-toc": [
+                "addons/volto-block-toc/src"
+            ]
         },
         "baseUrl": "src"
     }

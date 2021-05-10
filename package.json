@@ -2,21 +2,32 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.59",
   "private": "true",
+  "workspaces": [
+    "src/addons/*"
+  ],
+  "customizationPaths": [
+    "src/customizations"
+  ],
   "addons": [
+    "@kitconcept/volto-blocks-grid",
     "volto-slate:asDefault",
+    "volto-embed",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-columns-block",
+    "@eeacms/volto-tabs-block",
+    "volto-block-image-cards",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-matomo",
-    "@eeacms/volto-freshwater",
-    "@eeacms/volto-blocks-form",
     "@eeacms/volto-sentry-rancher-config",
+    "@eeacms/volto-widget-temporal-coverage",
+    "@eeacms/volto-widget-geolocation",
+    "@eeacms/volto-freshwater",
     "@eeacms/volto-block-style"
   ],
   "scripts": {
@@ -59,18 +70,16 @@
   },
   "dependencies": {
     "@eeacms/volto-block-divider": "1.1.1",
-    "@eeacms/volto-block-style": "3.2.2",
-    "@eeacms/volto-block-toc": "1.0.0",
-    "@eeacms/volto-blocks-form": "1.0.3",
-    "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-corsproxy": "1.0.1",
-    "@eeacms/volto-freshwater": "0.1.0",
-    "@eeacms/volto-matomo":  "0.1.1",
-    "@eeacms/volto-object-widget": "1.0.3",
+    "@eeacms/volto-matomo": "0.1.1",
+    "@eeacms/volto-object-widget": "^2.2.0",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
+    "@eeacms/volto-widget-geolocation": "2.2.0",
+    "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
-    "@plone/volto": "plone/volto#10.7.0",
+    "@kitconcept/volto-blocks-grid": "1.0.0",
+    "@plone/volto": "plone/volto#persistent_slots",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
@@ -82,11 +91,13 @@
     "react-stickynode": "^2.1.1",
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
+    "volto-slate": "eea/volto-slate#master",
     "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
     "eslint-plugin-prettier": "3.1.3",
+    "hard-source-webpack-plugin": "0.13.1",
     "prettier": "2.0.5",
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
@@ -133,7 +144,8 @@
       }
     },
     "setupFiles": [
-      "@plone/volto/test-setup.js"
+      "@plone/volto/test-setup-globals.js",
+      "@plone/volto/test-setup-config.js"
     ],
     "globals": {
       "__DEV__": true
@@ -175,7 +187,7 @@
     "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
   "engines": {
-    "node": "^10 || ^12"
+    "node": "^10 || ^12 || ^14"
   },
   "browserslist": [
     ">1%",
