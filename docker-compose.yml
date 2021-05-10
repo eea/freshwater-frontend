@@ -2,12 +2,13 @@ version: '3'
 
 services:
   frontend:
-    image: eeacms/freshwater-frontend:develop
+    image: eeacms/freshwater-frontend:v0.0.8
+    # build: .
     user: 'node:node'
     volumes:
       - ./src/addons:/opt/frontend/src/addons
-    depends_on:
-      - ploneapi
+    # depends_on:
+    #   - ploneapi
     environment:
       RAZZLE_API_PATH: 'http://localhost:${BACKEND_PORT:-8080}/${SITE_NAME:-Plone}'
       RAZZLE_INTERNAL_API_PATH: 'http://ploneapi:8080/${SITE_NAME:-Plone}'
