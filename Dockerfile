@@ -1,10 +1,9 @@
-FROM node:12-stretch-slim
+FROM node:12-buster-slim
 
 RUN apt-get update && apt-get install -y git
 
 COPY . /opt/frontend/
 RUN chown -R node /opt/frontend/
-RUN rm -rf /opt/frontend/src/addons/*
 
 WORKDIR /opt/frontend/
 RUN npm install -g mrs-developer
@@ -13,10 +12,10 @@ USER node
 ARG MAX_OLD_SPACE_SIZE=8192
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
-RUN cd /opt/frontend
+RUN mkdir -p src/addons
 
-RUN RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn
 RUN yarn develop
+
 RUN RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn
 
 RUN RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
