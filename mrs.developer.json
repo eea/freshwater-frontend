@@ -58,5 +58,17 @@
     "package": "@eeacms/volto-tableau",
     "path": "src",
     "branch": "master"
+  },
+  "volto-widget-temporal-coverage": {
+    "url": "https://github.com/eea/volto-widget-temporal-coverage.git",
+    "package": "@eeacms/volto-widget-temporal-coverage",
+    "path": "src",
+    "branch": "master"
+  },
+  "volto-widget-geolocation": {
+    "url": "https://github.com/eea/volto-widget-geolocation.git",
+    "package": "@eeacms/volto-widget-geolocation",
+    "path": "src",
+    "branch": "master"
   }
 }

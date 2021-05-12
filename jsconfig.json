@@ -16,9 +16,6 @@
             "volto-columns-block": [
                 "addons/volto-columns-block/src"
             ],
-            "@eeacms/volto-freshwater": [
-                "addons/volto-freshwater/src"
-            ],
             "volto-tabs-block": [
                 "addons/volto-tabs-block/src"
             ],
@@ -27,6 +24,18 @@
             ],
             "volto-block-toc": [
                 "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-freshwater": [
+                "addons/volto-freshwater/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
+            ],
+            "@eeacms/volto-widget-temporal-coverage": [
+                "addons/volto-widget-temporal-coverage/src"
+            ],
+            "@eeacms/volto-widget-geolocation": [
+                "addons/volto-widget-geolocation/src"
             ]
         },
         "baseUrl": "src"
