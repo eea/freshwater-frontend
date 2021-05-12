@@ -5,7 +5,7 @@
 
 ## Production
 
-We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [Jenkins](https://jenkins.io/) to deploy this application in production.
+For backend image see https://github.com/eea/eea.docker.plonesaas/tree/freshwater
 
 ### Deploy
 
