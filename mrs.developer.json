@@ -63,12 +63,12 @@
     "url": "https://github.com/eea/volto-widget-temporal-coverage.git",
     "package": "@eeacms/volto-widget-temporal-coverage",
     "path": "src",
-    "branch": "fix-error"
+    "branch": "develop"
   },
   "volto-widget-geolocation": {
     "url": "https://github.com/eea/volto-widget-geolocation.git",
     "package": "@eeacms/volto-widget-geolocation",
     "path": "src",
-    "branch": "master"
+    "branch": "fix_registration"
   }
 }
