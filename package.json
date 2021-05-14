@@ -69,7 +69,7 @@
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "dependencies": {
-    "@eeacms/volto-block-divider": "1.1.1",
+    "@eeacms/volto-block-divider": "2.1.2",
     "@eeacms/volto-corsproxy": "2.1.1",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "^2.2.0",
