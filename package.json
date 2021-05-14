@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-divider": "1.1.1",
-    "@eeacms/volto-corsproxy": "1.0.1",
+    "@eeacms/volto-corsproxy": "2.1.1",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "^2.2.0",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
