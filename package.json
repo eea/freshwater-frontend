@@ -79,7 +79,7 @@
     "@eeacms/volto-freshwater": "0.1.1",
     "@eeacms/volto-tableau": "eea/volto-tableau",
     "@eeacms/volto-widget-geolocation": "2.2.1",
-    "@eeacms/volto-widget-temporal-coverage": "2.1.2",
+    "@eeacms/volto-widget-temporal-coverage": "2.1.3",
     "@eeacms/volto-widgets-view": "2.1.1",
     "@kitconcept/volto-blocks-grid": "1.0.0",
     "@plone/volto": "plone/volto#persistent_slots",
