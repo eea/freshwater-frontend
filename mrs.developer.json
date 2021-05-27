@@ -52,5 +52,12 @@
     "package": "volto-block-style",
     "path": "src",
     "branch": "develop"
+  },
+
+  "volto-tableau": {
+    "url": "https://github.com/eea/volto-tableau.git",
+    "package": "@eeacms/volto-tableau",
+    "path": "src",
+    "branch": "master"
   }
 }

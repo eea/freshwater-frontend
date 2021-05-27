@@ -2150,6 +2150,12 @@
   dependencies:
     volto-slate "^2.0.0"
 
+"@eeacms/volto-tableau@eea/volto-tableau":
+  version "1.2.0"
+  resolved "https://codeload.github.com/eea/volto-tableau/tar.gz/73ce85b3c012f7be537541cad798a5bf5ed13205"
+  dependencies:
+    tableau-api-js "github:eea/tableau-api-js#1.1.0"
+
 "@eeacms/volto-widget-geolocation@2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.2.1.tgz#b8f0d9d1332f6254d8edc04feae17167b8d333e1"

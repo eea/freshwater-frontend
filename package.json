@@ -27,6 +27,7 @@
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
+    "@eeacms/volto-tableau",
     "@eeacms/volto-freshwater",
     "@eeacms/volto-block-style"
   ],
@@ -76,6 +77,7 @@
     "@eeacms/volto-sentry-rancher-config": "2.1.1",
     "@eeacms/volto-slate-footnote": "2.2.1",
     "@eeacms/volto-freshwater": "0.1.1",
+    "@eeacms/volto-tableau": "eea/volto-tableau",
     "@eeacms/volto-widget-geolocation": "2.2.1",
     "@eeacms/volto-widget-temporal-coverage": "2.1.2",
     "@eeacms/volto-widgets-view": "2.1.1",
