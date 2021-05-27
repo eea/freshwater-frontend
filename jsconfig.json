@@ -16,9 +16,6 @@
             "volto-columns-block": [
                 "addons/volto-columns-block/src"
             ],
-            "@eeacms/volto-freshwater": [
-                "addons/volto-freshwater/src"
-            ],
             "volto-tabs-block": [
                 "addons/volto-tabs-block/src"
             ],
@@ -27,6 +24,9 @@
             ],
             "volto-block-toc": [
                 "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-freshwater": [
+                "addons/volto-freshwater/src"
             ]
         },
         "baseUrl": "src"
