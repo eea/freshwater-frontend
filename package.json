@@ -74,7 +74,7 @@
     "@eeacms/volto-corsproxy": "2.1.2",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "^2.2.0",
-    "@eeacms/volto-sentry-rancher-config": "2.1.1",
+    "@eeacms/volto-sentry-rancher-config": "2.1.2",
     "@eeacms/volto-slate-footnote": "2.2.1",
     "@eeacms/volto-freshwater": "0.1.1",
     "@eeacms/volto-tableau": "eea/volto-tableau",
