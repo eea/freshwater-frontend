@@ -2110,6 +2110,11 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
+"@eeacms/volto-resize-helper@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.1.1.tgz#7148b2560b2a34297183f235ed2f580a72d469dd"
+  integrity sha512-bxxjzYzsOpd4JnbmHSBZpewQgXEs+1MIGdFAJ+mv+uAFYx57ordKpsEm/f32BowIvs/8uECgeKsHkIsTkfw0Gw==
+
 "@eeacms/volto-sentry-rancher-config@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-1.1.0.tgz#6e242ac6f50dd0660baf925b223f45b678b9b26b"
@@ -2127,6 +2132,14 @@
   resolved "https://codeload.github.com/eea/volto-tableau/tar.gz/648a5927f6a02314936bb54a1cd6dfe6320ce62e"
   dependencies:
     tableau-api-js "github:eea/tableau-api-js#1.1.0"
+
+"@eeacms/volto-widget-geolocation@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.2.0.tgz#30bca1cd145a8262415c30a02f75ac23afba270d"
+  integrity sha512-r+rG57W+jZ2xj66x5A6Tti9qp3QpeCYuaylgiqlxWke5fsgJvED/3kZSoviBP/FRfT5KGGPoOSgVglDuUBhqsQ==
+  dependencies:
+    "@eeacms/volto-corsproxy" "^2.0.0"
+    i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widget-temporal-coverage@2.1.0":
   version "2.1.0"
@@ -15621,6 +15634,11 @@ react-input-autosize@^3.0.0:
   dependencies:
     prop-types "^15.5.8"
 
+react-intersection-observer@^8.32.0:
+  version "8.32.0"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.32.0.tgz#47249332e12e8bb99ed35a10bb7dd10446445a7b"
+  integrity sha512-RlC6FvS3MFShxTn4FHAy904bVjX5Nn4/eTjUkurW0fHK+M/fyQdXuyCy9+L7yjA+YMGogzzSJNc7M4UtfSKvtw==
+
 react-intl-redux@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/react-intl-redux/-/react-intl-redux-2.2.0.tgz#7187865c86931f7d69d88a243c1143cfc06f1bf0"
@@ -19285,6 +19303,24 @@ volto-slate@^2.0.0:
     image-extensions "1.1.0"
     is-url "1.2.4"
     jsdom "16.2.2"
+    react-visibility-sensor "5.1.1"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
+    weak-key "^1.0.2"
+
+volto-slate@^2.5.0:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.6.1.tgz#963782738e27315272abe2959cef2844e6680f04"
+  integrity sha512-qNV7y0/hljuoHL7VCVwR6V/2IZmZ03ZDatWlqk/UULnU35jd2X/HkWICiZg19wd70x7NzdOo2mSO8ZOD8VrVJQ==
+  dependencies:
+    "@eeacms/volto-object-widget" "^2.0.0"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-intersection-observer "^8.32.0"
     react-visibility-sensor "5.1.1"
     slate "^0.62.0"
     slate-history "^0.62.0"

@@ -8,7 +8,8 @@
   "volto-block-image-cards": {
     "url": "https://github.com/eea/volto-block-image-cards.git",
     "package": "volto-block-image-cards",
-    "path": "src"
+    "path": "src",
+    "branch": "develop"
   },
   "volto-block-toc": {
     "url": "https://github.com/eea/volto-block-toc.git",
