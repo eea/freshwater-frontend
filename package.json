@@ -72,11 +72,11 @@
   "dependencies": {
     "@eeacms/volto-block-divider": "1.1.1",
     "@eeacms/volto-corsproxy": "1.0.1",
+    "@eeacms/volto-freshwater": "eea/volto-freshwater#master",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "^2.2.0",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",
     "@eeacms/volto-slate-footnote": "1.0.1",
-    "@eeacms/volto-freshwater": "eea/volto-freshwater#master",
     "@eeacms/volto-tableau": "eea/volto-tableau",
     "@eeacms/volto-widget-geolocation": "2.2.0",
     "@eeacms/volto-widget-temporal-coverage": "2.1.0",

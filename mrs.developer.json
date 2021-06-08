@@ -64,7 +64,6 @@
   "volto-widget-geolocation": {
     "url": "https://github.com/eea/volto-widget-geolocation.git",
     "package": "@eeacms/volto-widget-geolocation",
-    "path": "src",
-    "branch": "fix_registration"
+    "path": "src"
   }
 }
