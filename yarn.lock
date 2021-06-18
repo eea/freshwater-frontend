@@ -2208,6 +2208,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.1.1.tgz#7148b2560b2a34297183f235ed2f580a72d469dd"
   integrity sha512-bxxjzYzsOpd4JnbmHSBZpewQgXEs+1MIGdFAJ+mv+uAFYx57ordKpsEm/f32BowIvs/8uECgeKsHkIsTkfw0Gw==
 
+"@eeacms/volto-resize-helper@^0.2.0", "@eeacms/volto-resize-helper@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.2.tgz#5fa899acc4116f2a31cc753bb3737b1ceb30238a"
+  integrity sha512-MevcfCFta+A79esQbGq0dVwZHHp5zbkguQ3j8nORGtZEmnYOUCE+HTUoWVAGmQLDFbrfy7lttwmiwFXxC0COxw==
+
 "@eeacms/volto-sentry-rancher-config@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-1.1.0.tgz#6e242ac6f50dd0660baf925b223f45b678b9b26b"
@@ -2913,8 +2918,8 @@
     "@types/node" ">= 8"
 
 "@plone/volto@plone/volto#persistent_slots":
-  version "13.1.2"
-  resolved "https://codeload.github.com/plone/volto/tar.gz/da102dc77fb88867b0f1fc64863d2e1b93fc1734"
+  version "13.2.1"
+  resolved "https://codeload.github.com/plone/volto/tar.gz/bb3f7cf8ad26763c3116438b670ed588287fe464"
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -22153,24 +22158,6 @@ vm-browserify@^1.0.0, vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-
-volto-datablocks@eea/volto-datablocks#master:
-  version "2.0.3"
-  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/929c3c03f3c0ce41f4fe31be5a69f9e40e7bf46e"
-  dependencies:
-    "@eeacms/volto-embed" "^2.0.1"
-    humanize-plus "^1.8.2"
-    performant-array-to-tree "^1.7.1"
-    plotly.js "1.57.0"
-    react-plotly.js "~2.5.0"
-    sanitize-html "^2.3.3"
-    slate "0.63.0"
-
-"volto-embed@github:eea/volto-embed#2.0.0":
-  version "2.0.0"
-  resolved "https://codeload.github.com/eea/volto-embed/tar.gz/dc33fed8c5a9b2c8c08eed5a7b69df9bd891e9f3"
-  dependencies:
-    react-visibility-sensor "5.1.1"
 
 volto-slate@^1.0.0:
   version "1.2.0"
