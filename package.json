@@ -78,7 +78,7 @@
     "@eeacms/volto-sentry-rancher-config": "2.1.2",
     "@eeacms/volto-slate-footnote": "2.3.0",
     "@eeacms/volto-tableau": "1.2.3",
-    "@eeacms/volto-widget-geolocation": "3.0.0",
+    "@eeacms/volto-widget-geolocation": "3.0.1",
     "@eeacms/volto-widget-temporal-coverage": "3.0.0",
     "@eeacms/volto-widgets-view": "2.1.2",
     "@kitconcept/volto-blocks-grid": "1.0.0",

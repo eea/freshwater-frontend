@@ -1327,21 +1327,17 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@github:eea/volto-block-style#master":
-  version "3.3.1"
-  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/54bcfc220a4259f04c1fcbcc2cbadb8270763b9d"
+"@eeacms/volto-block-style@eea/volto-block-style#master":
+  version "3.3.2"
+  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/089c75d5fa68af6b55d7ff0c2f72ac1f595ba338"
   dependencies:
+    "@eeacms/volto-resize-helper" ">=0.2.2"
     react-color "~2.18.1"
 
-"@eeacms/volto-corsproxy@2.1.2":
+"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
-
-"@eeacms/volto-corsproxy@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.0.tgz#b43aa299575e6b14a5d3f6ff2123d06eee64bdfc"
-  integrity sha512-/z75TjK4ZwC1eIZJk6yaftrWqHsvuYgP2k/gEju+cz1O0CGvP13oo1RJg5dXWxFReGpuKrT6ROjSRDL4zUtcWA==
 
 "@eeacms/volto-freshwater@0.1.1":
   version "0.1.1"
@@ -1365,7 +1361,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.2.3.tgz#38f3bff8d71486d97fa99f0ca5912ad4141a2033"
   integrity sha512-u4xLyASXvSrsG2b0QTRitOjuIfNoXjMRuaAo0oNyJLETuLj73qyLR3TsSDG//2VmBIklB/ca/7Xl7ncHaaJF1A==
 
-"@eeacms/volto-resize-helper@^0.2.2":
+"@eeacms/volto-resize-helper@>=0.2.2", "@eeacms/volto-resize-helper@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.2.tgz#5fa899acc4116f2a31cc753bb3737b1ceb30238a"
   integrity sha512-MevcfCFta+A79esQbGq0dVwZHHp5zbkguQ3j8nORGtZEmnYOUCE+HTUoWVAGmQLDFbrfy7lttwmiwFXxC0COxw==
@@ -1390,12 +1386,12 @@
     "@eeacms/volto-resize-helper" "^0.2.2"
     tableau-api-js "github:eea/tableau-api-js#1.1.0"
 
-"@eeacms/volto-widget-geolocation@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.0.tgz#20a8c0cd490cec5000cfdb998ae12b07df5fa4ea"
-  integrity sha512-VLNW6IAHZw60Qf9V0zDtJXB+dlhLvksIjUCs4aJ0PC+elknfmDWVLdsg7BynV5qz1dNiC6gt726GXOD5ybC8og==
+"@eeacms/volto-widget-geolocation@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.1.tgz#a86ded31db0627b925489317d31326286b0056c7"
+  integrity sha512-Y0RRX5K7ZxFYJbm2bCoksQ6/KNDw9ZLC0z+kUP+4JaGp5wAId2SjsSyyql5Lz+V4KifR05zfpOVRkrp/dyW4uA==
   dependencies:
-    "@eeacms/volto-corsproxy" "^2.0.0"
+    "@eeacms/volto-corsproxy" ">=2.1.2"
     i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widget-temporal-coverage@3.0.0":
