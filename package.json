@@ -94,7 +94,7 @@
     "react-stickynode": "^2.1.1",
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
-    "volto-slate": "2.7.1",
+    "volto-slate": "2.7.2",
     "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
