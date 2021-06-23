@@ -53,7 +53,7 @@
     "url": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
     "path": "src",
-    "branch": "master"
+    "branch": "renderprop"
   },
   "volto-widget-temporal-coverage": {
     "url": "https://github.com/eea/volto-widget-temporal-coverage.git",
