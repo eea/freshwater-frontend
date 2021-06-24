@@ -1371,12 +1371,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.2.tgz#3833b597568a824e916c09d1927e651a0fba2fda"
   integrity sha512-eT+SlMCXFK4H1N8yqJOWq5cNDF73gvVUGS/cw3qbZmYhhkqCIDrU43aa1/6aGHzmeTStIIS7KtwEVlbDeHYAMQ==
 
-"@eeacms/volto-slate-footnote@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.3.0.tgz#f4b572c5f56a8c22b434c0684162566500d87d5a"
-  integrity sha512-4CtWoQZrGnCttk3H3Yb9YJUvZJIXPTtY+WLz5byl0HG3TSZmHKdz/T89j7IfFsErtNcDVgeenTcMLvvHQcGAug==
+"@eeacms/volto-slate-footnote@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.3.1.tgz#dde4f53e5f2ac07beaabfa1c01383183625efa2d"
+  integrity sha512-GqKYizXuAezT4BZKSmu6RAjqM7HODtFqTeSiXHCrsJ5MUGfHimtKsPGua6j2+2B4nTtT6Mj/9rMcTCrvqDTDdQ==
   dependencies:
-    volto-slate ">=2.6.4"
+    volto-slate "*"
 
 "@eeacms/volto-tableau@1.2.3":
   version "1.2.3"
@@ -17127,30 +17127,12 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@2.8.0:
+volto-slate@*, volto-slate@2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.8.0.tgz#a898677772f47c201446071092e815748b9258c4"
   integrity sha512-dqdT849CNtNVSh4yajOKFwypeHyklI4Opl5NxYMnEw4O4guhkknRYoSMFTViNtJ0qWyyf/GNner/9/8y7K8Ueg==
   dependencies:
     "@eeacms/volto-object-widget" ">=2.2.3"
-    classnames "2.2.6"
-    image-extensions "1.1.0"
-    is-url "1.2.4"
-    jsdom "16.2.2"
-    react-intersection-observer "^8.32.0"
-    react-visibility-sensor "5.1.1"
-    slate "^0.62.0"
-    slate-history "^0.62.0"
-    slate-hyperscript "^0.62.0"
-    slate-react "^0.62.0"
-    weak-key "^1.0.2"
-
-volto-slate@>=2.6.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.7.1.tgz#d82766cd0d33cc3954227741bd4979d4e0a26da7"
-  integrity sha512-Pwx2dpRbVT6keyTb3Lf0LEclR1MGSpc3CxfZ6QbAW15tUl3IJrUKNp+qR1ZQae5eeJzQcIKg0ZuoJxYU5+2xZg==
-  dependencies:
-    "@eeacms/volto-object-widget" "^2.0.0"
     classnames "2.2.6"
     image-extensions "1.1.0"
     is-url "1.2.4"
