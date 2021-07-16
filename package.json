@@ -82,7 +82,7 @@
     "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
     "@kitconcept/volto-blocks-grid": "1.0.0",
-    "@plone/volto": "plone/volto#persistent_slots",
+    "@plone/volto": "plone/volto#slots_and_quanta",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
