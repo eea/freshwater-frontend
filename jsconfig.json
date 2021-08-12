@@ -36,6 +36,12 @@
             ],
             "@eeacms/volto-widget-geolocation": [
                 "addons/volto-widget-geolocation/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
             ]
         },
         "baseUrl": "src"

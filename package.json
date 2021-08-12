@@ -29,7 +29,9 @@
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-tableau",
     "@eeacms/volto-freshwater",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-datablocks",
+    "@eeacms/volto-plotlycharts"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",

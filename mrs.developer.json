@@ -65,5 +65,19 @@
     "url": "https://github.com/eea/volto-widget-geolocation.git",
     "package": "@eeacms/volto-widget-geolocation",
     "path": "src"
+  },
+  "volto-datablocks": {
+    "url": "https://github.com/eea/volto-datablocks.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-datablocks",
+    "develop": true
+  },
+  "volto-plotlycharts": {
+    "url": "https://github.com/eea/volto-plotlycharts.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-plotlycharts",
+    "develop": true
   }
 }
