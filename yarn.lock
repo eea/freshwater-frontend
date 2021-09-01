@@ -195,15 +195,6 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.14.5.tgz#7bf478ec3b71726d56a8ca5775b046fc29879e61"
   integrity sha512-EivH9EgBIb+G8ij1B2jAwSH36WnGvkQSEC6CkX/6v6ZFlw5fVOHvsgGF4uiEHO2GzMvunZb6tDLQEQSdrdocrA==
   dependencies:
-    "@babel/types" "^7.14.2"
-    jsesc "^2.5.1"
-    source-map "^0.5.0"
-
-"@babel/helper-annotate-as-pure@^7.0.0":
-  version "7.14.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.14.5.tgz#7bf478ec3b71726d56a8ca5775b046fc29879e61"
-  integrity sha512-EivH9EgBIb+G8ij1B2jAwSH36WnGvkQSEC6CkX/6v6ZFlw5fVOHvsgGF4uiEHO2GzMvunZb6tDLQEQSdrdocrA==
-  dependencies:
     "@babel/types" "^7.14.5"
 
 "@babel/helper-annotate-as-pure@^7.10.4":
@@ -212,13 +203,6 @@
   integrity sha512-XQlqKQP4vXFB7BN8fEEerrmYvHp3fK/rBkRFz9jaJbzK0B1DSfej9Kc7ZzE8Z/OnId1jpJdNAZ3BFQjWG68rcA==
   dependencies:
     "@babel/types" "^7.10.4"
-
-"@babel/helper-annotate-as-pure@^7.12.13":
-  version "7.12.13"
-  resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.12.13.tgz#0f58e86dfc4bb3b1fcd7db806570e177d439b6ab"
-  integrity sha512-7YXfX5wQ5aYM/BOlbSccHDbuXXFPxeoUmfWtz8le2yTkTZc+BxsiEnENFoi2SlmA8ewDkG2LgIMIVzzn2h8kfw==
-  dependencies:
-    "@babel/types" "^7.12.13"
 
 "@babel/helper-builder-binary-assignment-operator-visitor@^7.10.4":
   version "7.10.4"
@@ -635,10 +619,10 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.5.tgz#d0f0e277c512e0c938277faa85a3968c9a44c0e8"
   integrity sha512-5lsetuxCLilmVGyiLEfoHBRX8UCFD+1m2x3Rj97WrW3V7H3u4RWRXA4evMjImCsin2J2YT0QaVDGf+z8ondbAg==
 
-"@babel/helper-validator-identifier@^7.14.5":
-  version "7.14.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.5.tgz#d0f0e277c512e0c938277faa85a3968c9a44c0e8"
-  integrity sha512-5lsetuxCLilmVGyiLEfoHBRX8UCFD+1m2x3Rj97WrW3V7H3u4RWRXA4evMjImCsin2J2YT0QaVDGf+z8ondbAg==
+"@babel/helper-validator-identifier@^7.14.9":
+  version "7.14.9"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.9.tgz#6654d171b2024f6d8ee151bf2509699919131d48"
+  integrity sha512-pQYxPY0UP6IHISRitNe8bsijHex4TWZXi2HwKVsjPiltzlhse2znVcm9Ace510VT1kxIHjGJCZZQBX2gJDbo0g==
 
 "@babel/helper-validator-identifier@^7.9.5":
   version "7.10.4"
@@ -1990,6 +1974,14 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@babel/types@^7.14.2":
+  version "7.15.0"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.15.0.tgz#61af11f2286c4e9c69ca8deb5f4375a73c72dcbd"
+  integrity sha512-OBvfqnllOIdX4ojTHpwZbpvz4j3EWyjkZEdmjH0/cgsd6QOdSgU8rLSk6ard/pcW7rlmjdVSX/AWOaORR1uNOQ==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.14.9"
+    to-fast-properties "^2.0.0"
+
 "@babel/types@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.5.tgz#3bb997ba829a2104cedb20689c4a5b8121d383ff"
@@ -2129,7 +2121,7 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@^2.1.0", "@eeacms/volto-block-style@^2.5.1":
+"@eeacms/volto-block-style@^2.1.0":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.5.1.tgz#c16077800e7943f644c460918296022e81475be6"
   integrity sha512-2wfbbM5IMIaf0177Hv39up553RyUXCKsWC3ajwnVYDWjxnocNVoYdfhwXmolNDda/xSaC4VsUBvEVlQ6uEliTA==
@@ -2154,7 +2146,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
   integrity sha512-peAEg795qMtSfnJtjluLTzlXBvjd1xwJ/ml8ThXd7NOcVWAeE/0qIcp3rSwE4PZ/uh5cnNRSsselgyy9utohEA==
 
-"@eeacms/volto-corsproxy@>=2.1.2", "@eeacms/volto-corsproxy@^2.0.0":
+"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.1.2", "@eeacms/volto-corsproxy@^2.0.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
@@ -2900,160 +2892,6 @@
   integrity sha512-UZ1pErDue6bZNjYOotCNveTXArOMZQFG6hKJfOnGnulVCMcVVi7YIIuuR4WfBhjo7zgpmzn/BkPDnUXtNx+PcQ==
   dependencies:
     "@types/node" ">= 8"
-
-"@plone/volto@file:.yalc/@plone/volto":
-  version "13.8.1"
-  dependencies:
-    "@babel/plugin-proposal-export-default-from" "7.10.4"
-    "@babel/plugin-proposal-export-namespace-from" "7.10.4"
-    "@babel/plugin-proposal-json-strings" "7.10.4"
-    "@babel/plugin-proposal-throw-expressions" "7.10.4"
-    "@loadable/babel-plugin" "5.13.2"
-    "@loadable/component" "5.14.1"
-    "@loadable/server" "5.14.0"
-    "@loadable/webpack-plugin" "5.14.0"
-    "@sentry/browser" "5.12.1"
-    "@sentry/integrations" "5.27.3"
-    "@sentry/node" "5.12.3"
-    "@sentry/webpack-plugin" "1.12.1"
-    "@testing-library/cypress" "7.0.3"
-    "@testing-library/jest-dom" "4.2.4"
-    "@testing-library/react" "11.2.2"
-    autoprefixer "9.7.6"
-    axe-core "3.5.3"
-    babel-7-plugin-root-import "5.4.0"
-    babel-eslint "10.1.0"
-    babel-plugin-add-module-exports "0.2.1"
-    babel-plugin-lodash "3.3.4"
-    babel-plugin-react-intl "5.1.17"
-    babel-plugin-root-import "6.1.0"
-    bundlesize "0.18.0"
-    bundlewatch "0.2.7"
-    circular-dependency-plugin "5.2.2"
-    classnames "2.2.6"
-    connected-react-router "6.8.0"
-    coveralls "3.0.2"
-    cypress "7.3.0"
-    cypress-axe "0.12.2"
-    cypress-file-upload "5.0.7"
-    dependency-graph "0.10.0"
-    detect-browser "5.1.0"
-    diff "3.5.0"
-    draft-js "0.10.5"
-    draft-js-block-breakout-plugin "2.0.1"
-    draft-js-buttons "2.0.2"
-    draft-js-import-html "1.4.1"
-    draft-js-inline-toolbar-plugin "2.0.3"
-    draft-js-plugins-editor "2.1.1"
-    draft-js-plugins-utils "2.0.3"
-    draftjs-filters "2.3.0"
-    eslint "6.8.0"
-    eslint-config-airbnb "18.1.0"
-    eslint-config-prettier "6.11.0"
-    eslint-config-react-app "5.2.1"
-    eslint-import-resolver-alias "1.1.2"
-    eslint-import-resolver-babel-plugin-root-import "1.1.1"
-    eslint-plugin-flowtype "4.7.0"
-    eslint-plugin-import "2.20.2"
-    eslint-plugin-jsx-a11y "6.2.3"
-    eslint-plugin-prettier "3.1.3"
-    eslint-plugin-react "7.20.0"
-    eslint-plugin-react-hooks "4.0.2"
-    express "4.17.1"
-    glob "7.1.6"
-    hamburgers "1.1.3"
-    handlebars "4.7.7"
-    history "4.10.1"
-    http-proxy-middleware "1.0.4"
-    husky "4.2.5"
-    identity-obj-proxy "3.0.0"
-    jest-css-modules "1.1.0"
-    jest-environment-jsdom-sixteen "1.0.3"
-    jest-file "1.0.0"
-    js-yaml "3.13.1"
-    jsonwebtoken "8.3.0"
-    jwt-decode "2.2.0"
-    less "3.11.1"
-    less-loader "6.1.0"
-    linkify-it "3.0.2"
-    lint-staged "10.2.2"
-    locale "0.1.0"
-    lodash "4.17.21"
-    lodash-move "1.1.1"
-    lodash-webpack-plugin "0.11.5"
-    luxon "1.22.0"
-    mem "4.0.0"
-    mini-css-extract-plugin "0.9.0"
-    moment "2.24.0"
-    pofile "1.0.10"
-    postcss-flexbugs-fixes "4.2.1"
-    postcss-loader "3.0.0"
-    postcss-overrides "3.1.4"
-    prettier "2.0.5"
-    pretty-bytes "5.3.0"
-    prismjs "1.24.0"
-    promise-file-reader "1.0.2"
-    prop-types "15.7.2"
-    query-string "7.0.0"
-    razzle "3.3.7"
-    razzle-plugin-bundle-analyzer "1.2.0"
-    rc-time-picker "3.7.3"
-    react "16.14.0"
-    react-anchor-link-smooth-scroll "1.0.12"
-    react-animate-height "2.0.17"
-    react-beautiful-dnd "13.0.0"
-    react-cookie "1.0.5"
-    react-dates "21.5.1"
-    react-detect-click-outside "1.1.1"
-    react-dnd "5.0.0"
-    react-dnd-html5-backend "5.0.1"
-    react-dom "16.14.0"
-    react-dropzone "11.1.0"
-    react-fast-compare "2.0.4"
-    react-image-gallery "1.0.7"
-    react-intl "3.8.0"
-    react-intl-redux "2.2.0"
-    react-medium-image-zoom "3.0.15"
-    react-portal "4.2.1"
-    react-redux "7.2.4"
-    react-router "5.2.0"
-    react-router-config "5.1.1"
-    react-router-dom "5.2.0"
-    react-select "4.0.2"
-    react-select-async-paginate "0.3.10"
-    react-share "2.3.1"
-    react-side-effect "2.1.0"
-    react-simple-code-editor "0.7.1"
-    react-test-renderer "16.14.0"
-    react-toastify "5.4.1"
-    redraft "0.10.2"
-    redux "4.1.0"
-    redux-actions "2.6.5"
-    redux-connect "10.0.0"
-    redux-devtools-extension "2.13.8"
-    redux-localstorage-simple "2.3.1"
-    redux-mock-store "1.5.4"
-    redux-thunk "2.3.0"
-    release-it "14.2.1"
-    rrule "2.6.4"
-    semantic-ui-less "2.4.1"
-    semantic-ui-react "0.88.1"
-    semver "5.6.0"
-    serialize-javascript "3.1.0"
-    start-server-and-test "1.10.6"
-    stylelint "13.3.3"
-    stylelint-config-idiomatic-order "8.1.0"
-    stylelint-config-prettier "8.0.1"
-    stylelint-prettier "1.1.2"
-    superagent "3.8.2"
-    svg-loader "0.0.2"
-    svgo "1.3.2"
-    svgo-loader "2.2.1"
-    tlds "1.203.1"
-    use-deep-compare-effect "1.6.1"
-    xmlrpc "1.3.2"
-    yarn-deduplicate "3.1.0"
-    yarnhook "0.5.1"
 
 "@plone/volto@plone/volto#slots_and_quanta":
   version "13.8.1"
@@ -9992,6 +9830,11 @@ gensync@^1.0.0-beta.1:
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
   integrity sha512-r8EC6NO1sngH/zdD9fiRDLdcgnbayXah+mLgManTaIZJqEC1MZstmnox8KpnI2/fxQwrp5OpCOYWLp4rBl4Jcg==
 
+gensync@^1.0.0-beta.2:
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
+  integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
+
 geojson-vt@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/geojson-vt/-/geojson-vt-3.2.1.tgz#f8adb614d2c1d3f6ee7c4265cad4bbf3ad60c8b7"
@@ -14664,14 +14507,6 @@ mri@^1.1.0, mri@^1.1.4:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.5.tgz#ce21dba2c69f74a9b7cf8a1ec62307e089e223e0"
   integrity sha512-d2RKzMD4JNyHMbnbWnznPaa8vbdlq/4pNZ3IgdaGrVbBhebBsGUUE/6qorTMYNS6TwuH3ilfOlD2bf4Igh8CKg==
-
-mrs-developer@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/mrs-developer/-/mrs-developer-1.6.0.tgz#e6b312a96c7700ccd74aacf59009705a6479e49d"
-  integrity sha512-vfH88uLyy8i4egoCaPuzbxlK/PNJtT5ibWyziROMfEOo48Dbrr5H+EE6h9OAjIzp/xdwKjsl/wV24Sp7IQ/7Bw==
-  dependencies:
-    colors "^1.4.0"
-    simple-git "^1.132.0"
 
 ms@2.0.0:
   version "2.0.0"
@@ -19852,13 +19687,6 @@ simple-get@^2.7.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-simple-git@^1.132.0:
-  version "1.132.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.132.0.tgz#53ac4c5ec9e74e37c2fd461e23309f22fcdf09b1"
-  integrity sha512-xauHm1YqCTom1sC9eOjfq3/9RKiUA9iPnxBbrY2DdL8l4ADMu0jjM5l5lphQP5YWNqAL2aXC/OeuQ76vHtW5fg==
-  dependencies:
-    debug "^4.0.1"
-
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -22275,6 +22103,42 @@ vm-browserify@^1.0.0, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+volto-slate@*:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.9.3.tgz#57c1763abbdde1b2648c91fcae059f189cb649b4"
+  integrity sha512-D1DrIoOY/qCd3bvaGYn/N/Pv/ngYoWQbqDEvgXG6ti6m8NleR/FPAC0FiRTx/uL/PpY2KT5HN9eOiUKFdfiCEw==
+  dependencies:
+    "@eeacms/volto-object-widget" ">=2.2.3"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-intersection-observer "^8.32.0"
+    react-visibility-sensor "5.1.1"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
+    weak-key "^1.0.2"
+
+volto-slate@2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.9.1.tgz#d4ed326470570a5b81c3dbd65e2aa9acf936184e"
+  integrity sha512-ZCqMnIv+qHOsMgespqLwDKvAqSbrflGXF1MFTABbCgpEAA7dw/9SGaCR1Sa5uZbYs8kb24PR7esBCKs2JszQkg==
+  dependencies:
+    "@eeacms/volto-object-widget" ">=2.2.3"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-intersection-observer "^8.32.0"
+    react-visibility-sensor "5.1.1"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
+    weak-key "^1.0.2"
+
 volto-slate@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.2.0.tgz#36cd038ec525dfc0fd114671c5ca395c659105e1"
@@ -22311,7 +22175,7 @@ volto-slate@^2.0.0:
     slate-react "^0.62.0"
     weak-key "^1.0.2"
 
-volto-slate@^2.5.0, volto-slate@^2.6.1:
+volto-slate@^2.6.1:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.7.0.tgz#8e5fb3f67021d8d94c3ddc4caab0bf5f72b925b5"
   integrity sha512-YTOUA3KzL1wDUTsibHGTyTRAVjF3N6ABQd6ykP8wEnLatRdKvs6CbOCU+bQduirr715LFBoarrIbihwZjp7s7A==
