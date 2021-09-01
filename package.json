@@ -3,7 +3,7 @@
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
   "version": "0.0.59",
-  "private": "true",
+  "private": true,
   "workspaces": [
     "src/addons/*"
   ],
@@ -31,7 +31,9 @@
     "@eeacms/volto-freshwater",
     "@eeacms/volto-block-style",
     "@eeacms/volto-datablocks",
-    "@eeacms/volto-plotlycharts"
+    "@eeacms/volto-plotlycharts",
+    "@eeacms/volto-slate-dataentity",
+    "@eeacms/volto-taxonomy"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -85,6 +87,7 @@
     "@eeacms/volto-widgets-view": "1.0.3",
     "@kitconcept/volto-blocks-grid": "1.0.0",
     "@plone/volto": "plone/volto#slots_and_quanta",
+    "mrs-developer": "^1.4.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",

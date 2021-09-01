@@ -79,5 +79,19 @@
     "path": "src",
     "package": "@eeacms/volto-plotlycharts",
     "develop": true
+  },
+  "volto-slate-dataentity": {
+    "url": "https://github.com/eea/volto-slate-dataentity.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-slate-dataentity",
+    "develop": true
+  },
+  "volto-taxonomy": {
+    "url": "https://github.com/eea/volto-taxonomy.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-taxonomy",
+    "develop": true
   }
 }

@@ -42,6 +42,12 @@
             ],
             "@eeacms/volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
+            "@eeacms/volto-taxonomy": [
+                "addons/volto-taxonomy/src"
             ]
         },
         "baseUrl": "src"
