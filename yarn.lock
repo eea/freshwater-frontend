@@ -1406,10 +1406,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-3.0.1.tgz#94f0ec57fb67eca72db05534af11f130e166b000"
   integrity sha512-DcYodi31Ewfsb22+ItGDhKxA4oFz4Bw0j8cUX8U3fyZbTdIdUN+0v1p2C7mnRuxbvZAx8x+06e2PXbTzVrKoWQ==
 
-"@eeacms/volto-widgets-view@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-2.1.2.tgz#4e5ea7006ac980b3684566d02c497c47bd06ba65"
-  integrity sha512-nIvDHJjSQM8opmopSTy0+UXVsOiAhr5ZgPQRC+srPkjSj7PZjdYliYQjd+4dt5ddrQutPIQnrV7BUV7yUJDRiA==
+"@eeacms/volto-widgets-view@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-3.0.0.tgz#0a1ac5b4817a1c2c6e064a71796521ca17cf21d8"
+  integrity sha512-+xtU0+tiCrxkGzrlOQilIRV7j1eHxAb3+tQRLQ5x3UUxeY3VVt/PK8oSMiAs8YE466fad6ev2lNWpN1UZRIZBQ==
 
 "@emotion/babel-plugin@^11.0.0":
   version "11.1.2"
