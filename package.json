@@ -76,6 +76,7 @@
   "dependencies": {
     "@eeacms/volto-block-divider": "1.1.1",
     "@eeacms/volto-corsproxy": "1.0.1",
+    "@eeacms/volto-datablocks": "2.0.11",
     "@eeacms/volto-freshwater": "eea/volto-freshwater#master",
     "@eeacms/volto-matomo": "0.1.1",
     "@eeacms/volto-object-widget": "^2.2.0",
@@ -85,7 +86,6 @@
     "@eeacms/volto-widget-geolocation": "2.2.0",
     "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
-    "@eeacms/volto-datablocks": "2.0.11",
     "@kitconcept/volto-blocks-grid": "1.0.0",
     "@plone/volto": "plone/volto#slots_and_quanta",
     "mrs-developer": "^1.4.0",
