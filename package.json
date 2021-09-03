@@ -85,6 +85,7 @@
     "@eeacms/volto-widget-geolocation": "2.2.0",
     "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
+    "@eeacms/volto-datablocks": "2.0.11",
     "@kitconcept/volto-blocks-grid": "1.0.0",
     "@plone/volto": "plone/volto#slots_and_quanta",
     "mrs-developer": "^1.4.0",
