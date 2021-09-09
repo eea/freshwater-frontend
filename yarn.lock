@@ -1335,7 +1335,7 @@
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
 
-"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.1.2":
+"@eeacms/volto-corsproxy@*", "@eeacms/volto-corsproxy@2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
@@ -1393,12 +1393,12 @@
     "@eeacms/volto-resize-helper" "^0.2.2"
     tableau-api-js "github:eea/tableau-api-js#1.1.0"
 
-"@eeacms/volto-widget-geolocation@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.1.tgz#a86ded31db0627b925489317d31326286b0056c7"
-  integrity sha512-Y0RRX5K7ZxFYJbm2bCoksQ6/KNDw9ZLC0z+kUP+4JaGp5wAId2SjsSyyql5Lz+V4KifR05zfpOVRkrp/dyW4uA==
+"@eeacms/volto-widget-geolocation@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.2.tgz#701790d27054d62e6a7536ddf7a39f5104d32a12"
+  integrity sha512-lcVvku+jYg7K41ucInZYJvzawfZuQ59EIcrjOAZ9SuzF2uRGS/xeseDoUoxYOLQr96uqOpmxDgi/+ydEShkH3g==
   dependencies:
-    "@eeacms/volto-corsproxy" ">=2.1.2"
+    "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widget-temporal-coverage@3.0.1":
