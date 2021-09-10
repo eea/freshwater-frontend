@@ -28,12 +28,12 @@
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-tableau",
-    "@eeacms/volto-freshwater",
     "@eeacms/volto-block-style",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-slate-dataentity",
-    "@eeacms/volto-taxonomy"
+    "@eeacms/volto-taxonomy",
+    "@eeacms/volto-freshwater"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
