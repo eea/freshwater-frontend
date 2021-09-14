@@ -75,7 +75,7 @@
   },
   "volto-plotlycharts": {
     "url": "https://github.com/eea/volto-plotlycharts.git",
-    "branch": "develop",
+    "branch": "transform_filter",
     "path": "src",
     "package": "@eeacms/volto-plotlycharts",
     "develop": true
