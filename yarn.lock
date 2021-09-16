@@ -1398,10 +1398,10 @@
     "@eeacms/volto-resize-helper" "^0.2.2"
     tableau-api-js "github:eea/tableau-api-js#1.1.0"
 
-"@eeacms/volto-widget-geolocation@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.2.tgz#701790d27054d62e6a7536ddf7a39f5104d32a12"
-  integrity sha512-lcVvku+jYg7K41ucInZYJvzawfZuQ59EIcrjOAZ9SuzF2uRGS/xeseDoUoxYOLQr96uqOpmxDgi/+ydEShkH3g==
+"@eeacms/volto-widget-geolocation@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.3.tgz#0527af589009f96afeae65c10c89dcdcbf31f934"
+  integrity sha512-6kFfmeFpQfjrKw2xWpAKqedBSAoRa7+4KhilIpGxScPCn2qjahPG7Oht/+5L61BumNAaHjJrvYJ2qkltmKffwg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
