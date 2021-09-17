@@ -2001,6 +2001,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@collective/volto-bookmarks@collective/volto-bookmarks#master":
+  version "1.0.0"
+  resolved "https://codeload.github.com/collective/volto-bookmarks/tar.gz/17c25d987895f87e80719781bc47f4c566964492"
+  dependencies:
+    react-overridable "^0.0.3"
+    react-searchkit "1.0.0-alpha.14"
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -2128,15 +2135,15 @@
   dependencies:
     react-beautiful-dnd "13.0.0"
 
+"@eeacms/volto-corsproxy@*", "@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@^2.0.0":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
+  integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
+
 "@eeacms/volto-corsproxy@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
   integrity sha512-peAEg795qMtSfnJtjluLTzlXBvjd1xwJ/ml8ThXd7NOcVWAeE/0qIcp3rSwE4PZ/uh5cnNRSsselgyy9utohEA==
-
-"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.1.2", "@eeacms/volto-corsproxy@^2.0.0":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
-  integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
 
 "@eeacms/volto-freshwater@eea/volto-freshwater#master":
   version "0.1.1"
@@ -2160,6 +2167,11 @@
   integrity sha512-0DVFRW7C5Q8fy3jY8Kf0IxTHS1cAGuw1iDJuM1jMiRxWK8DA80XoX4vB0hqlOtXzhtcZc553PTDDyKFL2Hxk3A==
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
+
+"@eeacms/volto-object-widget@^2.0.0", "@eeacms/volto-object-widget@^2.2.0":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.2.3.tgz#38f3bff8d71486d97fa99f0ca5912ad4141a2033"
+  integrity sha512-u4xLyASXvSrsG2b0QTRitOjuIfNoXjMRuaAo0oNyJLETuLj73qyLR3TsSDG//2VmBIklB/ca/7Xl7ncHaaJF1A==
 
 "@eeacms/volto-resize-helper@*":
   version "0.2.4"
@@ -2651,16 +2663,6 @@
     "@types/node" "*"
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
-
-"@kitconcept/volto-blocks-grid@*":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-2.2.0.tgz#521fba6037625b2184301786d1b1d438e4625c06"
-  integrity sha512-ObzY9tKv0LCZigZ4Fm6WN4QbkBRr/8BrSfl5cjxbztE1YYixyYd/Ds3hzVcYbrHfv6LBMOfVdqnulTuRysHIdw==
-
-"@kitconcept/volto-blocks-grid@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-1.0.0.tgz#a20321ceb32c7e9ead2923a234ee0b257549b881"
-  integrity sha512-EbUNnqYLnKiuxBP31mM0nncBdOl7mvQbXH1B2VsK+oExrRpGUeyxjE/O+q1B8XGKqo5FxwQRMPkEMWGtFSGZGQ==
 
 "@loadable/babel-plugin@5.13.2":
   version "5.13.2"
@@ -7721,6 +7723,11 @@ deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+
+deep-freeze@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/deep-freeze/-/deep-freeze-0.0.1.tgz#3a0b0005de18672819dfd38cd31f91179c893e84"
+  integrity sha1-OgsABd4YZygZ39OM0x+RF5yJPoQ=
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -12902,6 +12909,16 @@ jest-jasmine2@^24.9.0:
     pretty-format "^24.9.0"
     throat "^4.0.0"
 
+jest-junit@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/jest-junit/-/jest-junit-8.0.0.tgz#d4f7ff67e292a5426dc60bc38694c9f77cb94178"
+  integrity sha512-cuD2XM2youMjrOxOu/7H2pLfsO8LfAG4D3WsBxd9fFyI9U0uPpmr/CORH64kbIyZ47X5x1Rbzb9ovUkAEvhEEA==
+  dependencies:
+    jest-validate "^24.0.0"
+    mkdirp "^0.5.1"
+    strip-ansi "^4.0.0"
+    xml "^1.0.1"
+
 jest-leak-detector@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-24.9.0.tgz#b665dea7c77100c5c4f7dfcb153b65cf07dcf96a"
@@ -13099,7 +13116,7 @@ jest-util@^25.1.0, jest-util@^25.5.0:
     is-ci "^2.0.0"
     make-dir "^3.0.0"
 
-jest-validate@^24.9.0:
+jest-validate@^24.0.0, jest-validate@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-24.9.0.tgz#0775c55360d173cd854e40180756d4ff52def8ab"
   integrity sha512-HPIt6C5ACwiqSiwi+OfSSHbK8sG7akG8eATl+IPKaeIjtPOeBUd/g3J7DghugzxrGjI93qS/+RPKe1H6PqvhRQ==
@@ -18235,6 +18252,11 @@ react-outside-click-handler@^1.2.4:
     object.values "^1.1.0"
     prop-types "^15.7.2"
 
+react-overridable@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-overridable/-/react-overridable-0.0.3.tgz#1ee4339e4785b348665db8c43b6b4e4ffe467034"
+  integrity sha512-BlDKflgyXDAbSO1xST2gXw5ZYAnVoazhaOodzgQAFbtS6r2+qJGMfz3WQblrLWR57Tu7KYT2mKZ6a1o/zdAzKw==
+
 react-plotly.js@^2.3.0, react-plotly.js@^2.4.0, react-plotly.js@~2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/react-plotly.js/-/react-plotly.js-2.5.1.tgz#11182bf599ef11a0dbfcd171c6f5645535a2b486"
@@ -18348,6 +18370,11 @@ react-router@5.2.0:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
+
+react-searchkit@1.0.0-alpha.14:
+  version "1.0.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/react-searchkit/-/react-searchkit-1.0.0-alpha.14.tgz#02ac3f7486ca2861be7a41907221f6a3abbe38fb"
+  integrity sha512-IkfAecHiCkser1hbxKD9SmUx8E3SspTFfGffqoOAwLagVi28DurkcAoPphsX0o4E1ezAzKzDv7Tz8LiqTXgnUA==
 
 react-select-async-paginate@0.3.10:
   version "0.3.10"
@@ -19030,7 +19057,7 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
-release-it@*:
+release-it@*, release-it@^14.6.1:
   version "14.11.5"
   resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.11.5.tgz#1d705d458463ab55f86c286239ccf0303fcbab40"
   integrity sha512-9BaPdq7ZKOwtzz3p1mRhg/tOH/cT/y2tUnPYzUwQiVdj42JaGI1Vo2l3WbgK8ICsbFyrhc0tri1+iqI8OvkI1A==
@@ -23246,6 +23273,11 @@ xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
+
+xml@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
+  integrity sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
 
 xmlbuilder@8.2.x:
   version "8.2.2"

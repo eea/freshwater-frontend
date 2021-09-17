@@ -48,6 +48,9 @@
             ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
+            ],
+            "@collective/volto-bookmarks": [
+                "addons/volto-bookmarks/src"
             ]
         },
         "baseUrl": "src"

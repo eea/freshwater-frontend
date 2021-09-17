@@ -12,6 +12,7 @@
   ],
   "addons": [
     "@kitconcept/volto-blocks-grid",
+    "@collective/volto-bookmarks",
     "volto-slate:asDefault",
     "volto-embed",
     "@eeacms/volto-object-widget",
@@ -87,6 +88,7 @@
     "@eeacms/volto-widget-temporal-coverage": "2.1.0",
     "@eeacms/volto-widgets-view": "1.0.3",
     "@kitconcept/volto-blocks-grid": "1.0.0",
+    "@collective/volto-bookmarks": "collective/volto-bookmarks#master",
     "@plone/volto": "plone/volto#slots_and_quanta",
     "mrs-developer": "^1.4.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",

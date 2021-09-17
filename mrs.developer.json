@@ -93,5 +93,12 @@
     "path": "src",
     "package": "@eeacms/volto-taxonomy",
     "develop": true
+  },
+  "volto-bookmarks": {
+    "url": "https://github.com/collective/volto-bookmarks.git",
+    "branch": "master",
+    "path": "src",
+    "package": "@collective/volto-bookmarks",
+    "develop": true
   }
 }
