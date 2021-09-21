@@ -34,6 +34,7 @@
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-taxonomy",
+    "@eeacms/volto-group-block",
     "@eeacms/volto-freshwater"
   ],
   "scripts": {

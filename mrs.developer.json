@@ -94,6 +94,13 @@
     "package": "@eeacms/volto-taxonomy",
     "develop": true
   },
+  "volto-group-block": {
+    "url": "https://github.com/eea/volto-group-block.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-group-block",
+    "develop": true
+  },
   "volto-bookmarks": {
     "url": "https://github.com/collective/volto-bookmarks.git",
     "branch": "master",

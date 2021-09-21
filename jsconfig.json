@@ -49,6 +49,9 @@
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
             ],
+            "@eeacms/volto-group-block": [
+                "addons/volto-group-block/src"
+            ],
             "@collective/volto-bookmarks": [
                 "addons/volto-bookmarks/src"
             ]
