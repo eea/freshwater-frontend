@@ -15,6 +15,7 @@
     "@collective/volto-bookmarks",
     "volto-slate:asDefault",
     "volto-embed",
+    "@eeacms/volto-slate-footnote",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-corsproxy",

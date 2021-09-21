@@ -1,9 +1,4 @@
 {
-  "volto-slate": {
-    "url": "https://github.com/eea/volto-slate.git",
-    "path": "src",
-    "branch": "develop"
-  },
   "volto-slate-footnote": {
     "url": "https://github.com/eea/volto-slate-footnote.git",
     "package": "@eeacms/volto-slate-footnote",

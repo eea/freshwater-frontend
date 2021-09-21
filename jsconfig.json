@@ -25,9 +25,6 @@
             "volto-block-toc": [
                 "addons/volto-block-toc/src"
             ],
-            "volto-slate": [
-                "addons/volto-slate/src"
-            ],
             "@eeacms/volto-slate-footnote": [
                 "addons/volto-slate-footnote/src"
             ],
