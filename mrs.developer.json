@@ -1,41 +1,44 @@
 {
+  "volto-slate-footnote": {
+    "url": "https://github.com/eea/volto-slate-footnote.git",
+    "package": "@eeacms/volto-slate-footnote",
+    "path": "src",
+    "branch": "develop"
+  },
   "volto-freshwater": {
     "url": "https://github.com/eea/volto-freshwater.git",
     "package": "@eeacms/volto-freshwater",
-    "path": "src"
+    "path": "src",
+    "branch": "develop"
   },
   "volto-block-image-cards": {
     "url": "https://github.com/eea/volto-block-image-cards.git",
     "package": "volto-block-image-cards",
-    "path": "src"
+    "path": "src",
+    "branch": "develop"
   },
-
   "volto-block-toc": {
     "url": "https://github.com/eea/volto-block-toc.git",
     "package": "volto-block-toc",
     "path": "src",
     "branch": "develop"
   },
-
   "volto-object-widget": {
     "url": "https://github.com/eea/volto-object-widget.git",
     "package": "volto-object-widget",
     "path": "src"
   },
-
   "volto-columns-block": {
     "url": "https://github.com/eea/volto-columns-block.git",
     "package": "volto-columns-block",
     "path": "src",
     "branch": "develop"
   },
-
   "volto-columns-tabs-block": {
     "url": "https://github.com/eea/volto-columns-tabs-block.git",
     "package": "volto-columns-tabs-block",
     "path": "src"
   },
-
   "volto-tabs-block": {
     "url": "https://github.com/eea/volto-tabs-block.git",
     "package": "volto-tabs-block",
@@ -46,18 +49,69 @@
     "url": "https://github.com/eea/volto-embed.git",
     "path": "src"
   },
-
   "volto-block-style": {
     "url": "https://github.com/eea/volto-block-style.git",
     "package": "volto-block-style",
     "path": "src",
     "branch": "develop"
   },
-
   "volto-tableau": {
     "url": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
     "path": "src",
-    "branch": "master"
+    "branch": "renderprop"
+  },
+  "volto-widget-temporal-coverage": {
+    "url": "https://github.com/eea/volto-widget-temporal-coverage.git",
+    "package": "@eeacms/volto-widget-temporal-coverage",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-widget-geolocation": {
+    "url": "https://github.com/eea/volto-widget-geolocation.git",
+    "package": "@eeacms/volto-widget-geolocation",
+    "path": "src"
+  },
+  "volto-datablocks": {
+    "url": "https://github.com/eea/volto-datablocks.git",
+    "branch": "fix_volto_13",
+    "path": "src",
+    "package": "@eeacms/volto-datablocks",
+    "develop": true
+  },
+  "volto-plotlycharts": {
+    "url": "https://github.com/eea/volto-plotlycharts.git",
+    "branch": "transform_filter",
+    "path": "src",
+    "package": "@eeacms/volto-plotlycharts",
+    "develop": true
+  },
+  "volto-slate-dataentity": {
+    "url": "https://github.com/eea/volto-slate-dataentity.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-slate-dataentity",
+    "develop": true
+  },
+  "volto-taxonomy": {
+    "url": "https://github.com/eea/volto-taxonomy.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-taxonomy",
+    "develop": true
+  },
+  "volto-group-block": {
+    "url": "https://github.com/eea/volto-group-block.git",
+    "branch": "develop",
+    "path": "src",
+    "package": "@eeacms/volto-group-block",
+    "develop": true
+  },
+  "volto-bookmarks": {
+    "url": "https://github.com/collective/volto-bookmarks.git",
+    "branch": "master",
+    "path": "src",
+    "package": "@collective/volto-bookmarks",
+    "develop": true
   }
 }

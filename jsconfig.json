@@ -25,8 +25,38 @@
             "volto-block-toc": [
                 "addons/volto-block-toc/src"
             ],
+            "@eeacms/volto-slate-footnote": [
+                "addons/volto-slate-footnote/src"
+            ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
+            ],
+            "@eeacms/volto-widget-temporal-coverage": [
+                "addons/volto-widget-temporal-coverage/src"
+            ],
+            "@eeacms/volto-widget-geolocation": [
+                "addons/volto-widget-geolocation/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-slate-dataentity": [
+                "addons/volto-slate-dataentity/src"
+            ],
+            "@eeacms/volto-taxonomy": [
+                "addons/volto-taxonomy/src"
+            ],
+            "@eeacms/volto-group-block": [
+                "addons/volto-group-block/src"
+            ],
+            "@collective/volto-bookmarks": [
+                "addons/volto-bookmarks/src"
             ]
         },
         "baseUrl": "src"
