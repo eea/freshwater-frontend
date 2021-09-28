@@ -13,7 +13,6 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@kitconcept/volto-blocks-grid",
-    "@collective/volto-bookmarks",
     "@eeacms/volto-embed",
     "@eeacms/volto-tableau",
     "@eeacms/volto-datablocks",
@@ -65,7 +64,6 @@
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "2.0.2",
     "@kitconcept/volto-blocks-grid": "1.0.0",
-    "@collective/volto-bookmarks": "collective/volto-bookmarks#master",
     "@eeacms/volto-embed": "2.0.3",
     "@eeacms/volto-tableau": "1.2.3",
     "@eeacms/volto-datablocks": "2.0.11",
