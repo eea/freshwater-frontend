@@ -54,7 +54,7 @@
             ],
             "@eeacms/volto-group-block": [
                 "addons/volto-group-block/src"
-            ],
+            ]
         },
         "baseUrl": "src"
     }
