@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "@eeacms/volto-datablocks": "2.0.11",
-    "@eeacms/volto-eea-kitkat": "2.0.2",
+    "@eeacms/volto-eea-kitkat": "4.0.0",
     "@eeacms/volto-embed": "2.0.4",
     "@eeacms/volto-freshwater": "eea/volto-freshwater#master",
     "@eeacms/volto-plotlycharts": "2.0.5",
