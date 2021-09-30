@@ -66,7 +66,7 @@
     "@eeacms/volto-eea-kitkat": "4.0.0",
     "@eeacms/volto-embed": "2.0.4",
     "@eeacms/volto-freshwater": "eea/volto-freshwater#master",
-    "@eeacms/volto-plotlycharts": "2.0.5",
+    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#transform_filter",
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#master",
     "@eeacms/volto-tableau": "1.2.3",
     "@kitconcept/volto-blocks-grid": "1.0.0",
