@@ -1711,16 +1711,9 @@
   dependencies:
     react-color "~2.18.1"
 
-<<<<<<< HEAD
 "@eeacms/volto-block-image-cards@0.1.4", "@eeacms/volto-block-image-cards@github:eea/volto-block-image-cards#develop":
   version "0.1.4"
   resolved "https://codeload.github.com/eea/volto-block-image-cards/tar.gz/ca03c268578b32e7c273524322c278aea65880fd"
-=======
-"@eeacms/volto-block-image-cards@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.1.4.tgz#1d4ebdaee335a33c1294067eeb4dba0e4458fd29"
-  integrity sha512-mdWJ8RnCGP8AP9hgXp8KoaRix3/R1chuMcLMD0uSzj1MdZpSmq6WyOPR9mMCKqHVwG/+2ihcOz5jLTIn2KMaIQ==
->>>>>>> 0c277c65ffb5b3d4f32b544a1912a75eaa821153
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-lazy-load-image-component "^1.4.0"
@@ -1869,7 +1862,6 @@
   dependencies:
     volto-datablocks eea/volto-datablocks#master
 
-<<<<<<< HEAD
 "@eeacms/volto-slate-footnote@4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-4.0.2.tgz#fafe89705badf0ed398fb0b1e8c90eeafa1ac12b"
@@ -1880,12 +1872,6 @@
 "@eeacms/volto-slate-footnote@github:eea/volto-slate-footnote#develop":
   version "4.0.2"
   resolved "https://codeload.github.com/eea/volto-slate-footnote/tar.gz/957737823aadf63229caaa006015dd2e647f9355"
-=======
-"@eeacms/volto-slate-footnote@*", "@eeacms/volto-slate-footnote@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-4.0.2.tgz#fafe89705badf0ed398fb0b1e8c90eeafa1ac12b"
-  integrity sha512-e2UKWieXNDQ3Ib4sic3jF8xZGbVB55adOuTk9fMfGcAFyvOHFjFqq46FVPSdjbs2OOn0Ma5oqGx7OXjIyQxvxQ==
->>>>>>> 0c277c65ffb5b3d4f32b544a1912a75eaa821153
   dependencies:
     volto-slate "*"
 
@@ -21898,17 +21884,10 @@ volto-datablocks@eea/volto-datablocks#master:
     sanitize-html "^2.3.3"
     slate "0.63.0"
 
-<<<<<<< HEAD
 volto-slate@2.9.1, volto-slate@^2.6.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.9.1.tgz#d4ed326470570a5b81c3dbd65e2aa9acf936184e"
   integrity sha512-ZCqMnIv+qHOsMgespqLwDKvAqSbrflGXF1MFTABbCgpEAA7dw/9SGaCR1Sa5uZbYs8kb24PR7esBCKs2JszQkg==
-=======
-volto-slate@*, volto-slate@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.0.3.tgz#0edeccd1da03fbfd3540da49e73795ba2e42e644"
-  integrity sha512-z/CEvZ4Rn7s4TpdIXAiODlE17cSOmNASqO0fWcTWAdAg2B67ZHe5EAZgRmKUyZsSaaRU1ObLOD7oP44P+TiyJA==
->>>>>>> 0c277c65ffb5b3d4f32b544a1912a75eaa821153
   dependencies:
     "@eeacms/volto-object-widget" ">=2.2.3"
     classnames "2.2.6"
