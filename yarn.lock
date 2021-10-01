@@ -1368,13 +1368,6 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@github:eea/volto-block-style#develop":
-  version "3.5.0"
-  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/8b20d02f809e456af84aaea5ad74115c00e39c3e"
-  dependencies:
-    "@eeacms/volto-resize-helper" "*"
-    react-color "~2.18.1"
-
 "@eeacms/volto-columns-block@github:eea/volto-columns-block#develop":
   version "4.4.5"
   resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/35aa79635a03778819365873fdad2937e79b4f5f"
@@ -1440,17 +1433,10 @@
   resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/12c139485cf2d26a69c38745beac79f8f63f5fd0"
   dependencies:
     "@eeacms/volto-block-style" "^3.3.0"
-    "@eeacms/volto-datablocks" "2.0.11"
-    "@eeacms/volto-group-block" "*"
-    "@eeacms/volto-plotlycharts" "*"
     "@eeacms/volto-resize-helper" "^0.2.0"
     "@kitconcept/volto-blocks-grid" "*"
     react-lazy-load-image-component "^1.4.0"
     volto-slate "^2.6.1"
-
-"@eeacms/volto-group-block@eea/volto-group-block#develop":
-  version "4.3.0"
-  resolved "https://codeload.github.com/eea/volto-group-block/tar.gz/ff8889cb7b0761b1df43b201984ce40b14e1561b"
 
 "@eeacms/volto-listing-block@0.1.2":
   version "0.1.2"
@@ -1470,10 +1456,6 @@
   integrity sha512-w6HeUdign9We37UZPLkhCV0KJkh2c8b4PZYY/+eiprUJfCxw8OaZmMqOJMVWhLSdR7n1ePQ+wcnc+1qIVIOSwA==
   dependencies:
     "@eeacms/volto-widgets-view" "*"
-
-"@eeacms/volto-object-widget@github:eea/volto-object-widget":
-  version "3.0.0"
-  resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/952ef2eedf97f13df9cf5a58aa8e99d82a619f2f"
 
 "@eeacms/volto-plotlycharts@github:eea/volto-plotlycharts#transform_filter":
   version "2.0.6"
@@ -1503,8 +1485,7 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-slate-dataentity/tar.gz/fef8aefda26d9505544920832a8b323dfd63d4c1"
   dependencies:
-    "@eeacms/volto-datablocks" "^2.0.2"
-    volto-slate "^2.5.0"
+    volto-datablocks eea/volto-datablocks#master
 
 "@eeacms/volto-slate-footnote@4.0.2":
   version "4.0.2"
