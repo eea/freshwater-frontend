@@ -160,6 +160,9 @@ pipeline {
     
     stage('Upgrade demo ( on tag )') {
       when {
+        not {
+          environment name: 'RANCHER_STACKID', value: ''
+        }
         buildingTag()
       }
       steps {
