@@ -74,7 +74,7 @@
     "@eeacms/volto-freshwater": "eea/volto-freshwater#develop",
     "@eeacms/volto-group-block": "4.3.0",
     "@eeacms/volto-object-widget": "3.0.0",
-    "@eeacms/volto-plotlycharts": "2.0.6",
+    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#transform_filter",
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#develop",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@kitconcept/volto-blocks-grid": "1.0.0",
