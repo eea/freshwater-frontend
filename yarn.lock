@@ -1368,12 +1368,6 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-columns-block@github:eea/volto-columns-block#develop":
-  version "4.4.5"
-  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/35aa79635a03778819365873fdad2937e79b4f5f"
-  dependencies:
-    react-color "~2.18.1"
-
 "@eeacms/volto-corsproxy@*", "@eeacms/volto-corsproxy@2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
@@ -1491,12 +1485,6 @@
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-4.0.2.tgz#fafe89705badf0ed398fb0b1e8c90eeafa1ac12b"
   integrity sha512-e2UKWieXNDQ3Ib4sic3jF8xZGbVB55adOuTk9fMfGcAFyvOHFjFqq46FVPSdjbs2OOn0Ma5oqGx7OXjIyQxvxQ==
-  dependencies:
-    volto-slate "*"
-
-"@eeacms/volto-slate-footnote@github:eea/volto-slate-footnote#develop":
-  version "4.0.2"
-  resolved "https://codeload.github.com/eea/volto-slate-footnote/tar.gz/957737823aadf63229caaa006015dd2e647f9355"
   dependencies:
     volto-slate "*"
 
@@ -21657,6 +21645,18 @@ vm-browserify@^1.0.0, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+volto-datablocks@eea/volto-datablocks#master:
+  version "2.0.12"
+  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/b729e039e77b11ec53bf9d59296516eb6777edec"
+  dependencies:
+    "@eeacms/volto-embed" "^2.0.1"
+    humanize-plus "^1.8.2"
+    performant-array-to-tree "^1.7.1"
+    plotly.js "1.57.0"
+    react-plotly.js "~2.5.0"
+    sanitize-html "^2.3.3"
+    slate "0.63.0"
+
 volto-slate@2.9.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.9.1.tgz#d4ed326470570a5b81c3dbd65e2aa9acf936184e"
@@ -21693,7 +21693,7 @@ volto-slate@4.0.3:
     slate-react "^0.62.0"
     weak-key "^1.0.2"
 
-volto-slate@^2.5.0, volto-slate@^2.6.1:
+volto-slate@^2.6.1:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.9.3.tgz#57c1763abbdde1b2648c91fcae059f189cb649b4"
   integrity sha512-D1DrIoOY/qCd3bvaGYn/N/Pv/ngYoWQbqDEvgXG6ti6m8NleR/FPAC0FiRTx/uL/PpY2KT5HN9eOiUKFdfiCEw==
