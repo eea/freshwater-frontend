@@ -12,32 +12,10 @@
  * }
  */
 
-import {
-  settings as defaultSettings,
-  views as defaultViews,
-  widgets as defaultWidgets,
-  blocks as defaultBlocks,
-  addonReducers as defaultAddonReducers,
-  addonRoutes as defaultAddonRoutes,
-} from '@plone/volto/config';
+// All your imports required for the config here BEFORE this line
+import '@plone/volto/config';
 
-export const settings = {
-  ...defaultSettings,
-};
-
-export const views = {
-  ...defaultViews,
-};
-
-export const widgets = {
-  ...defaultWidgets,
-};
-
-export const blocks = {
-  ...defaultBlocks,
-};
-
-export const addonRoutes = [...defaultAddonRoutes];
-export const addonReducers = { ...defaultAddonReducers };
-
-export const portlets = {};
+export default function applyConfig(config) {
+  // Add here your project's configuration here by modifying `config` accordingly
+  return config;
+}
