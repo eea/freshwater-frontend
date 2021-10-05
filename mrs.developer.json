@@ -106,12 +106,5 @@
     "path": "src",
     "package": "@eeacms/volto-group-block",
     "develop": true
-  },
-  "volto-bookmarks": {
-    "url": "https://github.com/collective/volto-bookmarks.git",
-    "branch": "master",
-    "path": "src",
-    "package": "@collective/volto-bookmarks",
-    "develop": true
   }
 }
