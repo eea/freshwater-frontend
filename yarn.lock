@@ -1420,9 +1420,6 @@
   resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/5caba2dc7b5d58bad2b2721e2ca15c0f86d68a10"
   dependencies:
     "@eeacms/volto-block-style" "^3.3.0"
-    "@eeacms/volto-datablocks" "2.0.11"
-    "@eeacms/volto-group-block" "*"
-    "@eeacms/volto-plotlycharts" "*"
     "@eeacms/volto-resize-helper" "^0.2.0"
     "@kitconcept/volto-blocks-grid" "*"
     react-lazy-load-image-component "^1.4.0"
@@ -1475,8 +1472,7 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-slate-dataentity/tar.gz/fef8aefda26d9505544920832a8b323dfd63d4c1"
   dependencies:
-    "@eeacms/volto-datablocks" "^2.0.2"
-    volto-slate "^2.5.0"
+    volto-datablocks eea/volto-datablocks#master
 
 "@eeacms/volto-slate-metadata-mentions@4.0.0":
   version "4.0.0"
@@ -2214,9 +2210,9 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@plone/volto#slots_and_quanta":
+"@plone/volto@plone/volto#slots_quanta_split":
   version "14.0.0-alpha.14"
-  resolved "https://codeload.github.com/plone/volto/tar.gz/037f4d1e51ef67f64eb02e79defca0caa2fbc55a"
+  resolved "https://codeload.github.com/plone/volto/tar.gz/2d8f943a8c82795b2068b58a2a7c07c56fd41d80"
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
