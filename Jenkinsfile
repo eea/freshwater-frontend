@@ -1,10 +1,12 @@
 pipeline {
   environment {
-    GIT_NAME = "freshwater-frontend"
     registry = "eeacms/freshwater-frontend"
     template = "templates/volto-freshwater"
-    dockerImage = ''
-    tagName = ''
+    RANCHER_STACKID = "1st2083"
+    RANCHER_ENVID = "1a333018"
+    dockerImage = ""
+    tagName = ""
+    GIT_NAME = "freshwater-frontend"
     SONARQUBE_TAG = ""
   }
 
