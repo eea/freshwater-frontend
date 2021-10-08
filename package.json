@@ -16,13 +16,11 @@
     "@eeacms/volto-embed",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-tableau",
-    "@kitconcept/volto-blocks-grid",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-block-style",
     "@eeacms/volto-group-block",
-    "@eeacms/volto-freshwater",
-    "@eeacms/volto-widget-temporal-coverage"
+    "@eeacms/volto-freshwater"
   ],
   "scripts": {
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -76,10 +74,8 @@
     "@eeacms/volto-object-widget": "3.0.0",
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#develop",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
-    "@kitconcept/volto-blocks-grid": "1.0.0",
     "@plone/volto": "plone/volto#slots_quanta_split",
     "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#transform_filter",
-    "@eeacms/volto-widget-temporal-coverage": "4.0.0",
     "mrs-developer": "^1.4.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",

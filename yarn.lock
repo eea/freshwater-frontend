@@ -1426,8 +1426,8 @@
     volto-slate "2.9.1"
 
 "@eeacms/volto-freshwater@github:eea/volto-freshwater#develop":
-  version "0.1.2"
-  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/c7b0ff2ece625f74311e33f168fd8b6dac2fb434"
+  version "0.1.3"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/d2a110ebb861019c7c1eff92811b1d963621ddd1"
   dependencies:
     "@eeacms/volto-block-style" "^3.3.0"
     "@eeacms/volto-datablocks" "2.0.11"
@@ -1963,11 +1963,6 @@
   integrity sha512-YIodtGN/8DfCR14ZFW2pPEWy7uMc99lTsiot86Zli8RAemZzh9nXSWusPpIWbbCB46BiuQvAYwDFtk3pXNrSsg==
   dependencies:
     "@plone/scripts" "1.0.2"
-
-"@kitconcept/volto-blocks-grid@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-1.0.0.tgz#a20321ceb32c7e9ead2923a234ee0b257549b881"
-  integrity sha512-EbUNnqYLnKiuxBP31mM0nncBdOl7mvQbXH1B2VsK+oExrRpGUeyxjE/O+q1B8XGKqo5FxwQRMPkEMWGtFSGZGQ==
 
 "@loadable/babel-plugin@5.13.2":
   version "5.13.2"
