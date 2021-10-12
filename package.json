@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -69,7 +69,7 @@
     "@eeacms/volto-columns-block": "4.4.5",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13",
     "@eeacms/volto-eea-kitkat": "4.0.2",
-    "@eeacms/volto-embed": "2.0.5",
+    "@eeacms/volto-embed": "2.0.6",
     "@eeacms/volto-group-block": "4.3.1",
     "@eeacms/volto-object-widget": "3.0.0",
     "@eeacms/volto-slate-dataentity": "github:eea/volto-slate-dataentity#develop",
@@ -90,7 +90,7 @@
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
     "webpack-bundle-analyzer": "^3.6.1",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#develop"
+    "@eeacms/volto-freshwater": "0.1.4"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
