@@ -1361,9 +1361,9 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-columns-block@github:eea/volto-columns-block#develop":
+"@eeacms/volto-columns-block@github:eea/volto-columns-block#4.4.6.beta.2":
   version "4.4.5"
-  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/0e4783f44d87c526dc0535874f75d41a85c5cf12"
+  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/22f2bdebd4f87030229ab42a0af27be6971dbd14"
   dependencies:
     react-color "~2.18.1"
 
@@ -1469,9 +1469,9 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-plotlycharts@github:eea/volto-plotlycharts#transform_filter":
+"@eeacms/volto-plotlycharts@github:eea/volto-plotlycharts#2.0.9.beta.1":
   version "2.0.6"
-  resolved "https://codeload.github.com/eea/volto-plotlycharts/tar.gz/df12a98e600aaec822619626cc3d4d0c240f90aa"
+  resolved "https://codeload.github.com/eea/volto-plotlycharts/tar.gz/3585d8958931468998851c36c8c1a2dccbd715d3"
   dependencies:
     "@eeacms/volto-datablocks" "^2.0.2"
     plotly.js "^1.51.2"
