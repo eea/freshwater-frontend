@@ -1203,10 +1203,9 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-columns-block@4.4.5":
+"@eeacms/volto-columns-block@4.4.5", "@eeacms/volto-columns-block@github:eea/volto-columns-block#develop":
   version "4.4.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.5.tgz#f32b3e8b8b76d765e2ccec2cac9d141d74e61870"
-  integrity sha512-62PBqpUiO2Wxvz8Q4xlcJRtbq2tfesCL2NLywvIDpStqa1Zau7Y6X1t+T6qimo12P6/yrne0hUbkLVwcsloFfw==
+  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/0e4783f44d87c526dc0535874f75d41a85c5cf12"
   dependencies:
     react-color "~2.18.1"
 
@@ -1278,20 +1277,19 @@
     "@eeacms/volto-widgets-view" "3.0.0"
     volto-slate "4.0.3"
 
-"@eeacms/volto-embed@2.0.6", "@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.6.tgz#fca9c902b7be5ee5b30bd84a811e5b59bf2d8dde"
-  integrity sha512-MZNpOzffQqgireMZBguBjxcxWAas1P9AEPd77y63F0/mGea8CpaP97KBvAD6j1YpAI4g9QAyXAfUL9XF1ynV5Q==
+"@eeacms/volto-embed@2.0.7", "@eeacms/volto-embed@^2.0.1", "@eeacms/volto-embed@^2.0.4":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.7.tgz#549e1cedc575d1bdcc18b10a454e637ef4557160"
+  integrity sha512-btWamQFuM+dJyZ4eAzyahRXOyIHtniz1wALdr8FS6gOQ2cGlhkYAO9StTFgFf38McfntbRkOYZo31M6/83OyyA==
   dependencies:
     "@eeacms/volto-corsproxy" "2.1.2"
     "@eeacms/volto-datablocks" "*"
     react-visibility-sensor "5.1.1"
     volto-slate "2.9.1"
 
-"@eeacms/volto-freshwater@0.1.4":
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#develop":
   version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.4.tgz#51625572285698765ef9416b4cbf5e7232b34cd2"
-  integrity sha512-9gtd8Ha9u+Eo4gpbRoJy7Zkk5ZhcGzGs9tu0VaQor21disd9b/TwhbL4CRppgTXK8X7aKYLYYYC4+Qv724awkg==
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/9a2c5078168eec9600053675ae2ae2924e3080af"
   dependencies:
     "@eeacms/volto-block-style" "^3.3.0"
     "@eeacms/volto-columns-block" "4.4.5"
