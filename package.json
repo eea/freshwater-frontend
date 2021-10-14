@@ -88,8 +88,8 @@
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
     "webpack-bundle-analyzer": "^3.6.1",
-    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#2.0.9.beta.1",
     "@eeacms/volto-columns-block": "github:eea/volto-columns-block#4.4.6.beta.2",
+    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#2.0.9.beta.1",
     "@eeacms/volto-freshwater": "github:eea/volto-freshwater#develop"
   },
   "devDependencies": {
