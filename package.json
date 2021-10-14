@@ -20,7 +20,6 @@
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-block-style",
     "@eeacms/volto-group-block",
-    "@eeacms/volto-arcgis-block",
     "@eeacms/volto-freshwater"
   ],
   "scripts": {
@@ -65,7 +64,6 @@
     "release-beta": "release-it --preRelease=beta"
   },
   "dependencies": {
-    "@eeacms/volto-arcgis-block": "*",
     "@eeacms/volto-block-image-cards": "github:eea/volto-block-image-cards#develop",
     "@eeacms/volto-block-style": "3.5.0",
     "@eeacms/volto-columns-block": "github:eea/volto-columns-block#develop",
