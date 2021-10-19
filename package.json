@@ -40,7 +40,7 @@
     "cypress:run:local": "NODE_ENV=development CYPRESS_API=plone CYPRESS_RETRIES=2 cypress open",
     "develop": "missdev --config=jsconfig.json --output=addons",
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
-    "i18n": "NODE_ENV=production node src/i18n.js",
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx}'",
     "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx}'",
     "omelette": "ln -sf node_modules/@plone/volto/ omelette",
@@ -90,6 +90,7 @@
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
     "webpack-bundle-analyzer": "^3.6.1",
+    "@plone/scripts": "*",
     "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.1"
   },
   "devDependencies": {
