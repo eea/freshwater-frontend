@@ -37,7 +37,6 @@ export const setupBeforeEach = () => {
     contentTitle: 'My Page',
     path: 'cypress',
   });
-  cy.wait(500);
   cy.visit('/cypress/my-page');
   cy.waitForResourceToLoad('@navigation');
   cy.waitForResourceToLoad('@breadcrumbs');
