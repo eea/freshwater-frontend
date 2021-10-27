@@ -42,7 +42,7 @@
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
     "webpack-bundle-analyzer": "^3.6.1",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.2"
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.3"
   },
   "devDependencies": {
     "mrs-developer": "^1.4.0",
