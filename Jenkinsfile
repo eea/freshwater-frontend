@@ -2,7 +2,7 @@ pipeline {
   environment {
     registry = "eeacms/freshwater-frontend"
     template = "templates/volto-freshwater"
-    RANCHER_STACKID = "1st2083"
+    RANCHER_STACKID = "1st2345"
     RANCHER_ENVID = "1a333018"
     dockerImage = ""
     tagName = ""
