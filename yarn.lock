@@ -1424,7 +1424,9 @@
   version "0.1.4"
   resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/1d41a91729e67f23b3eec53224d492987591d63d"
   dependencies:
+    "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
+    "@eeacms/volto-block-toc" "*"
     "@eeacms/volto-columns-block" "4.4.5"
     "@eeacms/volto-datablocks" "2.0.11"
     "@eeacms/volto-group-block" "*"
@@ -1921,11 +1923,11 @@
     chalk "^4.0.0"
 
 "@kitconcept/volto-blocks-grid@*":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-2.3.0.tgz#be3ca664210ab48d4453c5e6f66ccd84fabc3f8b"
-  integrity sha512-YIodtGN/8DfCR14ZFW2pPEWy7uMc99lTsiot86Zli8RAemZzh9nXSWusPpIWbbCB46BiuQvAYwDFtk3pXNrSsg==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-2.4.0.tgz#ede7acb0ec62b275b79690934dfc79db452f1ba5"
+  integrity sha512-/PhFutQrLuL7yKn+f0VzNN7VWjfcl4zpvF3BuzgN7lBbe20YFh4IoloFgGnU353MvKkg71fP5qOF3aixDKVrVA==
   dependencies:
-    "@plone/scripts" "1.0.2"
+    "@plone/scripts" "1.0.3"
 
 "@loadable/babel-plugin@5.13.2":
   version "5.13.2"
@@ -2171,17 +2173,6 @@
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.0.3.tgz#ea3e5f29b6fcb8f088b32e43394d71748d5538b4"
   integrity sha512-wE0vsWpOI5jeoVJVP0T2IpBGz6wdlQrOqicK0EsC0+6hYqmPJb2cGUXNe0JhUDONF6Gi/Ubklcgd05Lpb2+bjA==
-  dependencies:
-    babel-plugin-react-intl "5.1.17"
-    babel-preset-razzle "3.4.5"
-    commander "8.2.0"
-    pofile "1.0.10"
-    razzle "3.4.5"
-
-"@plone/scripts@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.0.2.tgz#a069e6bfabc403ac13b194e1fc025ea5cf412792"
-  integrity sha512-EFTin2BUyXStmOxfoa8UM2RlJ8/KJT2z+eAN0s4e7A0DTmCEjfN48IYgyTTvRn2SEStBlW0sdn4T92IBuRR6FA==
   dependencies:
     babel-plugin-react-intl "5.1.17"
     babel-preset-razzle "3.4.5"
@@ -13280,9 +13271,9 @@ loader-utils@^1.0.3, loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4
     json5 "^1.0.1"
 
 loader-utils@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.1.tgz#3b8d4386f42378d6434d32d7bc08e7a52d39575e"
-  integrity sha512-g4miPa9uUrZz4iElkaVJgDFwKJGh8aQGM7pUL4ejXl6cu7kSb30seQOVGNMP6sW8j7DW77X68hJZ+GM7UGhXeQ==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.2.tgz#d6e3b4fb81870721ae4e0868ab11dd638368c129"
+  integrity sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==
   dependencies:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
