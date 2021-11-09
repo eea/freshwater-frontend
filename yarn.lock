@@ -1420,9 +1420,9 @@
     "@eeacms/volto-widgets-view" "3.0.0"
     volto-slate "4.2.1"
 
-"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.7":
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.8":
   version "0.1.4"
-  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/e7b5ed5b99da79e3a60b420d50488eaf853c496b"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/a5e6d3c60e7c91401f02d94a4c741dacf1f1fcb8"
   dependencies:
     "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
