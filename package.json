@@ -24,12 +24,11 @@
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13",
     "@eeacms/volto-eea-kitkat": "4.1.1",
     "@eeacms/volto-embed": "2.0.9",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.8",
-    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#2.0.9.beta.1",
     "@eeacms/volto-slate-dataentity": "^1.0.2",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@plone/scripts": "*",
     "@plone/volto": "plone/volto#slots_quanta_split",
+    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#2.0.9.beta.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-component-queries": "^2.3.0",
     "react-image-gallery": "^0.9.1",
@@ -42,7 +41,8 @@
     "react-stickynode": "^2.1.1",
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
-    "webpack-bundle-analyzer": "^3.6.1"
+    "webpack-bundle-analyzer": "^3.6.1",
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.8"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
