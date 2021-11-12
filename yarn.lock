@@ -1417,9 +1417,7 @@
   version "0.1.4"
   resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/a5e6d3c60e7c91401f02d94a4c741dacf1f1fcb8"
   dependencies:
-    "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
-    "@eeacms/volto-block-toc" "*"
     "@eeacms/volto-columns-block" "4.4.5"
     "@eeacms/volto-datablocks" "2.0.11"
     "@eeacms/volto-group-block" "*"
@@ -22014,22 +22012,22 @@ vm-browserify@^1.0.0, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.0.0.tgz#1bbcc9fede6f5349e03f9995467c0d9bb07439ec"
-  integrity sha512-MOYkNZFClwXVYKDELmCzvvDWxr7ZCnH+dvV52dPP3TI5V9ciImJu6Ip2Ja5LatMlQ/AmXTBchxE/ZW5VZcMyIg==
+volto-slate@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.2.1.tgz#5c8a3b0701cce6ebeed7aae2e35f7b88cad26c3b"
+  integrity sha512-RPJhj0/SScLB6rI2d6bwxNXWpGHoG9sj5J9kjRMl3DmN2b+hM38mr9mQmbG5Dm53GVm3A6k/KRvqBkTHxtRS4A==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
     image-extensions "1.1.0"
     is-url "1.2.4"
-    jsdom "^16.6.0"
+    jsdom "16.2.2"
     react-intersection-observer "^8.32.0"
     react-visibility-sensor "5.1.1"
-    slate "^0.66.5"
-    slate-history "^0.66.0"
-    slate-hyperscript "^0.66.0"
-    slate-react "^0.66.4"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
     weak-key "^1.0.2"
 
 volto-slate@^2.5.0, volto-slate@^2.6.1:
