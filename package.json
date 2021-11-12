@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13",
-    "@eeacms/volto-eea-kitkat": "4.1.1",
+    "@eeacms/volto-eea-kitkat": "4.1.2",
     "@eeacms/volto-embed": "2.0.9",
     "@eeacms/volto-slate-dataentity": "^1.0.2",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
