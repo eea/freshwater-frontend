@@ -1355,7 +1355,7 @@
   dependencies:
     "@eeacms/volto-widgets-view" "*"
 
-"@eeacms/volto-object-widget@*", "@eeacms/volto-object-widget@3.0.0":
+"@eeacms/volto-object-widget@*", "@eeacms/volto-object-widget@3.0.0", "@eeacms/volto-object-widget@>=2.2.3":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-3.0.0.tgz#caf99ec54bb39481a99937985f362f086c1c5fd5"
   integrity sha512-8ByONF12U35HKnsO6gKAxCxSe4xfSintAU7zE8zWEKgdtcIb+Jx78wpi6cy3p0C0YLUTnd2BGIXLqDSftKI+WA==
@@ -20549,6 +20549,24 @@ volto-slate@*, volto-slate@4.2.1:
   integrity sha512-RPJhj0/SScLB6rI2d6bwxNXWpGHoG9sj5J9kjRMl3DmN2b+hM38mr9mQmbG5Dm53GVm3A6k/KRvqBkTHxtRS4A==
   dependencies:
     "@eeacms/volto-object-widget" "*"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-intersection-observer "^8.32.0"
+    react-visibility-sensor "5.1.1"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
+    weak-key "^1.0.2"
+
+volto-slate@^2.5.0:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.9.3.tgz#57c1763abbdde1b2648c91fcae059f189cb649b4"
+  integrity sha512-D1DrIoOY/qCd3bvaGYn/N/Pv/ngYoWQbqDEvgXG6ti6m8NleR/FPAC0FiRTx/uL/PpY2KT5HN9eOiUKFdfiCEw==
+  dependencies:
+    "@eeacms/volto-object-widget" ">=2.2.3"
     classnames "2.2.6"
     image-extensions "1.1.0"
     is-url "1.2.4"
