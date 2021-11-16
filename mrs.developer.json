@@ -187,7 +187,7 @@
     "package": "@eeacms/volto-eea-kitkat",
     "branch": "develop",
     "path": "src"
-  }, 
+  },
   "volto-plotlycharts": {
     "url": "git@github.com:eea/volto-plotlycharts.git",
     "https": "https://github.com/eea/volto-plotlycharts.git",
@@ -213,7 +213,7 @@
     "url": "git@github.com:eea/volto-tableau.git",
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
-    "branch": "develop",
+    "branch": "renderprop",
     "path": "src"
   },
   "volto-slate-dataentity": {

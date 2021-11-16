@@ -19,7 +19,7 @@ pipeline {
      parallel {
        stage('Cypress') {
          when {
-           environment name: 'CHANGE_ID', value: ''           
+           environment name: 'CHANGE_ID', value: ''
          }
          steps {
            node(label: 'docker') {
@@ -48,7 +48,7 @@ pipeline {
            }
          }
        }
-    
+
        stage("Docker test build") {
             when {
               not {
@@ -75,12 +75,12 @@ pipeline {
               }
             }
          }
-          
-        
+
+
     }
    }
 
-    
+
     stage('Pull Request') {
       when {
         not {
@@ -103,7 +103,7 @@ pipeline {
       }
     }
 
-  
+
     stage('Release') {
       when {
         allOf {
@@ -146,7 +146,7 @@ pipeline {
         }
       }
     }
-    
+
     stage('Release catalog ( on tag )') {
       when {
         buildingTag()
@@ -159,7 +159,7 @@ pipeline {
         }
       }
     }
-    
+
     stage('Upgrade demo ( on tag )') {
       when {
         not {
