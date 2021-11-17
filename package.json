@@ -43,7 +43,7 @@
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
     "webpack-bundle-analyzer": "^3.6.1",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.16"
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.17"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
