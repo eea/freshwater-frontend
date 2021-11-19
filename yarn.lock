@@ -1209,10 +1209,10 @@
     slick-carousel "^1.8.1"
     volto-slate "*"
 
-"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.2", "@eeacms/volto-block-style@^3.3.0":
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.2.tgz#c009d804e237ff06db74ede55642641e4866cb9a"
-  integrity sha512-EIcJLJNF/YB2gzsqLq+diaKgE7Ne1E0VlOXKkF5/8nSX+O5ib26qwOkzKt/TZpyb8MjS/isUMFSHXXzjtp5zXA==
+"@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.3", "@eeacms/volto-block-style@^3.3.0":
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.3.tgz#b3d67ff797e0d40a75b54516b4eea68e6a25be95"
+  integrity sha512-PB81XmAWYi4WBSzCTnqBy/kJxR6BmNJriSNmXeIjFmp6ytv9lg43dGYa4mgd3Wk8NkJMW1cg09nxPy7605Ns9g==
   dependencies:
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
@@ -1234,9 +1234,9 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@^2.0.13", "@eeacms/volto-datablocks@^2.0.2", "@eeacms/volto-datablocks@github:eea/volto-datablocks#fix_volto_13_develop":
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@^2.0.13", "@eeacms/volto-datablocks@^2.0.2", "@eeacms/volto-datablocks@github:eea/volto-datablocks#fix_volto_13_develop_laszlo":
   version "2.0.15"
-  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/86a01a69ef8880311864846532e8d56c9e4fe89a"
+  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/21d34cc9df8eb6468a3723d803fd77c2d69595a7"
   dependencies:
     "@eeacms/volto-embed" "^2.0.4"
     "@eeacms/volto-matomo" "^2.0.2"
@@ -1253,16 +1253,16 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.2.tgz#59dc808f75dc24c0134bbdc90b0c59783f1b6339"
   integrity sha512-th4QKuoPyGPnwZbJMU97IsaEColqPju3RKZSTo3ssJgltSNWa7FVUiWN8aASRnHvVc/PloiEbn2sE9/nhGyxMA==
 
-"@eeacms/volto-eea-kitkat@4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.4.tgz#5af78cae883d3e293a087e8209bd8c3d4bd4d82b"
-  integrity sha512-HQX81YK0fLoRQ3qg1hRFh8KMUYUwHnxxAs4DWD/0itcvI96MV/Urbnj7UrlRPKOuyAzNidjOl6BWGmQE3acDgQ==
+"@eeacms/volto-eea-kitkat@4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.5.tgz#3768a90deddb282943a5d3146e67cea345a8390b"
+  integrity sha512-qB3pBp6mjqYmDTgCH4XMzwG/km2VtXRoos5Mc8oyf9AGB/3WWrYLlNZ3Jxi1jiai12ZNUQiCNQ1uzGgu0XnScg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-banner" "1.0.1"
     "@eeacms/volto-block-divider" "2.1.3"
     "@eeacms/volto-block-image-cards" "0.1.4"
-    "@eeacms/volto-block-style" "3.5.2"
+    "@eeacms/volto-block-style" "3.5.3"
     "@eeacms/volto-block-toc" "2.2.2"
     "@eeacms/volto-columns-block" "4.4.6"
     "@eeacms/volto-corsproxy" "2.1.2"
@@ -1295,9 +1295,9 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.18":
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.24":
   version "0.1.4"
-  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/b9c7ad4ef9e2fdf3e013f66ef24cfcc0802786fd"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/a8a215bc725c7d9391cdcbc919345f0bc5054924"
   dependencies:
     "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
