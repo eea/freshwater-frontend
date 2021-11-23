@@ -1,4 +1,7 @@
 {
+  "resolutions": {
+    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13_develop_laszlo"
+  },
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
@@ -21,12 +24,12 @@
     "@eeacms/volto-freshwater"
   ],
   "dependencies": {
-    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13_develop",
-    "@eeacms/volto-eea-kitkat": "4.1.3",
+    "@eeacms/volto-arcgis-block": "*",
+    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13_develop_laszlo",
+    "@eeacms/volto-eea-kitkat": "4.1.5",
     "@eeacms/volto-embed": "2.0.9",
     "@eeacms/volto-slate-dataentity": "^1.0.2",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
-    "@eeacms/volto-arcgis-block": "*",
     "@plone/scripts": "*",
     "@plone/volto": "plone/volto#slots_quanta_split_relative_path",
     "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#2.0.9.beta.1",
@@ -43,7 +46,7 @@
     "react-visibility-sensor": "5.1.1",
     "slick-carousel": "^1.8.1",
     "webpack-bundle-analyzer": "^3.6.1",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.15"
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.5.alpha.25"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
