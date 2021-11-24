@@ -52,11 +52,11 @@ pipeline {
 
        stage("Docker test build") {
             when {
-              not {
-               environment name: 'CHANGE_ID', value: ''
+              allOf {
+                not { changelog '.*^Automated release [0-9\\.]+$' }
+                not { environment name: 'CHANGE_ID', value: '' }
+                environment name: 'CHANGE_TARGET', value: 'master'
               }
-              environment name: 'CHANGE_TARGET', value: 'master'
-              not { changelog '.*^Automated release [0-9\\.]+$' }
             }
             environment {
              IMAGE_NAME = BUILD_TAG.toLowerCase()
@@ -82,11 +82,11 @@ pipeline {
 
     stage('Pull Request') {
       when {
-        not {
-          environment name: 'CHANGE_ID', value: ''
+        allOf {
+            not { environment name: 'CHANGE_ID', value: '' }
+            environment name: 'CHANGE_TARGET', value: 'master'
+            not { changelog '.*^Automated release [0-9\\.]+$' }
         }
-        environment name: 'CHANGE_TARGET', value: 'master'
-        not { changelog '.*^Automated release [0-9\\.]+$' }
       }
       steps {
         node(label: 'docker') {
