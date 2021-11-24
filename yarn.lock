@@ -1285,19 +1285,19 @@
     "@eeacms/volto-widgets-view" "3.0.1"
     volto-slate "4.2.1"
 
-"@eeacms/volto-embed@2.0.9", "@eeacms/volto-embed@^2.0.4":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.9.tgz#b9dfb778f9b4f09b5fc812dd38cab4d177a6bdf2"
-  integrity sha512-rFBsFya7qIhtvh91YTLiGKW42RYSFAR/M3W1JLUWaFw9z6F/1bD5nHKNix3htX9oDz87l/tiaQ8bx7xNE7lRww==
+"@eeacms/volto-embed@2.0.10", "@eeacms/volto-embed@^2.0.4":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.10.tgz#f3fd2b8f298099f9412c5e543a11cd36367449d4"
+  integrity sha512-3B3AG4knNG9KVEJssJ+i8EYO5y8k8v0x8NretysJf56KUSKJEVvROlZjzWVEkqkWsKte2H8TEZyjhu9Us4VKPw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-datablocks" "*"
     react-visibility-sensor "5.1.1"
-    volto-slate "*"
+    volto-slate "4.2.1"
 
-"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.24":
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.25":
   version "0.1.4"
-  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/a8a215bc725c7d9391cdcbc919345f0bc5054924"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/f30028fcab6dc6a03afbb5c351d3f16c9f0d7857"
   dependencies:
     "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
