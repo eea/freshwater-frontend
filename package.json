@@ -29,7 +29,7 @@
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#fix_volto_13_develop_laszlo",
     "@eeacms/volto-eea-kitkat": "4.1.7",
     "@eeacms/volto-embed": "2.0.10",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.6.alpha.1",
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.6.alpha.2",
     "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#2.0.9.beta.1",
     "@eeacms/volto-slate-dataentity": "^1.0.2",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
