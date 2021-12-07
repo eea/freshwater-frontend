@@ -1,6 +1,12 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
+            ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
             ]

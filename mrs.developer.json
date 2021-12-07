@@ -180,7 +180,7 @@
     "https": "https://github.com/eea/volto-block-image-cards.git",
     "package": "@eeacms/volto-block-image-cards",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-banner": {
@@ -244,7 +244,7 @@
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
     "branch": "renderprop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-slate-dataentity": {
