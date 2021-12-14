@@ -1209,6 +1209,17 @@
     slick-carousel "^1.8.1"
     volto-slate "*"
 
+"@eeacms/volto-block-image-cards@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.1.7.tgz#9ae2815d61761c43daa6426adaf12b048de629cd"
+  integrity sha512-yWH5eiZUPqGaSinPwWi6+grMcyFc1Ua39Qe5Z9S/eIXGimj8m3/VvsbzhMN1kjlvtQkU1tCfglA8+nMCgCpsBg==
+  dependencies:
+    "@eeacms/volto-block-style" "*"
+    react-lazy-load-image-component "^1.4.0"
+    react-slick "^0.24.0"
+    slick-carousel "^1.8.1"
+    volto-slate "*"
+
 "@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.3", "@eeacms/volto-block-style@^3.3.0":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.3.tgz#b3d67ff797e0d40a75b54516b4eea68e6a25be95"
@@ -1295,9 +1306,9 @@
     react-visibility-sensor "5.1.1"
     volto-slate "4.2.1"
 
-"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.5.alpha.26":
-  version "0.1.4"
-  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/6133d7491cd907b2b944e3e9311854dbe6038568"
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.6.alpha.5":
+  version "0.1.5"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/9e8f9873e3cfe59cfac0cea7accbdf06b56cae67"
   dependencies:
     "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
