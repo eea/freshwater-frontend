@@ -1198,6 +1198,18 @@
   dependencies:
     react-color "~2.18.1"
 
+"@eeacms/volto-block-image-cards@0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.1.10.tgz#8dc9f3a555113ac60c0a981a02ab0d4fc9ab7f7c"
+  integrity sha512-lY5O32MxsIL4q1drEl68ap8KZpwy5K3MwOGtMTgyW+s80alQCLaBzDrrykZ2f6xSYwBY6bE4e9L++wNmhfzAjQ==
+  dependencies:
+    "@eeacms/volto-block-style" "*"
+    react-lazy-load-image-component "^1.4.0"
+    react-resize-detector "6.7.6"
+    react-slick "^0.24.0"
+    slick-carousel "^1.8.1"
+    volto-slate "*"
+
 "@eeacms/volto-block-image-cards@0.1.9":
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.1.9.tgz#7a9471abf007692d3cae0aa5d645eba141ac75db"
