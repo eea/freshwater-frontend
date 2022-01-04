@@ -1198,10 +1198,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-image-cards@0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.1.10.tgz#8dc9f3a555113ac60c0a981a02ab0d4fc9ab7f7c"
-  integrity sha512-lY5O32MxsIL4q1drEl68ap8KZpwy5K3MwOGtMTgyW+s80alQCLaBzDrrykZ2f6xSYwBY6bE4e9L++wNmhfzAjQ==
+"@eeacms/volto-block-image-cards@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.1.11.tgz#93dab44924896347ccc0aa6102712847257d9223"
+  integrity sha512-Z0yquj1kngPCQfXMoDcGujZ132xZKKR+8rVb7vbFUU1x69Vc904ZUyX5wVmqbqKV0zjE6uiGL78o/4SSekUSzQ==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-lazy-load-image-component "^1.4.0"
