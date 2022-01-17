@@ -1308,9 +1308,9 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.7.alpha.1":
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.7.alpha.2":
   version "0.1.6"
-  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/6ee7f3c1180a75c715e819f9e70f4380ecbe28fd"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/543acd6522f1330fcd4ad187aa1193ac1b643f02"
   dependencies:
     "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-block-style" "^3.3.0"
@@ -2226,9 +2226,7 @@
     mini-css-extract-plugin "0.9.0"
     moment "2.24.0"
     pofile "1.0.10"
-    postcss "8.3.11"
     postcss-flexbugs-fixes "4.2.1"
-    postcss-less "5.0.0"
     postcss-loader "3.0.0"
     postcss-overrides "3.1.4"
     prettier "2.0.5"
@@ -2283,7 +2281,7 @@
     semver "5.6.0"
     serialize-javascript "3.1.0"
     start-server-and-test "1.10.6"
-    stylelint "14.0.1"
+    stylelint "13.3.3"
     stylelint-config-idiomatic-order "8.1.0"
     stylelint-config-prettier "8.0.1"
     stylelint-prettier "1.1.2"
