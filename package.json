@@ -15,8 +15,8 @@
     "src/customizations"
   ],
   "addons": [
-    "@eeacms/volto-block-image-cards",
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-block-image-cards",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-embed",
     "@eeacms/volto-datablocks",
