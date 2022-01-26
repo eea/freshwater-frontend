@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
+            ],
             "@eeacms/volto-freshwater": [
                 "addons/volto-freshwater/src"
             ]

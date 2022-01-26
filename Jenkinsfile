@@ -7,7 +7,7 @@ pipeline {
     dockerImage = ""
     tagName = ""
     GIT_NAME = "freshwater-frontend"
-    SONARQUBE_TAG = ""
+    SONARQUBE_TAG = "water.europa.eu-freshwater"
   }
 
   agent any
