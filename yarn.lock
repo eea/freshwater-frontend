@@ -1388,13 +1388,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.5.tgz#0111412d3effe601e5f4593b775c0ccb24b0993f"
   integrity sha512-LreXkqiDMfGa056fMOGBI/KaRD5nv5Eb2Yy82/m8mrn7qAeNSnGmgyVGw6l/nYzTA5fP9Mc4RBY7CBTbHD9+9Q==
 
-"@eeacms/volto-slate-dataentity@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-dataentity/-/volto-slate-dataentity-1.0.2.tgz#1ac69aeaa1a83f32875bf1d689833287e73543f4"
-  integrity sha512-Lg6hPrpCHJpbgujDytVSJ2iu/SlAZ0Fc4Ot7V7jJInaxfDtFIn71TkpqpaE0q2ZWJZn1zRq/SfmFg5+2JKpY1A==
+"@eeacms/volto-slate-dataentity@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-dataentity/-/volto-slate-dataentity-1.0.3.tgz#98f6537310969554cad6e6a612133dd3a63cb18e"
+  integrity sha512-tGExsaYR3Egv0Qc0gYqI6HYJqkOIgmAFZr+8cOEw9yCbI4KApa7a175EUii1FVLoH2QiXpU1YQcMEW+Pj5Jqcg==
   dependencies:
-    "@eeacms/volto-datablocks" "^2.0.2"
-    volto-slate "^2.5.0"
+    "@eeacms/volto-datablocks" "*"
+    volto-slate "*"
 
 "@eeacms/volto-slate-footnote@*", "@eeacms/volto-slate-footnote@4.0.4":
   version "4.0.4"
@@ -10311,6 +10311,11 @@ immer@^7.0.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.15.tgz#dc3bc6db87401659d2e737c67a21b227c484a4ad"
   integrity sha512-yM7jo9+hvYgvdCQdqvhCNRRio0SCXc8xDPzA25SvKWa7b1WVPjLwQs1VYU5JPXjcJPTqAa5NP5dqpORGYBQ2AA==
 
+immer@^9.0.6:
+  version "9.0.12"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.12.tgz#2d33ddf3ee1d247deab9d707ca472c8c942a0f20"
+  integrity sha512-lk7UNmSbAukB5B6dh9fnh5D0bJTOFKxVg2cyJWTYrWRfhLrLMBquONcUs3aFq507hNoIZEDDh8lb8UtOizSMhA==
+
 immutability-helper@3.1.1, immutability-helper@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/immutability-helper/-/immutability-helper-3.1.1.tgz#2b86b2286ed3b1241c9e23b7b21e0444f52f77b7"
@@ -11836,7 +11841,7 @@ jsdom@^11.5.1:
     ws "^5.2.0"
     xml-name-validator "^3.0.0"
 
-jsdom@^16.2.1:
+jsdom@^16.2.1, jsdom@^16.6.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-16.7.0.tgz#918ae71965424b197c819f8183a754e18977b710"
   integrity sha512-u9Smc2G1USStM+s/x1ru5Sxrl6mPYCbByG1U/hUmqaVsm4tbNyS7CicOSRyuGQYZhTu0h84qkZZQ/I+dzizSVw==
@@ -18428,12 +18433,26 @@ slate-history@^0.62.0:
     immer "^7.0.0"
     is-plain-object "^3.0.0"
 
+slate-history@^0.66.0:
+  version "0.66.0"
+  resolved "https://registry.yarnpkg.com/slate-history/-/slate-history-0.66.0.tgz#ac63fddb903098ceb4c944433e3f75fe63acf940"
+  integrity sha512-6MWpxGQZiMvSINlCbMW43E2YBSVMCMCIwQfBzGssjWw4kb0qfvj0pIdblWNRQZD0hR6WHP+dHHgGSeVdMWzfng==
+  dependencies:
+    is-plain-object "^5.0.0"
+
 slate-hyperscript@^0.62.0:
   version "0.62.0"
   resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.62.0.tgz#ff6f86e94936fbf90f8ec07d2ae8fbcd7e45a927"
   integrity sha512-PbtxrrIr4qPvtPmKli4/FnvQFjf8zmnF0kyNeDQGHvUzpHnsoSYHM/i4POye3/qt5d8WGukiJBPL03QsIW+SIw==
   dependencies:
     is-plain-object "^3.0.0"
+
+slate-hyperscript@^0.67.0:
+  version "0.67.0"
+  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.67.0.tgz#b066febf10a5176106fe1fcdcdc76460f3eb721b"
+  integrity sha512-3c+d2ePTUk5J7wMjs2CZIJPhb1/VnTltel+qnQarOWlXtJng7oRc8BNaYbNfkl2ecT9W5bpxpsy1r6x5ICXucQ==
+  dependencies:
+    is-plain-object "^5.0.0"
 
 slate-react@^0.62.0:
   version "0.62.1"
@@ -18449,6 +18468,20 @@ slate-react@^0.62.0:
     scroll-into-view-if-needed "^2.2.20"
     tiny-invariant "1.0.6"
 
+slate-react@^0.71.0:
+  version "0.71.0"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.71.0.tgz#abc96384777603950a36c09e9a8707d493733541"
+  integrity sha512-UgryclHduQyOUAtoCk/05/4z6CMSURV+WyTwNMJZB10QDVviI78LsLCWstSo0jDlewM8KAX150s3aC2EZwH70w==
+  dependencies:
+    "@types/is-hotkey" "^0.1.1"
+    "@types/lodash" "^4.14.149"
+    direction "^1.0.3"
+    is-hotkey "^0.1.6"
+    is-plain-object "^5.0.0"
+    lodash "^4.17.4"
+    scroll-into-view-if-needed "^2.2.20"
+    tiny-invariant "1.0.6"
+
 slate@^0.62.0:
   version "0.62.1"
   resolved "https://registry.yarnpkg.com/slate/-/slate-0.62.1.tgz#d17b174e9967f920dda23f77982b30582d9c68a7"
@@ -18459,6 +18492,15 @@ slate@^0.62.0:
     immer "^7.0.0"
     is-plain-object "^3.0.0"
     lodash "^4.17.4"
+    tiny-warning "^1.0.3"
+
+slate@^0.71.0:
+  version "0.71.0"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.71.0.tgz#37dea4eb05b8e78b76aa15c8a35b0aaf58beb8a1"
+  integrity sha512-DKK7Fk9UzCgN31X7safnJE0i9CbXv9pdnwTyt3NYak9xDFTltv27U+z9NCyi9M5ahqEK2fO5hjjDzPBuPOSRLQ==
+  dependencies:
+    immer "^9.0.6"
+    is-plain-object "^5.0.0"
     tiny-warning "^1.0.3"
 
 sleep-promise@^9.1.0:
@@ -20585,7 +20627,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@*, volto-slate@4.2.1, volto-slate@5.3.3, volto-slate@^2.5.0:
+volto-slate@*:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.2.1.tgz#5c8a3b0701cce6ebeed7aae2e35f7b88cad26c3b"
   integrity sha512-RPJhj0/SScLB6rI2d6bwxNXWpGHoG9sj5J9kjRMl3DmN2b+hM38mr9mQmbG5Dm53GVm3A6k/KRvqBkTHxtRS4A==
@@ -20601,6 +20643,24 @@ volto-slate@*, volto-slate@4.2.1, volto-slate@5.3.3, volto-slate@^2.5.0:
     slate-history "^0.62.0"
     slate-hyperscript "^0.62.0"
     slate-react "^0.62.0"
+    weak-key "^1.0.2"
+
+volto-slate@5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.3.tgz#4af806ec9e84f141da3e38e9f98852679aed4fdd"
+  integrity sha512-D9HDlCJAt6FCAL1EQY9PdnLSp7aqdJqEoeI4Gl+omNvR+JtefkE6ilkFL6s+pITAyK3He5t704ujGgT7Wf8+HA==
+  dependencies:
+    "@eeacms/volto-object-widget" "*"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "^16.6.0"
+    react-intersection-observer "^8.32.0"
+    react-visibility-sensor "5.1.1"
+    slate "^0.71.0"
+    slate-history "^0.66.0"
+    slate-hyperscript "^0.67.0"
+    slate-react "^0.71.0"
     weak-key "^1.0.2"
 
 vt-pbf@^3.1.1:
