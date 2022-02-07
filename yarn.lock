@@ -1291,7 +1291,17 @@
     "@eeacms/volto-widgets-view" "3.0.4"
     volto-slate "5.3.3"
 
-"@eeacms/volto-embed@2.0.11", "@eeacms/volto-embed@^2.0.4":
+"@eeacms/volto-embed@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-3.0.0.tgz#62539d5f6bc059d691921a427e6576e4b8704781"
+  integrity sha512-9EJmqa1RosPAaj4S5utyDtceJPU75DjYflD51MVT9eTe0aB5QJaniTdiS1y64P5nCFeMem7JadOcwQ4FtPXToA==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+    "@eeacms/volto-datablocks" "*"
+    react-visibility-sensor "5.1.1"
+    volto-slate "*"
+
+"@eeacms/volto-embed@^2.0.4":
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-2.0.11.tgz#b933a4519587d22c6560758f079619030b6a7dd7"
   integrity sha512-FzggUwZOUZqQRUEUje5JFgWJl9+u98Rnk7e99mSHsjyth+4oDTC/k2QNQ1WB0f8Zouuk4Z682PKCH+7u5EZAxQ==
@@ -20627,25 +20637,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@*:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-4.2.1.tgz#5c8a3b0701cce6ebeed7aae2e35f7b88cad26c3b"
-  integrity sha512-RPJhj0/SScLB6rI2d6bwxNXWpGHoG9sj5J9kjRMl3DmN2b+hM38mr9mQmbG5Dm53GVm3A6k/KRvqBkTHxtRS4A==
-  dependencies:
-    "@eeacms/volto-object-widget" "*"
-    classnames "2.2.6"
-    image-extensions "1.1.0"
-    is-url "1.2.4"
-    jsdom "16.2.2"
-    react-intersection-observer "^8.32.0"
-    react-visibility-sensor "5.1.1"
-    slate "^0.62.0"
-    slate-history "^0.62.0"
-    slate-hyperscript "^0.62.0"
-    slate-react "^0.62.0"
-    weak-key "^1.0.2"
-
-volto-slate@5.3.3:
+volto-slate@*, volto-slate@5.3.3:
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.3.tgz#4af806ec9e84f141da3e38e9f98852679aed4fdd"
   integrity sha512-D9HDlCJAt6FCAL1EQY9PdnLSp7aqdJqEoeI4Gl+omNvR+JtefkE6ilkFL6s+pITAyK3He5t704ujGgT7Wf8+HA==
