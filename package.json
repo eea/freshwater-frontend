@@ -29,7 +29,7 @@
     "@eeacms/volto-block-image-cards": "0.1.11",
     "@eeacms/volto-datablocks": "^2.0.21",
     "@eeacms/volto-eea-kitkat": "5.2.4",
-    "@eeacms/volto-embed": "3.0.1",
+    "@eeacms/volto-embed": "^2.0.11",
     "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.1",
     "@eeacms/volto-plotlycharts": "^2.0.11",
     "@eeacms/volto-slate-dataentity": "1.0.3",
