@@ -16,23 +16,23 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-block-image-cards",
+    "@eeacms/volto-freshwater",
+    "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-embed",
-    "@eeacms/volto-datablocks",
     "@eeacms/volto-tableau",
     "@eeacms/volto-arcgis-block",
-    "@eeacms/volto-slate-dataentity",
-    "@eeacms/volto-freshwater"
+    "@eeacms/volto-slate-dataentity"
   ],
   "dependencies": {
-    "@eeacms/volto-arcgis-block": "*",
+    "@eeacms/volto-arcgis-block": "0.1.16",
     "@eeacms/volto-block-image-cards": "0.1.11",
-    "@eeacms/volto-datablocks": "^2.0.21",
+    "@eeacms/volto-datablocks": "3.0.8",
     "@eeacms/volto-eea-kitkat": "5.2.4",
-    "@eeacms/volto-embed": "^2.0.11",
+    "@eeacms/volto-embed": "3.0.1",
     "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.1",
-    "@eeacms/volto-plotlycharts": "^2.0.11",
-    "@eeacms/volto-slate-dataentity": "1.0.3",
+    "@eeacms/volto-plotlycharts": "3.0.1",
+    "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@plone/scripts": "*",
     "@plone/volto": "plone/volto#slots_quanta_split_relative_path",
@@ -188,11 +188,9 @@
     "node": "^10 || ^12 || ^14"
   },
   "browserslist": [
-    ">1%",
-    "last 4 versions",
-    "Firefox ESR",
-    "not ie 11",
-    "not dead"
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
   ],
   "bundlesize": [
     {
