@@ -30,7 +30,7 @@
     "@eeacms/volto-datablocks": "3.0.8",
     "@eeacms/volto-eea-kitkat": "5.2.5",
     "@eeacms/volto-embed": "3.0.1",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.1",
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.2",
     "@eeacms/volto-plotlycharts": "3.0.1",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
