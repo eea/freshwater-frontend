@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
