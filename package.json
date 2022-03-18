@@ -26,9 +26,9 @@
   ],
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.16",
-    "@eeacms/volto-block-image-cards": "0.1.11",
+    "@eeacms/volto-block-image-cards": "0.2.0",
     "@eeacms/volto-datablocks": "3.0.8",
-    "@eeacms/volto-eea-kitkat": "5.2.4",
+    "@eeacms/volto-eea-kitkat": "5.2.5",
     "@eeacms/volto-embed": "3.0.1",
     "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.1",
     "@eeacms/volto-plotlycharts": "3.0.1",
