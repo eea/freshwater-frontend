@@ -5,7 +5,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -27,10 +27,10 @@
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.16",
     "@eeacms/volto-block-image-cards": "0.2.0",
-    "@eeacms/volto-datablocks": "3.0.8",
-    "@eeacms/volto-eea-kitkat": "5.2.6",
+    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
+    "@eeacms/volto-eea-kitkat": "5.2.7",
     "@eeacms/volto-embed": "3.0.1",
-    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.2",
+    "@eeacms/volto-freshwater": "0.1.7",
     "@eeacms/volto-plotlycharts": "3.0.1",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
