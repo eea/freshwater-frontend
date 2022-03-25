@@ -25,7 +25,7 @@
     "@eeacms/volto-slate-dataentity"
   ],
   "dependencies": {
-    "@eeacms/volto-arcgis-block": "0.1.16",
+    "@eeacms/volto-arcgis-block": "0.1.39",
     "@eeacms/volto-block-image-cards": "0.2.0",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
     "@eeacms/volto-eea-kitkat": "5.2.7",
