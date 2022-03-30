@@ -63,7 +63,6 @@
   },
   "scripts": {
     "start": "razzle start",
-    "preinstall": "if [ -f $(pwd)/mrs.developer.json ]; then if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi; fi",
     "postinstall": "yarn omelette && yarn patches",
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
     "build": "razzle build",
