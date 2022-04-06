@@ -1442,6 +1442,20 @@
     react-json-editor-ajrm "2.5.13"
     react-plotly.js "2.5.1"
 
+"@eeacms/volto-plotlycharts@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.4.tgz#624e6bf3b1ff2d54ecd5d5e186dc53773e3b22a3"
+  integrity sha512-zP5CVsqTgxQIPo5Zjnh5Nvs4xOkA4Z69ILfOpzHFyWTXgXCeApN4pjkIha8um6j1xSExgZVzUmZCW7BX8/863A==
+  dependencies:
+    "@eeacms/volto-datablocks" "*"
+    "@plone/scripts" "*"
+    plotly.js "^2.9.0"
+    react-chart-editor "0.45.0"
+    react-colorscales "0.7.3"
+    react-inspector "5.1.1"
+    react-json-editor-ajrm "2.5.13"
+    react-plotly.js "2.5.1"
+
 "@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.8", "@eeacms/volto-resize-helper@^0.2.0", "@eeacms/volto-resize-helper@^0.2.2":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.8.tgz#bedb2d2b4e4da6c8e1263f1b618204fe9def3b53"
