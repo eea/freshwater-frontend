@@ -28,7 +28,7 @@
     "@eeacms/volto-arcgis-block": "0.1.39",
     "@eeacms/volto-block-image-cards": "0.3.0",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
-    "@eeacms/volto-eea-kitkat": "5.2.8",
+    "@eeacms/volto-eea-kitkat": "5.2.9",
     "@eeacms/volto-embed": "4.0.0",
     "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.8.alpha.3",
     "@eeacms/volto-plotlycharts": "3.0.1",
