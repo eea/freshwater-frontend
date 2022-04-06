@@ -259,7 +259,7 @@
     "url": "git@github.com:eea/volto-freshwater.git",
     "https": "https://github.com/eea/volto-freshwater.git",
     "package": "@eeacms/volto-freshwater",
-    "branch": "datablocks_v3",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   }
