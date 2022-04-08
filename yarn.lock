@@ -1280,6 +1280,18 @@
     slick-carousel "^1.8.1"
     volto-slate "*"
 
+"@eeacms/volto-block-image-cards@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.4.0.tgz#456e9d03b338174fce51d41f689742d78b2212bf"
+  integrity sha512-0SSeJs6OO2r0PDI1ZhIFM9noQQEGC6zEbGvfrWYH7rWVMvsRfFVR5XoV/Zz1Cne9MyW/oZYuuTBPu7Ab7dxSVQ==
+  dependencies:
+    "@eeacms/volto-block-style" "*"
+    react-lazy-load-image-component "^1.4.0"
+    react-resize-detector "6.7.6"
+    react-slick "^0.24.0"
+    slick-carousel "^1.8.1"
+    volto-slate "*"
+
 "@eeacms/volto-block-style@*", "@eeacms/volto-block-style@3.5.18", "@eeacms/volto-block-style@^3.3.0":
   version "3.5.18"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.18.tgz#c08508acd0dfae5a6ec9bff3a701b57400bcfe5d"
