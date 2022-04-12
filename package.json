@@ -15,7 +15,6 @@
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-block-image-cards",
     "@eeacms/volto-freshwater",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
@@ -25,10 +24,9 @@
     "@eeacms/volto-slate-dataentity"
   ],
   "dependencies": {
-    "@eeacms/volto-arcgis-block": "0.1.39",
-    "@eeacms/volto-block-image-cards": "0.4.0",
-    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
     "@eeacms/volto-eea-kitkat": "5.4.0",
+    "@eeacms/volto-arcgis-block": "0.1.39",
+    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
     "@eeacms/volto-embed": "4.0.0",
     "@eeacms/volto-freshwater": "0.1.9",
     "@eeacms/volto-plotlycharts": "3.0.4",
