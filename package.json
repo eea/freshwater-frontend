@@ -28,7 +28,7 @@
     "@eeacms/volto-arcgis-block": "0.1.39",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
     "@eeacms/volto-embed": "4.0.0",
-    "@eeacms/volto-freshwater": "0.1.10",
+    "@eeacms/volto-freshwater": "github:eea/volto-freshwater#0.1.11.aplha",
     "@eeacms/volto-plotlycharts": "3.0.4",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
