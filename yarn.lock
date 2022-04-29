@@ -1370,20 +1370,20 @@
     "@eeacms/volto-widgets-view" "3.0.4"
     volto-slate "5.4.1"
 
-"@eeacms/volto-embed@*", "@eeacms/volto-embed@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-4.0.0.tgz#0475149ec1a5a19ef914f076cdf0ae03868c1679"
-  integrity sha512-rUfRNvoBLRZxINQ++eu+jyux0d94N7kXcFSO9qckUg53ttg8uJ8UNx1OtDLHYJpGr9U1YX7Pb/7T56jwu8aJ2w==
+"@eeacms/volto-embed@*", "@eeacms/volto-embed@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-4.0.1.tgz#67462c8eb414fb199a898a6be94708318f70e685"
+  integrity sha512-y8GLkVFv85rKg9y0el29CcEPzK/2Qx3GemTB0/i7u3Gl4wiahgqLrsP3I7BlxI8NPnfCyF8onyxKwpdo4rxhWw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-datablocks" "*"
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.10.tgz#ce7f1160a66480303e5742c3ef2bc8cc7d09caa1"
-  integrity sha512-C7SjBap3fZNwU7Z9NZudibE8pog4CJ+nzF3+qrdQdR2CxDH5iyW3+opGQcLNW3KGo0uxRf0imeJMq4xo1nzmrA==
+"@eeacms/volto-freshwater@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.11.tgz#4e746ab3fc2f66e2628de14d8a82252c82766542"
+  integrity sha512-GTn7Y3EK2zPLwi3pN7ajWglH+DemmfVA6TFD8fiM3FXIldNceWvctzDorbq5BQUYh24Nvt3c2YQmVxe1b7Ogbw==
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
