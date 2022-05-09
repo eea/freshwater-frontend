@@ -24,10 +24,10 @@
     "@eeacms/volto-slate-dataentity"
   ],
   "dependencies": {
-    "@eeacms/volto-eea-kitkat": "5.4.0",
-    "@eeacms/volto-arcgis-block": "0.1.39",
+    "@eeacms/volto-arcgis-block": "0.1.40",
     "@eeacms/volto-datablocks": "3.0.11",
-    "@eeacms/volto-embed": "4.0.0",
+    "@eeacms/volto-eea-kitkat": "5.4.0",
+    "@eeacms/volto-embed": "4.0.1",
     "@eeacms/volto-freshwater": "0.1.11",
     "@eeacms/volto-plotlycharts": "3.0.4",
     "@eeacms/volto-slate-dataentity": "1.0.5",
