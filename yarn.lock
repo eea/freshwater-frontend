@@ -1243,10 +1243,10 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
 
-"@eeacms/volto-arcgis-block@0.1.40":
-  version "0.1.40"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.40.tgz#54718e15ea7b07d53483d4e0ae9d62a33e2df1a9"
-  integrity sha512-yc7EAdpuMgOrNw33KeyY4z2bWvWYksZuejjMbRgR40p4xrgTGEX54SuKu0XxlYTvcZn1RWY4PNmb89KxMUKzHw==
+"@eeacms/volto-arcgis-block@0.1.41":
+  version "0.1.41"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.41.tgz#be2e67c2785e0d45430c3b3fee35fd2da39f53cd"
+  integrity sha512-o0Cy8ayd0aw56xrJAI2D55mo7q9s7bIpPlfi9HfS5FIKNjIzvSShujmAC+YIaOwYfvejqkFGfNc0PmD7AoG+sg==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1319,9 +1319,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.5.tgz#e72c9277e3c950899f1abc07f48128fcca73c9c8"
   integrity sha512-2LqBkOBj2WhnihYc2brhBsMtSUnSHN8w6jupyNzmHdUjScrJWebkq35GxonnrBtWrpeWGVuQ4I3hIf4zwd8Mhw==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@github:eea/volto-datablocks#3.0.10.alpha":
-  version "3.0.9"
-  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/dfbd2bab24eeff20a81e075938ddb3e0eddf0c69"
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.11.tgz#cad007b7e20eb2a08a0c1c75f3bd6c33ad468381"
+  integrity sha512-L3tkuaOAZozySO5qKFblUdYF/5Oyxdqqc/T1jCifMqZqK1Eg3G6S/7vBuYSmarPELZhAAiZ8vBMEeW3LphIRBQ==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
