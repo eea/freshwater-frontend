@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.42",
-    "@eeacms/volto-datablocks": "3.0.11",
+    "@eeacms/volto-datablocks": "3.0.12",
     "@eeacms/volto-eea-kitkat": "6.0.0",
     "@eeacms/volto-embed": "4.0.1",
     "@eeacms/volto-freshwater": "0.1.11",
