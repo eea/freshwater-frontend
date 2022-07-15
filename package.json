@@ -30,7 +30,7 @@
     "@eeacms/volto-embed": "4.0.1",
     "@eeacms/volto-freshwater": "0.1.11",
     "@eeacms/volto-plotlycharts": "3.0.5",
-    "@eeacms/volto-slate-dataentity": "1.0.5",
+    "@eeacms/volto-slate-dataentity": "1.0.6",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@plone/scripts": "*",
     "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path",
