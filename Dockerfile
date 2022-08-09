@@ -22,8 +22,8 @@ ARG MAX_OLD_SPACE_SIZE=8192
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN cd /opt/frontend \
- && PUBLIC_PATH=https://water.europa.eu/freshwater/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
- && PUBLIC_PATH=https://water.europa.eu/freshwater/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
+ && PUBLIC_PATH=https://wise-test.eionet.europa.eu/freshwater/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
+ && PUBLIC_PATH=https://wise-test.eionet.europa.eu/freshwater/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
  && rm -rf /home/node/.cache
 
 EXPOSE 3000 3001 4000 4001
