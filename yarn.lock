@@ -1385,10 +1385,9 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.11.tgz#4e746ab3fc2f66e2628de14d8a82252c82766542"
-  integrity sha512-GTn7Y3EK2zPLwi3pN7ajWglH+DemmfVA6TFD8fiM3FXIldNceWvctzDorbq5BQUYh24Nvt3c2YQmVxe1b7Ogbw==
+"@eeacms/volto-freshwater@github:eea/volto-freshwater#0.1.11.alpha.2":
+  version "0.1.10"
+  resolved "https://codeload.github.com/eea/volto-freshwater/tar.gz/1a94ed3951471b121992509f7d9ffd22584f0a2b"
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
@@ -1451,10 +1450,10 @@
     react-json-editor-ajrm "2.5.13"
     react-plotly.js "2.5.1"
 
-"@eeacms/volto-plotlycharts@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.7.tgz#6dfab8a29820e41ca601ca1602bfe520cc1692b7"
-  integrity sha512-IQb+ME82k+T/B3/oSeMT/PQW7cQsCgUa1QKLGirB5I93L3VApAomrBzANCCoQNQP8QDQlOIhBswa+KDm38rSUA==
+"@eeacms/volto-plotlycharts@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.4.tgz#624e6bf3b1ff2d54ecd5d5e186dc53773e3b22a3"
+  integrity sha512-zP5CVsqTgxQIPo5Zjnh5Nvs4xOkA4Z69ILfOpzHFyWTXgXCeApN4pjkIha8um6j1xSExgZVzUmZCW7BX8/863A==
   dependencies:
     "@eeacms/volto-datablocks" "*"
     "@plone/scripts" "*"
@@ -17393,6 +17392,14 @@ react-json-editor-ajrm@2.5.13:
   integrity sha512-uYRJFzY34w7coLxeWPFZGyQpWdBKK5e8R9jBZTJ5gAFp3WuGVG2DdGZ8oJKOVJy0hqkxS9DzJIzGmmxHHQ9afA==
   dependencies:
     "@babel/runtime" "^7.0.0-rc.0"
+
+react-lazy-load-image-component@1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/react-lazy-load-image-component/-/react-lazy-load-image-component-1.5.4.tgz#e75b6520c972b6278a9811876716cdab56e401fb"
+  integrity sha512-PSi9tckzZmiqfYZwS6ke2RoRbICsN5m0qsG6fEjUdQNe5STiJieXLlRuGD3uAASOQPFiKYFSLoueN07nk0uffw==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    lodash.throttle "^4.1.1"
 
 react-lazy-load-image-component@^1.4.0:
   version "1.5.1"
