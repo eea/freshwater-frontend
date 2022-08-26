@@ -26,10 +26,10 @@
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.4.0",
     "@eeacms/volto-arcgis-block": "0.1.39",
-    "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.10.alpha",
+    "@eeacms/volto-datablocks": "3.0.16",
     "@eeacms/volto-embed": "4.0.0",
-    "@eeacms/volto-freshwater": "0.1.10",
-    "@eeacms/volto-plotlycharts": "3.0.4",
+    "@eeacms/volto-freshwater": "0.1.11",
+    "@eeacms/volto-plotlycharts": "3.0.7",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@plone/scripts": "*",
@@ -39,7 +39,8 @@
     "react-loadable": "5.5.0",
     "react-select": "*",
     "react-visibility-sensor": "5.1.1",
-    "webpack-bundle-analyzer": "^3.6.1"
+    "webpack-bundle-analyzer": "^3.6.1",
+    "@babel/plugin-transform-react-jsx": "*"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
