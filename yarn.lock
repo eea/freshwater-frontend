@@ -1249,10 +1249,10 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
 
-"@eeacms/volto-arcgis-block@0.1.55":
-  version "0.1.55"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.55.tgz#bc8740009e1ec984246072e74f1134485ded93a6"
-  integrity sha512-G8cNVCiMzFUBKs4LwM3olmoUDf/8i7tzElfnZa+nZADJRep2d1tMSvNuGgWAVHXCHNEF645zmk0giWBSdkmMgw==
+"@eeacms/volto-arcgis-block@0.1.59":
+  version "0.1.59"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.59.tgz#09907d025d01612983963ac33b59b860261f8aaf"
+  integrity sha512-1//detp0KwSezgqTFEsZ/1srh5q1Jp2B9orTXG7D0i6JRkoPmAKQzJdUN18PZVQrptGIB+cX38BA4lkxNO5n3A==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1326,10 +1326,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.16":
-  version "3.0.16"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.16.tgz#c9e2261381e3423b843d3ce76b33e5a061f8a93e"
-  integrity sha512-3QoNFK3ErWv1bQVkWYH3pEgGrNvLEHwbIrylH5t2740rfpi681SDksnajMiEFTY6nBZCL8UF5wFNpROXgyFxag==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.17":
+  version "3.0.17"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.17.tgz#29166c64efc878d41bb09ebcb19d00f37f46c8df"
+  integrity sha512-z09BnLZx134WUVm06ODvyGaPxreVp2xD5lMBD9++ouu958LiDEgJ82Ip3kpmAZkGXIu6XfvXk6F1AxnHDXIAZg==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
@@ -1391,10 +1391,10 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.11.tgz#4e746ab3fc2f66e2628de14d8a82252c82766542"
-  integrity sha512-GTn7Y3EK2zPLwi3pN7ajWglH+DemmfVA6TFD8fiM3FXIldNceWvctzDorbq5BQUYh24Nvt3c2YQmVxe1b7Ogbw==
+"@eeacms/volto-freshwater@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.12.tgz#cd644447fae2d352f2ea1f5042b79cb9f37cca22"
+  integrity sha512-N50ftMKR3M5AWZXr4LuUyO4qZhLZSfN6Img9Gf/MqU6fdnuX7rNn/8mJd5lPiVa4zOXTrEzugjRR0vPCpKqf5A==
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
@@ -1538,6 +1538,13 @@
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.6.tgz#090176e1107b8e47df50c416a1e8e251e7743587"
   integrity sha512-8dbqDHfiOdnWjfOGxMCDP5X0p9ZyAzNcRs9devRxBsrQg07P3iELDrm40vxz9iuHRpCcxQQgs3ZqsQTTRr0E9A==
+  dependencies:
+    "@plone/scripts" "*"
+
+"@eeacms/volto-widget-dataprovenance@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.7.tgz#866054c3bc6978a86d3ea85cf6d32548a86313ee"
+  integrity sha512-D1Fi8hM3Q3s++aUaF0IvuEnLlov7+1qUcvIrvxoL2ksbAwDYFpdWKPNLbyDMWKqrSet0yc2Djakfc6sH6TwtNw==
   dependencies:
     "@plone/scripts" "*"
 
