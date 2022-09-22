@@ -27,7 +27,7 @@
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-arcgis-block": "0.1.64",
     "@eeacms/volto-datablocks": "3.0.18",
-    "@eeacms/volto-eea-kitkat": "8.0.0",
+    "@eeacms/volto-eea-kitkat": "8.1.0",
     "@eeacms/volto-embed": "4.0.2",
     "@eeacms/volto-freshwater": "0.1.12",
     "@eeacms/volto-plotlycharts": "3.0.4",
