@@ -1249,10 +1249,10 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
 
-"@eeacms/volto-arcgis-block@0.1.71":
-  version "0.1.71"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.71.tgz#d79b12886774d608762af6444fd17471d37b1fee"
-  integrity sha512-MIzi/u7V69owBzdiGE+JDvZg+rAw+9bJWZ1Sh/P5h+9PYevyuLo0cLJHKno2ld1+Yv7O98TyuYFFw3coLnhKaw==
+"@eeacms/volto-arcgis-block@0.1.72":
+  version "0.1.72"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.72.tgz#d96600e48c8dee9edde4705bbd9e29ab932dbd20"
+  integrity sha512-/uGuVWx30sCmwLoyg6ezmL48BANv403m8baN0tp1IU6YCrpvsjjZeXyY0OUbzNoHkk0KS2LRqCDl3x5ibdx+kA==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1326,7 +1326,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.19":
+"@eeacms/volto-datablocks@*":
   version "3.0.19"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.19.tgz#d986ccf3082694a7988796e900c00fb278741ee5"
   integrity sha512-tFEtk65nv53PsgpElRUXMj9RCfuxENpjUf1VUozEaIbdBaW1BRjMQ57VQWqJobYv84gbZwLpWuHYrGzleEYRmg==
@@ -1340,6 +1340,21 @@
     object-hash "2.2.0"
     react-countup "6.1.1"
     react-visibility-sensor "5.1.1"
+    sanitize-html "^2.3.3"
+    slate "^0.62.0"
+
+"@eeacms/volto-datablocks@<=3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.11.tgz#cad007b7e20eb2a08a0c1c75f3bd6c33ad468381"
+  integrity sha512-L3tkuaOAZozySO5qKFblUdYF/5Oyxdqqc/T1jCifMqZqK1Eg3G6S/7vBuYSmarPELZhAAiZ8vBMEeW3LphIRBQ==
+  dependencies:
+    "@eeacms/volto-embed" "*"
+    "@eeacms/volto-group-block" "*"
+    "@eeacms/volto-matomo" "*"
+    d3 "7.1.1"
+    humanize-plus "^1.8.2"
+    object-hash "2.2.0"
+    react-countup "6.1.1"
     sanitize-html "^2.3.3"
     slate "^0.62.0"
 
@@ -1459,7 +1474,7 @@
     react-json-editor-ajrm "2.5.13"
     react-plotly.js "2.5.1"
 
-"@eeacms/volto-plotlycharts@3.0.4":
+"@eeacms/volto-plotlycharts@<=3.0.4":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-3.0.4.tgz#624e6bf3b1ff2d54ecd5d5e186dc53773e3b22a3"
   integrity sha512-zP5CVsqTgxQIPo5Zjnh5Nvs4xOkA4Z69ILfOpzHFyWTXgXCeApN4pjkIha8um6j1xSExgZVzUmZCW7BX8/863A==
@@ -1483,7 +1498,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.6.tgz#1b924382914df02752d3fbe874ef2d5d637b4421"
   integrity sha512-xEPxx+0Keb/in5x25jDdpHUMU4Lcm5sEMEJv7sIfgQ1ZXP8QlzsXMDJthSdJ7nsyf/pt3ZvHfIq6GuS5Rc7GmQ==
 
-"@eeacms/volto-slate-dataentity@1.0.5":
+"@eeacms/volto-slate-dataentity@<=1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-dataentity/-/volto-slate-dataentity-1.0.5.tgz#00ce147bd14d9ea7a3499770da295ac386703de0"
   integrity sha512-Qf0D4Dvq8PkAZZBJEKDQm5efrKVoSVSZDGKI3rowCa1EuzFcSizqKoSHo0tXvVCpt5Z5WtLhXWu1Ra3gNYeXLg==
