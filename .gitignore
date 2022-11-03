@@ -75,4 +75,4 @@ omelette
 src/addons
 src/develop
 npm-cache
-backend/src/*
+backend
