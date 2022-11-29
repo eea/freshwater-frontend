@@ -1,13 +1,10 @@
 {
-    "compilerOptions": {
-        "paths": {
-            "@eeacms/volto-tableau": [
-                "addons/volto-tableau/src"
-            ],
-            "@eeacms/volto-freshwater": [
-                "addons/volto-freshwater/src"
-            ]
-        },
-        "baseUrl": "src"
-    }
+  "compilerOptions": {
+    "paths": {
+      "@eeacms/volto-tableau": ["addons/volto-tableau/src"],
+      "@eeacms/volto-freshwater": ["addons/volto-freshwater/src"],
+      "@eeacms/volto-slots": ["addons/volto-slots/src"]
+    },
+    "baseUrl": "src"
+  }
 }

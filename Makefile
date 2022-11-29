@@ -117,8 +117,8 @@ init-submodules:		## Initialize the git submodules
 	git submodule update --init --recursive
 
 .PHONY: develop
-develop:		## Runs "git pull" in all addons
-	./scripts/pkg_helper.py develop
+develop: ## Runs missdev in the local project (mrs.developer.json should be present)
+	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
 
 .PHONY: help
 help:		## Show this help.
@@ -137,3 +137,35 @@ try-production:		## Build production bundle
 .PHONY: sync
 sync: ## Sync repo with eea/volto-starter-kit Github template
 	npx git-upstream-template https://github.com/eea/volto-starter-kit.git
+
+.PHONY: omelette
+omelette: ## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
+	if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi
+
+.PHONY: patches
+patches:
+	/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true
+
+.PHONY: release
+release: ## Show release candidates
+	./scripts/release.py
+
+.PHONY: update
+update: ## git pull all src/addons
+	./scripts/update.sh
+
+.PHONY: issues
+issues: ## Check github for open pull-requests
+	./scripts/pull-requests.py WARN
+
+.PHONY: issues-all
+issues-all: ## Check github for open pull-requests
+	./scripts/pull-requests-volto.py WARN
+
+.PHONY: status
+status: ## Check src/addons for changes
+	./scripts/status.sh
+
+.PHONY: pull
+pull: ## Run git pull on all src/addons
+	./scripts/pull.sh

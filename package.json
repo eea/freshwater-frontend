@@ -21,36 +21,40 @@
     "@eeacms/volto-embed",
     "@eeacms/volto-tableau",
     "@eeacms/volto-arcgis-block",
+    "@eeacms/volto-slots",
     "@eeacms/volto-slate-dataentity"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-arcgis-block": "0.1.76",
-    "@eeacms/volto-datablocks": "<=3.0.11",
-    "@eeacms/volto-eea-kitkat": "<=8.2.4",
-    "@eeacms/volto-embed": "<=4.0.2",
+    "@eeacms/volto-datablocks": "4.0.1",
+    "@eeacms/volto-eea-kitkat": "10.1.1",
+    "@eeacms/volto-embed": "5.0.0",
     "@eeacms/volto-freshwater": "0.1.13",
-    "@eeacms/volto-plotlycharts": "<=3.0.4",
-    "@eeacms/volto-slate-dataentity": "<=1.0.5",
-    "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
+    "@eeacms/volto-plotlycharts": "5.0.5",
+    "@eeacms/volto-slate-dataentity": "2.0.0",
+    "@eeacms/volto-slots": "*",
+    "@eeacms/volto-tableau": "2.0.0",
     "@eeacms/volto-widget-dataprovenance": "0.2.1",
     "@eeacms/volto-widget-geolocation": "5.0.1",
-    "@plone/scripts": "*",
-    "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path-v15.16.0",
+    "@plone/volto": "16.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-lazy-load-image-component": "1.5.4",
     "react-loadable": "5.5.0",
     "react-select": "*",
+    "react-select-async-paginate": "0.5.3",
     "react-visibility-sensor": "5.1.1",
     "webpack-bundle-analyzer": "^3.6.1"
   },
   "devDependencies": {
+    "@plone/scripts": "^2.1.2",
     "eslint-plugin-prettier": "3.1.3",
     "hard-source-webpack-plugin": "0.13.1",
     "jest-junit": "8.0.0",
     "mrs-developer": "*",
     "postcss": "8.3.11",
     "prettier": "2.0.5",
+    "razzle": "4.2.17",
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
@@ -58,9 +62,9 @@
   },
   "scripts": {
     "start": "razzle start",
-    "postinstall": "yarn omelette && yarn patches",
+    "postinstall": "make omelette && make patches",
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
-    "build": "razzle build",
+    "build": "razzle build --noninteractive",
     "ci:cypress:end": "docker stop webapp plone",
     "ci:cypress:mochawsome:merge": "mochawesome-merge  cypress/mochawesome/json/*.json -o cypress/report/mochawesome.json",
     "ci:cypress:mochawsome:report": "marge --reportDir=cypress/report --charts=true --reportTitle=ITReport --reportPageTitle='Cypress Integration Tests' cypress/report/mochawesome.json",
@@ -79,10 +83,9 @@
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx}'",
     "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx}'",
-    "omelette": "ln -sf node_modules/@plone/volto/ omelette",
     "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
-    "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
-    "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier": "./node_modules/.bin/prettier --single-quote --check 'src/**/*.{js,jsx,ts,tsx,css,scss}'",
+    "prettier:fix": "./node_modules/.bin/prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,css,scss}'",
     "pretty": "yarn prettier:fix",
     "serve": "http-server -p $PORT ./build",
     "start:prod": "NODE_ENV=production node build/server.js",
@@ -90,11 +93,16 @@
     "stylelint": "./node_modules/.bin/stylelint 'theme/**/*.{css,less}' 'src/**/*.{css,less}'",
     "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
     "stylelint:overrides": "./node_modules/.bin/stylelint --syntax less 'theme/**/*.overrides' 'src/**/*.overrides'",
-    "test": "razzle test --env=jsdom",
+    "test": "razzle test --passWithNoTests",
     "upgrade-volto": "yarn upgrade @plone/volto; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install",
-    "release": "release-it",
     "release-major-beta": "release-it major --preRelease=beta",
-    "release-beta": "release-it --preRelease=beta"
+    "release-beta": "release-it --preRelease=beta",
+    "update": "make update",
+    "release": "make release",
+    "issues": "make issues",
+    "issues:all": "make issues-all",
+    "status": "make status",
+    "pull": "make pull"
   },
   "optimizeLiftPackages": [
     "immutable",
@@ -112,8 +120,6 @@
     ],
     "transform": {
       "^.+\\.js(x)?$": "babel-jest",
-      "^.+\\.css$": "jest-css-modules",
-      "^.+\\.scss$": "jest-css-modules",
       "^.+\\.(png)$": "jest-file",
       "^.+\\.(jpg)$": "jest-file",
       "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
@@ -125,7 +131,9 @@
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
       "@package/(.*)$": "<rootDir>/src/$1",
-      "~/(.*)$": "<rootDir>/src/$1"
+      "~/(.*)$": "<rootDir>/src/$1",
+      "@plone/volto-slate": "<rootDir>/node_modules/@plone/volto/packages/volto-slate/src",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     },
     "coverageThreshold": {
       "global": {
@@ -199,5 +207,6 @@
   },
   "engines": {
     "node": "^12 || ^14 || ^16"
-  }
+  },
+  "packageManager": "yarn@3.3.0"
 }

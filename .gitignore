@@ -18,7 +18,9 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-
+cache
+cypress/videos/
+cypress/screenshots
 # nyc test coverage
 .nyc_output
 
@@ -40,6 +42,15 @@ jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
+
+# yarn 3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # Optional npm cache directory
 .npm
