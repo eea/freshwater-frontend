@@ -1435,10 +1435,10 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.13.tgz#98834cade61383cc5c08eaf8382c31c541c6e082"
-  integrity sha512-Fp0Fu8E74eSYrpDX9jFXyhYeEUabnRdmRgZlrCnpoVLvgATt+13k70GwHxu+U9x8/5XfFQ690PKhR2b8GrynyQ==
+"@eeacms/volto-freshwater@0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.14.tgz#557d5617286bf3c54c77229a51e957e23720ce52"
+  integrity sha512-njR/4x4aWruNk1ePxJ0TkNeqCcI9n6zHb7mDkhz+fVEDtEEioTB9nGhL7/ih/e+/HVM6yxh3y/xYD/tY/R+14A==
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
