@@ -1435,10 +1435,10 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.18.tgz#9865b3d1fccc688c98e9ee5bfdce87a6df80dae0"
-  integrity sha512-creKA8pFZyoFIV5IWH/KjBy6cgvyuJKNYaR7+qKlIzml8yetKSPRvhfzL+a8wsZyAj06ZIPCO2oPTh6FFEt0Sw==
+"@eeacms/volto-freshwater@0.1.19":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.19.tgz#1c61c8efbab2cf0e1e8e3a4b17f14f6ad20156b9"
+  integrity sha512-fKc4+bAdLOP8vRDF4vGagw/edrNveaT+gd4YSgom7oElSv+wF2+2on2AV/V+20Ok2LCK91uEc76gGqjwawd/tw==
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
@@ -1447,6 +1447,7 @@
     "@eeacms/volto-datablocks" "*"
     "@eeacms/volto-embed" "4.0.2"
     "@eeacms/volto-group-block" "*"
+    "@eeacms/volto-openlayers-map" "*"
     "@eeacms/volto-plotlycharts" "3.0.1"
     "@eeacms/volto-resize-helper" "^0.2.0"
     "@kitconcept/volto-blocks-grid" "*"
@@ -1507,7 +1508,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
 
-"@eeacms/volto-openlayers-map@0.2.2":
+"@eeacms/volto-openlayers-map@*", "@eeacms/volto-openlayers-map@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.2.2.tgz#253638fcc89469d91b52b7171d48203b42c135c8"
   integrity sha512-mxBS2pS8YP30IOYp5FwFck6lw/2K1vvAzBd4AjqaQyQQAEEEcSJkwdfxuUkaSJw46+9uLVnyZYsAOQGq1+w5Tw==
