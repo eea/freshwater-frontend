@@ -1508,10 +1508,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
 
-"@eeacms/volto-openlayers-map@*", "@eeacms/volto-openlayers-map@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.2.2.tgz#253638fcc89469d91b52b7171d48203b42c135c8"
-  integrity sha512-mxBS2pS8YP30IOYp5FwFck6lw/2K1vvAzBd4AjqaQyQQAEEEcSJkwdfxuUkaSJw46+9uLVnyZYsAOQGq1+w5Tw==
+"@eeacms/volto-openlayers-map@*", "@eeacms/volto-openlayers-map@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.3.0.tgz#3aed76d590ab013ffb6b35493fb7901720bae713"
+  integrity sha512-x1BB5F+zDK3TwueM1L8wCVOKhdft75GZd4yAFIw6qocyayOqH7I4eqrFPKhu0AXBmFChaweh+uij6VAIwsSoGA==
   dependencies:
     ol "6.6.x"
 
