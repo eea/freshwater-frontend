@@ -1435,10 +1435,10 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.20.tgz#f6785dcf4405fc336ce686a580b8b9144cbce72a"
-  integrity sha512-IyxPhIZN3i4O1tZLQtPf8RlElKo5MYV7hAp8vFzhvYi7AsETU8h5XsRQ4jpcVjVcU2doscFrDsFGW1Q0YICiog==
+"@eeacms/volto-freshwater@0.1.21":
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.21.tgz#4513db369cdb211b8bc7c194d370532fc317bf17"
+  integrity sha512-m8+VYbMD/ydY0x3uASSL/adkBqHv6XMrH/sKRWfK+u6WWnh9Vw0HbxdQj/Va3uFGCsZM2iC5bgiKHxMQvGJLvg==
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
@@ -1508,17 +1508,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
 
-"@eeacms/volto-openlayers-map@*":
+"@eeacms/volto-openlayers-map@*", "@eeacms/volto-openlayers-map@0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.3.0.tgz#3aed76d590ab013ffb6b35493fb7901720bae713"
   integrity sha512-x1BB5F+zDK3TwueM1L8wCVOKhdft75GZd4yAFIw6qocyayOqH7I4eqrFPKhu0AXBmFChaweh+uij6VAIwsSoGA==
-  dependencies:
-    ol "6.6.x"
-
-"@eeacms/volto-openlayers-map@<=0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.2.2.tgz#253638fcc89469d91b52b7171d48203b42c135c8"
-  integrity sha512-mxBS2pS8YP30IOYp5FwFck6lw/2K1vvAzBd4AjqaQyQQAEEEcSJkwdfxuUkaSJw46+9uLVnyZYsAOQGq1+w5Tw==
   dependencies:
     ol "6.6.x"
 
