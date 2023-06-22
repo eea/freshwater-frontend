@@ -1239,20 +1239,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-4.1.0.tgz#a1cb9cdb14fe83bd124ccc79e3b4440f17d1eb63"
   integrity sha512-h4oo58orH/uw5tjEwNVYk88+kYGrl1LL4Jc4Uzo6Cmj05P8qgNX3P2IV8uVAg1Z6BmIwIcDSfXErYy95I515Dg==
 
-"@eeacms/volto-arcgis-block@0.1.159":
-  version "0.1.159"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.159.tgz#41436ba3eeee1b40cd0e1aa34570606edb06499f"
-  integrity sha512-RoDxKJ/jWWki65KsGmOymRBfz1tIfOsqjMzoP12GLzL0G2D08Hm/8LADXGdMRFWopzFj5Kb4rzXSKKG/diXb5g==
-  dependencies:
-    "@eeacms/volto-clms-utils" "*"
-    "@fortawesome/fontawesome-svg-core" "1.2.35"
-    "@fortawesome/free-solid-svg-icons" "5.15.3"
-    "@fortawesome/react-fontawesome" "0.1.14"
-    esri-loader "3.1.0"
-    highcharts "^9.3.2"
-    highcharts-react-official "^3.1.0"
-    react-datepicker "4.10.0"
-
 "@eeacms/volto-arcgis-block@0.1.16":
   version "0.1.16"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.16.tgz#d839d09e241e2e5fc0a81df0a9f1b9c5a8d29ac4"
@@ -1262,6 +1248,20 @@
     "@fortawesome/free-solid-svg-icons" "5.15.3"
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
+
+"@eeacms/volto-arcgis-block@0.1.160":
+  version "0.1.160"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.160.tgz#afba2cc5cb950451187e2a3369a40e442ceaecfb"
+  integrity sha512-aD3GgZh47jDVEd63+/xPAfCNooP89DxI9CBPGIk+crHel2SY0dE1bCLBck5MAUB3F9wgPSHMDJRgkQC4bfDPfw==
+  dependencies:
+    "@eeacms/volto-clms-utils" "*"
+    "@fortawesome/fontawesome-svg-core" "1.2.35"
+    "@fortawesome/free-solid-svg-icons" "5.15.3"
+    "@fortawesome/react-fontawesome" "0.1.14"
+    esri-loader "3.1.0"
+    highcharts "^9.3.2"
+    highcharts-react-official "^3.1.0"
+    react-datepicker "4.10.0"
 
 "@eeacms/volto-banner@2.2.1":
   version "2.2.1"
@@ -1508,10 +1508,17 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
 
-"@eeacms/volto-openlayers-map@*", "@eeacms/volto-openlayers-map@0.3.0":
+"@eeacms/volto-openlayers-map@*":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.3.0.tgz#3aed76d590ab013ffb6b35493fb7901720bae713"
   integrity sha512-x1BB5F+zDK3TwueM1L8wCVOKhdft75GZd4yAFIw6qocyayOqH7I4eqrFPKhu0AXBmFChaweh+uij6VAIwsSoGA==
+  dependencies:
+    ol "6.6.x"
+
+"@eeacms/volto-openlayers-map@<=0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.2.2.tgz#253638fcc89469d91b52b7171d48203b42c135c8"
+  integrity sha512-mxBS2pS8YP30IOYp5FwFck6lw/2K1vvAzBd4AjqaQyQQAEEEcSJkwdfxuUkaSJw46+9uLVnyZYsAOQGq1+w5Tw==
   dependencies:
     ol "6.6.x"
 
