@@ -1249,10 +1249,10 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
 
-"@eeacms/volto-arcgis-block@0.1.91":
-  version "0.1.91"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.91.tgz#912343c7d42ba2e23d071fb6da2e842366205662"
-  integrity sha512-Aa3v7x9q2//96U3YBx5A1+6hkl/lWQJynW34syYIemhPL72M1vfj9HCGR8Nj+4objYUYGiCMwpFcofDczc3+ew==
+"@eeacms/volto-arcgis-block@0.1.160":
+  version "0.1.160"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.160.tgz#afba2cc5cb950451187e2a3369a40e442ceaecfb"
+  integrity sha512-aD3GgZh47jDVEd63+/xPAfCNooP89DxI9CBPGIk+crHel2SY0dE1bCLBck5MAUB3F9wgPSHMDJRgkQC4bfDPfw==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1261,6 +1261,7 @@
     esri-loader "3.1.0"
     highcharts "^9.3.2"
     highcharts-react-official "^3.1.0"
+    react-datepicker "4.10.0"
 
 "@eeacms/volto-banner@2.2.1":
   version "2.2.1"
@@ -1363,10 +1364,9 @@
     sanitize-html "^2.3.3"
     slate "^0.62.0"
 
-"@eeacms/volto-datablocks@<=3.0.11":
+"@eeacms/volto-datablocks@github:eea/volto-datablocks#3.0.11-height_fix":
   version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.11.tgz#cad007b7e20eb2a08a0c1c75f3bd6c33ad468381"
-  integrity sha512-L3tkuaOAZozySO5qKFblUdYF/5Oyxdqqc/T1jCifMqZqK1Eg3G6S/7vBuYSmarPELZhAAiZ8vBMEeW3LphIRBQ==
+  resolved "https://codeload.github.com/eea/volto-datablocks/tar.gz/a2206e67580fd91568b07549d041f9e16368c2dd"
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
@@ -1435,10 +1435,10 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-freshwater@0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.15.tgz#9ea8610f9bc92e3b2e124d0d5ff244c0a16df32c"
-  integrity sha512-ByjCb5h94VFkdeAojOYD4wOlSNoFg3dvOM4r3cAVmLiFC6SZqrYBksE3m8Lj8Qjd2ZQ2DNUYhE0ka9Fs1CT4ZA==
+"@eeacms/volto-freshwater@0.1.21":
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-freshwater/-/volto-freshwater-0.1.21.tgz#4513db369cdb211b8bc7c194d370532fc317bf17"
+  integrity sha512-m8+VYbMD/ydY0x3uASSL/adkBqHv6XMrH/sKRWfK+u6WWnh9Vw0HbxdQj/Va3uFGCsZM2iC5bgiKHxMQvGJLvg==
   dependencies:
     "@eeacms/volto-arcgis-block" "0.1.16"
     "@eeacms/volto-block-style" "^3.3.0"
@@ -1447,6 +1447,7 @@
     "@eeacms/volto-datablocks" "*"
     "@eeacms/volto-embed" "4.0.2"
     "@eeacms/volto-group-block" "*"
+    "@eeacms/volto-openlayers-map" "*"
     "@eeacms/volto-plotlycharts" "3.0.1"
     "@eeacms/volto-resize-helper" "^0.2.0"
     "@kitconcept/volto-blocks-grid" "*"
@@ -1506,6 +1507,13 @@
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
+
+"@eeacms/volto-openlayers-map@*", "@eeacms/volto-openlayers-map@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-openlayers-map/-/volto-openlayers-map-0.3.0.tgz#3aed76d590ab013ffb6b35493fb7901720bae713"
+  integrity sha512-x1BB5F+zDK3TwueM1L8wCVOKhdft75GZd4yAFIw6qocyayOqH7I4eqrFPKhu0AXBmFChaweh+uij6VAIwsSoGA==
+  dependencies:
+    ol "6.6.x"
 
 "@eeacms/volto-plotlycharts@3.0.1":
   version "3.0.1"
@@ -1615,10 +1623,10 @@
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-widget-dataprovenance@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.2.1.tgz#616880d813dae362506032580a89b579a79779f4"
-  integrity sha512-80XVzXKR4H2BXicMx3V0YRSVkTbA22yWB+zqtpVTot9UTpgUt/oH6Eryd6uKvDPmgVkMFNhZiFsOLrFlP7c0eQ==
+"@eeacms/volto-widget-dataprovenance@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.3.3.tgz#7d15a0fd5cf5567676f15827f6e66a701a90f8a0"
+  integrity sha512-uEoANLoz0ILNESoCemjOsvGfPan52/aOTVZ0gSZ/gq1RjSoZ/Hb0K63zI5lEXiqaxKNQW02zzQKyIlH/gK1nQg==
 
 "@eeacms/volto-widget-geolocation@4.0.6":
   version "4.0.6"
@@ -1628,10 +1636,10 @@
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-geolocation@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-5.0.1.tgz#2801e3f04b272a851ea2a4a1c9cf95a707c709f7"
-  integrity sha512-5cImd4Q00le7+2mCcItZ62As5tfzyJqgcAdP1PUhSPHylnOGifEo6KODw6Pehf7QiMO7KBO/O0WGA/D/XhmaBQ==
+"@eeacms/volto-widget-geolocation@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-5.1.1.tgz#2746540dad7bb36a1b6fb8900ff5690e4dd92e62"
+  integrity sha512-peNxmnfeVI4DsmRT0I9Pu9wikkjEH6XYX8N3Sk6ihQnPD4Ag4gl2orKiqyAFvK4OgsC1JoxEaSXgJxkXMXBDhA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
@@ -2205,10 +2213,24 @@
   resolved "https://registry.yarnpkg.com/@mapbox/geojson-types/-/geojson-types-1.0.2.tgz#9aecf642cb00eab1080a57c4f949a65b4a5846d6"
   integrity sha512-e9EBqHHv3EORHrSfbR9DqecPNn+AmuAoQxV6aL8Xu30bJMJR1o8PZLZzpk1Wq7/NfCbuhmakHTPYRhoqLsXRnw==
 
-"@mapbox/jsonlint-lines-primitives@^2.0.2":
+"@mapbox/jsonlint-lines-primitives@^2.0.2", "@mapbox/jsonlint-lines-primitives@~2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@mapbox/jsonlint-lines-primitives/-/jsonlint-lines-primitives-2.0.2.tgz#ce56e539f83552b58d10d672ea4d6fc9adc7b234"
-  integrity sha1-zlblOfg1UrWNENZy6k1vya3HsjQ=
+  integrity sha512-rY0o9A5ECsTQRVhv7tL/OyDpGAoUB4tTvLiW1DSzQGq4bvTPhNw1VpSNjDJc5GFZ2XuyOtSWSVN05qOtcD71qQ==
+
+"@mapbox/mapbox-gl-style-spec@^13.20.1":
+  version "13.28.0"
+  resolved "https://registry.yarnpkg.com/@mapbox/mapbox-gl-style-spec/-/mapbox-gl-style-spec-13.28.0.tgz#2ec226320a0f77856046e000df9b419303a56458"
+  integrity sha512-B8xM7Fp1nh5kejfIl4SWeY0gtIeewbuRencqO3cJDrCHZpaPg7uY+V8abuR+esMeuOjRl5cLhVTP40v+1ywxbg==
+  dependencies:
+    "@mapbox/jsonlint-lines-primitives" "~2.0.2"
+    "@mapbox/point-geometry" "^0.1.0"
+    "@mapbox/unitbezier" "^0.0.0"
+    csscolorparser "~1.0.2"
+    json-stringify-pretty-compact "^2.0.0"
+    minimist "^1.2.6"
+    rw "^1.3.3"
+    sort-object "^0.3.2"
 
 "@mapbox/mapbox-gl-supported@^1.5.0":
   version "1.5.0"
@@ -2637,10 +2659,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@popperjs/core@^2.6.0":
-  version "2.11.5"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
-  integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
+"@popperjs/core@^2.6.0", "@popperjs/core@^2.9.2":
+  version "2.11.6"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
+  integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
@@ -6584,10 +6606,10 @@ css@^2.2.3:
     source-map-resolve "^0.5.2"
     urix "^0.1.0"
 
-csscolorparser@~1.0.3:
+csscolorparser@~1.0.2, csscolorparser@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/csscolorparser/-/csscolorparser-1.0.3.tgz#b34f391eea4da8f3e98231e2ccd8df9c041f171b"
-  integrity sha1-s085HupNqPPpgjHizNjfnAQfFxs=
+  integrity sha512-umPSgYwZkdFoUrH5hIq5kf0wPSXiro51nPw0j2K/c83KflkPSTBGMz6NJvMB+07VlL0y7VPo6QJcDjcgKTTm3w==
 
 cssdb@^4.4.0:
   version "4.4.0"
@@ -7184,6 +7206,11 @@ date-fns@^1.27.2:
   version "1.30.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
+
+date-fns@^2.24.0:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 dayjs@1.10.7:
   version "1.10.7"
@@ -12765,6 +12792,11 @@ json-stable-stringify@~0.0.0:
   dependencies:
     jsonify "~0.0.0"
 
+json-stringify-pretty-compact@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/json-stringify-pretty-compact/-/json-stringify-pretty-compact-2.0.0.tgz#e77c419f52ff00c45a31f07f4c820c2433143885"
+  integrity sha512-WRitRfs6BGq4q8gTgOy4ek7iPFXjbra0H3PmDLKm2xnZ+Gh1HUhiKGgCZkSPNULlP7mvfu6FV/mOLhCarspADQ==
+
 json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
@@ -13649,6 +13681,11 @@ mapbox-gl@1.10.1:
     tinyqueue "^2.0.3"
     vt-pbf "^3.1.1"
 
+mapbox-to-css-font@^2.4.1:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/mapbox-to-css-font/-/mapbox-to-css-font-2.4.2.tgz#a9e31b363ad8ca881cd339ca99f2d2a6b02ea5dd"
+  integrity sha512-f+NBjJJY4T3dHtlEz1wCG7YFlkODEjFIYlxDdLIDMNpkSksqTt+l/d4rjuwItxuzkuMFvPyrjzV2lxRM4ePcIA==
+
 marching-simplex-table@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/marching-simplex-table/-/marching-simplex-table-1.0.0.tgz#bc16256e0f8f9b558aa9b2872f8832d9433f52ea"
@@ -14040,10 +14077,10 @@ minimist-options@4.1.0, minimist-options@^4.0.2:
     is-plain-obj "^1.1.0"
     kind-of "^6.0.3"
 
-minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
-  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
@@ -14839,6 +14876,24 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
+ol-mapbox-style@^6.4.1:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/ol-mapbox-style/-/ol-mapbox-style-6.9.0.tgz#b9587e390d8cc2037481ecdea53f0a6b9ba1d46c"
+  integrity sha512-Isxk+IPB6pCBD2Pubz9cpQcZjEeuPhxyk/QsLZjb2+KwvyGaIFltdlxnxx/QXJ7rOxUiLvS/XhsOyiK0c7prEw==
+  dependencies:
+    "@mapbox/mapbox-gl-style-spec" "^13.20.1"
+    mapbox-to-css-font "^2.4.1"
+    webfont-matcher "^1.1.0"
+
+ol@6.6.x:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/ol/-/ol-6.6.1.tgz#eba3b2bd5c2f6d4f24f4ddcb713523bd3a13234f"
+  integrity sha512-QHNth7ty7UAPi5oEL5N5rJB/cgdFGAAzigYEM8LTUKCq/StTOTWDf2fFrom3wQVmsr1etf6i6hTBowtY/LiGgg==
+  dependencies:
+    ol-mapbox-style "^6.4.1"
+    pbf "3.2.1"
+    rbush "^3.0.1"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -15456,7 +15511,7 @@ pause-stream@0.0.11:
   dependencies:
     through "~2.3"
 
-pbf@^3.2.1:
+pbf@3.2.1, pbf@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/pbf/-/pbf-3.2.1.tgz#b4c1b9e72af966cd82c6531691115cc0409ffe2a"
   integrity sha512-ClrV7pNOn7rtmoQVF4TS1vyU0WhYRnP92fzbfF75jAIwpnzdJXf8iTd4CMEqO4yUenH6NDqLiwjqlh6QgZzgLQ==
@@ -17075,6 +17130,13 @@ razzle@3.4.5:
     webpack-node-externals "^1.7.2"
     webpackbar "^4.0.0"
 
+rbush@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/rbush/-/rbush-3.0.1.tgz#5fafa8a79b3b9afdfe5008403a720cc1de882ecf"
+  integrity sha512-XRaVO0YecOpEuIvbhbpTrZgoiI6xBlz6hnlr6EHhd+0x9ase6EmeN+hdwwUaJvLcsFFQ8iWVF1GAK1yB0BWi0w==
+  dependencies:
+    quickselect "^2.0.0"
+
 rc-align@^2.4.0:
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/rc-align/-/rc-align-2.4.5.tgz#c941a586f59d1017f23a428f0b468663fb7102ab"
@@ -17270,6 +17332,18 @@ react-countup@6.1.1:
   integrity sha512-9mYlnk/yCFg3g2/65pCTex6mr9h0eYdDMIL4T5nfLj/RzoiqY03wlPxZglzbJ6OzXvU37OmYApwQ4WMZNFr8Aw==
   dependencies:
     countup.js "^2.0.8"
+
+react-datepicker@4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-4.10.0.tgz#3f386ac5873dac5ea56544e51cdc01109938796c"
+  integrity sha512-6IfBCZyWj54ZZGLmEZJ9c4Yph0s9MVfEGDC2evOvf9AmVz+RRcfP2Czqad88Ff9wREbcbqa4dk7IFYeXF1d3Ag==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    classnames "^2.2.6"
+    date-fns "^2.24.0"
+    prop-types "^15.7.2"
+    react-onclickoutside "^6.12.2"
+    react-popper "^2.3.0"
 
 react-dates@21.5.1:
   version "21.5.1"
@@ -17511,6 +17585,11 @@ react-moment-proptypes@^1.6.0:
   dependencies:
     moment ">=1.6.0"
 
+react-onclickoutside@^6.12.2:
+  version "6.12.2"
+  resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.12.2.tgz#8e6cf80c7d17a79f2c908399918158a7b02dda01"
+  integrity sha512-NMXGa223OnsrGVp5dJHkuKxQ4czdLmXSp5jSV9OqiCky9LOpPATn3vLldc+q5fK3gKbEHvr7J1u0yhBh/xYkpA==
+
 react-outside-click-handler@^1.2.4:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/react-outside-click-handler/-/react-outside-click-handler-1.3.0.tgz#3831d541ac059deecd38ec5423f81e80ad60e115"
@@ -17529,10 +17608,10 @@ react-plotly.js@2.5.1:
   dependencies:
     prop-types "^15.7.2"
 
-react-popper@^2.2.4:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-2.2.5.tgz#1214ef3cec86330a171671a4fbcbeeb65ee58e96"
-  integrity sha512-kxGkS80eQGtLl18+uig1UIf9MKixFSyPxglsgLBxlYnyDf65BiY9B3nZSc6C9XUNDgStROB0fMQlTEz1KxGddw==
+react-popper@^2.2.4, react-popper@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-2.3.0.tgz#17891c620e1320dce318bad9fede46a5f71c70ba"
+  integrity sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q==
   dependencies:
     react-fast-compare "^3.0.1"
     warning "^4.0.2"
@@ -19490,6 +19569,16 @@ sockjs@0.3.19:
     faye-websocket "^0.10.0"
     uuid "^3.0.1"
 
+sort-asc@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/sort-asc/-/sort-asc-0.1.0.tgz#ab799df61fc73ea0956c79c4b531ed1e9e7727e9"
+  integrity sha512-jBgdDd+rQ+HkZF2/OHCmace5dvpos/aWQpcxuyRs9QUbPRnkEJmYVo81PIGpjIdpOcsnJ4rGjStfDHsbn+UVyw==
+
+sort-desc@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/sort-desc/-/sort-desc-0.1.1.tgz#198b8c0cdeb095c463341861e3925d4ee359a9ee"
+  integrity sha512-jfZacW5SKOP97BF5rX5kQfJmRVZP5/adDUTY8fCSPvNcXDVpUEe2pr/iKGlcyZzchRJZrswnp68fgk3qBXgkJw==
+
 sort-keys@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sort-keys/-/sort-keys-1.1.2.tgz#441b6d4d346798f1b4e49e8920adfba0e543f9ad"
@@ -19503,6 +19592,14 @@ sort-keys@^2.0.0:
   integrity sha1-ZYU1WEhh7JfXMNbPQYIuH1ZoQSg=
   dependencies:
     is-plain-obj "^1.0.0"
+
+sort-object@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/sort-object/-/sort-object-0.3.2.tgz#98e0d199ede40e07c61a84403c61d6c3b290f9e2"
+  integrity sha512-aAQiEdqFTTdsvUFxXm3umdo04J7MRljoVGbBlkH7BgNsMvVNAJyGj7C/wV1A8wHWAJj/YikeZbfuCKqhggNWGA==
+  dependencies:
+    sort-asc "^0.1.0"
+    sort-desc "^0.1.1"
 
 source-list-map@^2.0.0:
   version "2.0.1"
@@ -21760,6 +21857,11 @@ weakmap-shim@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/weakmap-shim/-/weakmap-shim-1.1.1.tgz#d65afd784109b2166e00ff571c33150ec2a40b49"
   integrity sha1-1lr9eEEJshZuAP9XHDMVDsKkC0k=
+
+webfont-matcher@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/webfont-matcher/-/webfont-matcher-1.1.0.tgz#98ce95097b29e31fbe733053e10e571642d1c6c7"
+  integrity sha512-ov8lMvF9wi4PD7fK2Axn9PQEpO9cYI0fIoGqErwd+wi8xacFFDmX114D5Q2Lw0Wlgmb+Qw/dKI2KTtimrJf85g==
 
 webgl-context@^2.2.0:
   version "2.2.0"
