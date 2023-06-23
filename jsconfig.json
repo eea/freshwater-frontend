@@ -4,8 +4,14 @@
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
-            "@eeacms/volto-freshwater": [
-                "addons/volto-freshwater/src"
+            "@eeacms/volto-freshwater-policy": [
+                "addons/volto-freshwater-policy/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
+            ],
+            "@eeacms/volto-eea-website-theme": [
+                "addons/volto-eea-website-theme/src"
             ]
         },
         "baseUrl": "src"

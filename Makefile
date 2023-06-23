@@ -137,3 +137,26 @@ try-production:		## Build production bundle
 .PHONY: sync
 sync: ## Sync repo with eea/volto-starter-kit Github template
 	npx git-upstream-template https://github.com/eea/volto-starter-kit.git
+
+.PHONY: install
+install: ## Install the frontend
+	@echo "Install frontend"
+	$(MAKE) omelette
+	$(MAKE) preinstall
+	yarn install
+
+.PHONY: preinstall
+preinstall: ## Preinstall task, checks if missdev (mrs-developer) is present and runs it
+	if [ -f $$(pwd)/mrs.developer.json ]; then make develop; fi
+
+.PHONY: develop
+develop: ## Runs missdev in the local project (mrs.developer.json should be present)
+	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
+
+.PHONY: omelette
+omelette: ## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
+	if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi
+
+.PHONY: patches
+patches:
+	/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true

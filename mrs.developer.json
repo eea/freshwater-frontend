@@ -255,10 +255,34 @@
     "develop": false,
     "path": "src"
   },
-  "volto-freshwater": {
-    "url": "git@github.com:eea/volto-freshwater.git",
-    "https": "https://github.com/eea/volto-freshwater.git",
-    "package": "@eeacms/volto-freshwater",
+  "volto-slots": {
+    "url": "git@github.com:eea/volto-slots.git",
+    "https": "https://github.com/eea/volto-slots.git",
+    "package": "@eeacms/volto-slots",
+    "path": "src",
+    "branch": "develop",
+    "develop": true
+  },
+  "volto-freshwater-policy": {
+    "url": "git@github.com:eea/volto-freshwater-policy.git",
+    "https": "https://github.com/eea/volto-freshwater-policy.git",
+    "package": "@eeacms/volto-freshwater-policy",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
+  "volto-eea-design-system": {
+    "url": "git@github.com:eea/volto-eea-design-system.git",
+    "https": "https://github.com/eea/volto-eea-design-system.git",
+    "package": "@eeacms/volto-eea-design-system",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
+  "volto-eea-website-theme": {
+    "url": "git@github.com:eea/volto-eea-website-theme.git",
+    "https": "https://github.com/eea/volto-eea-website-theme.git",
+    "package": "@eeacms/volto-eea-website-theme",
     "branch": "develop",
     "develop": true,
     "path": "src"
