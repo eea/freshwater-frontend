@@ -4,6 +4,9 @@
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
+            "@eeacms/volto-slots": [
+                "addons/volto-slots/src"
+            ],
             "@eeacms/volto-freshwater-policy": [
                 "addons/volto-freshwater-policy/src"
             ],
