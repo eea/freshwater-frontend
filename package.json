@@ -13,6 +13,7 @@
   "resolutions": {
     "draft-js": "0.10.5",
     "react-countup/countup.js": "2.5.0",
+    "http-proxy-middleware": "2.0.1",
     "@eeacms/volto-eea-design-system": "1.13.2"
   },
   "addons": [
