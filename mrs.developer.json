@@ -263,6 +263,22 @@
     "branch": "develop",
     "develop": true
   },
+  "volto-searchlib": {
+    "develop": false,
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
+    "branch": "develop",
+    "path": "src"
+  },
+  "volto-globalsearch": {
+    "develop": false,
+    "url": "git@github.com:eea/volto-globalsearch.git",
+    "https": "https://github.com/eea/volto-globalsearch.git",
+    "package": "@eeacms/volto-globalsearch",
+    "path": "src",
+    "branch": "develop"
+  },
   "volto-freshwater-policy": {
     "url": "git@github.com:eea/volto-freshwater-policy.git",
     "https": "https://github.com/eea/volto-freshwater-policy.git",

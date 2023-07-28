@@ -14,7 +14,8 @@
     "draft-js": "0.10.5",
     "react-countup/countup.js": "2.5.0",
     "http-proxy-middleware": "2.0.1",
-    "@eeacms/volto-eea-design-system": "1.13.2"
+    "@eeacms/volto-eea-design-system": "1.13.2",
+    "d3-array": "2.12.1"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
@@ -27,6 +28,8 @@
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-openlayers-map",
+    "@eeacms/volto-globalsearch",
+    "@eeacms/volto-searchlib",
     "@eeacms/volto-freshwater-policy"
   ],
   "dependencies": {
@@ -38,6 +41,8 @@
     "@eeacms/volto-eea-website-theme": "1.18.0",
     "@eeacms/volto-embed": "5.0.4",
     "@eeacms/volto-freshwater-policy": "0.1.4",
+    "@eeacms/volto-globalsearch": "1.0.15",
+    "@eeacms/volto-searchlib": "0.5.7",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "6.3.0",
     "@eeacms/volto-slate-dataentity": "2.1.0",
