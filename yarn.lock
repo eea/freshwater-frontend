@@ -2363,7 +2363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@2.0.2, @eeacms/volto-eea-map@workspace:src/addons/volto-eea-map":
+"@eeacms/volto-eea-map@2.0.3, @eeacms/volto-eea-map@workspace:src/addons/volto-eea-map":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-map@workspace:src/addons/volto-eea-map"
   dependencies:
@@ -13825,7 +13825,7 @@ __metadata:
     "@eeacms/volto-datablocks": 6.1.0
     "@eeacms/volto-eea-design-system": 1.15.0
     "@eeacms/volto-eea-kitkat": 17.0.0
-    "@eeacms/volto-eea-map": 2.0.2
+    "@eeacms/volto-eea-map": 2.0.3
     "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-embed": 6.0.0
     "@eeacms/volto-freshwater-policy": 0.1.8
