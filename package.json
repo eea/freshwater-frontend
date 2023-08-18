@@ -49,7 +49,7 @@
     "@eeacms/volto-searchlib": "0.5.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-slots": "0.1.2",
-    "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
+    "@eeacms/volto-tableau": "5.0.0",
     "@eeacms/volto-widget-dataprovenance": "0.3.3",
     "@eeacms/volto-widget-geolocation": "5.1.1",
     "@plone/volto": "16.22.0",
