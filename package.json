@@ -19,6 +19,7 @@
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-block-toc",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-slots",
@@ -52,6 +53,7 @@
     "@eeacms/volto-tableau": "5.0.0",
     "@eeacms/volto-widget-dataprovenance": "0.3.3",
     "@eeacms/volto-widget-geolocation": "5.1.1",
+    "@eeacms/volto-block-toc": "3.0.5",
     "@plone/volto": "16.22.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-lazy-load-image-component": "1.5.4",
