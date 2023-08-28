@@ -21,6 +21,9 @@ import './commands';
 //Generate code-coverage
 import '@cypress/code-coverage/support';
 
+// Fail Fast
+import "cypress-fail-fast";
+
 export const slateBeforeEach = (contentType = 'Document') => {
   cy.autologin();
   cy.createContent({
@@ -59,22 +62,6 @@ export const slateJsonAfterEach = (contentType = 'slate') => {
   cy.autologin();
   cy.removeContentType(contentType);
   slateAfterEach();
-};
-
-export const slateLayoutBeforeEach = (contentType = 'book') => {
-  cy.autologin();
-  cy.addContentType(contentType);
-  cy.createContent({
-    contentType: 'Document',
-    contentId: 'cypress',
-    contentTitle: 'Cypress',
-  });
-};
-
-export const slateLayoutAfterEach = (contentType = 'book') => {
-  cy.autologin();
-  cy.removeContentType(contentType);
-  cy.removeContent('cypress');
 };
 
 export const getSelectedSlateEditor = () => {
