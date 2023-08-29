@@ -20,17 +20,16 @@ describe('Blocks Tests', () => {
       .contains('Section (Group)')
       .click({ force: true });
 
-    cy.get('.block-editor-group [contenteditable=true]')
-      .focus()
+    cy.get('.block-editor-group .block-editor-slate')
       .click()
       .type('test{enter}');
-    cy.get('.block-editor-group [contenteditable=true]')
+    cy.get('.block-editor-group div[contenteditable*=true]')
       .eq(1)
       .focus()
       .click()
       .type('test2{enter}');
-    cy.get('.block-editor-group [contenteditable=true]')
-      .eq(2)
+    cy.get('.block-editor-group div[contenteditable*=true]')
+      .eq(1)
       .focus()
       .click()
       .type('test3');
