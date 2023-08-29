@@ -46,7 +46,7 @@
     "@eeacms/volto-freshwater-policy": "0.1.20",
     "@eeacms/volto-globalsearch": "1.0.19",
     "@eeacms/volto-openlayers-map": "0.3.0",
-    "@eeacms/volto-plotlycharts": "7.0.1",
+    "@eeacms/volto-plotlycharts": "7.0.2",
     "@eeacms/volto-searchlib": "0.5.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-slots": "0.1.2",
