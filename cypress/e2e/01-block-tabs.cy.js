@@ -37,10 +37,10 @@ describe('Blocks Tests', () => {
     cy.get('.field-wrapper-menuPosition #field-menuPosition').first().click();
     cy.get('.react-select__menu').contains('Top').click();
 
-    cy.get('.tabs-block [contenteditable=true]').first().type('Hydrogen');
+    cy.get('.tabs-block .block-editor-slate').first().type('Hydrogen');
     cy.get('.tabs-block .ui.left.menu .item').last().click();
     cy.get('.tabs-block').contains('Tab 2').click();
-    cy.get('.tabs-block.edit [contenteditable=true]').first().type('Oxygen');
+    cy.get('.tabs-block.edit .block-editor-slate').first().type('Oxygen');
 
     cy.getSlate().click();
     cy.get('.ui.basic.icon.button.block-add-button').first().click();
