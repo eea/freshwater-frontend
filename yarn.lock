@@ -1210,10 +1210,10 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
 
-"@eeacms/volto-arcgis-block@0.1.187":
-  version "0.1.187"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.187.tgz#b7ee5fd9d19181345cbd730d2dae0c2fd3858316"
-  integrity sha512-WoljX0hcQYTlbJVh+J64X3EuQNQC3NUa3IgaA/0h4IkNAd0JN++p4q4pKOqefwUUU3vh7rhRoQBXJpAVHv9LtA==
+"@eeacms/volto-arcgis-block@0.1.188":
+  version "0.1.188"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.188.tgz#f9109d2dcd6a080a2a4d95050b87f725a1d9dc24"
+  integrity sha512-CHME89ePsoImbRgvFfBhU/8eVLReATpK8qz/sMydXfFP55ZISW/cdDpF/raiCX99Jr9uBiExReaYcRCgoGxp3w==
   dependencies:
     "@eeacms/volto-clms-utils" "0.1.12"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
