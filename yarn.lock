@@ -2090,9 +2090,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.201":
-  version: 0.1.201
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.201"
+"@eeacms/volto-arcgis-block@npm:0.1.202":
+  version: 0.1.202
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.202"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -2102,7 +2102,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 9208f68bf9f0702b6882a8e07609ef24d92d3a438f43c526ed098e7043199e4d1186c2fbba642997b610a68f538d7c322e3f3d7abeaf28a1af89eadb2070f36e
+  checksum: a8e926933ab39c27fc22596ac1f9f69db317905a43933e8e0c27647618d4dee06e7154988dfa3514f3e2503bea5b31cfaebf83d802307e2d1aee92fe89a52648
   languageName: node
   linkType: hard
 
@@ -13311,7 +13311,7 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-arcgis-block": 0.1.201
+    "@eeacms/volto-arcgis-block": 0.1.202
     "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.1.0
     "@eeacms/volto-eea-design-system": 1.17.0
