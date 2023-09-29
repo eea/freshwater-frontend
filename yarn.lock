@@ -1595,10 +1595,10 @@
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-geolocation@5.1.3":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-5.1.3.tgz#b93ca9bda4b06f65e9b1b2fa71e814d43b00dc76"
-  integrity sha512-uMYbzKcmfafLBucTRNQawQOgHjsC3i8E4187z1VFuj3QSEWygM4xG6Zl8VU5J9wRmQOT/hRWJt39YO56NaxN8g==
+"@eeacms/volto-widget-geolocation@5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-5.1.4.tgz#b0eca17fb0435579024251962445d1341ac4cec0"
+  integrity sha512-L7b7hp8NlU1nfxIrEnQTeLAJzGPUgmqtXXE7bntgpbzL+zcSYCCTRLSkqEsWrLv2fdCZYtEmfdBVrgnCnc1PTQ==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
