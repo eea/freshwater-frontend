@@ -4,4 +4,8 @@ cypress:
 
 .PHONY: cypress-test
 cypress-test:
-	yarn cypress run --env type=actual
+	yarn cypress run --env type=actual --env "pluginVisualRegressionCleanupUnusedImages=true"
+
+.PHONY: pw
+pw:
+	yarn playwright test --ui
