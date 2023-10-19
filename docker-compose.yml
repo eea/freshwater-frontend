@@ -3,7 +3,7 @@ version: '3'
 services:
 
   plone:
-    image: eeacms/freshwater-backend:5.2.9-3.04
+    image: eeacms/freshwater-backend:5.2.9-3.01
     # image: eeacms/plonesaas:freshwater.demo.2
     # image: eeacms/freshwater-backend:develop
     # image: eeacms/freshwater-backend:1.4.0
