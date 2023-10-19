@@ -1,0 +1,15 @@
+{
+  "name": "livetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "13.3.2",
+    "cypress-visual-regression-resemble-js": "1.1.0"
+  }
+}

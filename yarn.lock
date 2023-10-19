@@ -2163,21 +2163,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-divider@npm:6.1.4":
-  version: 6.1.4
-  resolution: "@eeacms/volto-block-divider@npm:6.1.4"
+"@eeacms/volto-block-divider@6.1.4, @eeacms/volto-block-divider@workspace:src/addons/volto-block-divider":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-block-divider@workspace:src/addons/volto-block-divider"
   dependencies:
+    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-widget-theme-picker": ^1.0.1
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    husky: ^8.0.3
+    lint-staged: ^14.0.1
+    md5: ^2.3.0
     react-color: ~2.18.1
-  checksum: a73f1447ffe2e6d41aaa551e6815e6207cfc724e2e1e1eafbe4f135e5ea1a1473542423ac99cc0c1c40bb6555a87fcb6476076a087da347b847a761885babf05
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
-"@eeacms/volto-block-image-cards@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@eeacms/volto-block-image-cards@npm:1.3.4"
+"@eeacms/volto-block-image-cards@1.3.4, @eeacms/volto-block-image-cards@workspace:src/addons/volto-block-image-cards":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-block-image-cards@workspace:src/addons/volto-block-image-cards"
   dependencies:
+    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-object-widget": "*"
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    cypress-fail-fast: ^5.0.1
+    husky: ^8.0.3
+    lint-staged: ^14.0.1
+    md5: ^2.3.0
     react-lazy-load-image-component: ^1.4.0
     react-resize-detector: 6.7.6
     react-slick: ^0.24.0
@@ -2186,9 +2198,8 @@ __metadata:
     classnames: 2.2.6
     react-loadable: 5.5.0
     uuid: 8.3.1
-  checksum: ad1b4e92a0bf6db9864aaab1d3c9ccf7902060cf457f2e45ec997c04b91b56e6d5ef679b79612a1747b713e308f0d6767b5ea4bcfbce6860592ccf78d022d8e7
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-block-style@npm:*":
   version: 4.1.0
@@ -2257,21 +2268,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-corsproxy@npm:*":
-  version: 3.0.0
-  resolution: "@eeacms/volto-corsproxy@npm:3.0.0"
-  checksum: b6693c7d9affdc60b4d0e101d360ebf4fd53ed17caa167716403e4c8b24367b79a0b87f1d5883cd8b549258eec5497a4d20050a6642ec013e8c6af2221658962
-  languageName: node
-  linkType: hard
+"@eeacms/volto-corsproxy@*, @eeacms/volto-corsproxy@3.1.4, @eeacms/volto-corsproxy@workspace:src/addons/volto-corsproxy":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-corsproxy@workspace:src/addons/volto-corsproxy"
+  dependencies:
+    "@cypress/code-coverage": ^3.10.0
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    husky: ^8.0.3
+    lint-staged: ^14.0.1
+    md5: ^2.3.0
+  languageName: unknown
+  linkType: soft
 
-"@eeacms/volto-corsproxy@npm:3.1.4":
-  version: 3.1.4
-  resolution: "@eeacms/volto-corsproxy@npm:3.1.4"
-  checksum: 838e3979f3286ab85d252268e51fa2a3159796d1658853a15fe34842c105fbe5a795fa9505cc442d4e7add7efbff5d1b7016ddf707e89344217e6ec943f3624d
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-datablocks@*, @eeacms/volto-datablocks@6.1.2, @eeacms/volto-datablocks@workspace:src/addons/volto-datablocks":
+"@eeacms/volto-datablocks@*, @eeacms/volto-datablocks@workspace:src/addons/volto-datablocks":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-datablocks@workspace:src/addons/volto-datablocks"
   dependencies:
@@ -2310,6 +2320,24 @@ __metadata:
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
   checksum: 626192e32eb9c39a48c012059dd5a98de65c319609a72b0424991f538e5484d353f33827fe77ad633e3637205749ee843e97390248bd3b9cc4b43696051ee298
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-datablocks@npm:6.1.2":
+  version: 6.1.2
+  resolution: "@eeacms/volto-datablocks@npm:6.1.2"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-group-block": "*"
+    "@eeacms/volto-matomo": "*"
+    d3: 7.1.1
+    date-fns: 2.28.0
+    humanize-plus: ^1.8.2
+    object-hash: 2.2.0
+    react-visibility-sensor: 5.1.1
+    sanitize-html: 2.7.3
+  checksum: b9ac4157616b2218981300858d0ebb39e21ee3674ec9e6092266dc0467ae7d94ab2d570c8dba2ca58d3272ace95aa63d5ab33f2bdae1ce611389c07ca2db0f96
   languageName: node
   linkType: hard
 
