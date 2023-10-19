@@ -33,3 +33,11 @@ test('about page, relevant links', async ({ page }) => {
   const box = page.locator('css=.columns-view').filter({ has: relevantLinksH3 })
   await expect(box).toHaveScreenshot()
 })
+
+test('eu country page', async ({ page }) => {
+  // test.setTimeout(120000)
+  test.slow()
+  await page.goto(url('/countries/uwwt/european-union'))
+
+  await expect(page).toHaveScreenshot({ fullPage: true, timeout: 200000 })
+})
