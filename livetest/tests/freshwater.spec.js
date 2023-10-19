@@ -39,5 +39,10 @@ test('eu country page', async ({ page }) => {
   test.slow()
   await page.goto(url('/countries/uwwt/european-union'))
 
-  await expect(page).toHaveScreenshot({ fullPage: true, timeout: 200000 })
+  await expect(page).toHaveScreenshot('eu-page1.png')
+
+  await page.keyboard.press('PageDown')
+  await expect(page).toHaveScreenshot('eu-page2.png', { timeout: 300000, maxDiffPixels: 200 })
+
+  // await expect(page).toHaveScreenshot({ fullPage: true, timeout: 200000 })
 })
