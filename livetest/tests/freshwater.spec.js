@@ -41,11 +41,14 @@ test('eu country page', async ({ page }) => {
 
   await expect(page).toHaveScreenshot('eu-page1.png')
 
-  await page.keyboard.press('PageDown')
+  await page.keyboard.press('PageDown', { timeout: 10000 })
   // await expect(page).toHaveScreenshot('eu-page2.png', { timeout: 300000, maxDiffPixels: 400 })
 
   await page.keyboard.press('PageDown')
-  await expect(page).toHaveScreenshot('eu-page3.png', { timeout: 300000, maxDiffPixels: 200 })
+  await expect(page).toHaveScreenshot('eu-page3.png', { timeout: 10000 })
+
+  await page.keyboard.press('PageDown')
+  await expect(page).toHaveScreenshot('eu-page4.png', { timeout: 10000 })
 
   // await expect(page).toHaveScreenshot({ fullPage: true, timeout: 200000 })
 })
