@@ -6,7 +6,9 @@ const url = path => `${site}${path}`
 const _10s = 10000
 
 test.use({
-  viewport: { width: 1600, height: 1200 }
+  viewport: { width: 1600, height: 1200 },
+  locale: 'en',
+  timezoneId: 'Europe/Berlin'
 })
 
 test('homepage', async ({ page }) => {
