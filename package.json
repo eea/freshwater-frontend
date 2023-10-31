@@ -35,7 +35,7 @@
     "@eeacms/volto-plotlycharts": "<=3.0.4",
     "@eeacms/volto-slate-dataentity": "<=1.0.5",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
-    "@eeacms/volto-widget-dataprovenance": "0.4.2",
+    "@eeacms/volto-widget-dataprovenance": "0.4.3",
     "@eeacms/volto-widget-geolocation": "5.1.6",
     "@plone/scripts": "*",
     "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path-v15.16.0",

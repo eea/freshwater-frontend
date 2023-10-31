@@ -1582,10 +1582,10 @@
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-widget-dataprovenance@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.4.2.tgz#80e8a60c223d9d592617fc79d45494c72bec68b9"
-  integrity sha512-/hEcFm0KieGS4bXuGZG3u9qzIYw4XMcttkf1F8h4qEkY0n6SlOWCuJ+kw4OrcWLTZiHYM1u5cNSiNoA4NixdAQ==
+"@eeacms/volto-widget-dataprovenance@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.4.3.tgz#d4fdf27cc267bf5aa7f8d2f373fce02c1d16b888"
+  integrity sha512-YIeUHimxmV6VVbZC/7/FaOctroIO0o/n/RW7C+MvRitM5X5CNFA9OYzob+57BMHzWZdxpJU3Tp7vGYXXnfTUwA==
 
 "@eeacms/volto-widget-geolocation@4.0.6":
   version "4.0.6"
