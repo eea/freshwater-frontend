@@ -2552,12 +2552,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:5.1.4":
-  version: 5.1.4
-  resolution: "@eeacms/volto-object-widget@npm:5.1.4"
+"@eeacms/volto-object-widget@npm:5.1.5":
+  version: 5.1.5
+  resolution: "@eeacms/volto-object-widget@npm:5.1.5"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
-  checksum: 137e37413de84354e7a4ecff8a6565ce7e019c787b501c6728afeb7b06407706528f717c04a235cb37947ddb4fcfb96aa3b5fc0e487192d7700a4362d9930e15
+  checksum: c1e9217fe5924a97b184898e4626691b6b6f3e9f3489941b37f72ec0406adfef3c98c0d893c8a026c103f16f4a9109b5bffb394ff21ac43fe0f312dc15965a47
   languageName: node
   linkType: hard
 
@@ -2828,6 +2828,16 @@ __metadata:
     "@eeacms/volto-corsproxy": "*"
     i18n-iso-countries: 6.2.1
   checksum: f37cf32533ca0cdf6cb4ffbb6e672abb5b76e610424961a162faa653ad493d4d49beedbda642d45e230536ac57bd2a394e1b8d362a20c4c695d588353a7e0cae
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-widget-geolocation@npm:5.1.6":
+  version: 5.1.6
+  resolution: "@eeacms/volto-widget-geolocation@npm:5.1.6"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: 0d557fe6557bd309494e6fedbcae6e0be10e75bba5ef1a48b3fec6b16bf77fa1d33538823abd44a38d56dcbe7d7995d9fc13b46c13ac10c56abfe8f5e8245217
   languageName: node
   linkType: hard
 
@@ -13338,7 +13348,7 @@ __metadata:
     "@eeacms/volto-slots": 0.1.2
     "@eeacms/volto-tableau": 6.0.0
     "@eeacms/volto-widget-dataprovenance": 0.4.2
-    "@eeacms/volto-widget-geolocation": 5.1.5
+    "@eeacms/volto-widget-geolocation": 5.1.6
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.22.0
     cypress-fail-fast: "*"
