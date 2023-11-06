@@ -15,6 +15,7 @@
     "http-proxy-middleware": "2.0.1",
     "@eeacms/volto-eea-design-system": "1.20.0",
     "d3-array": "2.12.1",
+    "@eeacms/volto-listing-block": "6.0.3",
     "@eeacms/volto-object-widget": "5.1.5"
   },
   "addons": [
@@ -50,6 +51,7 @@
     "@eeacms/volto-embed": "7.0.0",
     "@eeacms/volto-freshwater-policy": "0.1.30",
     "@eeacms/volto-globalsearch": "1.0.21",
+    "@eeacms/volto-listing-block": "6.0.3",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "7.1.0",
     "@eeacms/volto-searchlib": "0.6.7",
