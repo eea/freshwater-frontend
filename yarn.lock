@@ -2430,9 +2430,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.1.30":
-  version: 0.1.30
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.1.30"
+"@eeacms/volto-freshwater-policy@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.1.31"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": ^3.3.0
@@ -2443,10 +2443,11 @@ __metadata:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-openlayers-map": "*"
     "@eeacms/volto-searchlib": "*"
+    d3-array: ^2.12.1
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: aebbcc0862b993216bcf8f806da6b86a31876f12cc9293b61710e8215b89cc7439f9317947cdb586e51403857119d8e0c4ca147183a15aa1b3069ee0e79474dd
+  checksum: fe3fd029156138bde798516d754b4409e5dc22a9d32105a58f3f85acc6f7db904fe29f380f0412cf444e99f0848c4c649adfbb36cfca1da6f0ca99c3ed05b3be
   languageName: node
   linkType: hard
 
@@ -2494,27 +2495,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*":
-  version: 4.2.2
-  resolution: "@eeacms/volto-listing-block@npm:4.2.2"
+"@eeacms/volto-listing-block@npm:6.0.3":
+  version: 6.0.3
+  resolution: "@eeacms/volto-listing-block@npm:6.0.3"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 09d4411e9d786a1f65822eb18335b7d4a824616a5ae7db1a9a8708d04e0a5c5f7a9dacf9ac7b3e0f5089cdfe08303d9a50f39770d7eea2a99c2d1d4b07e0c9bd
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-listing-block@npm:6.0.2":
-  version: 6.0.2
-  resolution: "@eeacms/volto-listing-block@npm:6.0.2"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": ^1.0.1
-    react-resize-detector: 7.1.2
-    react-slick: 0.29.0
-    slick-carousel: 1.8.1
-  checksum: ccd9fd6d822bc88dbc800f26bd193543bfdd06e9ffabf7980030a3b1e8285dd7850422900d3dfc91e34f85929a5f86a42a6c313d84dbde090156425c407c8e87
+  checksum: f13ff404fd391009a75f32d998c2c4490a443846e269ef46e4a5c24e2cad104f5bf37adc84a251d347ef7f0b1c6c468e6e8aa0e04207e31d92eb48bf40259c18
   languageName: node
   linkType: hard
 
@@ -13340,8 +13329,9 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.23.0
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 7.0.0
-    "@eeacms/volto-freshwater-policy": 0.1.30
+    "@eeacms/volto-freshwater-policy": 0.1.31
     "@eeacms/volto-globalsearch": 1.0.21
+    "@eeacms/volto-listing-block": 6.0.3
     "@eeacms/volto-openlayers-map": 0.3.0
     "@eeacms/volto-plotlycharts": 7.1.0
     "@eeacms/volto-searchlib": 0.6.7
