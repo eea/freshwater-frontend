@@ -2495,15 +2495,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:6.1.0":
+"@eeacms/volto-listing-block@github:eea/volto-listing-block#fix-simple-item-link":
   version: 6.1.0
-  resolution: "@eeacms/volto-listing-block@npm:6.1.0"
+  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=cf2b777a8d6e2a480b0a786967b0472b4cfb40db"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: d0e687753d5d4c0610a7f58dcbac4f37e6961a2f5ad17e78b88ac2f5f9a248522f5d08d5dfa5fbca5b6449d25fd3631432865edfd779d37332b7f1c8e5056c70
+  checksum: c937d75fb891fb4ad2c87c32fdf330d08fed58639f75ea97ddf37757d48bbdac58b01394c1de634268e3a12ca365b56128efeab5936ea5dc72c97ad1d336d60b
   languageName: node
   linkType: hard
 
@@ -2570,9 +2570,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:7.1.2":
-  version: 7.1.2
-  resolution: "@eeacms/volto-plotlycharts@npm:7.1.2"
+"@eeacms/volto-plotlycharts@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@eeacms/volto-plotlycharts@npm:8.0.0"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2583,7 +2583,7 @@ __metadata:
     react-inspector: 6.0.2
     react-json-editor-ajrm: 2.5.14
     react-plotly.js: 2.6.0
-  checksum: 611ab8fb95e6729e100eae480989cdcef6c929af50dafdb0e97f7e68cd747ab35ef3537bc6c3ab7dae3528be969c253deb1d11ea305746de7038a43b034924dd
+  checksum: f77026da043c17001234cda742442c6c259b7aedeac321ccc3cad8da85e0769214f77820690e302c1c4296c4bdb3a2e77f2294a2b88ecc864942741b78b52263
   languageName: node
   linkType: hard
 
@@ -2767,14 +2767,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@eeacms/volto-tableau@npm:6.0.4"
+"@eeacms/volto-tableau@npm:6.0.5":
+  version: 6.0.5
+  resolution: "@eeacms/volto-tableau@npm:6.0.5"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: 309a944c37fb7abd50779eb09a6a45239ea427e7f957079b0894ceb132191a435707908d008d82290f5bf273f73484f5e441d61340b9e4b0e9b8239eaf4da647
+  checksum: 67faaa1c1cd9e969736d09b79a9c2ea4a5868450d5015e187550212206eb2bb468ab4a01e8136a2d56e07692a2d85d129507a3dd5323c7f11ca6049ed518eeab
   languageName: node
   linkType: hard
 
@@ -13331,13 +13331,13 @@ __metadata:
     "@eeacms/volto-embed": 7.0.2
     "@eeacms/volto-freshwater-policy": 0.1.34
     "@eeacms/volto-globalsearch": 1.0.21
-    "@eeacms/volto-listing-block": 6.1.0
+    "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link"
     "@eeacms/volto-openlayers-map": 0.3.0
-    "@eeacms/volto-plotlycharts": 7.1.2
+    "@eeacms/volto-plotlycharts": 8.0.0
     "@eeacms/volto-searchlib": 0.6.7
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-slots": 0.1.2
-    "@eeacms/volto-tableau": 6.0.4
+    "@eeacms/volto-tableau": 6.0.5
     "@eeacms/volto-widget-dataprovenance": 0.4.3
     "@eeacms/volto-widget-geolocation": 5.1.6
     "@plone/scripts": ^2.1.2

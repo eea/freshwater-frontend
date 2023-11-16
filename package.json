@@ -53,7 +53,7 @@
     "@eeacms/volto-globalsearch": "1.0.21",
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link",
     "@eeacms/volto-openlayers-map": "0.3.0",
-    "@eeacms/volto-plotlycharts": "7.1.2",
+    "@eeacms/volto-plotlycharts": "8.0.0",
     "@eeacms/volto-searchlib": "0.6.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-slots": "0.1.2",
