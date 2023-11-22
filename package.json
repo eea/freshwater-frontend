@@ -16,6 +16,7 @@
     "@eeacms/volto-eea-design-system": "1.21.1",
     "d3-array": "2.12.1",
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link",
+    "@eeacms/volto-group-block": "github:eea/volto-group-block#use-location",
     "@eeacms/volto-object-widget": "5.1.5"
   },
   "addons": [
@@ -32,6 +33,7 @@
     "@eeacms/volto-openlayers-map",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-searchlib",
+    "@eeacms/volto-group-block",
     "@eeacms/volto-freshwater-policy",
     "@eeacms/volto-eea-map",
     "@eeacms/volto-eea-slate-glossary",
@@ -51,6 +53,7 @@
     "@eeacms/volto-embed": "8.0.0",
     "@eeacms/volto-freshwater-policy": "0.1.34",
     "@eeacms/volto-globalsearch": "1.0.21",
+    "@eeacms/volto-group-block": "github:eea/volto-group-block#use-location",
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "8.0.0",
