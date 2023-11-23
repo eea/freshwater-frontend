@@ -2563,9 +2563,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@eeacms/volto-plotlycharts@npm:8.0.0"
+"@eeacms/volto-plotlycharts@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@eeacms/volto-plotlycharts@npm:8.1.0"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2576,7 +2576,7 @@ __metadata:
     react-inspector: 6.0.2
     react-json-editor-ajrm: 2.5.14
     react-plotly.js: 2.6.0
-  checksum: f77026da043c17001234cda742442c6c259b7aedeac321ccc3cad8da85e0769214f77820690e302c1c4296c4bdb3a2e77f2294a2b88ecc864942741b78b52263
+  checksum: 08fd243cc9318d497bb10d6d62a891f7f9d87bd629bc291af688f223c924ef5635afb22efa94bb1e5c8096a14617a7052afb9f5848221ddfeb9409d7f8ef34f6
   languageName: node
   linkType: hard
 
@@ -13327,7 +13327,7 @@ __metadata:
     "@eeacms/volto-group-block": "github:eea/volto-group-block#use-location"
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link"
     "@eeacms/volto-openlayers-map": 0.3.0
-    "@eeacms/volto-plotlycharts": 8.0.0
+    "@eeacms/volto-plotlycharts": 8.1.0
     "@eeacms/volto-searchlib": 0.6.7
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-slots": 0.1.2
