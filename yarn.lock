@@ -2293,9 +2293,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.21.1":
-  version: 1.21.1
-  resolution: "@eeacms/volto-eea-design-system@npm:1.21.1"
+"@eeacms/volto-eea-design-system@npm:1.22.0":
+  version: 1.22.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.22.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2304,7 +2304,7 @@ __metadata:
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: 1561a20eca98c3260f2ee8d520c59f6548b5bbfe58e30ec7c2e48496acdbb88481c284a4de6ccb3a4bd9ea8c5baf165d9e8a5b864c323ede20c378c179534501
+  checksum: d377e28a4e9b87eabc25e43670087ceb581c941ea72cc547eafecab9beb00b40300c93730bef0157be5ee191284f2038feb43feed5055052dac5f509e80005e8
   languageName: node
   linkType: hard
 
@@ -2471,10 +2471,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@github:eea/volto-group-block#use-location":
-  version: 6.3.4
-  resolution: "@eeacms/volto-group-block@https://github.com/eea/volto-group-block.git#commit=0c5d2d1a494489663cc97c5dc0f4ad13c4b67c8d"
-  checksum: cd3440dfa42b653e60900fe541682d8882e74a79b57340ce61f59eda1e3c3910c8bf70d256c4de1728974f5debf91d9ec2207c4349f7150665d3dd399f78be7d
+"@eeacms/volto-group-block@npm:6.3.5":
+  version: 6.3.5
+  resolution: "@eeacms/volto-group-block@npm:6.3.5"
+  checksum: 638b553ef0af29419fb9e8d0899974f493e6011e16fc3b481c44e8920d276e2672b5a82288e16c3240d2312952a35f41aa3057334394a41dd6ea5efe746eabc0
   languageName: node
   linkType: hard
 
@@ -13315,7 +13315,7 @@ __metadata:
     "@eeacms/volto-arcgis-block": 0.1.239
     "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.1.6
-    "@eeacms/volto-eea-design-system": 1.21.1
+    "@eeacms/volto-eea-design-system": 1.22.0
     "@eeacms/volto-eea-kitkat": 20.0.2
     "@eeacms/volto-eea-map": 3.0.1
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop"
@@ -13324,7 +13324,7 @@ __metadata:
     "@eeacms/volto-embed": 9.0.1
     "@eeacms/volto-freshwater-policy": 0.1.34
     "@eeacms/volto-globalsearch": 1.0.21
-    "@eeacms/volto-group-block": "github:eea/volto-group-block#use-location"
+    "@eeacms/volto-group-block": 6.3.5
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link"
     "@eeacms/volto-openlayers-map": 0.3.0
     "@eeacms/volto-plotlycharts": 8.1.2
