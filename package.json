@@ -37,7 +37,8 @@
     "@eeacms/volto-freshwater-policy",
     "@eeacms/volto-eea-map",
     "@eeacms/volto-eea-slate-glossary",
-    "@eeacms/volto-elastic-csv-widget"
+    "@eeacms/volto-elastic-csv-widget",
+    "@eeacms/volto-favboard"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
@@ -51,6 +52,7 @@
     "@eeacms/volto-eea-website-theme": "1.24.1",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.0.1",
+    "@eeacms/volto-favboard": "*",
     "@eeacms/volto-freshwater-policy": "0.1.34",
     "@eeacms/volto-globalsearch": "1.0.21",
     "@eeacms/volto-group-block": "6.3.5",

@@ -310,5 +310,13 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-favboard": {
+    "url": "git@github.com:eea/volto-favboard.git",
+    "https": "https://github.com/eea/volto-favboard.git",
+    "package": "@eeacms/volto-favboard",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }

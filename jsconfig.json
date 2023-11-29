@@ -24,6 +24,9 @@
             ],
             "@eeacms/volto-eea-map": [
                 "addons/volto-eea-map/src"
+            ],
+            "@eeacms/volto-favboard": [
+                "addons/volto-favboard/src"
             ]
         },
         "baseUrl": "src"
