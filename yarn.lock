@@ -2824,6 +2824,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-widget-geolocation@npm:5.1.7":
+  version: 5.1.7
+  resolution: "@eeacms/volto-widget-geolocation@npm:5.1.7"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: d557f527aa275112e61b5f0897c55e4053c850ca1186b18f4d981e85dd9db9a6c6fb77731dc8b8d002d1c3bde91cc63b69cacaf8a6040bc05d03c3587f63743f
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-widget-temporal-coverage@npm:5.2.0":
   version: 5.2.0
   resolution: "@eeacms/volto-widget-temporal-coverage@npm:5.2.0"
@@ -13335,7 +13345,7 @@ __metadata:
     "@eeacms/volto-slots": 0.1.2
     "@eeacms/volto-tableau": 7.0.4
     "@eeacms/volto-widget-dataprovenance": 0.4.3
-    "@eeacms/volto-widget-geolocation": 5.1.6
+    "@eeacms/volto-widget-geolocation": 5.1.7
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.26.0
     cypress-fail-fast: "*"
