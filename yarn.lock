@@ -2353,9 +2353,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@eeacms/volto-eea-map@npm:3.0.3"
+"@eeacms/volto-eea-map@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@eeacms/volto-eea-map@npm:3.1.0"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
@@ -2365,7 +2365,7 @@ __metadata:
     razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: 9ffa758301a4d08ae3caac3caa618cdb43da8038d3e945a8b68403c05bbe86347c32d57568502e143984fda7a063763ea4984dfa592618e68ec7e495aded49ce
+  checksum: bce62237baa2906d00260760826a089de86f4b37afeb274cda6274232f755d04fc2d8243dd47573679cf63a056e3df7e0c91d9a486d21f44775aa8e856344e19
   languageName: node
   linkType: hard
 
@@ -2545,12 +2545,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:5.2.0":
-  version: 5.2.0
-  resolution: "@eeacms/volto-object-widget@npm:5.2.0"
+"@eeacms/volto-object-widget@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@eeacms/volto-object-widget@npm:6.0.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
-  checksum: 3b9687e85d6c3f1802585b911fe43dea86e784ba49ad6e6fc19291163a248bf96d421456d3c3c4e0f2691c9c5bffc393be0776bae2e363e61d42e6dd69469453
+  checksum: 6f272e4dec34a050f4729f36c464786e57273a0147279c4eb7ac20013ac2ac1afdf59c931315ceb4f2cc2f0ae09f4f05002b7442d5ccc501476d36ade4c87f70
   languageName: node
   linkType: hard
 
@@ -13329,7 +13329,7 @@ __metadata:
     "@eeacms/volto-datablocks": 6.1.6
     "@eeacms/volto-eea-design-system": 1.22.4
     "@eeacms/volto-eea-kitkat": 21.0.1
-    "@eeacms/volto-eea-map": 3.0.3
+    "@eeacms/volto-eea-map": 3.1.0
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop"
     "@eeacms/volto-eea-website-theme": 1.24.3
     "@eeacms/volto-elastic-csv-widget": 1.0.7
