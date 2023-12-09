@@ -2420,13 +2420,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:9.0.3":
-  version: 9.0.3
-  resolution: "@eeacms/volto-embed@npm:9.0.3"
+"@eeacms/volto-embed@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-embed@npm:9.0.4"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: 201d504892bb10f4b35830dcd11aa0d860b82971854388fe20376eb2c7790b8e69e2ad1c7b041f71245ce294c8ad2e8c9fd4032d7caeeffe694ea69749c2e986
+  checksum: 354f8ec18356c947b4b5f363139dd840352d64d297b70387d19ae6d1f96db0a2364410e57b4535f214ff1e86383621c0c79f48ac142b5e1e7e9e56e500419539
   languageName: node
   linkType: hard
 
@@ -13333,7 +13333,7 @@ __metadata:
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop"
     "@eeacms/volto-eea-website-theme": 1.24.3
     "@eeacms/volto-elastic-csv-widget": 1.0.7
-    "@eeacms/volto-embed": 9.0.3
+    "@eeacms/volto-embed": 9.0.4
     "@eeacms/volto-freshwater-policy": 0.1.34
     "@eeacms/volto-globalsearch": 1.0.21
     "@eeacms/volto-group-block": 6.3.5
