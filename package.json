@@ -37,7 +37,8 @@
     "@eeacms/volto-freshwater-policy",
     "@eeacms/volto-eea-map",
     "@eeacms/volto-eea-slate-glossary",
-    "@eeacms/volto-elastic-csv-widget"
+    "@eeacms/volto-elastic-csv-widget",
+    "@eeacms/volto-prefixPath"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
@@ -57,6 +58,7 @@
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "8.2.0",
+    "@eeacms/volto-prefixPath": "github:eea/volto-prefixPath#develop",
     "@eeacms/volto-searchlib": "0.6.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-slots": "0.1.2",
