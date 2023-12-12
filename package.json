@@ -52,7 +52,7 @@
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.0.4",
     "@eeacms/volto-freshwater-policy": "0.1.34",
-    "@eeacms/volto-globalsearch": "1.0.21",
+    "@eeacms/volto-globalsearch": "1.0.22",
     "@eeacms/volto-group-block": "6.3.5",
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link",
     "@eeacms/volto-openlayers-map": "0.3.0",
