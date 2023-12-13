@@ -20,7 +20,7 @@
     "https": "https://github.com/eea/volto-corsproxy.git",
     "package": "@eeacms/volto-corsproxy",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-depiction": {
@@ -132,7 +132,7 @@
     "https": "https://github.com/eea/volto-block-divider.git",
     "package": "@eeacms/volto-block-divider",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-listing-block": {
@@ -180,7 +180,7 @@
     "https": "https://github.com/eea/volto-block-image-cards.git",
     "package": "@eeacms/volto-block-image-cards",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-banner": {
