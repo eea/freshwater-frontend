@@ -50,7 +50,7 @@
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop",
     "@eeacms/volto-eea-website-theme": "1.26.0",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
-    "@eeacms/volto-embed": "9.0.4",
+    "@eeacms/volto-embed": "9.0.5",
     "@eeacms/volto-freshwater-policy": "0.1.36",
     "@eeacms/volto-globalsearch": "1.0.22",
     "@eeacms/volto-group-block": "6.3.5",
