@@ -1,31 +1,6 @@
 {
     "compilerOptions": {
-        "paths": {
-            "@eeacms/volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
-            ],
-            "@eeacms/volto-datablocks": [
-                "addons/volto-datablocks/src"
-            ],
-            "@eeacms/volto-tableau": [
-                "addons/volto-tableau/src"
-            ],
-            "@eeacms/volto-slots": [
-                "addons/volto-slots/src"
-            ],
-            "@eeacms/volto-freshwater-policy": [
-                "addons/volto-freshwater-policy/src"
-            ],
-            "@eeacms/volto-eea-design-system": [
-                "addons/volto-eea-design-system/src"
-            ],
-            "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
-            ],
-            "@eeacms/volto-eea-map": [
-                "addons/volto-eea-map/src"
-            ]
-        },
+        "paths": {},
         "baseUrl": "src"
     }
 }
