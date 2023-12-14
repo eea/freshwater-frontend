@@ -48,7 +48,7 @@
     "@eeacms/volto-eea-kitkat": "21.1.0",
     "@eeacms/volto-eea-map": "3.2.1",
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop",
-    "@eeacms/volto-eea-website-theme": "1.26.0",
+    "@eeacms/volto-eea-website-theme": "1.26.1",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.0.5",
     "@eeacms/volto-freshwater-policy": "0.1.36",
