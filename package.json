@@ -26,7 +26,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-arcgis-block": "0.1.242",
+    "@eeacms/volto-arcgis-block": "0.1.243",
     "@eeacms/volto-datablocks": "github:eea/volto-datablocks#3.0.11-height_fix",
     "@eeacms/volto-eea-kitkat": "<=8.2.4",
     "@eeacms/volto-embed": "<=4.0.2",
