@@ -54,7 +54,7 @@
     "@eeacms/volto-freshwater-policy": "0.1.37",
     "@eeacms/volto-globalsearch": "1.0.22",
     "@eeacms/volto-group-block": "6.3.5",
-    "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-simple-item-link",
+    "@eeacms/volto-listing-block": "7.0.1",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "8.2.0",
     "@eeacms/volto-searchlib": "0.6.7",
