@@ -22,7 +22,7 @@ ARG MAX_OLD_SPACE_SIZE=8192
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN yarn \
-    && yarn build \
+    && RAZZLE_PREFIX_PATH=$RAZZLE_PREFIX_PATH yarn build \
     && rm -rf /home/node/.cache \
     && rm -rf /home/node/.yarn \
     && rm -rf /home/node/.npm \
