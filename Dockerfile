@@ -19,6 +19,7 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
 USER node
 
 ARG MAX_OLD_SPACE_SIZE=8192
+ENV RAZZLE_PREFIX_PATH /freshwater
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN yarn \
@@ -32,4 +33,4 @@ USER root
 EXPOSE 3000 3001
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["yarn", "start:prod"]
+CMD ["sh", "-c", "RAZZLE_PREFIX_PATH=${RAZZLE_PREFIX_PATH}","yarn", "start:prod"]
