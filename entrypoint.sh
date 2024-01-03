@@ -2,8 +2,8 @@
 set -Ex
 
 function apply_rebuild {
-  #mkdir -p /app/src/addons
-  #gosu node yarn develop
+  mkdir -p /app/src/addons
+  gosu node yarn develop
   gosu node yarn
   gosu node RAZZLE_PREFIX_PATH=$RAZZLE_PREFIX_PATH yarn build
 }

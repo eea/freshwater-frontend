@@ -314,7 +314,7 @@
   "volto-prefixPath": {
     "url": "git@github.com:eea/volto-prefixPath.git",
     "https": "https://github.com/eea/volto-prefixPath.git",
-    "package": "@eeacms/volto-prefixPath",
+    "package": "@eeacms/volto-prefixpath",
     "branch": "develop",
     "develop": true,
     "path": "src"
