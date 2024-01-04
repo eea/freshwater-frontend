@@ -2172,16 +2172,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:^3.3.0":
-  version: 3.7.2
-  resolution: "@eeacms/volto-block-style@npm:3.7.2"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-    react-color: ~2.18.1
-  checksum: cedc0c086432d569a3a56a6b6479515777779450db714aa28d19062f1f0bfc8e4915d9e9c3162479559034df599bb498b89cba3fa0a6f32de9969da5a09045f0
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-block-toc@npm:3.0.7":
   version: 3.0.7
   resolution: "@eeacms/volto-block-toc@npm:3.0.7"
@@ -2401,12 +2391,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.1.38":
-  version: 0.1.38
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.1.38"
+"@eeacms/volto-freshwater-policy@npm:0.1.39":
+  version: 0.1.39
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.1.39"
   dependencies:
     "@eeacms/countup": "*"
-    "@eeacms/volto-block-style": ^3.3.0
+    "@eeacms/volto-block-style": "*"
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2418,7 +2408,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: d54f6d36ea3a6e1403e50fd7dffe425abc69577ea1e30c63528cb8beab070d4dbab0e6cd5201867c0a60c36426f1458eb4146acc121eecc228379146b96d6f30
+  checksum: 3c35386ad9fb488f27b301bf926ca0d944814d787a81fb49a13ede5e46142a58298c96556317d44ab9db661936969abbc20b3642523e06a0d51ece344c0b97e0
   languageName: node
   linkType: hard
 
@@ -13295,7 +13285,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.26.1
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.0.5
-    "@eeacms/volto-freshwater-policy": 0.1.38
+    "@eeacms/volto-freshwater-policy": 0.1.39
     "@eeacms/volto-globalsearch": 1.0.22
     "@eeacms/volto-group-block": 6.3.5
     "@eeacms/volto-listing-block": 7.0.1
