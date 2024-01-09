@@ -51,7 +51,7 @@
     "@eeacms/volto-eea-website-theme": "1.26.2",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.0.5",
-    "@eeacms/volto-freshwater-policy": "0.1.44",
+    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#prefix-path-fixes",
     "@eeacms/volto-globalsearch": "1.0.22",
     "@eeacms/volto-group-block": "6.3.5",
     "@eeacms/volto-listing-block": "7.0.1",
