@@ -1798,9 +1798,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.245":
-  version: 0.1.245
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.245"
+"@eeacms/volto-arcgis-block@npm:0.1.247":
+  version: 0.1.247
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.247"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1810,7 +1810,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 89519e378b2d4e8b26307c4344d79c6265609411d680ae83f087549cedbeb53a964e65c97955e4c7b80e8257a75fd67316375612bbc90b4d59361d3bf729356d
+  checksum: 845250deeec8445e61eddb8bb807442e06d5bd53a56f3fe0741560dfcf9f22c02646ef2ae1f6a166e1ffec673d6746b96261fa76c094e10f91f83a2b7b971d71
   languageName: node
   linkType: hard
 
@@ -2077,7 +2077,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:*, @eeacms/volto-embed@npm:9.0.5":
+"@eeacms/volto-embed@npm:*":
   version: 9.0.5
   resolution: "@eeacms/volto-embed@npm:9.0.5"
   dependencies:
@@ -2087,9 +2087,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.1.44":
-  version: 0.1.44
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.1.44"
+"@eeacms/volto-embed@npm:9.0.6":
+  version: 9.0.6
+  resolution: "@eeacms/volto-embed@npm:9.0.6"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    "@eeacms/volto-datablocks": "*"
+  checksum: ae81faf8524e2868d52dd321e87aaf9adc7329ca75d1f67ff8d5740f0b0a0890327c4bc1ca730b618f2ced891c94dd23a42eed10ecad4f294b4fb23c19b3d39e
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-freshwater-policy@npm:0.1.46":
+  version: 0.1.46
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.1.46"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2104,7 +2114,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: f42e3e47737332458147a1f9213f8f7743c854cc1de2c3fbe2b0dedbf9e93a9436f7a09d504daa91c344d11fef2427316f37ad0a663ab3355dddba0c5e80514d
+  checksum: e3f7159e4c6ebf7a607062467546066888733bad618bf12cc292e3d977f8dc7e43045f8220e3ae192af350e47e1c55f318b4274ea276fb46ce0586e1b23c6b2b
   languageName: node
   linkType: hard
 
@@ -11599,7 +11609,7 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-arcgis-block": 0.1.245
+    "@eeacms/volto-arcgis-block": 0.1.247
     "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.3.0
     "@eeacms/volto-eea-design-system": 1.22.4
@@ -11608,8 +11618,8 @@ __metadata:
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop"
     "@eeacms/volto-eea-website-theme": 1.26.2
     "@eeacms/volto-elastic-csv-widget": 1.0.7
-    "@eeacms/volto-embed": 9.0.5
-    "@eeacms/volto-freshwater-policy": 0.1.44
+    "@eeacms/volto-embed": 9.0.6
+    "@eeacms/volto-freshwater-policy": 0.1.46
     "@eeacms/volto-globalsearch": 1.0.22
     "@eeacms/volto-group-block": 6.3.5
     "@eeacms/volto-listing-block": 7.0.1
