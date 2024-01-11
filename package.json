@@ -58,7 +58,7 @@
     "@eeacms/volto-listing-block": "7.0.1",
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "8.2.0",
-    "@eeacms/volto-prefixpath": "0.1.4",
+    "@eeacms/volto-prefixpath": "0.1.5",
     "@eeacms/volto-searchlib": "0.6.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-slots": "0.1.2",
