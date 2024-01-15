@@ -2210,9 +2210,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@github:eea/volto-freshwater-policy#prefix-path-fixes":
+"@eeacms/volto-freshwater-policy@github:eea/volto-freshwater-policy#1.0.0-prefix-path-fixes.0-alpha":
   version: 0.1.44
-  resolution: "@eeacms/volto-freshwater-policy@https://github.com/eea/volto-freshwater-policy.git#commit=b5431228331afefcf21c011e682d4d698ef8dc76"
+  resolution: "@eeacms/volto-freshwater-policy@https://github.com/eea/volto-freshwater-policy.git#commit=3b820bc828590ac9bfe8d253ed28364b2ceb568e"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2227,7 +2227,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: a781fd7b62e3567bc6660feb423009bc5b4dd6a7e9e2fdedc0e16a4b0ee6e5cff989e102f31c20d480a3a6c734b46aa2eac741f9b6101705128cca944dfa4836
+  checksum: 221161cefa3cd5225b57027785fa806fa9bb7bb4d2dc24fadb582098c624d8551d8559812c5b78d8e082c92e12f9331652eff34fec3f235889520475c4eb55cd
   languageName: node
   linkType: hard
 
@@ -2397,12 +2397,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-prefixpath@npm:0.1.6":
-  version: 0.1.6
-  resolution: "@eeacms/volto-prefixpath@npm:0.1.6"
+"@eeacms/volto-prefixpath@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@eeacms/volto-prefixpath@npm:0.1.8"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 78973d4610fdc09d5fe51b8b1dcf2ca05238fbf04fea62394ff6356b0df2e05e53439be8eee97c9dcfbead049651c81c2d9e1179ec1cbd87cee4e4787a038c76
+  checksum: c456c385571ac614e587c4ead71f6711522d4beb5b048fefdec94797252de605a782936ce49502214e2548374da80ae5ca1ccafd534a3da7999eeca5cf829c34
   languageName: node
   linkType: hard
 
@@ -12165,13 +12165,13 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.26.2
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.0.6
-    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#prefix-path-fixes"
+    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#1.0.0-prefix-path-fixes.0-alpha"
     "@eeacms/volto-globalsearch": 1.0.22
     "@eeacms/volto-group-block": 6.3.5
     "@eeacms/volto-listing-block": 7.0.1
     "@eeacms/volto-openlayers-map": 0.3.0
     "@eeacms/volto-plotlycharts": 8.2.0
-    "@eeacms/volto-prefixpath": 0.1.6
+    "@eeacms/volto-prefixpath": 0.1.8
     "@eeacms/volto-searchlib": 0.6.7
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-slots": 0.1.2
