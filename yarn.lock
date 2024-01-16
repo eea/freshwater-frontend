@@ -2148,7 +2148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:7.0.1":
+"@eeacms/volto-listing-block@npm:*":
   version: 7.0.1
   resolution: "@eeacms/volto-listing-block@npm:7.0.1"
   dependencies:
@@ -2169,6 +2169,18 @@ __metadata:
     react-slick: 0.29.0
     slick-carousel: 1.8.1
   checksum: 2d271c8bd5aa861eda8bf5f6dbe21bd9f5662bc793094e5637f68235b5ee323157f5724f8abcb5098c370046190e6b49070a9a2e97498c35139bec84f815d166
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-listing-block@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@eeacms/volto-listing-block@npm:7.0.2"
+  dependencies:
+    "@eeacms/volto-widget-theme-picker": ^1.0.1
+    react-resize-detector: 7.1.2
+    react-slick: 0.29.0
+    slick-carousel: 1.8.1
+  checksum: ac755157d5343e705e07ff233cd9a4e747cd4d95c9da084724d918dbfd589fb510534d9930cd0bf3a7cab533c7b4d3cd88f2a21322a988e3e42e748d40e88300
   languageName: node
   linkType: hard
 
@@ -11616,7 +11628,7 @@ __metadata:
     "@eeacms/volto-freshwater-policy": 0.1.46
     "@eeacms/volto-globalsearch": 1.0.22
     "@eeacms/volto-group-block": 6.3.5
-    "@eeacms/volto-listing-block": 7.0.1
+    "@eeacms/volto-listing-block": 7.0.2
     "@eeacms/volto-openlayers-map": 0.3.0
     "@eeacms/volto-plotlycharts": 8.2.0
     "@eeacms/volto-searchlib": 0.6.7
