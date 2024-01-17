@@ -1938,9 +1938,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:6.3.1":
-  version: 6.3.1
-  resolution: "@eeacms/volto-datablocks@npm:6.3.1"
+"@eeacms/volto-datablocks@npm:6.3.2":
+  version: 6.3.2
+  resolution: "@eeacms/volto-datablocks@npm:6.3.2"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -1952,7 +1952,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
-  checksum: b2ada75ad0e340ca3cbc1b1d7a9c6052e13cacd0b0858ab409a591af098f2df2157630cdf13728b9c51817b7c4b63e909b1957679fd831456a80fb675ba0c8ba
+  checksum: cbbddfe6a5bffb2dae8924be503beb2b1af3e978b3511363ce5f8f7757bf5e8e1e9d5c069ceee27d7da575eee776d24f1c0239d614c12729f484a8896479f179
   languageName: node
   linkType: hard
 
@@ -2023,9 +2023,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:3.2.1":
-  version: 3.2.1
-  resolution: "@eeacms/volto-eea-map@npm:3.2.1"
+"@eeacms/volto-eea-map@github:eea/volto-eea-map#develop":
+  version: 3.2.2
+  resolution: "@eeacms/volto-eea-map@https://github.com/eea/volto-eea-map.git#commit=523b82c94901456514a688fb12d741d63ec07184"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
@@ -2035,7 +2035,7 @@ __metadata:
     razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: 0c4f674388f83a48f97195a5c3d017f3bd8a224c2c05a15d9901d6c076dea08f63f6ff77f549387dd36bde101ef63bed656e969daf9e9aa541e4b1d6fce5515f
+  checksum: 04f80072f54352f9a1a7e49eb17d4e8d34dfaeba47148b1cd6f3c5eee65c9d0285859a1fe0c74516f1a31af9163d97c0fefbf24625ddd7277e16c5fb302864ac
   languageName: node
   linkType: hard
 
@@ -11671,10 +11671,10 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-arcgis-block": 0.1.249
     "@eeacms/volto-block-toc": 3.0.7
-    "@eeacms/volto-datablocks": 6.3.1
+    "@eeacms/volto-datablocks": 6.3.2
     "@eeacms/volto-eea-design-system": 1.22.4
     "@eeacms/volto-eea-kitkat": 21.1.0
-    "@eeacms/volto-eea-map": 3.2.1
+    "@eeacms/volto-eea-map": "github:eea/volto-eea-map#develop"
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop"
     "@eeacms/volto-eea-website-theme": 1.26.2
     "@eeacms/volto-elastic-csv-widget": 1.0.7
