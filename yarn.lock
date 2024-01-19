@@ -1972,9 +1972,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.22.5":
-  version: 1.22.5
-  resolution: "@eeacms/volto-eea-design-system@npm:1.22.5"
+"@eeacms/volto-eea-design-system@npm:1.22.6":
+  version: 1.22.6
+  resolution: "@eeacms/volto-eea-design-system@npm:1.22.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -1983,7 +1983,7 @@ __metadata:
     react-slick: ^0.28.1
     remixicon: 3.6.0
     slick-carousel: ^1.8.1
-  checksum: 5a74b2a92ed40acd2efddc669cbbf7c6ff09a01165d793684dc5383e641940f08647595b3856c68008f305ba1c874c91f79d628193eb1e904588dda7b8f678ff
+  checksum: 3494a6922743109b5cffb2ea08c82fb6f0173f7f9f20d6009755d520e3a45fef3522faabaea656ea486c962c7b9901403d86680fee7a48726fc53f9f82cdd057
   languageName: node
   linkType: hard
 
@@ -2089,7 +2089,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:*, @eeacms/volto-embed@npm:9.1.0":
+"@eeacms/volto-embed@github:eea/volto-embed#9.0.7":
+  version: 9.0.7
+  resolution: "@eeacms/volto-embed@https://github.com/eea/volto-embed.git#commit=1ab899dd7fd648aea74fe61de5c502a00222b7b6"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    "@eeacms/volto-datablocks": "*"
+  checksum: 374aeb716cf6165acf33934fe426225ea10eb3e668363ebbd97c5df9061c4aed11804709290021c3888af5bb17e052c850b3f4fb2a052e8b2e774e41c75d7f4c
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-embed@npm:*":
   version: 9.1.0
   resolution: "@eeacms/volto-embed@npm:9.1.0"
   dependencies:
@@ -11716,13 +11726,13 @@ __metadata:
     "@eeacms/volto-arcgis-block": 0.1.250
     "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.3.2
-    "@eeacms/volto-eea-design-system": 1.22.5
+    "@eeacms/volto-eea-design-system": 1.22.6
     "@eeacms/volto-eea-kitkat": 21.2.1
     "@eeacms/volto-eea-map": 3.3.0
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop"
     "@eeacms/volto-eea-website-theme": 1.27.1
     "@eeacms/volto-elastic-csv-widget": 1.0.7
-    "@eeacms/volto-embed": 9.1.0
+    "@eeacms/volto-embed": "github:eea/volto-embed#9.0.7"
     "@eeacms/volto-freshwater-policy": 0.1.46
     "@eeacms/volto-globalsearch": 1.1.0
     "@eeacms/volto-group-block": 6.4.0
