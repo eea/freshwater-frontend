@@ -1,6 +1,12 @@
 {
-    "compilerOptions": {
-        "paths": {},
-        "baseUrl": "src"
-    }
+  "compilerOptions": {
+    "paths": {
+      "@eeacms/volto-freshwater-policy": ["addons/volto-freshwater-policy/src"],
+      "@eeacms/volto-prefixpath": ["addons/volto-prefixPath/src"],
+      "@eeacms/volto-call-to-action-block": [
+        "addons/volto-call-to-action-block/src"
+      ]
+    },
+    "baseUrl": "src"
+  }
 }
