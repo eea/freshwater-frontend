@@ -13,7 +13,7 @@
   "resolutions": {
     "draft-js": "0.10.5",
     "http-proxy-middleware": "2.0.1",
-    "@eeacms/volto-eea-design-system": "1.22.6",
+    "@eeacms/volto-eea-design-system": "1.22.7",
     "d3-array": "2.12.1",
     "@eeacms/volto-group-block": "6.4.0",
     "@eeacms/volto-object-widget": "6.0.0"
@@ -43,7 +43,7 @@
     "@eeacms/volto-arcgis-block": "0.1.250",
     "@eeacms/volto-block-toc": "3.0.7",
     "@eeacms/volto-datablocks": "6.3.2",
-    "@eeacms/volto-eea-design-system": "1.22.6",
+    "@eeacms/volto-eea-design-system": "1.22.7",
     "@eeacms/volto-eea-kitkat": "21.2.2",
     "@eeacms/volto-eea-map": "3.3.0",
     "@eeacms/volto-eea-slate-glossary": "github:eea/volto-eea-slate-glossary#develop",
