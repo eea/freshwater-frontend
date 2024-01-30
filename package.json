@@ -59,7 +59,7 @@
     "@eeacms/volto-openlayers-map": "0.3.0",
     "@eeacms/volto-plotlycharts": "9.0.0",
     "@eeacms/volto-prefixpath": "0.1.13",
-    "@eeacms/volto-searchlib": "0.7.2",
+    "@eeacms/volto-searchlib": "0.7.3",
     "@eeacms/volto-slate-dataentity": "3.0.1",
     "@eeacms/volto-slots": "0.1.2",
     "@eeacms/volto-tableau": "7.2.0",
