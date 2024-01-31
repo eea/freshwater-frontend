@@ -62,7 +62,7 @@
     "@eeacms/volto-searchlib": "0.7.3",
     "@eeacms/volto-slate-dataentity": "3.0.1",
     "@eeacms/volto-slots": "0.1.2",
-    "@eeacms/volto-tableau": "7.2.0",
+    "@eeacms/volto-tableau": "7.2.1",
     "@eeacms/volto-widget-dataprovenance": "0.4.3",
     "@eeacms/volto-widget-geolocation": "5.1.7",
     "@plone/scripts": "*",
