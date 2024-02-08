@@ -243,8 +243,8 @@
     "url": "git@github.com:eea/volto-tableau.git",
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
-    "branch": "renderprop",
-    "develop": true,
+    "branch": "develop",
+    "develop": false,
     "path": "src"
   },
   "volto-slate-dataentity": {
@@ -255,12 +255,68 @@
     "develop": false,
     "path": "src"
   },
-  "volto-freshwater": {
-    "url": "git@github.com:eea/volto-freshwater.git",
-    "https": "https://github.com/eea/volto-freshwater.git",
-    "package": "@eeacms/volto-freshwater",
+  "volto-slots": {
+    "url": "git@github.com:eea/volto-slots.git",
+    "https": "https://github.com/eea/volto-slots.git",
+    "package": "@eeacms/volto-slots",
+    "path": "src",
     "branch": "develop",
-    "develop": true,
+    "develop": false
+  },
+  "volto-searchlib": {
+    "develop": false,
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
+    "branch": "develop",
+    "path": "src"
+  },
+  "volto-globalsearch": {
+    "develop": false,
+    "url": "git@github.com:eea/volto-globalsearch.git",
+    "https": "https://github.com/eea/volto-globalsearch.git",
+    "package": "@eeacms/volto-globalsearch",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-freshwater-policy": {
+    "url": "git@github.com:eea/volto-freshwater-policy.git",
+    "https": "https://github.com/eea/volto-freshwater-policy.git",
+    "package": "@eeacms/volto-freshwater-policy",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-eea-design-system": {
+    "url": "git@github.com:eea/volto-eea-design-system.git",
+    "https": "https://github.com/eea/volto-eea-design-system.git",
+    "package": "@eeacms/volto-eea-design-system",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-eea-website-theme": {
+    "url": "git@github.com:eea/volto-eea-website-theme.git",
+    "https": "https://github.com/eea/volto-eea-website-theme.git",
+    "package": "@eeacms/volto-eea-website-theme",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-eea-map": {
+    "url": "git@github.com:eea/volto-eea-map.git",
+    "https": "https://github.com/eea/volto-eea-map.git",
+    "package": "@eeacms/volto-eea-map",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-prefixPath": {
+    "url": "git@github.com:eea/volto-prefixPath.git",
+    "https": "https://github.com/eea/volto-prefixPath.git",
+    "package": "@eeacms/volto-prefixpath",
+    "branch": "develop",
+    "develop": false,
     "path": "src"
   }
 }
