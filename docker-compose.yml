@@ -1,47 +1,221 @@
 version: '3'
 
 services:
-  frontend:
-    image: eeacms/freshwater-frontend:v0.0.8
-    # build: .
-    user: 'node:node'
-    volumes:
-      - ./src/addons:/opt/frontend/src/addons
-    # depends_on:
-    #   - ploneapi
-    environment:
-      RAZZLE_API_PATH: 'http://localhost:${BACKEND_PORT:-8080}/${SITE_NAME:-Plone}'
-      RAZZLE_INTERNAL_API_PATH: 'http://ploneapi:8080/${SITE_NAME:-Plone}'
-      PORT: '${FRONTEND_PORT:-3000}'
-    ports:
-      - '${FRONTEND_PORT:-3000}:${FRONTEND_PORT:-3000}'
-      - '${FRONTEND_PORT_NEXT:-3001}:${FRONTEND_PORT_NEXT:-3001}'
-      - '${FRONTEND_ANALYZE_PORT:-8888}:${FRONTEND_ANALYZE_PORT:-8888}'
-    entrypoint: sh -c "tail -f /dev/null"
-    # ports:
-    # - "${FRONTEND:-3000}:3000"
-    # environment:
-    #   API_PATH: "http://localhost:${BACKEND:-8080}/Plone"
-    #   INTERNAL_API_PATH: "http://ploneapi:${BACKEND:-8080}/Plone"
 
-  ploneapi:
-    # image: eeacms/plonesaas-devel
-    # CORS_ALLOW_ORIGIN: "http://localhost:3000,http://127.0.0.1:3000,http://localhost:${FRONTEND:-8000},http://127.0.0.1:${FRONTEND:-8000}"
-    build: ./backend
-    ports:
-      - '${BACKEND_PORT:-8080}:8080'
+  plone:
+    image: eeacms/freshwater-backend:5.2.9-3.01
+    # image: eeacms/plonesaas:freshwater.demo.2
+    # image: eeacms/freshwater-backend:develop
+    # image: eeacms/freshwater-backend:1.4.0
+    # image: laszlocseh/freshwater-backend:test
     environment:
-      CORS_ALLOW_ORIGIN: 'http://localhost:${FRONTEND_PORT:-3000}'
+      CORS_ALLOW_ORIGIN: 'http://localhost:3000,http://127.0.0.1:3000'
+      # CORS_ALLOW_ORIGIN: http://localhost:3000
+      RABBITMQ_HOST: rabbitmq.apps.eea.europa.eu
+      RABBITMQ_PASS: ''
+      RABBITMQ_USER: ''
+      TZ: Europe/Copenhagen
+      # ZEO_ADDRESS: zeo:8080
+      # ZOPE_MODE: zeo_client
+    volumes:
+      - ./backend/src:/plone/instance/src
+      - ./backend/site.cfg:/plone/instance/site.cfg
+      - ./data:/data
+
+      # - ./data-2021-nov-10/data/:/data
+      # - ./data-prod-2023-ian-26/:/data
+    ports:
+      - 8080:8080/tcp
     depends_on:
       - memcached
-    volumes:
-      - ./data:/data
-      - ./backend/site.cfg:/plone/instance/site.cfg
-      - ./backend/src:/plone/instance/src
+      # - zeo
     entrypoint: sh -c "tail -f /dev/null"
 
+  apache:
+    # extra_hosts:
+      # - "marine-frontend:192.168.100.4"
+      # - "wise-localhost.com:192.168.100.4"
+    image: eeacms/apache:latest
+    ports:
+    - "80:80"
+    environment:
+      APACHE_CONFIG: |-
+        <VirtualHost *:80>
+          ServerAdmin helpdesk@wise-localhost.com
+          ServerName wise-localhost.com
+
+          ErrorLog /var/log/apache.log
+
+          RewriteEngine On
+          SSLProxyEngine on
+
+          Header set Access-Control-Allow-Origin "http://wise-localhost.com"
+          Header set Access-Control-Allow-Credentials "true"
+
+          ProxyTimeout 1800
+          Timeout 1800
+
+          Redirect "/geonetwork" "/geonetwork/"
+          #RewriteRule ^/geonetwork/(.*) http://wise-geonetwork:8080/geonetwork/$$1 [P,L,QSA]
+          RewriteRule ^/geonetwork/(.*) http://wise-geonetwork-webapp:8080/geonetwork/$$1 [P,L,QSA]
+          RewriteRule ^/old-geonetwork/(.*) http://wise-geonetwork-webapp:8080/old-geonetwork/$$1 [P,L,QSA]
+
+          # Marine-new test
+          # assessment module and country profile to plone 5
+          RewriteRule ^/(.*)marine-new/countries-and-regional-seas(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/marine-new/countries-and-regional-seas$$2 [P,L]
+          RewriteRule ^/(.*)marine-new/assessment-module(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/marine-new/assessment-module$$2 [P,L]
+          RewriteRule ^/\+\+theme\+\+wise-theme(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/++theme++wise-theme$$1 [P,L]
+          # marine-api to access plone
+          RewriteRule ^/marine-api(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_marine-api$$1 [P,L]
+          RewriteRule ^/marine-new/\+\+plone\+\+(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/$$1 [P,L]
+          RewriteRule ^/marine-new/\+\+theme\+\+(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/$$1 [P,L]
+          #marine frontend rules
+          #rules for @user, @login, /static are needed so we can have the site root at the /marine folder
+          RewriteRule ^/marine-new\/\+\+api\+\+\/\@system(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/@system$$1 [P,L]
+          RewriteRule ^/marine-new\/\+\+api\+\+\/\@controlpanels(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/@controlpanels$$1 [P,L]
+          RewriteRule ^/marine-new\/\+\+api\+\+\/\@users(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/@users$$1 [P,L]
+          RewriteRule ^/marine-new\/\+\+api\+\+\/\@login(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/@login$$1 [P,L]
+          RewriteRule ^/marine-new/static(.*) http://marine-frontend:3000/static$$1 [P,L]
+          RewriteRule ^/marine-new\/\+\+api\+\+(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_marine-new/marine-new$$1 [P,L]
+          RewriteRule ^/marine-new(.*) http://marine-frontend:3000/marine-new$$1 [P,L]
+
+          # Marine-new tibi
+          # RewriteRule ^/marine-new/\+\+api\+\+(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_marine-new$$1 [P,L]
+          # RewriteRule ^/marine-new(.*) http://marine-frontend:3000/marine-new$$1 [P,L]
+
+          # Marine - old
+          # RewriteRule ^/marine-new/static(.*) http://marine-frontend:3000/static$$1 [P,L]
+          # RewriteRule ^/marine-new(.*) http://marine-frontend:3000/marine-new$$1 [P,L]
+          # RewriteRule ^/api-marine/\+\+api\+\+\/marine-new(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_api-marine/marine-new$$1 [P,L]
+          # RewriteRule ^/api-marine(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_api-marine$$1 [P,L]
+
+
+          # Freshwater
+          RewriteRule ^/freshwater-api/\+\+api\+\+\/freshwater(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_freshwater$$1 [P,L]
+          RewriteRule ^/freshwater-api/freshwater(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_freshwater-api$$1 [P,L]
+          RewriteRule ^/freshwater-api(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_freshwater-api$$1 [P,L]
+          RewriteRule ^/freshwater(.*) http://freshwater-frontend:3000/$$1 [P,L]
+          # Fixing cards image from http://wise-localhost.com/freshwater/data-maps-and-tools/water-framework-directive-surface-water-data-products/surface-water-chemical-status
+          RewriteRule ^/resolveuid(.*) http://freshwater-frontend:3000/resolveuid/$$1 [P,L]
+
+          # Freshwater - old production
+          # Fixing http://water.ro/api/++api++/freshwater/@navigation?expand.navigation.depth=1
+          #RewriteRule ^/static(.*) http://freshwater-frontend:3000/static/$$1 [P,L]
+          #RewriteRule ^/api/\+\+api\+\+\/freshwater(.*) http://freshwater-backend:8080/VirtualHostBase/https/water.europa.eu:443/Plone/VirtualHostRoot/_vh_freshwater$$1 [P,L]
+          #RewriteRule ^/api(.*) http://freshwater-backend:8080/VirtualHostBase/https/water.europa.eu:443/Plone/VirtualHostRoot/_vh_api$$1 [P,L]
+          #RewriteRule ^/freshwater(.*) http://freshwater-frontend:3000/$$1 [P,L]
+
+          # compliance goes to p4
+          RewriteRule ^/\+\+theme\+\+wise-theme\/(.*) http://haproxyp5:5000/VirtualHostBase/http/wise-localhost.com:443/Plone/VirtualHostRoot/_vh_marine/++theme++wise-theme/$$1 [P,L]
+          RewriteRule ^/\+\+plone\+\+privacyscreen\/(.*) http://haproxyp5:5000/VirtualHostBase/http/wise-localhost.com:443/Plone/VirtualHostRoot/_vh_marine/++plone++privacyscreen/$$1 [P,L]
+
+          # new marine website goes to p5
+          RewriteRule ^/marine/site-root(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_marine/site-root/$$1 [P,L]
+          RewriteRule ^/marine(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_marine$$1 [P,L]
+
+          # frontpage goes to p4
+          RewriteRule ^/(.*) http://plone:8080/VirtualHostBase/http/wise-localhost.com:80/Plone/VirtualHostRoot/_vh_marine/site-root/$$1 [P,L]
+
+        </VirtualHost>
+
+  # freshwater-frontend:
+  #   extra_hosts:
+  #     # - "marine-frontend:192.168.100.4"
+  #     - "wise-localhost.com:192.168.100.4"
+  #     - "localhost:192.168.100.4"
+  #   image: laszlocseh/freshwater-frontend:0.15.0.local
+  #   # image: eeacms/freshwater-frontend:0.14.0.alpha
+  #   # build: .
+  #   # user: 'node:node'
+  #   # volumes:
+  #     # - ./src/addons:/opt/frontend/src/addons
+  #   environment:
+  #     PORT: '3000'
+  #     RAZZLE_ALLOWED_CORS_DESTINATIONS: http://wise-localhost.com,http://localhost:3000,https://wise-localhost.com
+  #     TZ: Europe/Copenhagen
+  #     API_PATH: http://wise-localhost.com/freshwater-api
+  #     # RAZZLE_API_PATH: http://wise-localhost.com/freshwater
+  #     # PUBLIC_PATH: http://wise-localhost.com/freshwater/
+  #     #RAZZLE_PREFIX_PATH: '/freshwater/'
+  #     RAZZLE_PROXY_ES_DSN: ''
+  #     # RAZZLE_INTERNAL_API_PATH: 'http://wise-localhost.com/marine-new'
+  #     # RAZZLE_PUBLIC_DIR: '/marine-new/'
+  #     # RAZZLE_DEV_PROXY_API_PATH: http://wise-localhost.com/marine-new
+  #   volumes:
+  #     - ./src/addons/volto-freshwater/:/opt/frontend/src/addons/volto-freshwater
+  #     # - ./marine-frontend/src/addons:/opt/frontend/src/addons
+  #     # - ./marine-frontend/jsconfig.json:/opt/frontend/jsconfig.json
+  #   # user: 'node:node'
+  #   links:
+  #     - plone:backend
+  #   ports:
+  #     - '3000:3000'
+  #     - '3001:3001'
+  #     - '8888:8888'
+  #   entrypoint: sh -c "tail -f /dev/null"
+
   memcached:
-    image: memcached
+    image: memcached:1.5.12
+    environment:
+      TZ: Europe/Copenhagen
     command:
-      - '-m'
-      - '512'
+    - -m
+    - '1024'
+
+  # zeo:
+  #   # image: eeacms/plonesaas:freshwater.demo.2
+  #   image: eeacms/freshwater-backend:1.4.0
+  #   environment:
+  #     TZ: Europe/Copenhagen
+  #     ZOPE_MODE: zeo
+  #   volumes:
+  #     # - ./data-prod-2022-mar-11/data/:/data
+  #     # - ./data-prod-2022-nov-02/data/:/data
+  #     - ./data/:/data
+  #   command:
+  #   - zeo
+
+  # frontend:
+  #   image: eeacms/freshwater-frontend:v0.0.8
+  #   # build: .
+  #   user: 'node:node'
+  #   volumes:
+  #     - ./src/addons:/opt/frontend/src/addons
+  #   # depends_on:
+  #   #   - ploneapi
+  #   environment:
+  #     RAZZLE_API_PATH: 'http://localhost:${BACKEND_PORT:-8080}/${SITE_NAME:-Plone}'
+  #     RAZZLE_INTERNAL_API_PATH: 'http://ploneapi:8080/${SITE_NAME:-Plone}'
+  #     PORT: '${FRONTEND_PORT:-3000}'
+  #   ports:
+  #     - '${FRONTEND_PORT:-3000}:${FRONTEND_PORT:-3000}'
+  #     - '${FRONTEND_PORT_NEXT:-3001}:${FRONTEND_PORT_NEXT:-3001}'
+  #     - '${FRONTEND_ANALYZE_PORT:-8888}:${FRONTEND_ANALYZE_PORT:-8888}'
+  #   entrypoint: sh -c "tail -f /dev/null"
+  #   # ports:
+  #   # - "${FRONTEND:-3000}:3000"
+  #   # environment:
+  #   #   API_PATH: "http://localhost:${BACKEND:-8080}/Plone"
+  #   #   INTERNAL_API_PATH: "http://ploneapi:${BACKEND:-8080}/Plone"
+
+  # ploneapi:
+  #   # image: eeacms/plonesaas-devel
+  #   # CORS_ALLOW_ORIGIN: "http://localhost:3000,http://127.0.0.1:3000,http://localhost:${FRONTEND:-8000},http://127.0.0.1:${FRONTEND:-8000}"
+  #   build: ./backend
+  #   ports:
+  #     - '${BACKEND_PORT:-8080}:8080'
+  #   environment:
+  #     CORS_ALLOW_ORIGIN: 'http://localhost:${FRONTEND_PORT:-3000}'
+  #   depends_on:
+  #     - memcached
+  #   volumes:
+  #     - ./data:/data
+  #     - ./backend/site.cfg:/plone/instance/site.cfg
+  #     - ./backend/src:/plone/instance/src
+  #   entrypoint: sh -c "tail -f /dev/null"
+
+  # memcached:
+  #   image: memcached
+  #   command:
+  #     - '-m'
+  #     - '512'
