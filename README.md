@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/freshwater-frontend?sort=semver)](https://github.com/eea/freshwater-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Ffreshwater-frontend%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/freshwater-frontend/job/master/lastBuild/display/redirect)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Ffreshwater-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/freshwater-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Ffreshwater-frontend%2F0.21.0&build=last&subject=release%20v0.21.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/freshwater-frontend/job/0.21.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Ffreshwater-frontend%2F1.1.0&build=last&subject=release%20v1.1.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/freshwater-frontend/job/1.1.0/lastBuild/display/redirect/)
 
 ## Documentation
 
