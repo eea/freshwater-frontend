@@ -2198,12 +2198,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@eeacms/volto-prefixpath@npm:0.1.14"
+"@eeacms/volto-prefixpath@npm:0.1.15":
+  version: 0.1.15
+  resolution: "@eeacms/volto-prefixpath@npm:0.1.15"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: caa90a6fc5f23f8f1aca80e13f10585b9e90fd5d3386e3d14e0ea86d407b1b4597b9ee57bb7e5c1bb91a1e9302b04481110aff28f5903d11e012e280e692f0ff
+  checksum: 2a1912839d99ee59f50b0f12917e2700735d938d7280c34a9d1de70ab1c565ef2248bdab0914e298aeb9a097fde071a3fe95fb40c12e523aa06edf0383218c0b
   languageName: node
   linkType: hard
 
@@ -11644,7 +11644,7 @@ __metadata:
     "@eeacms/volto-listing-block": 7.0.2
     "@eeacms/volto-openlayers-map": 0.3.1
     "@eeacms/volto-plotlycharts": 9.0.2
-    "@eeacms/volto-prefixpath": 0.1.14
+    "@eeacms/volto-prefixpath": 0.1.15
     "@eeacms/volto-searchlib": 0.7.3
     "@eeacms/volto-slate-dataentity": 3.0.1
     "@eeacms/volto-slots": 0.1.2
