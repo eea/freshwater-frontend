@@ -1797,9 +1797,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.257":
-  version: 0.1.257
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.257"
+"@eeacms/volto-arcgis-block@npm:0.1.258":
+  version: 0.1.258
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.258"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1809,7 +1809,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: ea932f33891b2c1e6ce5e3ebaca5a2317e4b7b55f9b33d9bf9e9f6c8af5ff428d1cbe73e97f6308210f636ec577b40af5bd9eac98bcf7cf62bac0f81070d83b1
+  checksum: 673c4c478cf7c1cbac98f044e484dae1abc236cbf8b63e019650cc0f415606a798cbb3884ef0e24981962e41ccd7d1c8ad066a38f5caafc0304d7db547ae9780
   languageName: node
   linkType: hard
 
@@ -2164,12 +2164,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:*, @eeacms/volto-openlayers-map@npm:0.3.0":
+"@eeacms/volto-openlayers-map@npm:*":
   version: 0.3.0
   resolution: "@eeacms/volto-openlayers-map@npm:0.3.0"
   dependencies:
     ol: 6.6.x
   checksum: d7d33223773199248cb63e05e75042cf984d4dac4be16f4ba24e4fb803067ec8ff6d247461cd007ed6903538ab8d7dbf7e575f17221e6abdc86dd27b805e659c
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-openlayers-map@npm:0.3.1":
+  version: 0.3.1
+  resolution: "@eeacms/volto-openlayers-map@npm:0.3.1"
+  dependencies:
+    ol: 6.6.x
+  checksum: 756db8c31a01eb6257647bec441a30f4af6e66046032011012763d57409fc67e21ff0f84d806ca89f7b4e298ad70f478e9b437433d8af961bd744e081b788802
   languageName: node
   linkType: hard
 
@@ -2189,12 +2198,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@eeacms/volto-prefixpath@npm:0.1.14"
+"@eeacms/volto-prefixpath@npm:0.1.15":
+  version: 0.1.15
+  resolution: "@eeacms/volto-prefixpath@npm:0.1.15"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: caa90a6fc5f23f8f1aca80e13f10585b9e90fd5d3386e3d14e0ea86d407b1b4597b9ee57bb7e5c1bb91a1e9302b04481110aff28f5903d11e012e280e692f0ff
+  checksum: 2a1912839d99ee59f50b0f12917e2700735d938d7280c34a9d1de70ab1c565ef2248bdab0914e298aeb9a097fde071a3fe95fb40c12e523aa06edf0383218c0b
   languageName: node
   linkType: hard
 
@@ -11619,7 +11628,7 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-arcgis-block": 0.1.257
+    "@eeacms/volto-arcgis-block": 0.1.258
     "@eeacms/volto-block-toc": 3.0.7
     "@eeacms/volto-datablocks": 6.3.2
     "@eeacms/volto-eea-design-system": 1.22.7
@@ -11633,9 +11642,9 @@ __metadata:
     "@eeacms/volto-globalsearch": 1.1.0
     "@eeacms/volto-group-block": 6.4.0
     "@eeacms/volto-listing-block": 7.0.2
-    "@eeacms/volto-openlayers-map": 0.3.0
+    "@eeacms/volto-openlayers-map": 0.3.1
     "@eeacms/volto-plotlycharts": 9.0.2
-    "@eeacms/volto-prefixpath": 0.1.14
+    "@eeacms/volto-prefixpath": 0.1.15
     "@eeacms/volto-searchlib": 0.7.3
     "@eeacms/volto-slate-dataentity": 3.0.1
     "@eeacms/volto-slots": 0.1.2
