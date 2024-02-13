@@ -1,7 +1,17 @@
 .DEFAULT_GOAL: help
 
 help:
+	@echo "Run make setup"
 	@echo "Run make pw"
+
+.PHONY: setup
+setup:
+	yarn install
+	yarn playwright install
+
+.PHONY: upd
+upd:
+	yarn playwright test --update-snapshots
 
 .PHONY: pw
 pw:		## start Playwright with UI, for interactive use
