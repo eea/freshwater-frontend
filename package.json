@@ -64,7 +64,7 @@
     "@eeacms/volto-slots": "0.1.2",
     "@eeacms/volto-tableau": "7.2.1",
     "@eeacms/volto-widget-dataprovenance": "0.4.3",
-    "@eeacms/volto-widget-geolocation": "5.1.7",
+    "@eeacms/volto-widget-geolocation": "5.2.0",
     "@plone/scripts": "*",
     "@plone/volto": "16.30.3",
     "react-anchor-link-smooth-scroll": "^1.0.12",
