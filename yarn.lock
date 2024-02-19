@@ -1901,7 +1901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:*, @eeacms/volto-datablocks@npm:6.3.2":
+"@eeacms/volto-datablocks@npm:*":
   version: 6.3.2
   resolution: "@eeacms/volto-datablocks@npm:6.3.2"
   dependencies:
@@ -1934,6 +1934,24 @@ __metadata:
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
   checksum: 626192e32eb9c39a48c012059dd5a98de65c319609a72b0424991f538e5484d353f33827fe77ad633e3637205749ee843e97390248bd3b9cc4b43696051ee298
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-datablocks@npm:6.3.3":
+  version: 6.3.3
+  resolution: "@eeacms/volto-datablocks@npm:6.3.3"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-group-block": "*"
+    "@eeacms/volto-matomo": "*"
+    d3: 7.1.1
+    date-fns: 2.28.0
+    humanize-plus: ^1.8.2
+    object-hash: 2.2.0
+    react-visibility-sensor: 5.1.1
+    sanitize-html: 2.7.3
+  checksum: 4332d986c6fe0c0577b67d594e5d7c677dd1990662da71d946f52064dda0910db70b27609cc0cb8925741aaad05443f0084156ce857460cfb365eebc2e466258
   languageName: node
   linkType: hard
 
@@ -11649,7 +11667,7 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-arcgis-block": 0.1.260
     "@eeacms/volto-block-toc": 3.0.8
-    "@eeacms/volto-datablocks": 6.3.2
+    "@eeacms/volto-datablocks": 6.3.3
     "@eeacms/volto-eea-design-system": 1.23.0
     "@eeacms/volto-eea-kitkat": 21.2.3
     "@eeacms/volto-eea-map": 3.3.1
