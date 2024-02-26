@@ -1806,9 +1806,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.260":
-  version: 0.1.260
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.260"
+"@eeacms/volto-arcgis-block@npm:0.1.261":
+  version: 0.1.261
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.261"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1818,7 +1818,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 62d7fdfdc2f92ae29d889b83bc7a8dce1c5e3d510cb1ea2ae5819f3061045da00a5c2356af9d0f29908c97bcac0a8b85a8cf8f5212b34010cd30ce4c1b8a3522
+  checksum: 1d8843269e9a360d39179aff2226f2d7af4724afda6b273b4e562809ff6aa234ce751cc7f897b64f085ba67ceb53b1bbd6b79d0a0a19a71eafd1acce7d9c6150
   languageName: node
   linkType: hard
 
@@ -2086,9 +2086,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.2.2":
-  version: 0.2.2
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.2.2"
+"@eeacms/volto-freshwater-policy@npm:0.2.5":
+  version: 0.2.5
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.2.5"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2103,7 +2103,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: eb07bb159c45896010d256d570c3dcc4a9207f3ba759e19c4311b48e44be761b6b70e7a92b26d56cfeaae68a9127d246805397c2df168be243e49931203e1277
+  checksum: 06223f41e6e429d37758ff3e63441706b6a74a3baabfb8ce39be4119a6551e8baa04470777cf8ef0851e5000cb67056147c22fc13a162861b1cf04f441e2af0a
   languageName: node
   linkType: hard
 
@@ -2212,12 +2212,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@eeacms/volto-openlayers-map@npm:0.3.1"
+"@eeacms/volto-openlayers-map@npm:0.3.2":
+  version: 0.3.2
+  resolution: "@eeacms/volto-openlayers-map@npm:0.3.2"
   dependencies:
     ol: 6.6.x
-  checksum: 756db8c31a01eb6257647bec441a30f4af6e66046032011012763d57409fc67e21ff0f84d806ca89f7b4e298ad70f478e9b437433d8af961bd744e081b788802
+  checksum: 801eff2466aee3451f0c47abb1eb4ea5b2df2978f9e2e532851d32bb8ea2e5b945742e9fe59e402af1284301ebcfe861bbf83b5a57b61a3ebea3a7fd5556aca9
   languageName: node
   linkType: hard
 
@@ -2352,10 +2352,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slots@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@eeacms/volto-slots@npm:0.1.2"
-  checksum: a92a8ade0e626b0fa80138e5c4959673834d33b47351a0829bc68840467fe395c9c7e402c8d5f73e3bcc114b6cf493d6b8c5bdc579f73e39a2bd1c725c2628e3
+"@eeacms/volto-slots@npm:0.1.3":
+  version: 0.1.3
+  resolution: "@eeacms/volto-slots@npm:0.1.3"
+  checksum: df54671e9f667326294f699653e4e774e08a8b1ddb3e86cb79f7489871cf42473fdb3c92fb42cf8fea84ead503232184819125287b4ce20055a8a1f5f41e410d
   languageName: node
   linkType: hard
 
@@ -11674,7 +11674,7 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-arcgis-block": 0.1.260
+    "@eeacms/volto-arcgis-block": 0.1.261
     "@eeacms/volto-block-toc": 3.0.8
     "@eeacms/volto-datablocks": 6.3.3
     "@eeacms/volto-eea-design-system": 1.23.1
@@ -11684,16 +11684,16 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.28.1
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.1.1
-    "@eeacms/volto-freshwater-policy": 0.2.2
+    "@eeacms/volto-freshwater-policy": 0.2.5
     "@eeacms/volto-globalsearch": 1.1.0
     "@eeacms/volto-group-block": 6.4.0
     "@eeacms/volto-listing-block": 7.1.0
-    "@eeacms/volto-openlayers-map": 0.3.1
+    "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 9.0.2
     "@eeacms/volto-prefixpath": 0.1.15
     "@eeacms/volto-searchlib": 0.7.3
     "@eeacms/volto-slate-dataentity": 3.0.1
-    "@eeacms/volto-slots": 0.1.2
+    "@eeacms/volto-slots": 0.1.3
     "@eeacms/volto-tableau": 7.2.1
     "@eeacms/volto-widget-dataprovenance": 0.4.3
     "@eeacms/volto-widget-geolocation": 5.2.0
