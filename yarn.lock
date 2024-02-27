@@ -1806,9 +1806,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.261":
-  version: 0.1.261
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.261"
+"@eeacms/volto-arcgis-block@npm:0.1.262":
+  version: 0.1.262
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.262"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1818,7 +1818,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 1d8843269e9a360d39179aff2226f2d7af4724afda6b273b4e562809ff6aa234ce751cc7f897b64f085ba67ceb53b1bbd6b79d0a0a19a71eafd1acce7d9c6150
+  checksum: 4ed90d4060663068727ac7c0ef4dcd469a86ffc321be79c7f1441f6617b8e745e84bbf1f37ad321fbc35eb69b80c93c5c5c768095a2e9ec60ee0b243d89a869f
   languageName: node
   linkType: hard
 
@@ -2086,9 +2086,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.2.5":
-  version: 0.2.5
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.2.5"
+"@eeacms/volto-freshwater-policy@npm:0.2.6":
+  version: 0.2.6
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.2.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2103,7 +2103,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 06223f41e6e429d37758ff3e63441706b6a74a3baabfb8ce39be4119a6551e8baa04470777cf8ef0851e5000cb67056147c22fc13a162861b1cf04f441e2af0a
+  checksum: 15af1418f8d2b7c0deb117f1a2e0cc03c6405948fcf8b6761467d71d8988892ff3bf86541b6deeb7b7613ae7aa9159ca35967ef2d0f1cd912d98b622a5f335cc
   languageName: node
   linkType: hard
 
@@ -11674,7 +11674,7 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-arcgis-block": 0.1.261
+    "@eeacms/volto-arcgis-block": 0.1.262
     "@eeacms/volto-block-toc": 3.0.8
     "@eeacms/volto-datablocks": 6.3.3
     "@eeacms/volto-eea-design-system": 1.23.1
@@ -11684,7 +11684,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.28.1
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.1.1
-    "@eeacms/volto-freshwater-policy": 0.2.5
+    "@eeacms/volto-freshwater-policy": 0.2.6
     "@eeacms/volto-globalsearch": 1.1.0
     "@eeacms/volto-group-block": 6.4.0
     "@eeacms/volto-listing-block": 7.1.0
