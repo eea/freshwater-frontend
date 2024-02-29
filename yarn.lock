@@ -1806,9 +1806,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.262":
-  version: 0.1.262
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.262"
+"@eeacms/volto-arcgis-block@npm:0.1.263":
+  version: 0.1.263
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.263"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1818,7 +1818,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 4ed90d4060663068727ac7c0ef4dcd469a86ffc321be79c7f1441f6617b8e745e84bbf1f37ad321fbc35eb69b80c93c5c5c768095a2e9ec60ee0b243d89a869f
+  checksum: 46fccb881524299d1ba3ed365d6ec7d4548050f9bf1334388bc469ddc627a52c5f87231e2972a99d61125631e1c58efd88a51eef71a0e0146d6fa4bd79553e7e
   languageName: node
   linkType: hard
 
@@ -2054,15 +2054,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.28.1":
-  version: 1.28.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.28.1"
+"@eeacms/volto-eea-website-theme@npm:1.28.2":
+  version: 1.28.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.28.2"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: f1ed65b356746838b8b1c6b0db4a8d049ead4d87c7351930ae91d765c43c605ecbbc0a500d96f9512e7941eb93237672f8e4fb72a669a8f00feb39b06daef638
+  checksum: a9188a265b7f487b7f3184d73db1a37b6d0771f1583baee1f770500ba63a73baabc69c892cb65271d502237f3575d1bef2d10a306a1f78273665294cc2b725ae
   languageName: node
   linkType: hard
 
@@ -2086,9 +2086,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.2.7":
-  version: 0.2.7
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.2.7"
+"@eeacms/volto-freshwater-policy@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.3.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2103,7 +2103,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: e7309506e830777a4d1db65b9013084940aec2ee5ff218158ad4ac2b40d4cb9daaaae83ea49384a26339d0c970b0fba70bec464c345cf9d7a8d209d33ffa7c37
+  checksum: 6ce9cdeb459066686320e8de64e6209ca2d15f223f99d64a5ce4319017ba85d8bbeb57cc00075a831f9beccfdaf23b6a34be823d55f28985858ae03d335c5167
   languageName: node
   linkType: hard
 
@@ -2237,12 +2237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@npm:0.1.15":
-  version: 0.1.15
-  resolution: "@eeacms/volto-prefixpath@npm:0.1.15"
+"@eeacms/volto-prefixpath@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@eeacms/volto-prefixpath@npm:0.2.0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 2a1912839d99ee59f50b0f12917e2700735d938d7280c34a9d1de70ab1c565ef2248bdab0914e298aeb9a097fde071a3fe95fb40c12e523aa06edf0383218c0b
+  checksum: e0ca778ef736fcfd497f1dd8022b8f16c1c8c52b3b192d8118af52d96031101907f0d6104311f5d9eadd71a20abe3401516dae4af557700885c905982aca66be
   languageName: node
   linkType: hard
 
@@ -11674,23 +11674,23 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-arcgis-block": 0.1.262
+    "@eeacms/volto-arcgis-block": 0.1.263
     "@eeacms/volto-block-toc": 3.0.8
     "@eeacms/volto-datablocks": 6.3.3
     "@eeacms/volto-eea-design-system": 1.23.1
     "@eeacms/volto-eea-kitkat": 22.0.0
     "@eeacms/volto-eea-map": 3.3.1
     "@eeacms/volto-eea-slate-glossary": 0.1.3
-    "@eeacms/volto-eea-website-theme": 1.28.1
+    "@eeacms/volto-eea-website-theme": 1.28.2
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.1.1
-    "@eeacms/volto-freshwater-policy": 0.2.7
+    "@eeacms/volto-freshwater-policy": 0.3.0
     "@eeacms/volto-globalsearch": 1.1.0
     "@eeacms/volto-group-block": 6.4.0
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 9.0.2
-    "@eeacms/volto-prefixpath": 0.1.15
+    "@eeacms/volto-prefixpath": 0.2.0
     "@eeacms/volto-searchlib": 0.7.3
     "@eeacms/volto-slate-dataentity": 3.0.1
     "@eeacms/volto-slots": 0.1.3
