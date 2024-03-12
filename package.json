@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -42,7 +42,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-arcgis-block": "0.1.263",
+    "@eeacms/volto-arcgis-block": "0.1.264",
     "@eeacms/volto-block-toc": "3.0.8",
     "@eeacms/volto-datablocks": "6.4.0",
     "@eeacms/volto-eea-design-system": "1.23.2",
@@ -52,7 +52,7 @@
     "@eeacms/volto-eea-website-theme": "1.29.0",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.1.1",
-    "@eeacms/volto-freshwater-policy": "0.4.0",
+    "@eeacms/volto-freshwater-policy": "0.4.1",
     "@eeacms/volto-globalsearch": "1.1.0",
     "@eeacms/volto-group-block": "6.4.0",
     "@eeacms/volto-listing-block": "7.1.0",
