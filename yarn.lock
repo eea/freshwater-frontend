@@ -2070,9 +2070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:0.6.4":
-  version: 0.6.4
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.6.4"
+"@eeacms/volto-freshwater-policy@npm:0.6.5":
+  version: 0.6.5
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.6.5"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2087,7 +2087,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 24715c1fb2ef95b9da34e5b7ee2764082916f1dc30004ba1352e100655350fb1973362184277d4830eddbaf8942c4cb3adec37e71b87ae563c9b66f201d6f7cd
+  checksum: 3fb9f5492b9ec4fc47453f2916e3382d5804e347a6b2bda430a06d43ab41e5ffc9da791a57d56f0212ce74307a8d7c9877db5654e127bba809ed34ada881943d
   languageName: node
   linkType: hard
 
@@ -11663,7 +11663,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.31.0
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.1.1
-    "@eeacms/volto-freshwater-policy": 0.6.4
+    "@eeacms/volto-freshwater-policy": 0.6.5
     "@eeacms/volto-globalsearch": 1.1.0
     "@eeacms/volto-group-block": 6.4.0
     "@eeacms/volto-listing-block": 7.1.0
