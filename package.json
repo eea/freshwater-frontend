@@ -41,7 +41,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-block-toc": "3.0.8",
+    "@eeacms/volto-block-toc": "4.0.0",
     "@eeacms/volto-datablocks": "6.4.1",
     "@eeacms/volto-eea-design-system": "1.23.4",
     "@eeacms/volto-eea-kitkat": "23.2.0",
