@@ -15,7 +15,7 @@
     "http-proxy-middleware": "2.0.1",
     "@eeacms/volto-eea-design-system": "1.23.6",
     "d3-array": "2.12.1",
-    "@eeacms/volto-object-widget": "6.0.0",
+    "@eeacms/volto-object-widget": "7.0.0",
     "@eeacms/volto-eea-website-theme": "1.33.2",
     "@eeacms/volto-group-block": "7.0.0"
   },
