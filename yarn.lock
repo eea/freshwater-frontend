@@ -2122,10 +2122,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@npm:6.4.0":
-  version: 6.4.0
-  resolution: "@eeacms/volto-group-block@npm:6.4.0"
-  checksum: 834ed32fa8440d707ed08f3cec3c49b72466ba9dbcef73fa9d5c36b6f61b13827e60f31ae453c9e078d38f82a5535a082dbb39f3eb7af7d5dfbe83db10e29365
+"@eeacms/volto-group-block@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@eeacms/volto-group-block@npm:7.0.0"
+  checksum: eb79f9d9733b92ffeca1317176f65f97dc8787f494e9066b3ffaefe659f1cb909ed4ade5b00ebb1b24fcbdb792f3c59894be3d2cd651562d992ee1482f900ba3
   languageName: node
   linkType: hard
 
@@ -11686,7 +11686,7 @@ __metadata:
     "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-freshwater-policy": 0.6.9
     "@eeacms/volto-globalsearch": 2.0.0
-    "@eeacms/volto-group-block": 6.4.0
+    "@eeacms/volto-group-block": 7.0.0
     "@eeacms/volto-listing-block": 7.1.0
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 9.2.0

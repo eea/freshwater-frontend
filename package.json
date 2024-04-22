@@ -17,7 +17,7 @@
     "d3-array": "2.12.1",
     "@eeacms/volto-object-widget": "6.0.0",
     "@eeacms/volto-eea-website-theme": "1.33.2",
-    "@eeacms/volto-group-block": "6.4.0"
+    "@eeacms/volto-group-block": "7.0.0"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
@@ -52,7 +52,7 @@
     "@eeacms/volto-embed": "9.1.1",
     "@eeacms/volto-freshwater-policy": "0.6.9",
     "@eeacms/volto-globalsearch": "2.0.0",
-    "@eeacms/volto-group-block": "6.4.0",
+    "@eeacms/volto-group-block": "7.0.0",
     "@eeacms/volto-listing-block": "7.1.0",
     "@eeacms/volto-openlayers-map": "0.3.2",
     "@eeacms/volto-plotlycharts": "9.2.0",
