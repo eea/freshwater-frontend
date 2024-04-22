@@ -2200,6 +2200,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-listing-block@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@eeacms/volto-listing-block@npm:8.0.0"
+  dependencies:
+    "@eeacms/volto-widget-theme-picker": ^1.0.1
+    react-resize-detector: 7.1.2
+    react-slick: ^0.30.1
+    slick-carousel: 1.8.1
+  checksum: 9ec00ff74a8bcff3dc9b36a8931f7fbcca64cfeee5d1267a37f48d99b6d14ef9a8d628dd51a87fbf0c26d3ccc66af10d6b0bfd97baa3039027b4bce51a2cd105
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-matomo@npm:*, @eeacms/volto-matomo@npm:4.2.1":
   version: 4.2.1
   resolution: "@eeacms/volto-matomo@npm:4.2.1"
@@ -2236,12 +2248,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@eeacms/volto-object-widget@npm:6.0.0"
+"@eeacms/volto-object-widget@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@eeacms/volto-object-widget@npm:7.0.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
-  checksum: 6f272e4dec34a050f4729f36c464786e57273a0147279c4eb7ac20013ac2ac1afdf59c931315ceb4f2cc2f0ae09f4f05002b7442d5ccc501476d36ade4c87f70
+  checksum: a6c6e03d339de51e79e83731332e340678afd8e08303da5bce954d80cd6f04c2945ee70efaf6a7bb811327a1388c1a46f5f35013a13c1ea02c73fd4eb8b32879
   languageName: node
   linkType: hard
 
@@ -11780,7 +11792,7 @@ __metadata:
     "@eeacms/volto-freshwater-policy": 0.6.9
     "@eeacms/volto-globalsearch": 2.0.0
     "@eeacms/volto-group-block": 7.0.0
-    "@eeacms/volto-listing-block": 7.1.0
+    "@eeacms/volto-listing-block": 8.0.0
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 9.2.0
     "@eeacms/volto-prefixpath": 0.2.0
