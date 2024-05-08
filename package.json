@@ -13,7 +13,7 @@
   "resolutions": {
     "draft-js": "0.10.5",
     "http-proxy-middleware": "2.0.1",
-    "@eeacms/volto-eea-design-system": "1.23.6",
+    "@eeacms/volto-eea-design-system": "1.23.7",
     "d3-array": "2.12.1",
     "@eeacms/volto-object-widget": "7.0.0",
     "@eeacms/volto-eea-website-theme": "1.33.2",
@@ -45,7 +45,7 @@
     "@eeacms/volto-arcgis-block": "0.1.277",
     "@eeacms/volto-block-toc": "5.0.1",
     "@eeacms/volto-datablocks": "7.0.0",
-    "@eeacms/volto-eea-design-system": "1.23.6",
+    "@eeacms/volto-eea-design-system": "1.23.7",
     "@eeacms/volto-eea-kitkat": "24.0.1",
     "@eeacms/volto-eea-map": "4.0.0",
     "@eeacms/volto-eea-slate-glossary": "0.1.4",
