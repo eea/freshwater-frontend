@@ -1982,7 +1982,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:^24.0.1":
+"@eeacms/volto-eea-kitkat@npm:<25.0.0":
   version: 24.0.1
   resolution: "@eeacms/volto-eea-kitkat@npm:24.0.1"
   dependencies:
@@ -11793,10 +11793,10 @@ __metadata:
     "@eeacms/volto-block-toc": ^5.0.1
     "@eeacms/volto-datablocks": ^6.4.1
     "@eeacms/volto-eea-design-system": ^1.23.6
-    "@eeacms/volto-eea-kitkat": ^24.0.1
+    "@eeacms/volto-eea-kitkat": <25.0.0
     "@eeacms/volto-eea-map": ^3.3.1
     "@eeacms/volto-eea-slate-glossary": ^0.1.4
-    "@eeacms/volto-eea-website-theme": ^1.33.2
+    "@eeacms/volto-eea-website-theme": <2.0.0
     "@eeacms/volto-elastic-csv-widget": ^1.0.7
     "@eeacms/volto-embed": ^9.1.1
     "@eeacms/volto-freshwater-policy": ^0.6.9
