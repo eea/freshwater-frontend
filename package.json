@@ -42,7 +42,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-arcgis-block": "0.1.277",
+    "@eeacms/volto-arcgis-block": "0.1.278",
     "@eeacms/volto-block-toc": "5.0.1",
     "@eeacms/volto-datablocks": "7.0.0",
     "@eeacms/volto-eea-design-system": "1.23.7",
