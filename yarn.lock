@@ -2049,38 +2049,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:^0.6.9":
-  version: 0.6.9
-  resolution: "@eeacms/volto-freshwater-policy@npm:0.6.9"
+"@eeacms/volto-freshwater-policy@npm:^0.6.10":
+  version: 0.6.10
+  resolution: "@eeacms/volto-freshwater-policy@npm:0.6.10"
   dependencies:
-    "@eeacms/countup": "*"
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-datablocks": ^6.4.1
     "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": "*"
-    "@eeacms/volto-globalsearch": "*"
+    "@eeacms/volto-eea-website-theme": ^1.33.2
+    "@eeacms/volto-globalsearch": ^1.0.20
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-openlayers-map": "*"
-    "@eeacms/volto-searchlib": "*"
+    "@eeacms/volto-searchlib": ^0.9.3
+    "@elastic/search-ui": 1.21.2
     d3-array: ^2.12.1
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: fc314c62d840d9fe73fe870fae9c1844c8c6a6b43f9a71e4e5e1f58a013eb844cf48b3b7a3c9258975bb645080a539f1a078c23fe2cdd431c9cb87e85360a669
+  checksum: 71382e3a7ab46899844312ad59333b0e664ec334401c3dea30ad4dde805c5b011e475510953502091de6f9c166c8e64ec274bea2c1b19434580251b4ea4182b3
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:*":
-  version: 2.0.0
-  resolution: "@eeacms/volto-globalsearch@npm:2.0.0"
-  dependencies:
-    "@eeacms/volto-listing-block": "*"
-    "@eeacms/volto-searchlib": "*"
-  checksum: df5af22a9f8328550a8b54da5bc412b1713fd116418dc00b70243806ec66fa85b20bf815ffe6d824071fbb8dcd2a2f016b4338feaf127c141d5a549ba2dafb36
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-globalsearch@npm:^1.1.0":
+"@eeacms/volto-globalsearch@npm:^1.0.20, @eeacms/volto-globalsearch@npm:^1.1.0":
   version: 1.1.0
   resolution: "@eeacms/volto-globalsearch@npm:1.1.0"
   dependencies:
@@ -11709,7 +11698,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": ^1.33.2
     "@eeacms/volto-elastic-csv-widget": ^1.0.7
     "@eeacms/volto-embed": ^9.1.1
-    "@eeacms/volto-freshwater-policy": ^0.6.9
+    "@eeacms/volto-freshwater-policy": ^0.6.10
     "@eeacms/volto-globalsearch": ^1.1.0
     "@eeacms/volto-openlayers-map": ^0.3.2
     "@eeacms/volto-plotlycharts": ^9.2.0
