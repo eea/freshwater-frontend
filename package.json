@@ -59,7 +59,7 @@
     "@eeacms/volto-tableau": "7.2.1",
     "@eeacms/volto-workflow-progress": "4.1.1",
     "@eeacms/countup": "2.0.6",
-    "@eeacms/volto-embed": "9.1.1",
+    "@eeacms/volto-embed": "10.0.1",
     "@eeacms/volto-datablocks": "7.0.6",
     "@eeacms/volto-datahub": "1.0.33",
     "@plone-collective/volto-sentry": "0.3.1",
