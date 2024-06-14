@@ -15,7 +15,7 @@
     "d3-array": "2.12.1",
     "http-proxy-middleware": "2.0.1",
     "@eeacms/volto-eea-design-system": "^1.23.6",
-    "@eeacms/volto-eea-website-theme": "2.1.1",
+    "@eeacms/volto-eea-website-theme": "2.1.2",
     "@eeacms/volto-block-toc": "5.0.2",
     "@eeacms/volto-eea-kitkat": "25.1.1",
     "@eeacms/volto-controlpanel": "0.3.0",
