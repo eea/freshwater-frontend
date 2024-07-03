@@ -255,14 +255,6 @@
     "develop": false,
     "path": "src"
   },
-  "volto-slots": {
-    "url": "git@github.com:eea/volto-slots.git",
-    "https": "https://github.com/eea/volto-slots.git",
-    "package": "@eeacms/volto-slots",
-    "path": "src",
-    "branch": "develop",
-    "develop": false
-  },
   "volto-searchlib": {
     "develop": false,
     "url": "git@github.com:eea/volto-searchlib.git",
