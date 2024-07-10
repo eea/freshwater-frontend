@@ -2124,13 +2124,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-elastic-csv-widget@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@eeacms/volto-elastic-csv-widget@npm:1.0.7"
+"@eeacms/volto-elastic-csv-widget@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-elastic-csv-widget@npm:2.0.0"
   dependencies:
     "@eeacms/volto-datablocks": 6.1.0
     razzle-plugin-scss: ^4.2.18
-  checksum: 4d783b455f144df24b2f5d5a69ab37cb9928efa477997f8f48fe5c0d15a00197b361acd540ddab92182c89956687896e98736f0fc0c62557d17d68c95de934a5
+  checksum: fb282ac237560f1af27ec85f956641ff275202a37aa695edf84706824343afc8f93f4d9c00d8fbccb564709f7075e829e5342e05dbe57c9440ad7b103c579d0c
   languageName: node
   linkType: hard
 
@@ -11819,7 +11819,7 @@ __metadata:
     "@eeacms/volto-eea-map": 4.1.0
     "@eeacms/volto-eea-slate-glossary": 1.0.0
     "@eeacms/volto-eea-website-theme": 2.1.2
-    "@eeacms/volto-elastic-csv-widget": 1.0.7
+    "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.0.2
     "@eeacms/volto-freshwater-policy": 0.6.12
     "@eeacms/volto-globalsearch": 2.0.0
