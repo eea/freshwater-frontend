@@ -18,7 +18,7 @@
     "@eeacms/volto-eea-website-theme": "<2.0.0",
     "@eeacms/volto-block-toc": "5.0.2",
     "@eeacms/volto-eea-kitkat": "<25.0.0",
-    "@eeacms/volto-controlpanel": "0.3.0",
+    "@eeacms/volto-controlpanel": "1.0.1",
     "@eeacms/volto-nextcloud-video-block": "0.4.8",
     "@eeacms/volto-anchors": "0.7.0",
     "@eeacms/volto-quote-block": "1.2.3",
