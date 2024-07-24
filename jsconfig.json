@@ -1,6 +1,42 @@
 {
-    "compilerOptions": {
-        "paths": {},
-        "baseUrl": "src"
-    }
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "commonjs",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@plone/volto/*": [
+        "../node_modules/@plone/volto/src/*",
+        "../node_modules/@plone/volto/types/*"
+      ],
+      "@root/*": ["."],
+      "@eeacms/volto-prefixpath": ["addons/volto-prefixpath/src"],
+      "@eeacms/volto-freshwater-policy": ["addons/volto-freshwater-policy/src"],
+      "@eeacms/volto-elastic-csv-widget": [
+        "addons/volto-elastic-csv-widget/src"
+      ],
+      "@eeacms/volto-datablocks": ["addons/volto-datablocks/src"]
+    },
+    "include": ["src"],
+    "exclude": [
+      "node_modules",
+      "build",
+      "public",
+      "coverage",
+      "src/**/*.test.{js,jsx,ts,tsx}",
+      "src/**/*.spec.{js,jsx,ts,tsx}",
+      "src/**/*.stories.{js,jsx,ts,tsx}"
+    ],
+    "baseUrl": "src"
+  }
 }
