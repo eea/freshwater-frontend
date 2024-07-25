@@ -21,11 +21,7 @@
       ],
       "@root/*": ["."],
       "@eeacms/volto-prefixpath": ["addons/volto-prefixpath/src"],
-      "@eeacms/volto-freshwater-policy": ["addons/volto-freshwater-policy/src"],
-      "@eeacms/volto-elastic-csv-widget": [
-        "addons/volto-elastic-csv-widget/src"
-      ],
-      "@eeacms/volto-datablocks": ["addons/volto-datablocks/src"]
+      "@eeacms/volto-freshwater-policy": ["addons/volto-freshwater-policy/src"]
     },
     "include": ["src"],
     "exclude": [
