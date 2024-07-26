@@ -16254,6 +16254,7 @@ __metadata:
     "@eeacms/volto-slate-dataentity": ^3.0.1
     "@eeacms/volto-tableau": 8.0.2
     "@eeacms/volto-workflow-progress": 5.0.0
+    "@loadable/babel-plugin": 5.16.1
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.15.6
