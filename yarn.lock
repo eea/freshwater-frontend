@@ -16228,6 +16228,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "freshwater-frontend@workspace:."
   dependencies:
+    "@babel/plugin-proposal-throw-expressions": 7.24.7
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 5.0.2
