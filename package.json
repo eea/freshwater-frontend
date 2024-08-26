@@ -89,7 +89,7 @@
     "@eeacms/volto-block-toc": "^5.0.1",
     "@eeacms/volto-datablocks": "^6.4.1",
     "@eeacms/volto-eea-design-system": "^1.23.6",
-    "@eeacms/volto-eea-kitkat": "25.2.0",
+    "@eeacms/volto-eea-kitkat": "25.3.0",
     "@eeacms/volto-eea-map": "5.0.3",
     "@eeacms/volto-eea-slate-glossary": "^0.1.4",
     "@eeacms/volto-eea-website-theme": "^1.33.2",
