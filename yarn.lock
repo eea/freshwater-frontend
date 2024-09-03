@@ -2061,9 +2061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.2"
+"@eeacms/volto-freshwater-policy@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.3"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2078,7 +2078,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: eb8bb691ac992858cee534c9f47cd8f5f37c4f96d89158084e3fa33867756fdda733355a28dff7b3102aa7939a9cbdbdf3811bc88c9516ae76fb0ea57c78e89e
+  checksum: 7fdd7598012838de6bf34c8d39cffebe844da3aded126f376b5699a32f0efac370808f41d8d56b2c523f7fdbc7b3f4e58f59a3d9756ab6ab35378c16a3964a00
   languageName: node
   linkType: hard
 
@@ -2217,9 +2217,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-searchlib@npm:2.0.2"
+"@eeacms/volto-searchlib@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@eeacms/volto-searchlib@npm:2.0.3"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": 1.20.2
@@ -2257,7 +2257,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 34c4c171a49e178506ce9d207669ee2779fcba05c49900c682f5ae22cf1ca9e358409df17ecf727df2d1cc9e16a14a165df86100a0f3c08a953c593256ec90cf
+  checksum: 346bd5973a7a4bff7f53b59131d4a4ffd9dcd3750e455c0fc01a4112eb0702b8b86bb48147bc7ee73fdfe653018272553ca04faab154e4c8af84176cbbecf32a
   languageName: node
   linkType: hard
 
@@ -12102,7 +12102,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": ^1.33.2
     "@eeacms/volto-elastic-csv-widget": ^1.0.7
     "@eeacms/volto-embed": ^9.1.1
-    "@eeacms/volto-freshwater-policy": 1.0.2
+    "@eeacms/volto-freshwater-policy": 1.0.3
     "@eeacms/volto-globalsearch": ^1.1.0
     "@eeacms/volto-openlayers-map": ^0.3.2
     "@eeacms/volto-plotlycharts": ^9.2.0
