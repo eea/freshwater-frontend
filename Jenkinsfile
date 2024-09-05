@@ -1,58 +1,57 @@
 pipeline {
   environment {
-    registry = "eeacms/freshwater-frontend"
-    template = "templates/volto-freshwater"
     RANCHER_STACKID = ""
     RANCHER_ENVID = ""
+    GIT_NAME = "freshwater-frontend"
+    registry = "eeacms/freshwater-frontend"
+    template = ""
     dockerImage = ""
     tagName = ""
-    GIT_NAME = "freshwater-frontend"
     SONARQUBE_TAG = "water.europa.eu-freshwater"
   }
 
   agent any
 
-
   stages {
 
   stage('Integration tests') {
      parallel {
-      stage('Cypress') {
-        when {
-          allOf {
-            environment name: 'CHANGE_ID', value: ''
-            not { branch 'master' }
-            not { changelog '.*^Automated release [0-9\\.]+$' }
-            not { buildingTag() }
-          }
-        }
-        steps {
-          node(label: 'docker') {
-            script {
-              try {
-                sh '''docker pull eeacms/plone-backend; docker run --rm -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="eea.kitkat:testing" eeacms/plone-backend'''
-                sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
-              } finally {
-                try {
-                  sh '''rm -rf cypress-reports cypress-results'''
-                  sh '''mkdir -p cypress-reports cypress-results'''
-                  sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
-                  sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
-                  archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
-                }
-                finally {
-                  catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                      junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
-                  }
-                  sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
-                  sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
-                  sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
-                }
-              }
-            }
-          }
-        }
-      }
+       stage('Cypress') {
+         when {
+           allOf {
+             environment name: 'CHANGE_ID', value: ''
+             not { branch 'master' }
+             not { changelog '.*^Automated release [0-9\\.]+$' }
+             not { buildingTag() }
+           }
+         }
+         steps {
+           node(label: 'docker') {
+             script {
+               try {
+                 sh '''docker pull plone; docker run -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="profile-plone.restapi:blocks" plone fg'''
+                 sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
+               } finally {
+                 try {
+                   sh '''rm -rf cypress-reports cypress-results'''
+                   sh '''mkdir -p cypress-reports cypress-results'''
+                   sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
+                   sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
+                   archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+                 }
+                 finally {
+                   catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                       junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
+                   }
+                   sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
+                   sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
+                   sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
+                 }
+               }
+             }
+           }
+         }
+       }
 
        stage("Docker test build") {
             when {
@@ -127,7 +126,10 @@ pipeline {
 
     stage('Build & Push ( on tag )') {
       when {
-        buildingTag()
+        anyOf {
+          buildingTag()
+          branch 'volto-17'
+        }
       }
       steps{
         node(label: 'docker-host') {
@@ -166,6 +168,9 @@ pipeline {
 
     stage('Upgrade demo ( on tag )') {
       when {
+        not {
+          environment name: 'RANCHER_STACKID', value: ''
+        }
         buildingTag()
       }
       steps {
@@ -198,6 +203,8 @@ pipeline {
       }
     }
   }
+
+
 
   post {
     always {
