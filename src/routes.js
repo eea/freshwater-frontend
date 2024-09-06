@@ -27,7 +27,7 @@ import config from '@plone/volto/registry';
 const routes = [
   {
     path: config.settings.prefixPath || '/',
-    component: App,
+    component: config.getComponent('App').component,
     routes: [
       // redirect to external links if path is in blacklist
       ...(config.settings?.externalRoutes || []).map((route) => ({
