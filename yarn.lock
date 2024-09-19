@@ -3702,12 +3702,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed-static-content@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@eeacms/volto-embed-static-content@npm:0.3.0"
+"@eeacms/volto-embed-static-content@npm:0.3.1":
+  version: 0.3.1
+  resolution: "@eeacms/volto-embed-static-content@npm:0.3.1"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: 45c73c39d832f525efe69dc39fa677f417c59c1b2e0d124a48bc6ccce83a83c0b90f5325705c416209497b1754462d8e3de00f812cdc3719b578e373b90c1abe
+  checksum: c4aab58c85068eea3d310c44229c8f8f5de3cdf04be2a26a8b0cb072674af5a5bf25e4c96ded1b90037f550b274a0619a57a62741f69d06fbc4bee735cf7b7f6
   languageName: node
   linkType: hard
 
@@ -15610,7 +15610,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 2.3.0
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.0
-    "@eeacms/volto-embed-static-content": 0.3.0
+    "@eeacms/volto-embed-static-content": 0.3.1
     "@eeacms/volto-freshwater-policy": 1.0.3
     "@eeacms/volto-globalsearch": 2.0.0
     "@eeacms/volto-openlayers-map": 0.3.2
