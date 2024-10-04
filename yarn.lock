@@ -3565,9 +3565,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.2.3":
-  version: 7.2.3
-  resolution: "@eeacms/volto-datablocks@npm:7.2.3"
+"@eeacms/volto-datablocks@npm:7.2.4":
+  version: 7.2.4
+  resolution: "@eeacms/volto-datablocks@npm:7.2.4"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -3580,7 +3580,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: b71fbc60fd8c5a2fcc73e7968aea340b5162b67f26f315f9aec519ff0b56e47b676c71c6350e0fbb79184e5d033ffe501b684c73596085f5a9a2fcd21767ae1b
+  checksum: 20d91859e1108faf68dfadeab6efc5e716c0f3c3443433209e95840f2630314c7b84898e3f496b60835313d2646510608346ba9d22b1a556d26d5541864690b2
   languageName: node
   linkType: hard
 
@@ -4027,7 +4027,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-dataentity@npm:^3.0.1":
+"@eeacms/volto-slate-dataentity@npm:3.0.1":
   version: 3.0.1
   resolution: "@eeacms/volto-slate-dataentity@npm:3.0.1"
   dependencies:
@@ -15966,7 +15966,7 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 6.0.1
     "@eeacms/volto-citation": 1.0.0
-    "@eeacms/volto-datablocks": 7.2.3
+    "@eeacms/volto-datablocks": 7.2.4
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.33.1
@@ -15984,7 +15984,7 @@ __metadata:
     "@eeacms/volto-prefixpath": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 1.0.0
-    "@eeacms/volto-slate-dataentity": ^3.0.1
+    "@eeacms/volto-slate-dataentity": 3.0.1
     "@eeacms/volto-tableau": 8.1.0
     "@eeacms/volto-workflow-progress": 5.0.0
     "@loadable/babel-plugin": 5.16.1
