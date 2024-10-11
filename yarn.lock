@@ -3467,6 +3467,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-toc@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@eeacms/volto-block-toc@npm:6.1.0"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 88cf38cc09655b87910a2490ec820759e9e79bc9311e6abcae14753838c9e79e704b3b34d6cb81956387176144901a5abd2463f118458efbbe44052d1327aae3
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-call-to-action-block@npm:5.1.1":
   version: 5.1.1
   resolution: "@eeacms/volto-call-to-action-block@npm:5.1.1"
@@ -15965,7 +15975,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.24.7
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-block-toc": 6.0.1
+    "@eeacms/volto-block-toc": 6.1.0
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-datablocks": 7.2.5
     "@eeacms/volto-datahub": 2.0.0
