@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -60,7 +60,7 @@
     "@eeacms/volto-elastic-csv-widget": "2.0.0",
     "@eeacms/volto-embed": "10.1.1",
     "@eeacms/volto-embed-static-content": "0.3.1",
-    "@eeacms/volto-freshwater-policy": "1.0.5",
+    "@eeacms/volto-freshwater-policy": "1.0.6",
     "@eeacms/volto-globalsearch": "2.0.1",
     "@eeacms/volto-openlayers-map": "0.3.2",
     "@eeacms/volto-plotlycharts": "10.0.10",
