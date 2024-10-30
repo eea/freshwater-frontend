@@ -14,7 +14,7 @@
   "resolutions": {
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.1",
-    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#1.0.2.fix-auth-token.01",
+    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#1.0.3.fix-auth-token.01",
     "@elastic/search-ui": "1.21.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -65,7 +65,7 @@
     "@eeacms/volto-globalsearch": "2.0.1",
     "@eeacms/volto-openlayers-map": "0.3.2",
     "@eeacms/volto-plotlycharts": "10.0.10",
-    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#1.0.2.fix-auth-token.01",
+    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#1.0.3.fix-auth-token.01",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "1.0.0",
     "@eeacms/volto-slate-dataentity": "4.0.0",
