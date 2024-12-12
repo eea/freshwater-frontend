@@ -3737,16 +3737,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.3.0":
-  version: 3.3.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.3.0"
+"@eeacms/volto-eea-website-theme@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.4.0"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 4dcadbeb2ad338ab2cabba9be9bfabe2adcc7861f181ba7070b83cc09e8b704d47dd4f717400d4103370b032d8b0f1ba69918a8b19413b2636d6ed8245871062
+  checksum: 2f5697d1550673f1803c651af8bac97d7a7ca1137a6eee302281e4f78887abf118a810793ff77976eaf384cc395707e646caa8458dd4933011acc35f0615beaf
   languageName: node
   linkType: hard
 
@@ -16005,7 +16005,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 26.4.0
     "@eeacms/volto-eea-map": 5.0.7
     "@eeacms/volto-eea-slate-glossary": 1.0.0
-    "@eeacms/volto-eea-website-theme": 3.3.0
+    "@eeacms/volto-eea-website-theme": 3.4.0
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.2
     "@eeacms/volto-embed-static-content": 0.3.1
