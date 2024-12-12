@@ -3586,9 +3586,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.2.5":
-  version: 7.2.5
-  resolution: "@eeacms/volto-datablocks@npm:7.2.5"
+"@eeacms/volto-datablocks@npm:7.2.6":
+  version: 7.2.6
+  resolution: "@eeacms/volto-datablocks@npm:7.2.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -3601,7 +3601,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: e4b583274ea467f0072a92b4ea2337259f61190bf45a99b6c1b0d690e75de54fc6b5ae4917b94891920a5c5f9c3f8778be966be2fc14fe9b3eb4f0764e2efcd0
+  checksum: 3d6cf0a476769bdf323a9424474e038d405c4208dc03a5b23bea3a65013e4e2d041b95961b4662377fb2ce03dcf32e03fab0013b5b9fa4b87cfc39a6476dc920
   languageName: node
   linkType: hard
 
@@ -15998,7 +15998,7 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 6.2.0
     "@eeacms/volto-citation": 1.0.0
-    "@eeacms/volto-datablocks": 7.2.5
+    "@eeacms/volto-datablocks": 7.2.6
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.36.1
