@@ -2969,15 +2969,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.1":
-  version: 7.25.6
-  resolution: "@babel/runtime@npm:7.25.6"
-  dependencies:
-    regenerator-runtime: ^0.14.0
-  checksum: ee1a69d3ac7802803f5ee6a96e652b78b8addc28c6a38c725a4ad7d61a059d9e6cb9f6550ed2f63cce67a1bd82e0b1ef66a1079d895be6bfb536a5cfbd9ccc32
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.5.0":
   version: 7.24.8
   resolution: "@babel/runtime@npm:7.24.8"
@@ -4008,14 +3999,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-searchlib@npm:1.0.0"
+"@eeacms/volto-searchlib@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@eeacms/volto-searchlib@npm:2.0.4"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-    "@elastic/react-search-ui": ^1.9.0
-    "@elastic/react-search-ui-views": ^1.9.0
-    "@elastic/search-ui": ^1.9.0
+    "@elastic/react-search-ui": 1.20.2
+    "@elastic/react-search-ui-views": 1.20.2
+    "@elastic/search-ui": 1.20.2
     "@visx/group": ^1.7.0
     "@visx/responsive": ^1.10.1
     "@visx/scale": ^1.11.1
@@ -4030,7 +4021,7 @@ __metadata:
     elasticsearch: 16.7.3
     fast-deep-equal: ^3.1.3
     http-proxy-middleware: ^2.0.1
-    jotai: ^1.6.0
+    jotai: 2.0.3
     lodash: 4.17.21
     lodash.clonedeep: ^4.5.0
     lodash.isfunction: ^3.0.9
@@ -4048,7 +4039,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: fbfe49d28c45e8344dabf7d2343ea8b81ce9dfed7684915958d3cdbe910cccbeee955cbc61aa47d86dabca4f88a9212abe01d475d5a7748d5b29f408fecff49c
+  checksum: 4e4013f9eac3ad17d0d48c0bbb51f9425349b1318b2c4c561f2d53d32d55f988411b27595edec5c1e6b2b93569fcef116ac9b0cabccbe6e3c6bb4c0b5dbc3f26
   languageName: node
   linkType: hard
 
@@ -4230,21 +4221,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@elastic/react-search-ui-views@npm:1.21.5, @elastic/react-search-ui-views@npm:^1.9.0":
-  version: 1.21.5
-  resolution: "@elastic/react-search-ui-views@npm:1.21.5"
-  dependencies:
-    "@elastic/search-ui": 1.21.5
-    downshift: ^3.2.10
-    rc-pagination: ^4.0.4
-    react-select: ^5.0.0
-  peerDependencies:
-    react: ">= 16.8.0 < 19"
-    react-dom: ">= 16.8.0 < 19"
-  checksum: cb0d79b54c352ad0d55e035294eddb5da9107d95ad6a75cb3848c2f4acec00b058afb9f2f9d5e249eb138aef71886c03649a927a50af9d6ac8dfa64aa82e6c0e
-  languageName: node
-  linkType: hard
-
 "@elastic/react-search-ui@npm:1.20.2":
   version: 1.20.2
   resolution: "@elastic/react-search-ui@npm:1.20.2"
@@ -4255,19 +4231,6 @@ __metadata:
     react: ">= 16.8.0 <= 18"
     react-dom: ">= 16.8.0 <= 18"
   checksum: dcf0f80174c6d397afca0bc039f4fecfa4d6d7aa1d1101fe7e8c2bcbe476cac922ce2eb59dedc7e52291a67f65bc0209bdb4babf89d36f536a7117946ebbef2d
-  languageName: node
-  linkType: hard
-
-"@elastic/react-search-ui@npm:^1.9.0":
-  version: 1.21.5
-  resolution: "@elastic/react-search-ui@npm:1.21.5"
-  dependencies:
-    "@elastic/react-search-ui-views": 1.21.5
-    "@elastic/search-ui": 1.21.5
-  peerDependencies:
-    react: ">= 16.8.0 < 19"
-    react-dom: ">= 16.8.0 < 19"
-  checksum: 5a97b74556bd2801015ec3e918b014c55485a5f2efb403367b8c78448fdf35e3be1dae18801f9a29937cb20dc8a49d696554fdbba381d5b3dfa77700cfdd5961
   languageName: node
   linkType: hard
 
@@ -16015,7 +15978,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 10.0.13
     "@eeacms/volto-prefixpath": 1.0.3
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 1.0.0
+    "@eeacms/volto-searchlib": 2.0.4
     "@eeacms/volto-slate-dataentity": 4.0.0
     "@eeacms/volto-tableau": 8.1.3
     "@eeacms/volto-workflow-progress": 5.0.0
@@ -19587,49 +19550,6 @@ __metadata:
     react:
       optional: true
   checksum: 3ad1d6a9b7e40a8dd8cdc423441164c25852a328c98806ed0e2a283a4e07af661f4a88b50528367aeae582932171bc8979e45cbc9023af30b9f4a348faeed567
-  languageName: node
-  linkType: hard
-
-"jotai@npm:^1.6.0":
-  version: 1.13.1
-  resolution: "jotai@npm:1.13.1"
-  peerDependencies:
-    "@babel/core": "*"
-    "@babel/template": "*"
-    jotai-devtools: "*"
-    jotai-immer: "*"
-    jotai-optics: "*"
-    jotai-redux: "*"
-    jotai-tanstack-query: "*"
-    jotai-urql: "*"
-    jotai-valtio: "*"
-    jotai-xstate: "*"
-    jotai-zustand: "*"
-    react: ">=16.8"
-  peerDependenciesMeta:
-    "@babel/core":
-      optional: true
-    "@babel/template":
-      optional: true
-    jotai-devtools:
-      optional: true
-    jotai-immer:
-      optional: true
-    jotai-optics:
-      optional: true
-    jotai-redux:
-      optional: true
-    jotai-tanstack-query:
-      optional: true
-    jotai-urql:
-      optional: true
-    jotai-valtio:
-      optional: true
-    jotai-xstate:
-      optional: true
-    jotai-zustand:
-      optional: true
-  checksum: bc1f88ec1d52dda7c2aa39d278b15c128a6babc91fe9294862feb1b2d8467e47fc37cd193fd1358107212b9a4e5f5a8ae9a5a5ed1e845b74421d4476ce5d9efd
   languageName: node
   linkType: hard
 
@@ -24957,20 +24877,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rc-pagination@npm:^4.0.4":
-  version: 4.2.0
-  resolution: "rc-pagination@npm:4.2.0"
-  dependencies:
-    "@babel/runtime": ^7.10.1
-    classnames: ^2.3.2
-    rc-util: ^5.38.0
-  peerDependencies:
-    react: ">=16.9.0"
-    react-dom: ">=16.9.0"
-  checksum: 78a889bade203e559558b7b973d848c2b1626a68b24f7e458526d8839641ad4b57c62a12cc6d4107a351b3a962e2f782bd33794586dd909cd11e17032431d845
-  languageName: node
-  linkType: hard
-
 "rc-slider@npm:^8.4.0":
   version: 8.7.1
   resolution: "rc-slider@npm:8.7.1"
@@ -25037,19 +24943,6 @@ __metadata:
     react-lifecycles-compat: ^3.0.4
     shallowequal: ^1.1.0
   checksum: f87d321ad2088171eef990f179fe8b34db648cd5ad37439de381093891189e429ad8c791077205c56de9e26e37749fb3f4ecfceba8c35f983f540650c7ed4fb0
-  languageName: node
-  linkType: hard
-
-"rc-util@npm:^5.38.0":
-  version: 5.43.0
-  resolution: "rc-util@npm:5.43.0"
-  dependencies:
-    "@babel/runtime": ^7.18.3
-    react-is: ^18.2.0
-  peerDependencies:
-    react: ">=16.9.0"
-    react-dom: ">=16.9.0"
-  checksum: 48c10afb5886aed86d1f5241883f972b2b16235b0cc4867a05d061324f107aa113260c34eeb13ad18f4b66d1264dbcb3baf725c8ea34fbdaa504410d4e71b3ce
   languageName: node
   linkType: hard
 
@@ -25502,7 +25395,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^18.0.0, react-is@npm:^18.2.0":
+"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^18.0.0":
   version: 18.3.1
   resolution: "react-is@npm:18.3.1"
   checksum: e20fe84c86ff172fc8d898251b7cc2c43645d108bf96d0b8edf39b98f9a2cae97b40520ee7ed8ee0085ccc94736c4886294456033304151c3f94978cec03df21
