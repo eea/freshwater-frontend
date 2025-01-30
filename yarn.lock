@@ -3608,10 +3608,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@eeacms/volto-description-block@npm:2.2.1"
-  checksum: 626958b2c274f33817ddd78fefaa476c46101ab96282e362d803ffef32c0b207346a6bb4dd7c3ba4a37f1c0668f5c0619d4ff5f8d6f22958007c1928223b6499
+"@eeacms/volto-description-block@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@eeacms/volto-description-block@npm:2.2.2"
+  checksum: 6a862e4f640607a8b71d9edd865d793ffc0fed8f7f78f34281203fb63720aedc0d7b0d31330630e058ba2f0dc0e5392c11cc421a8db184274d7f08cf8bc5adb3
   languageName: node
   linkType: hard
 
@@ -3907,9 +3907,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:10.0.13":
-  version: 10.0.13
-  resolution: "@eeacms/volto-plotlycharts@npm:10.0.13"
+"@eeacms/volto-plotlycharts@npm:10.0.14":
+  version: 10.0.14
+  resolution: "@eeacms/volto-plotlycharts@npm:10.0.14"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -3919,7 +3919,7 @@ __metadata:
     react-chart-editor: 0.46.1
     react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-plotly.js: 2.6.0
-  checksum: 748f50200b098b1f20a58c6f8883fd324ba4edcd5bde861dda4ba978b63a80189b24f3082caded54b5ae4e8fc8733603bfb492b6dd3c8a49cd48044a39780d30
+  checksum: ceb6111666e836497fd74cc53f162f94a517ef3f9c54395a409643063d18c7dfeff676126060e67ee411597f210c2990de34fbb2e9a0f468bf61684f7b7234e8
   languageName: node
   linkType: hard
 
@@ -15975,7 +15975,7 @@ __metadata:
     "@eeacms/volto-freshwater-policy": 1.0.7
     "@eeacms/volto-globalsearch": 2.0.3
     "@eeacms/volto-openlayers-map": 0.3.2
-    "@eeacms/volto-plotlycharts": 10.0.13
+    "@eeacms/volto-plotlycharts": 10.0.14
     "@eeacms/volto-prefixpath": 1.0.3
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.0.6
