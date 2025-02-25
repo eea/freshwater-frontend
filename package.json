@@ -12,6 +12,7 @@
   ],
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
+    "@eeacms/volto-datablocks": "7.2.7",
     "@eeacms/volto-plotlycharts": "10.0.13",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.3",
@@ -50,7 +51,7 @@
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-block-toc": "6.2.0",
     "@eeacms/volto-citation": "1.0.0",
-    "@eeacms/volto-datablocks": "7.2.8",
+    "@eeacms/volto-datablocks": "7.2.7",
     "@eeacms/volto-datahub": "2.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
     "@eeacms/volto-eea-design-system": "1.36.2",
