@@ -12,6 +12,7 @@
   ],
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
+    "@eeacms/volto-plotlycharts": "10.0.15",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "@elastic/search-ui": "1.21.2",
@@ -63,7 +64,7 @@
     "@eeacms/volto-freshwater-policy": "1.0.11",
     "@eeacms/volto-globalsearch": "2.0.8",
     "@eeacms/volto-openlayers-map": "0.3.2",
-    "@eeacms/volto-plotlycharts": "11.0.0",
+    "@eeacms/volto-plotlycharts": "10.0.15",
     "@eeacms/volto-prefixpath": "1.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.0.11",
