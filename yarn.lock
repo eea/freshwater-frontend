@@ -3535,6 +3535,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-context-navigation@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@eeacms/volto-context-navigation@npm:0.1.2"
+  checksum: e23ac6f204015ec7cc7b1172a838aad42f86deb837181711b605ed95bede742c27a97738b7b00f8bf1381b19c25bee12e643d8835c1bd2cdfa761973b0d9218f
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-controlpanel@npm:1.0.2":
   version: 1.0.2
   resolution: "@eeacms/volto-controlpanel@npm:1.0.2"
@@ -15996,6 +16003,7 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 6.2.0
     "@eeacms/volto-citation": 1.0.0
+    "@eeacms/volto-context-navigation": 0.1.2
     "@eeacms/volto-datablocks": 7.2.7
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0
