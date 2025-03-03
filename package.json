@@ -44,12 +44,14 @@
     "@eeacms/volto-freshwater-policy",
     "@eeacms/volto-eea-map",
     "@eeacms/volto-eea-slate-glossary",
-    "@eeacms/volto-elastic-csv-widget"
+    "@eeacms/volto-elastic-csv-widget",
+    "@eeacms/volto-context-navigation"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-block-toc": "6.2.0",
     "@eeacms/volto-citation": "1.0.0",
+    "@eeacms/volto-context-navigation": "0.1.1",
     "@eeacms/volto-datablocks": "7.2.7",
     "@eeacms/volto-datahub": "2.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
