@@ -3771,9 +3771,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.11"
+"@eeacms/volto-freshwater-policy@npm:1.0.12":
+  version: 1.0.12
+  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.12"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -3788,7 +3788,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 1abde6a657750862e45e9b68eebf9297750febd69b2823debfc1b7ab542f026dca205f1926380f1a4bb3a44d2c79ea5eacef84ae9c9a6c97e792976335bb9a02
+  checksum: fab01810d500cc7d04ea80501c781fba44470db674d10dd0f4d4ddd5556d51508b23844707250b2ad729a810690121fc78cf3646e4752536cdcd9ddfd74fc614
   languageName: node
   linkType: hard
 
@@ -16015,7 +16015,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.4.0
-    "@eeacms/volto-freshwater-policy": 1.0.11
+    "@eeacms/volto-freshwater-policy": 1.0.12
     "@eeacms/volto-globalsearch": 2.0.8
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 11.0.0
