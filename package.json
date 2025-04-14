@@ -70,7 +70,7 @@
     "@eeacms/volto-prefixpath": "1.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.0.15",
-    "@eeacms/volto-slate-dataentity": "4.0.1",
+    "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "8.1.4",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
