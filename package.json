@@ -49,7 +49,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-block-toc": "6.2.0",
+    "@eeacms/volto-block-toc": "7.0.0",
     "@eeacms/volto-citation": "1.0.0",
     "@eeacms/volto-context-navigation": "0.1.2",
     "@eeacms/volto-datablocks": "7.2.11",
