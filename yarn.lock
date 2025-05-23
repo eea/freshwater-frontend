@@ -3782,9 +3782,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:1.0.14":
-  version: 1.0.14
-  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.14"
+"@eeacms/volto-freshwater-policy@npm:1.0.15":
+  version: 1.0.15
+  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.15"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -3795,12 +3795,12 @@ __metadata:
     "@eeacms/volto-listing-block": ^8.1.1
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-searchlib": ^2.0.2
-    "@eeacms/volto-tabs-block": 9.0.2
+    "@eeacms/volto-tabs-block": 9.0.3
     d3-array: ^2.12.1
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 8d08d44239d17f82178f654e17849c45a09d6e5c8158ed09420704917dae5c589b1c556042aa4cdca5798c8e1f0950c805131377888f13eecf467e6d805b34ee
+  checksum: d8cf1c662a439608bddf0b6e34f1dc7fa8c8e3acbc0d5dff82959add08f592823bb38913763bef7fa135ff6743058b78a0e1ac591e762e422f298bba67b67ce1
   languageName: node
   linkType: hard
 
@@ -4123,19 +4123,6 @@ __metadata:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
   checksum: f31ea12f1a9ab2dc3aeea3d967ed18489bc93d876637c089b45e1bdfc9ab1208980ac49c66d60717b3de1cc36b2b13a68483ddb66e6e549dd934fc6db3b589cc
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-tabs-block@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@eeacms/volto-tabs-block@npm:9.0.2"
-  dependencies:
-    "@eeacms/volto-anchors": "*"
-    "@eeacms/volto-block-style": "*"
-    react-responsive-tabs: 4.4.3
-    react-slick: ^0.30.1
-    slick-carousel: ^1.8.1
-  checksum: a5b8530932229f24e804356ffac677ada78d0eff894df28966e963474dd54382e1bf94056c1ee0caf9bb27e2b12bf8dabb55daa3ec38ab6a155298591d3bcffb
   languageName: node
   linkType: hard
 
@@ -15996,7 +15983,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
-    "@eeacms/volto-freshwater-policy": 1.0.14
+    "@eeacms/volto-freshwater-policy": 1.0.15
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": ^11.0.2
