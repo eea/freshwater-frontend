@@ -276,7 +276,7 @@
     "https": "https://github.com/eea/volto-freshwater-policy.git",
     "package": "@eeacms/volto-freshwater-policy",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-eea-design-system": {
@@ -295,6 +295,14 @@
     "develop": false,
     "path": "src"
   },
+  "volto-hero-block": {
+    "url": "git@github.com:eea/volto-hero-block.git",
+    "https": "https://github.com/eea/volto-hero-block.git",
+    "package": "@eeacms/volto-hero-block",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-eea-map": {
     "url": "git@github.com:eea/volto-eea-map.git",
     "https": "https://github.com/eea/volto-eea-map.git",
@@ -308,7 +316,7 @@
     "https": "https://github.com/eea/volto-prefixPath.git",
     "package": "@eeacms/volto-prefixpath",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   }
 }
