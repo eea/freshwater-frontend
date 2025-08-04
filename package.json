@@ -71,7 +71,7 @@
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.1.7",
     "@eeacms/volto-slate-dataentity": "4.0.2",
-    "@eeacms/volto-tableau": "8.1.4",
+    "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.20.0",
