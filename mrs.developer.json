@@ -276,7 +276,7 @@
     "https": "https://github.com/eea/volto-freshwater-policy.git",
     "package": "@eeacms/volto-freshwater-policy",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-eea-design-system": {
@@ -308,7 +308,7 @@
     "https": "https://github.com/eea/volto-prefixPath.git",
     "package": "@eeacms/volto-prefixpath",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   }
 }
