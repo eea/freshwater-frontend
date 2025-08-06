@@ -25,12 +25,6 @@
             ],
             "@root/*": [
                 "."
-            ],
-            "@eeacms/volto-prefixpath": [
-                "addons/volto-prefixPath/src"
-            ],
-            "@eeacms/volto-freshwater-policy": [
-                "addons/volto-freshwater-policy/src"
             ]
         },
         "include": [
