@@ -25,6 +25,9 @@
             ],
             "@root/*": [
                 "."
+            ],
+            "@eeacms/volto-freshwater-policy": [
+                "addons/volto-freshwater-policy/src"
             ]
         },
         "include": [

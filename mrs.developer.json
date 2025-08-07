@@ -276,7 +276,7 @@
     "https": "https://github.com/eea/volto-freshwater-policy.git",
     "package": "@eeacms/volto-freshwater-policy",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-eea-design-system": {
@@ -310,5 +310,13 @@
     "branch": "develop",
     "develop": false,
     "path": "src"
+  },
+  "volto-chatbot": {
+    "url": "git@github.com:eea/volto-chatbot.git",
+    "https": "https://github.com/eea/volto-chatbot.git",
+    "package": "@eeacms/volto-chatbot",
+    "path": "src",
+    "develop": false,
+    "branch": "develop"
   }
 }
