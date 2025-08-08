@@ -13,6 +13,7 @@
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
     "@eeacms/volto-datablocks": "7.3.3",
+    "@eeacms/volto-openlayers-map": "1.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "@elastic/search-ui": "1.21.2",
@@ -50,7 +51,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-block-toc": "8.0.0",
+    "@eeacms/volto-block-toc": "8.1.0",
     "@eeacms/volto-chatbot": "0.3.1",
     "@eeacms/volto-citation": "1.0.0",
     "@eeacms/volto-context-navigation": "0.1.2",
