@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -12,6 +12,7 @@
   ],
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
+    "@eeacms/volto-listing-block": "9.0.1",
     "@eeacms/volto-datablocks": "7.3.3",
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
