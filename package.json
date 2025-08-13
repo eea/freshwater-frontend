@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -12,7 +12,9 @@
   ],
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
+    "@eeacms/volto-listing-block": "9.0.1",
     "@eeacms/volto-datablocks": "7.3.3",
+    "@eeacms/volto-openlayers-map": "1.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "@elastic/search-ui": "1.21.2",
@@ -49,7 +51,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-block-toc": "8.0.0",
+    "@eeacms/volto-block-toc": "8.1.0",
     "@eeacms/volto-citation": "1.0.0",
     "@eeacms/volto-context-navigation": "0.1.2",
     "@eeacms/volto-datablocks": "7.3.3",
@@ -63,11 +65,11 @@
     "@eeacms/volto-elastic-csv-widget": "2.0.0",
     "@eeacms/volto-embed": "10.1.3",
     "@eeacms/volto-embed-static-content": "0.5.1",
-    "@eeacms/volto-freshwater-policy": "1.0.16",
+    "@eeacms/volto-freshwater-policy": "1.0.17",
     "@eeacms/volto-globalsearch": "2.1.2",
     "@eeacms/volto-object-widget": "8.0.0",
     "@eeacms/volto-openlayers-map": "1.0.1",
-    "@eeacms/volto-plotlycharts": "^11.0.2",
+    "@eeacms/volto-plotlycharts": "13.0.2",
     "@eeacms/volto-prefixpath": "1.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.1.8",
