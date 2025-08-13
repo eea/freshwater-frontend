@@ -943,7 +943,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-private-methods@npm:^7.12.1, @babel/plugin-proposal-private-methods@npm:^7.16.0":
+"@babel/plugin-proposal-private-methods@npm:7.18.6, @babel/plugin-proposal-private-methods@npm:^7.12.1, @babel/plugin-proposal-private-methods@npm:^7.16.0":
   version: 7.18.6
   resolution: "@babel/plugin-proposal-private-methods@npm:7.18.6"
   dependencies:
@@ -3612,6 +3612,34 @@ __metadata:
   checksum: c3cfff6697947246e35c8d8318771fd5d27fa33ff6356fe540fa2ddc0901b6aa7eff2da3d61ceb7f1303ac50b09549044ba884708d9f7712d86aee39e2ace640
   languageName: node
   linkType: hard
+
+"@eeacms/volto-chatbot@0.3.1, @eeacms/volto-chatbot@workspace:src/addons/volto-chatbot":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-chatbot@workspace:src/addons/volto-chatbot"
+  dependencies:
+    "@babel/plugin-proposal-private-methods": 7.18.6
+    "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
+    cypress-fail-fast: ^5.0.1
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    husky: ^8.0.3
+    lint-staged: ^14.0.1
+    luxon: 3.5.0
+    marked: 13.0.3
+    md5: ^2.3.0
+    node-fetch: 2.7.0
+    react-markdown: 6.0.3
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-chatbot@npm:0.2.5":
   version: 0.2.5
@@ -16383,6 +16411,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 8.1.0
+    "@eeacms/volto-chatbot": 0.3.1
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-context-navigation": 0.1.2
     "@eeacms/volto-datablocks": 7.3.3
