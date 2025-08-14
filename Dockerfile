@@ -4,12 +4,13 @@ COPY . /app/
 WORKDIR /app/
 
 # Update apt packages
-RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
+RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all chromium" \
     && apt-get update \
     && apt-get install -y --no-install-recommends $runDeps \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
     && npm install -g mrs-developer \
+    && npm install -g @plone/critical-css-cli \
     && cp jsconfig.json.prod jsconfig.json \
     && mkdir -p /app/src/addons \
     && rm -rf /app/src/addons/* \
@@ -22,6 +23,11 @@ ARG MAX_OLD_SPACE_SIZE=16384
 ARG RAZZLE_PREFIX_PATH=/freshwater
 ENV RAZZLE_PREFIX_PATH=$RAZZLE_PREFIX_PATH
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium 
+
+
+# Generate critical.css
+RUN critical-cli -o ./public/critical.css https://water.europa.eu/freshwater
 
 RUN yarn \
     && RAZZLE_PREFIX_PATH=$RAZZLE_PREFIX_PATH yarn build \

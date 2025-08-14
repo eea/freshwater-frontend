@@ -295,6 +295,14 @@
     "develop": false,
     "path": "src"
   },
+  "volto-hero-block": {
+    "url": "git@github.com:eea/volto-hero-block.git",
+    "https": "https://github.com/eea/volto-hero-block.git",
+    "package": "@eeacms/volto-hero-block",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-eea-map": {
     "url": "git@github.com:eea/volto-eea-map.git",
     "https": "https://github.com/eea/volto-eea-map.git",
