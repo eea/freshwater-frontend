@@ -48,7 +48,8 @@
     "@eeacms/volto-eea-map",
     "@eeacms/volto-eea-slate-glossary",
     "@eeacms/volto-elastic-csv-widget",
-    "@eeacms/volto-context-navigation"
+    "@eeacms/volto-context-navigation",
+    "@plone-collective/volto-authomatic"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
