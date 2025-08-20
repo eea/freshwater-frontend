@@ -3535,7 +3535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:8.1.0":
+"@eeacms/volto-block-toc@npm:*":
   version: 8.1.0
   resolution: "@eeacms/volto-block-toc@npm:8.1.0"
   dependencies:
@@ -3552,6 +3552,16 @@ __metadata:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
   checksum: a6d3480e643317cc493b5edc7f6ddcb1bab05c9f1a8fe276317329d7968892effc208aa2e2745165f38485b4930aca521a3d11cd50105e79f8ec62b11a94656b
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-block-toc@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-block-toc@npm:8.1.1"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 9cee3a8c62cd1e6a5cd00fed83ed8d24635b65b55402f63134f4ab9c1d6d3d922d2dda6caf5298dd7c5f42159c296c50227f5a59e371b1f1ed8d46df91b085d7
   languageName: node
   linkType: hard
 
@@ -16122,7 +16132,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.24.7
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-block-toc": 8.1.0
+    "@eeacms/volto-block-toc": 8.1.1
     "@eeacms/volto-chatbot": 0.3.1
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-context-navigation": 0.1.2
