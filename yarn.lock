@@ -3690,22 +3690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:*, @eeacms/volto-eea-design-system@npm:^1.31.2":
-  version: 1.32.4
-  resolution: "@eeacms/volto-eea-design-system@npm:1.32.4"
-  dependencies:
-    "@eeacms/countup": "*"
-    "@eeacms/volto-corsproxy": "*"
-    "@fontsource/roboto": 4.5.8
-    react-lazy-load-image-component: 1.5.6
-    react-slick: ^0.30.1
-    remixicon: 3.6.0
-    slick-carousel: ^1.8.1
-  checksum: 877bfc0da646bb32ffff50255cc251e2af1bfe00f8ba5ff5b24fbb12bd75ad5794a322e6d9e4eca135dd58375d828f739b4fadd4ae73485c226985434aa50dc1
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-design-system@npm:1.38.3":
+"@eeacms/volto-eea-design-system@npm:*, @eeacms/volto-eea-design-system@npm:1.38.3, @eeacms/volto-eea-design-system@npm:^1.31.2":
   version: 1.38.3
   resolution: "@eeacms/volto-eea-design-system@npm:1.38.3"
   dependencies:
@@ -26934,13 +26919,6 @@ __metadata:
   dependencies:
     mdast-util-to-hast: ^10.2.0
   checksum: e1152464cfa83c14b570b1cb85eb9b3667795b5bed2f6b16d1c6e96c369816b07945a3c04eb0e1fd57a19cc1837969527d0056d5b6d179f1290688db2a7e2c5f
-  languageName: node
-  linkType: hard
-
-"remixicon@npm:3.6.0":
-  version: 3.6.0
-  resolution: "remixicon@npm:3.6.0"
-  checksum: 602815dd4af6f087fe661f2591dad76476aa132e9cf062195130d33b289e2426319efd20c622b167429c1de88b3c08e062194f079df2773698dd239b62248aec
   languageName: node
   linkType: hard
 
