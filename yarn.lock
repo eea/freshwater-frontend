@@ -3385,9 +3385,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/react-chart-editor@npm:0.47.4":
-  version: 0.47.4
-  resolution: "@eeacms/react-chart-editor@npm:0.47.4"
+"@eeacms/react-chart-editor@npm:0.47.6":
+  version: 0.47.6
+  resolution: "@eeacms/react-chart-editor@npm:0.47.6"
   dependencies:
     "@eeacms/react-colorscales": 2.1.1
     "@plotly/draft-js-export-html": ^1.2.0
@@ -3397,7 +3397,6 @@ __metadata:
     draft-js-utils: ^1.4.1
     fast-isnumeric: ^1.1.4
     handsontable: ^15.2.0
-    hyperformula: ^3.0.0
     immutability-helper: ^3.1.1
     lodash: ^4.17.21
     plotly-icons: ^1.3.15
@@ -3407,7 +3406,6 @@ __metadata:
     react-color: ^2.19.3
     react-day-picker: ^7.4.10
     react-dropzone: ^14.2.3
-    react-plotly.js: ^2.6.0
     react-rangeslider: ^2.2.0
     react-resizable-rotatable-draggable: ^0.2.0
     react-select: ^5.7.4
@@ -3418,7 +3416,7 @@ __metadata:
     plotly.js: ">=1.58.5 <3.0.0"
     react: ">=16"
     react-dom: ">=16"
-  checksum: 11ee20e08485cad43d9d5202181182bb70d5efd7d66789704cd05a83e735073a788fb4a92dfe7fda54d3db2c74498f43ca9d992dbed1288e207e1b773b3a0846
+  checksum: ee5d12f835d37cf2a1e75049f9d235ea2047f0868e2888a4de8e11678a2444227c20852c0e54faa9d42d7a7306dd430f1a832b2c6def6737c0877c991d5227b5
   languageName: node
   linkType: hard
 
@@ -3927,16 +3925,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@eeacms/volto-listing-block@npm:9.0.1"
+"@eeacms/volto-listing-block@npm:9.0.2":
+  version: 9.0.2
+  resolution: "@eeacms/volto-listing-block@npm:9.0.2"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 11dd21c3d76d1a7867556f053fe462b0fe8d0c6d417a68d48af8eb7851294c3a95e5fcfa3df4b4674ea31d5fcff8d706f55605746580b7b677fb574dfcf90936
+  checksum: 5030702105da49a90b2fbe1fef0f24e801448410652467ab506b99beb28afebb0146e5ab1a544ba089f8630e8ddfa3c431c36a00fdca6d87edd768e60a6fcddd
   languageName: node
   linkType: hard
 
@@ -4001,11 +3999,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:13.0.3":
-  version: 13.0.3
-  resolution: "@eeacms/volto-plotlycharts@npm:13.0.3"
+"@eeacms/volto-plotlycharts@npm:13.0.4":
+  version: 13.0.4
+  resolution: "@eeacms/volto-plotlycharts@npm:13.0.4"
   dependencies:
-    "@eeacms/react-chart-editor": 0.47.4
+    "@eeacms/react-chart-editor": 0.47.6
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -4014,9 +4012,8 @@ __metadata:
     jsoneditor: 10.2.0
     jszip: 3.10.1
     plotly.js: ^2.35.3
-    react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: dccc7999fffcbe151ffb7a0d389bbe7372148be9f85103d2d8aed84a1a85d75c53ec1ae7a5d7100589985bc5136401e947b0237114cebba473f91abb85e1853d
+  checksum: 6513b57e544375cc1874692d2efac31399eadab7f3108402ba1eea47199ad9d9acb68ebf2f72e878ae2597867eada4741ac915c635ef357c947482991c6a4fd9
   languageName: node
   linkType: hard
 
@@ -16144,7 +16141,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-plotlycharts": 13.0.3
+    "@eeacms/volto-plotlycharts": 13.0.4
     "@eeacms/volto-prefixpath": 1.0.3
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.8
@@ -25772,18 +25769,6 @@ __metadata:
     react: ^0.14 || >=15
     react-dom: ^0.14 || >=15
   checksum: c3afc3ce1c1d4c2df8d650ae399848dd788c6e41798ef0cd9701b2279c41bfd52b4cbac428a942995444ef2fffcc9126351a7de9f05e1c42fbe2a9454a2ec250
-  languageName: node
-  linkType: hard
-
-"react-plotly.js@npm:2.6.0, react-plotly.js@npm:^2.6.0":
-  version: 2.6.0
-  resolution: "react-plotly.js@npm:2.6.0"
-  dependencies:
-    prop-types: ^15.8.1
-  peerDependencies:
-    plotly.js: ">1.34.0"
-    react: ">0.13.0"
-  checksum: e826a3c94ec831c9d8fd92fa73aeece35d8ac04e0828d8362b28139d5b2923b83530356fb39c690debce20c47ba5d0a809f458a8c741d94edf88211e4ea4439f
   languageName: node
   linkType: hard
 
