@@ -44,12 +44,13 @@
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-searchlib",
     "@eeacms/volto-group-block",
+    "@plone-collective/volto-authomatic",
     "@eeacms/volto-freshwater-policy",
     "@eeacms/volto-eea-map",
     "@eeacms/volto-eea-slate-glossary",
     "@eeacms/volto-elastic-csv-widget",
-    "@eeacms/volto-context-navigation",
-    "@plone-collective/volto-authomatic"
+    "@eeacms/volto-context-navigation"
+
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
