@@ -69,7 +69,7 @@
     "@eeacms/volto-elastic-csv-widget": "2.0.0",
     "@eeacms/volto-embed": "10.1.3",
     "@eeacms/volto-embed-static-content": "0.5.1",
-    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#2c73664b88629b833daf74452f8af625570dcc65",
+    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#e960cee5aed773055e5a8e7e95d898023650e03c",
     "@eeacms/volto-globalsearch": "2.1.2",
     "@eeacms/volto-object-widget": "8.0.0",
     "@eeacms/volto-openlayers-map": "1.0.1",
