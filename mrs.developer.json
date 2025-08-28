@@ -119,6 +119,13 @@
     "develop": false,
     "path": "src"
   },
+  "volto-authomatic": {
+    "url": "git@github.com:collective/volto-authomatic.git",
+    "develop": true,
+    "package": "@plone-collective/volto-authomatic",
+    "branch": "main",
+    "path": "src"
+  },
   "volto-block-toc": {
     "url": "git@github.com:eea/volto-block-toc.git",
     "https": "https://github.com/eea/volto-block-toc.git",
