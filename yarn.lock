@@ -4170,12 +4170,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#6889ce9f019ba187bc6633e397edcd65d953e972":
+"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#eee512603a3d535570c72f0b2c1b98b273ca7c26":
   version: 1.0.3
-  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=6889ce9f019ba187bc6633e397edcd65d953e972"
+  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=eee512603a3d535570c72f0b2c1b98b273ca7c26"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: e8bc59d72bfad104c3c5742869c79b45d8e26366d0d05fac3835a3256f5b9c03061a70a94f703264c71c8b132a115fb557c4634dc6df649e35576c7a73cd8414
+  checksum: 6bdd7325e47a8001157169a6c1671725c2a7db0ca3a717774276ce37406fbb6c531bca34fe4d024cc0ddf2b364e01042c336b2226ef98c7de59464a40443572f
   languageName: node
   linkType: hard
 
@@ -16523,7 +16523,7 @@ __metadata:
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": 13.0.8
-    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#6889ce9f019ba187bc6633e397edcd65d953e972"
+    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#eee512603a3d535570c72f0b2c1b98b273ca7c26"
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.10
     "@eeacms/volto-slate-dataentity": 4.0.2
