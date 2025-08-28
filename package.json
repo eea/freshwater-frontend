@@ -2,7 +2,7 @@
   "name": "freshwater-frontend",
   "description": "Freshwater: Volto Frontend",
   "license": "MIT",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -30,6 +30,7 @@
     "react-countup/countup.js": "2.5.0"
   },
   "addons": [
+    "@eeacms/volto-tree-view-block",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-chatbot",
@@ -72,12 +73,13 @@
     "@eeacms/volto-globalsearch": "2.1.2",
     "@eeacms/volto-object-widget": "8.0.0",
     "@eeacms/volto-openlayers-map": "1.0.1",
-    "@eeacms/volto-plotlycharts": "13.0.7",
+    "@eeacms/volto-plotlycharts": "13.0.8",
     "@eeacms/volto-prefixpath": "1.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
-    "@eeacms/volto-searchlib": "2.1.8",
+    "@eeacms/volto-searchlib": "2.1.10",
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "8.1.5",
+    "@eeacms/volto-tree-view-block": "0.1.1",
     "@eeacms/volto-workflow-progress": "5.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.20.0",
