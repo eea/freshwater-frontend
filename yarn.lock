@@ -3930,9 +3930,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@github:eea/volto-freshwater-policy#e960cee5aed773055e5a8e7e95d898023650e03c":
+"@eeacms/volto-freshwater-policy@github:eea/volto-freshwater-policy#f1c2b144586cddef79337ad8d9c9d62a286d7aa1":
   version: 1.0.25
-  resolution: "@eeacms/volto-freshwater-policy@https://github.com/eea/volto-freshwater-policy.git#commit=e960cee5aed773055e5a8e7e95d898023650e03c"
+  resolution: "@eeacms/volto-freshwater-policy@https://github.com/eea/volto-freshwater-policy.git#commit=f1c2b144586cddef79337ad8d9c9d62a286d7aa1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -3949,7 +3949,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 9f435c3cbb5be0e8d26e4ba65a63aaf1382cd19d265bcdfac7270e161f7c8246ef5e478c66b253bf515d819613fe102797366d79c075f1088f3a454fbb66533e
+  checksum: 5669d331ac906cb0d3ffab5cddfe549ee831f281dbecbfae32be99bc70531061f7ff55e8c2ffb2631444d8699dd0739dea1ad1b9baf9f8c72fe6afa19d6b8fce
   languageName: node
   linkType: hard
 
@@ -4170,12 +4170,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#eee512603a3d535570c72f0b2c1b98b273ca7c26":
+"@eeacms/volto-prefixpath@npm:1.0.3":
   version: 1.0.3
-  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=eee512603a3d535570c72f0b2c1b98b273ca7c26"
+  resolution: "@eeacms/volto-prefixpath@npm:1.0.3"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 6bdd7325e47a8001157169a6c1671725c2a7db0ca3a717774276ce37406fbb6c531bca34fe4d024cc0ddf2b364e01042c336b2226ef98c7de59464a40443572f
+  checksum: 74a43649f0b94598fd25fbbe3ce2a45d9de49e978174c09ab9396620e4b451cae4eb7b7e306eaa758f94ffe3a7300da79c5b6166c583690c878bebcaf3f1362c
   languageName: node
   linkType: hard
 
@@ -16518,12 +16518,12 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
-    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#e960cee5aed773055e5a8e7e95d898023650e03c"
+    "@eeacms/volto-freshwater-policy": "github:eea/volto-freshwater-policy#f1c2b144586cddef79337ad8d9c9d62a286d7aa1"
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": 13.0.8
-    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#eee512603a3d535570c72f0b2c1b98b273ca7c26"
+    "@eeacms/volto-prefixpath": 1.0.3
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.10
     "@eeacms/volto-slate-dataentity": 4.0.2
