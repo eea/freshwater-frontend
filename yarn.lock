@@ -3577,22 +3577,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@*, @eeacms/volto-block-toc@8.0.0, @eeacms/volto-block-toc@workspace:src/addons/volto-block-toc":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-block-toc@workspace:src/addons/volto-block-toc"
+"@eeacms/volto-block-toc@npm:*":
+  version: 8.1.1
+  resolution: "@eeacms/volto-block-toc@npm:8.1.1"
   dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress-fail-fast: ^5.0.1
-    dotenv: ^16.3.2
     github-slugger: 1.4.0
-    husky: ^8.0.3
-    lint-staged: ^14.0.1
-    md5: ^2.3.0
     smoothscroll-polyfill: ^0.4.4
-  languageName: unknown
-  linkType: soft
+  checksum: 9cee3a8c62cd1e6a5cd00fed83ed8d24635b65b55402f63134f4ab9c1d6d3d922d2dda6caf5298dd7c5f42159c296c50227f5a59e371b1f1ed8d46df91b085d7
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-block-toc@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@eeacms/volto-block-toc@npm:8.0.0"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 09ecc99975d9fff634d397c0be8daf44a9e299582e17c7346e4a877d699b29b8efb5388688c1b7ee06b93233bc7798a1fbc49327f0b3b1cfe0bee55478d53a06
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-block-toc@npm:8.1.0":
   version: 8.1.0
@@ -3852,9 +3855,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.8.0"
+"@eeacms/volto-eea-website-theme@npm:3.9.1, @eeacms/volto-eea-website-theme@npm:^3.9.1":
+  version: 3.9.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.9.1"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -3862,7 +3865,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 0a340cd9558553a85a2d0d9e4363204ed7a688511d891c64ca07fc1e2b033c20ab226b2a5ff9e9cf07a15aa0d05358f296798defcf0714af046fed2b3d3620ba
+  checksum: 641733fe283b923c684fc7adca51ecfd69b529b92b12eb57b51951f5f9476d48545ede53d666b2274d89d8592240669c9c44884a197e2d8b9004b9721743db95
   languageName: node
   linkType: hard
 
@@ -3917,7 +3920,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@1.0.17, @eeacms/volto-freshwater-policy@workspace:src/addons/volto-freshwater-policy":
+"@eeacms/volto-freshwater-policy@npm:1.0.17":
+  version: 1.0.17
+  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.17"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-block-style": "*"
+    "@eeacms/volto-datablocks": ^7.2.0
+    "@eeacms/volto-eea-design-system": ^1.31.2
+    "@eeacms/volto-eea-website-theme": ^2.1.3
+    "@eeacms/volto-globalsearch": ^2.0.0
+    "@eeacms/volto-listing-block": ^8.1.1
+    "@eeacms/volto-openlayers-map": 1.0.1
+    "@eeacms/volto-searchlib": ^2.0.2
+    "@eeacms/volto-tabs-block": 9.1.0
+    d3-array: ^2.12.1
+    react-lazy-load-image-component: ^1.4.0
+    react-slick: ^0.24.0
+    slick-carousel: ^1.8.1
+  checksum: 9c8f283c993f99a5dade351f61d57feb947354c44f350f8534bc4e935e4b2c6491d10dc9523f87fa087366505b539e3dce547cc80ecdce2a8599235fdc61df4b
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-freshwater-policy@workspace:src/addons/volto-freshwater-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-freshwater-policy@workspace:src/addons/volto-freshwater-policy"
   dependencies:
@@ -3929,13 +3954,14 @@ __metadata:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-datablocks": ^7.2.0
     "@eeacms/volto-eea-design-system": ^1.31.2
-    "@eeacms/volto-eea-website-theme": ^2.1.3
+    "@eeacms/volto-eea-website-theme": ^3.9.1
     "@eeacms/volto-globalsearch": ^2.0.0
     "@eeacms/volto-listing-block": ^8.1.1
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-searchlib": ^2.0.2
     "@eeacms/volto-tabs-block": 9.1.0
     "@loadable/babel-plugin": 5.16.1
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
     cypress: 13.1.0
@@ -16421,7 +16447,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 28.0.2
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-slate-glossary": 1.0.0
-    "@eeacms/volto-eea-website-theme": 3.8.0
+    "@eeacms/volto-eea-website-theme": 3.9.1
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
