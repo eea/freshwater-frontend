@@ -3535,27 +3535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*":
-  version: 8.1.1
-  resolution: "@eeacms/volto-block-toc@npm:8.1.1"
-  dependencies:
-    github-slugger: 1.4.0
-    smoothscroll-polyfill: ^0.4.4
-  checksum: 9cee3a8c62cd1e6a5cd00fed83ed8d24635b65b55402f63134f4ab9c1d6d3d922d2dda6caf5298dd7c5f42159c296c50227f5a59e371b1f1ed8d46df91b085d7
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-toc@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@eeacms/volto-block-toc@npm:8.0.0"
-  dependencies:
-    github-slugger: 1.4.0
-    smoothscroll-polyfill: ^0.4.4
-  checksum: 09ecc99975d9fff634d397c0be8daf44a9e299582e17c7346e4a877d699b29b8efb5388688c1b7ee06b93233bc7798a1fbc49327f0b3b1cfe0bee55478d53a06
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-toc@npm:8.1.1":
+"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:8.1.1":
   version: 8.1.1
   resolution: "@eeacms/volto-block-toc@npm:8.1.1"
   dependencies:
@@ -3806,18 +3786,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:^2.1.3":
-  version: 2.2.2
-  resolution: "@eeacms/volto-eea-website-theme@npm:2.2.2"
-  dependencies:
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-group-block": "*"
-    volto-subsites: "*"
-  checksum: 5d18092d53324803776230478e6362e0c9650a71c9d7f0910f804272aadeafdc983b4be2ffd38c934874ac361a5b394f35f71d92a5afdec7e33f4b85af92ec41
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-elastic-csv-widget@npm:2.0.0":
   version: 2.0.0
   resolution: "@eeacms/volto-elastic-csv-widget@npm:2.0.0"
@@ -3857,31 +3825,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:1.0.17":
-  version: 1.0.17
-  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.17"
-  dependencies:
-    "@eeacms/countup": "*"
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-datablocks": ^7.2.0
-    "@eeacms/volto-eea-design-system": ^1.31.2
-    "@eeacms/volto-eea-website-theme": ^2.1.3
-    "@eeacms/volto-globalsearch": ^2.0.0
-    "@eeacms/volto-listing-block": ^8.1.1
-    "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-searchlib": ^2.0.2
-    "@eeacms/volto-tabs-block": 9.1.0
-    d3-array: ^2.12.1
-    react-lazy-load-image-component: ^1.4.0
-    react-slick: ^0.24.0
-    slick-carousel: ^1.8.1
-  checksum: 9c8f283c993f99a5dade351f61d57feb947354c44f350f8534bc4e935e4b2c6491d10dc9523f87fa087366505b539e3dce547cc80ecdce2a8599235fdc61df4b
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-freshwater-policy@workspace:src/addons/volto-freshwater-policy":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-freshwater-policy@workspace:src/addons/volto-freshwater-policy"
+"@eeacms/volto-freshwater-policy@npm:1.0.26":
+  version: 1.0.26
+  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.26"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -3893,17 +3839,12 @@ __metadata:
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-searchlib": ^2.0.2
     "@eeacms/volto-tabs-block": 9.1.0
-    "@loadable/babel-plugin": 5.16.1
     "@plone-collective/volto-authomatic": 2.0.1
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress: 13.1.0
-    cypress-fail-fast: ^5.0.1
     d3-array: ^2.12.1
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: c2a5f3d776558ec8b13d0b2e26f7cf309562e1e3c7e0206fecae88b3bde5a862b5e05091203865d35f94234cd454652286b8b17ed86c09d35a21034ed6f82d35
+  checksum: 5d3e66568e528c43288ed861650b5e4dbb87e68fc9cdd3469d38aa39cae36c8031d6ea0c039aed6e8e5f82254a37c1176504ffef964e1ee515081215197e33b9
   languageName: node
   linkType: hard
 
@@ -16162,7 +16103,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
-    "@eeacms/volto-freshwater-policy": 1.0.25
+    "@eeacms/volto-freshwater-policy": 1.0.26
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
