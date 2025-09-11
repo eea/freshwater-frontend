@@ -3574,6 +3574,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-chatbot@npm:0.3.2":
+  version: 0.3.2
+  resolution: "@eeacms/volto-chatbot@npm:0.3.2"
+  dependencies:
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    luxon: 3.5.0
+    marked: 13.0.3
+    node-fetch: 2.7.0
+    react-markdown: 6.0.3
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  checksum: 16a84ccbf4a420f6105d074f65a7580487374d6ed282a6d04b12e2c2ea3e94b89ee07498ea793607a4255bc39c9d0092cfd85fa7ddf94dec959ed2fbe5badb8b
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-citation@npm:1.0.0":
   version: 1.0.0
   resolution: "@eeacms/volto-citation@npm:1.0.0"
@@ -16089,7 +16109,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 8.1.1
-    "@eeacms/volto-chatbot": 0.3.1
+    "@eeacms/volto-chatbot": 0.3.2
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-context-navigation": 0.1.2
     "@eeacms/volto-datablocks": 7.3.3
