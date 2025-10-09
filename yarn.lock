@@ -3585,9 +3585,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.5.3":
-  version: 0.5.3
-  resolution: "@eeacms/volto-chatbot@npm:0.5.3"
+"@eeacms/volto-chatbot@npm:0.5.4":
+  version: 0.5.4
+  resolution: "@eeacms/volto-chatbot@npm:0.5.4"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -3601,9 +3601,8 @@ __metadata:
     react-textarea-autosize: ^8.5.3
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
-    unist-util-visit: 2.0.3
     uuid: 10.0.0
-  checksum: 10273a74ab7c4213dc7f00e3c8b3ebfcf6660c524a6b5292831e79aed0ab372fa416ffabcf7809cda20fd83d051af3f0c6372dd032dd20990c16fd58c1f0f22f
+  checksum: 731f5b6b233017f5d049cd3453ec92d968efadc118a50816230e6d4a60a62bc9527802e1194c7a24d90ca8fe147023f088fcc2303a36469f4fd8c0614a880fb3
   languageName: node
   linkType: hard
 
@@ -16109,7 +16108,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": "*"
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 8.2.0
-    "@eeacms/volto-chatbot": 0.5.3
+    "@eeacms/volto-chatbot": 0.5.4
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-context-navigation": 0.1.2
     "@eeacms/volto-datablocks": 7.3.3
@@ -30508,13 +30507,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unist-util-is@npm:^4.0.0":
-  version: 4.1.0
-  resolution: "unist-util-is@npm:4.1.0"
-  checksum: 726484cd2adc9be75a939aeedd48720f88294899c2e4a3143da413ae593f2b28037570730d5cf5fd910ff41f3bc1501e3d636b6814c478d71126581ef695f7ea
-  languageName: node
-  linkType: hard
-
 "unist-util-is@npm:^5.0.0":
   version: 5.2.1
   resolution: "unist-util-is@npm:5.2.1"
@@ -30542,16 +30534,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unist-util-visit-parents@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "unist-util-visit-parents@npm:3.1.1"
-  dependencies:
-    "@types/unist": ^2.0.0
-    unist-util-is: ^4.0.0
-  checksum: 1170e397dff88fab01e76d5154981666eb0291019d2462cff7a2961a3e76d3533b42eaa16b5b7e2d41ad42a5ea7d112301458283d255993e660511387bf67bc3
-  languageName: node
-  linkType: hard
-
 "unist-util-visit-parents@npm:^5.0.0, unist-util-visit-parents@npm:^5.1.1":
   version: 5.1.3
   resolution: "unist-util-visit-parents@npm:5.1.3"
@@ -30559,17 +30541,6 @@ __metadata:
     "@types/unist": ^2.0.0
     unist-util-is: ^5.0.0
   checksum: 8ecada5978994f846b64658cf13b4092cd78dea39e1ba2f5090a5de842ba4852712c02351a8ae95250c64f864635e7b02aedf3b4a093552bb30cf1bd160efbaa
-  languageName: node
-  linkType: hard
-
-"unist-util-visit@npm:2.0.3":
-  version: 2.0.3
-  resolution: "unist-util-visit@npm:2.0.3"
-  dependencies:
-    "@types/unist": ^2.0.0
-    unist-util-is: ^4.0.0
-    unist-util-visit-parents: ^3.0.0
-  checksum: 1fe19d500e212128f96d8c3cfa3312846e586b797748a1fd195fe6479f06bc90a6f6904deb08eefc00dd58e83a1c8a32fb8677252d2273ad7a5e624525b69b8f
   languageName: node
   linkType: hard
 
