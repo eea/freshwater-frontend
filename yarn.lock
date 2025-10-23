@@ -3665,16 +3665,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datahub@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-datahub@npm:2.0.2"
+"@eeacms/volto-datahub@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@eeacms/volto-datahub@npm:2.0.3"
   dependencies:
     "@eeacms/volto-accordion-block": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-listing-block": "*"
     feed: 4.2.2
-  checksum: 97deddd71935cd7cc5cc777fe86e12be3be5cbf0c44af8b03b368dc378c0ec93bfacd9ecbe8c6e864f9220263752bb5fdbe600c6bd078413cbcb170fe42cc9c2
+  checksum: 4352d1f0319f97c39af095e17ae3be0ed838ee6d343c9113c0adbf478f93a2a4fee933ca5f650003cd584fe287f7d88e26051420c88f6511f90ca369263064ea
   languageName: node
   linkType: hard
 
@@ -16147,7 +16147,7 @@ __metadata:
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-context-navigation": 0.1.2
     "@eeacms/volto-datablocks": 7.3.3
-    "@eeacms/volto-datahub": 2.0.2
+    "@eeacms/volto-datahub": 2.0.3
     "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.39.1
     "@eeacms/volto-eea-kitkat": 28.1.1
