@@ -4013,9 +4013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:13.3.3":
-  version: 13.3.3
-  resolution: "@eeacms/volto-plotlycharts@npm:13.3.3"
+"@eeacms/volto-plotlycharts@npm:13.3.4":
+  version: 13.3.4
+  resolution: "@eeacms/volto-plotlycharts@npm:13.3.4"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -4028,7 +4028,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: 906018d5cd7feb20e7571d577e391f8d556f1bac4bd3e1196731a69fe2c5f568c2e733df888055f7824cfbd5709bec9b2e1d340268e1f135584fceb81ac1cfb9
+  checksum: e34b76c4e331ad0f34cc4f7cd027edb3b0ae2354ed8e80e6d6e8aca0cfc4c8e4a256192d347d7752c3dadecdbaee67c7d677c6dffa92b44b57e463b733d9ddec
   languageName: node
   linkType: hard
 
@@ -4276,6 +4276,13 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     react-complex-tree: 2.6.0
   checksum: eff6080df8f0c5b325c0f1a3f40e044307f5676ff352b3313c7f8b006d28ce68ac98ea36aa8c91e6b98c949fd3faad8cbe82837c8fee8a2ecc2019cd8c8b786c
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-visualization-utils@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@eeacms/volto-visualization-utils@npm:1.0.2"
+  checksum: 0ad90d387710f770db78011949564ca75e1d7b22a385c19b4dd89239ae14c38c39156f5b6d6132ff97739765ddaa72ae0060098c4258cc078bb0285c814c64f0
   languageName: node
   linkType: hard
 
@@ -16173,13 +16180,14 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-plotlycharts": 13.3.3
+    "@eeacms/volto-plotlycharts": 13.3.4
     "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.10
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-tree-view-block": 0.1.2
+    "@eeacms/volto-visualization-utils": 1.0.2
     "@eeacms/volto-workflow-progress": 5.0.1
     "@loadable/babel-plugin": 5.16.1
     "@plone-collective/volto-authomatic": 2.0.1
