@@ -4013,9 +4013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:13.3.6":
-  version: 13.3.6
-  resolution: "@eeacms/volto-plotlycharts@npm:13.3.6"
+"@eeacms/volto-plotlycharts@npm:13.3.7":
+  version: 13.3.7
+  resolution: "@eeacms/volto-plotlycharts@npm:13.3.7"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -4028,7 +4028,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: e9e10edaa53bb13d60a01df52023da8f8d56da0d53dfa5fc586d8b0cb765f925ab07515a7b0bae1257660522d5063c67a27327d9cd009b4a157bf4307035f7c4
+  checksum: 880955e4e6c042a6ecb7e88dc8f05f98d9cc3b116376e2176fa85333df447d28dd896033597806c74491d9be5a48444bc7eae14671fc5df0fbcaf45b42e1b379
   languageName: node
   linkType: hard
 
@@ -16180,7 +16180,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-plotlycharts": 13.3.6
+    "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.10
