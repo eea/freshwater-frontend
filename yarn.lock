@@ -3625,10 +3625,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-context-navigation@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@eeacms/volto-context-navigation@npm:0.1.2"
-  checksum: e23ac6f204015ec7cc7b1172a838aad42f86deb837181711b605ed95bede742c27a97738b7b00f8bf1381b19c25bee12e643d8835c1bd2cdfa761973b0d9218f
+"@eeacms/volto-context-navigation@npm:0.1.3":
+  version: 0.1.3
+  resolution: "@eeacms/volto-context-navigation@npm:0.1.3"
+  checksum: 385517caeb235e73da716ba69c953c68e52dde0f36540bf1649032ab644cb396d72a6edc1ec4d9fac44e56ceb0e27084db5cc0bae31b1c684f7397ccc9c0e9c7
   languageName: node
   linkType: hard
 
@@ -16189,7 +16189,7 @@ __metadata:
     "@eeacms/volto-block-toc": 8.2.0
     "@eeacms/volto-chatbot": ^0.6.1
     "@eeacms/volto-citation": 1.0.0
-    "@eeacms/volto-context-navigation": 0.1.2
+    "@eeacms/volto-context-navigation": 0.1.3
     "@eeacms/volto-datablocks": 7.3.4
     "@eeacms/volto-datahub": 2.0.5
     "@eeacms/volto-editing-progress": 2.0.0
