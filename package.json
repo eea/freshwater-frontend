@@ -13,7 +13,7 @@
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
     "@eeacms/volto-listing-block": "9.1.1",
-    "@eeacms/volto-datablocks": "7.3.4",
+    "@eeacms/volto-datablocks": "7.3.5",
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "2.2.3",
@@ -61,7 +61,7 @@
     "@eeacms/volto-chatbot": "^0.6.4",
     "@eeacms/volto-citation": "1.0.0",
     "@eeacms/volto-context-navigation": "0.1.4",
-    "@eeacms/volto-datablocks": "7.3.4",
+    "@eeacms/volto-datablocks": "7.3.5",
     "@eeacms/volto-datahub": "2.0.5",
     "@eeacms/volto-editing-progress": "2.0.0",
     "@eeacms/volto-eea-chatbot": "^1.0.11",
