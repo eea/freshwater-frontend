@@ -16142,7 +16142,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-redmine-helpdesk": 2.0.0
-    "@eeacms/volto-searchlib": 3.0.3
+    "@eeacms/volto-searchlib": 4.0.0
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 9.0.0
     "@eeacms/volto-tree-view-block": 1.0.0
