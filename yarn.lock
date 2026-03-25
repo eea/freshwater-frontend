@@ -3585,13 +3585,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-citation@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-citation@npm:1.0.0"
+"@eeacms/volto-citation@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-citation@npm:2.0.0"
   dependencies:
     "@citation-js/plugin-ris": ^0.6.8
     citation-js: ^0.6.8
-  checksum: 09fc4c98a6fb9f0a43dfd077fe7aca8a4e5ef43f7b0263581765e42954dbbe04ae3988b45f4ca323912f6a07ef1083d646dd45b1749c14d3ebc3a81acfed047e
+  checksum: 7ff571cc3243fda5e6b2354fad48a1a56bccfaba83326b3e82522ee5c8f7c3626e9b9a68f4f8fdd189e79deca1e279570fb13c715f481dc6594b3030fce60120
   languageName: node
   linkType: hard
 
@@ -16121,7 +16121,7 @@ __metadata:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-block-toc": 9.0.0
     "@eeacms/volto-chatbot": ^0.6.4
-    "@eeacms/volto-citation": 1.0.0
+    "@eeacms/volto-citation": 2.0.0
     "@eeacms/volto-context-navigation": 0.1.4
     "@eeacms/volto-datablocks": 7.3.5
     "@eeacms/volto-datahub": 2.0.5
