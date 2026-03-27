@@ -311,6 +311,14 @@
     "develop": false,
     "path": "src"
   },
+  "volto-custom-html-block": {
+    "url": "git@github.com:eea/volto-custom-html-block.git",
+    "https": "https://github.com/eea/volto-custom-html-block.git",
+    "package": "@eeacms/volto-custom-html-block",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-chatbot": {
     "url": "git@github.com:eea/volto-chatbot.git",
     "https": "https://github.com/eea/volto-chatbot.git",
