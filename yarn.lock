@@ -3677,12 +3677,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-editing-progress@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-editing-progress@npm:2.0.0"
+"@eeacms/volto-editing-progress@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-editing-progress@npm:3.0.0"
   dependencies:
     "@eeacms/volto-workflow-progress": "*"
-  checksum: 9fd562ea5c142e46dfa6fd92971d969b05bf5ddcd2d937e0fde66f4bb0f2ece5749a73e1cc1071910683260ce15458d4ce2fefa9f1d5f594e79360f602058c09
+  checksum: ceb2ada7766aa337d32df69ad1eddec12b2db1f83d9325358523ece5fbd842317ee5ca96d8e021c5e77d16f780573fa6dfaf883b69673a237e085f3e7b2f492f
   languageName: node
   linkType: hard
 
@@ -3959,16 +3959,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:9.1.1":
-  version: 9.1.1
-  resolution: "@eeacms/volto-listing-block@npm:9.1.1"
+"@eeacms/volto-listing-block@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-listing-block@npm:10.0.0"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 2d1aac26a31ebc5c54f07c471b5f5f6b7ea707eaf35c59cf06e3f78b36ef7da876a01ef3f7fadee9addc0b866b38861ffcd076f8a088431d92ec5176591ac9d0
+  checksum: 401a565f0fd125174485b9a8027c93e1497ff654a4f875ab77e005d5def13068fba7993fb74e17ccddb23a0c84c59ca6bc1b2118d320d81711899e482b1093a5
   languageName: node
   linkType: hard
 
@@ -16132,7 +16132,7 @@ __metadata:
     "@eeacms/volto-custom-html-block": 0.1.2
     "@eeacms/volto-datablocks": 8.0.0
     "@eeacms/volto-datahub": 3.0.0
-    "@eeacms/volto-editing-progress": 2.0.0
+    "@eeacms/volto-editing-progress": 3.0.0
     "@eeacms/volto-eea-chatbot": ^1.0.11
     "@eeacms/volto-eea-design-system": 1.50.0
     "@eeacms/volto-eea-kitkat": 32.0.2
