@@ -62,7 +62,7 @@
     "@eeacms/volto-chatbot": "^0.6.4",
     "@eeacms/volto-citation": "2.0.0",
     "@eeacms/volto-context-navigation": "0.1.4",
-    "@eeacms/volto-custom-html-block": "0.1.1",
+    "@eeacms/volto-custom-html-block": "0.1.2",
     "@eeacms/volto-datablocks": "8.0.0",
     "@eeacms/volto-datahub": "3.0.0",
     "@eeacms/volto-editing-progress": "2.0.0",
