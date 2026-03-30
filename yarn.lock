@@ -4024,6 +4024,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-object-widget@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@eeacms/volto-object-widget@npm:9.0.0"
+  checksum: d9275b975900e9845515ce30081929a5be9e8e42008b08fbdc0c6fda8b01a74a2daf56aa959d0e55d3693310cecc8fb92508bb59878ab2386e723ae8a3cef939
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-openlayers-map@npm:1.0.1":
   version: 1.0.1
   resolution: "@eeacms/volto-openlayers-map@npm:1.0.1"
@@ -16144,7 +16151,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 1.0.0
     "@eeacms/volto-freshwater-policy": 1.0.31
     "@eeacms/volto-globalsearch": 4.0.0
-    "@eeacms/volto-object-widget": 8.0.0
+    "@eeacms/volto-object-widget": 9.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": 14.0.0
     "@eeacms/volto-prefixpath": 1.0.4

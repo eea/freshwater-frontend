@@ -77,7 +77,7 @@
     "@eeacms/volto-embed-static-content": "1.0.0",
     "@eeacms/volto-freshwater-policy": "1.0.31",
     "@eeacms/volto-globalsearch": "4.0.0",
-    "@eeacms/volto-object-widget": "8.0.0",
+    "@eeacms/volto-object-widget": "9.0.0",
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@eeacms/volto-plotlycharts": "14.0.0",
     "@eeacms/volto-prefixpath": "1.0.4",
