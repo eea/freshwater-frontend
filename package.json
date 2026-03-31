@@ -16,7 +16,7 @@
     "@eeacms/volto-datablocks": "8.0.0",
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@eeacms/volto-description-block": "2.2.3",
+    "@eeacms/volto-description-block": "3.0.0",
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-searchlib": "^2.1.10",
     "react": "17.0.2",
