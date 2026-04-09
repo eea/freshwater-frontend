@@ -3650,16 +3650,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datahub@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-datahub@npm:3.0.0"
+"@eeacms/volto-datahub@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-datahub@npm:3.0.1"
   dependencies:
     "@eeacms/volto-accordion-block": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-listing-block": "*"
     feed: 4.2.2
-  checksum: 88fe1a945a07c5a3662982f8af22b13e42b8cf209b1441055c823454279c9681738d36243dd3d5f72580a51d182b6969103c381b335345ee8d6c6887b6ecbab0
+  checksum: ea3b98c9ffc07e8ad4f3b15f4e654ecf5ad69e8972a3e00b3439d641a1f32631ed4ac4aa24ede66d1983d82e4ac3cc680190225962a6a9470d41cbe34f6789c9
   languageName: node
   linkType: hard
 
@@ -16138,7 +16138,7 @@ __metadata:
     "@eeacms/volto-context-navigation": 0.1.4
     "@eeacms/volto-custom-html-block": 0.1.2
     "@eeacms/volto-datablocks": 8.0.2
-    "@eeacms/volto-datahub": 3.0.0
+    "@eeacms/volto-datahub": 3.0.1
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": ^1.0.11
     "@eeacms/volto-eea-design-system": 1.50.2
