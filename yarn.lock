@@ -3663,10 +3663,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-description-block@npm:3.0.0"
-  checksum: 4f82e5a83f37f33e23c84554643b9445d55a719b062ce30d72f632f2c35aa31456860ed05b548f4015a470d1f0de54c0080a05517a5be2ee4dd2aed169f1139c
+"@eeacms/volto-description-block@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-description-block@npm:3.0.1"
+  checksum: 4e6528f2105b2ff48598f932ab77dd4ae0bd06da1d098dce5e0b86774eb6726a5aeb6d44d673519de97a12ba2909d8ccfb30c470e0d76c832670d620e1fd3806
   languageName: node
   linkType: hard
 
@@ -3677,12 +3677,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-editing-progress@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-editing-progress@npm:3.0.0"
+"@eeacms/volto-editing-progress@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-editing-progress@npm:3.0.1"
   dependencies:
     "@eeacms/volto-workflow-progress": "*"
-  checksum: ceb2ada7766aa337d32df69ad1eddec12b2db1f83d9325358523ece5fbd842317ee5ca96d8e021c5e77d16f780573fa6dfaf883b69673a237e085f3e7b2f492f
+  checksum: 0559607eb56d09e5804a04f878c141f6e73c4d407df8a82b0ef91dc0c115d848fb3a3f1ee34cbb590fb90f8f3c28ac8db9b1b09c05cc59efa209e8e4519e4744
   languageName: node
   linkType: hard
 
@@ -16139,7 +16139,7 @@ __metadata:
     "@eeacms/volto-custom-html-block": 0.1.2
     "@eeacms/volto-datablocks": 8.0.2
     "@eeacms/volto-datahub": 3.0.0
-    "@eeacms/volto-editing-progress": 3.0.0
+    "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": ^1.0.11
     "@eeacms/volto-eea-design-system": 1.50.1
     "@eeacms/volto-eea-kitkat": 32.0.2
