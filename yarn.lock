@@ -2411,6 +2411,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-corsproxy@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@eeacms/volto-corsproxy@npm:5.0.1"
+  checksum: c06554cec6c6bf0c33817fa525bef257a889a20dc8922ad41ddb81bcde0e1882e7bb9eff833a1d469b36dbeee0d1e6a0aa6783a666bda22a0a0cd8251de4cc0d
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-custom-html-block@npm:0.1.2":
   version: 0.1.2
   resolution: "@eeacms/volto-custom-html-block@npm:0.1.2"
@@ -2606,12 +2613,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed-static-content@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@eeacms/volto-embed-static-content@npm:1.0.1"
+"@eeacms/volto-embed-static-content@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@eeacms/volto-embed-static-content@npm:1.0.2"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: 231581795a88fcf83c8ad5fca28a5f184658c3c0481f1d9cba664e74375cb973a49bf840714c95393462de98b7abc386122b4fde444c3bbc430ce57c2e1c1f76
+  checksum: 534be707ebdda38b130c745ebf62eadbb606034575abc78306d9f28d0c262aa6386ddb9f548aa3bad0d4dcec9a8a24709dc2467784dad4f46e66d1cbe7373c65
   languageName: node
   linkType: hard
 
@@ -2768,7 +2775,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: ebcb2c8060c34b57c76baa70e899b03f7f48537aef84340717cb689d907fcec6c236b1eda294a72de2b8542394c2e7f2c39852c6791a1f4389c237880b91dd3b
+  checksum: 1b25ca2f80ad0fb5ba207e9c6b3062123858c7d14e7efad23b7f890d2a52d38fa08c28f83b19cd3d90075ea20ec38fcbff702b570932794b6c1737ba37f1b91c
   languageName: node
   linkType: hard
 
@@ -2809,6 +2816,13 @@ __metadata:
   version: 3.0.0
   resolution: "@eeacms/volto-resize-helper@npm:3.0.0"
   checksum: 982cea71143074c9b27618a06adc124478836aedb9ef489bcef324ab5c80c17ffb6c1c3ac82892064b30e5303cd98e96b861042ba83db5466fe490646501ad61
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-resize-helper@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-resize-helper@npm:3.0.1"
+  checksum: 3406f43e3c12bc42916c407b9aa0321066b507252178ce42836b772c6d4e6525e4746f842437a389acb790ac84b6377af1f2ba59a5c33e6e3ae64aeb8ee279fc
   languageName: node
   linkType: hard
 
@@ -18048,12 +18062,12 @@ __metadata:
     "@eeacms/volto-eea-website-theme": ^4.0.3
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 11.0.1
-    "@eeacms/volto-embed-static-content": 1.0.1
+    "@eeacms/volto-embed-static-content": 1.0.2
     "@eeacms/volto-freshwater-policy": 1.0.31
     "@eeacms/volto-globalsearch": 4.0.1
-    "@eeacms/volto-object-widget": 9.0.0
+    "@eeacms/volto-object-widget": 9.1.0
     "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-plotlycharts": 14.0.0
+    "@eeacms/volto-plotlycharts": 14.0.1
     "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-redmine-helpdesk": ^2.0.0
     "@eeacms/volto-searchlib": ^4.0.0
