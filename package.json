@@ -20,8 +20,6 @@
     "@eeacms/volto-description-block": "3.0.1",
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-searchlib": "^2.1.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "draft-js": "0.10.5",
     "http-proxy-middleware": "2.0.1",
