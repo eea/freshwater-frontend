@@ -3817,7 +3817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.1.1":
+"@eeacms/volto-eea-website-theme@npm:4.1.1, @eeacms/volto-eea-website-theme@npm:^4.0.1":
   version: 4.1.1
   resolution: "@eeacms/volto-eea-website-theme@npm:4.1.1"
   dependencies:
@@ -3828,20 +3828,6 @@ __metadata:
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
   checksum: b34cbe061b023d9f6fb7655fe427e29627405c376702e20ee75d1c73cb3f97ccf7cefa5873bf4355c459624904333085da6249da1bfc030f56238c7bc203c262
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-website-theme@npm:^3.9.1":
-  version: 3.9.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.9.1"
-  dependencies:
-    "@eeacms/volto-anchors": "*"
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-block-toc": "*"
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-group-block": "*"
-    volto-subsites: "*"
-  checksum: 641733fe283b923c684fc7adca51ecfd69b529b92b12eb57b51951f5f9476d48545ede53d666b2274d89d8592240669c9c44884a197e2d8b9004b9721743db95
   languageName: node
   linkType: hard
 
@@ -3884,30 +3870,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:1.0.31":
-  version: 1.0.31
-  resolution: "@eeacms/volto-freshwater-policy@npm:1.0.31"
+"@eeacms/volto-freshwater-policy@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-freshwater-policy@npm:2.0.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-datablocks": ^7.2.0
+    "@eeacms/volto-datablocks": ^8.0.1
     "@eeacms/volto-eea-design-system": ^1.31.2
-    "@eeacms/volto-eea-website-theme": ^3.9.1
-    "@eeacms/volto-globalsearch": ^2.0.0
-    "@eeacms/volto-listing-block": ^8.1.1
+    "@eeacms/volto-eea-website-theme": ^4.0.1
+    "@eeacms/volto-globalsearch": ^4.0.1
+    "@eeacms/volto-listing-block": ^10.0.1
     "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-searchlib": ^2.0.2
-    "@eeacms/volto-tabs-block": 9.1.0
+    "@eeacms/volto-searchlib": ^4.0.1
+    "@eeacms/volto-tabs-block": 10.0.1
     "@plone-collective/volto-authomatic": 2.0.1
     d3-array: ^2.12.1
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 2d36a55b0032a7a851e3d07437174f3e644525b72e28bcfcb7035e55fa91902b10df4dd60095d2dd2ad1c0f0227448f7e1d4ed784d09499a09a976c0e5bee989
+  checksum: b7212859d0f1ae1e641ef77e91a81a0dc3ec9f0b02cfc9690f7f14e1e793d6703b117ea023059b23e4e0fe773f6ff460f47b46120365f2317d63e6180dea4c96
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:*, @eeacms/volto-globalsearch@npm:^2.0.0":
+"@eeacms/volto-globalsearch@npm:*":
   version: 2.0.0
   resolution: "@eeacms/volto-globalsearch@npm:2.0.0"
   dependencies:
@@ -3917,7 +3903,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:4.0.1":
+"@eeacms/volto-globalsearch@npm:4.0.1, @eeacms/volto-globalsearch@npm:^4.0.1":
   version: 4.0.1
   resolution: "@eeacms/volto-globalsearch@npm:4.0.1"
   dependencies:
@@ -4213,19 +4199,6 @@ __metadata:
     react-slick: ^0.30.1
     slick-carousel: ^1.8.1
   checksum: 91a593561302739641f5e8783ed447b86bda210eee7a53108eea67a7ba174e8d13f05bab1b5a059b72ec28e6ec42ce01e10508963366a25f2c45b5b5accb63b8
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-tabs-block@npm:9.1.0":
-  version: 9.1.0
-  resolution: "@eeacms/volto-tabs-block@npm:9.1.0"
-  dependencies:
-    "@eeacms/volto-anchors": "*"
-    "@eeacms/volto-block-style": "*"
-    react-responsive-tabs: 4.4.3
-    react-slick: ^0.30.1
-    slick-carousel: ^1.8.1
-  checksum: 163c0f13f8503bb6e79dd014d0d392c743d3f7102010576b03254e3243bdf4263b14b0dc0fd34b21967e3503640c225a0c9c7f66b98f96b3ccdc57a04a89615e
   languageName: node
   linkType: hard
 
@@ -16165,7 +16138,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 11.0.1
     "@eeacms/volto-embed-static-content": 1.0.2
-    "@eeacms/volto-freshwater-policy": 1.0.31
+    "@eeacms/volto-freshwater-policy": 2.0.0
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-object-widget": 9.1.0
     "@eeacms/volto-openlayers-map": 1.0.1
