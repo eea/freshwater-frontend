@@ -3831,13 +3831,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-elastic-csv-widget@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-elastic-csv-widget@npm:2.0.0"
+"@eeacms/volto-elastic-csv-widget@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-elastic-csv-widget@npm:3.0.0"
   dependencies:
-    "@eeacms/volto-datablocks": 6.1.0
+    "@eeacms/volto-datablocks": 8.0.2
     razzle-plugin-scss: ^4.2.18
-  checksum: fb282ac237560f1af27ec85f956641ff275202a37aa695edf84706824343afc8f93f4d9c00d8fbccb564709f7075e829e5342e05dbe57c9440ad7b103c579d0c
+  checksum: 415b11151a1d71d04f1d6776b8e76d746bbf4b41e62de559978f1281a12590921440fc8fb37b4f899d39ee9aecbca726b4f4f21ecd7a43d77dfdb99845966fbf
   languageName: node
   linkType: hard
 
@@ -16135,7 +16135,7 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-slate-glossary": 1.0.0
     "@eeacms/volto-eea-website-theme": 4.1.1
-    "@eeacms/volto-elastic-csv-widget": 2.0.0
+    "@eeacms/volto-elastic-csv-widget": 3.0.0
     "@eeacms/volto-embed": 11.0.1
     "@eeacms/volto-embed-static-content": 1.0.2
     "@eeacms/volto-freshwater-policy": 2.0.0
