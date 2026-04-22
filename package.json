@@ -69,7 +69,7 @@
     "@eeacms/volto-datahub": "3.0.1",
     "@eeacms/volto-editing-progress": "3.0.1",
     "@eeacms/volto-eea-chatbot": "^2.0.2",
-    "@eeacms/volto-eea-design-system": "1.60.1",
+    "@eeacms/volto-eea-design-system": "1.60.2",
     "@eeacms/volto-eea-kitkat": "^33.0.0",
     "@eeacms/volto-eea-map": "6.0.1",
     "@eeacms/volto-eea-slate-glossary": "2.0.0",
