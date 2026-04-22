@@ -2614,9 +2614,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-freshwater-policy@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-freshwater-policy@npm:2.0.0"
+"@eeacms/volto-freshwater-policy@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-freshwater-policy@npm:2.0.1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-block-style": "*"
@@ -2625,15 +2625,15 @@ __metadata:
     "@eeacms/volto-eea-website-theme": ^4.0.1
     "@eeacms/volto-globalsearch": ^4.0.1
     "@eeacms/volto-listing-block": ^10.0.1
-    "@eeacms/volto-openlayers-map": 1.0.1
+    "@eeacms/volto-openlayers-map": 2.0.0
     "@eeacms/volto-searchlib": ^4.0.1
-    "@eeacms/volto-tabs-block": 10.0.1
+    "@eeacms/volto-tabs-block": 10.0.2
     "@plone-collective/volto-authomatic": 2.0.1
     d3-array: ^2.12.1
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: b7212859d0f1ae1e641ef77e91a81a0dc3ec9f0b02cfc9690f7f14e1e793d6703b117ea023059b23e4e0fe773f6ff460f47b46120365f2317d63e6180dea4c96
+  checksum: 607a74de4ee34440fa42e6a3bee65e07cd85bec0b000e6ace23289a638dc2398f5a8d42bed9e16cdde115177d769d3973f99a81650209ba618135ba98d36c419
   languageName: node
   linkType: hard
 
@@ -2894,6 +2894,19 @@ __metadata:
     react-slick: ^0.30.1
     slick-carousel: ^1.8.1
   checksum: 91a593561302739641f5e8783ed447b86bda210eee7a53108eea67a7ba174e8d13f05bab1b5a059b72ec28e6ec42ce01e10508963366a25f2c45b5b5accb63b8
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-tabs-block@npm:10.0.2":
+  version: 10.0.2
+  resolution: "@eeacms/volto-tabs-block@npm:10.0.2"
+  dependencies:
+    "@eeacms/volto-anchors": "*"
+    "@eeacms/volto-block-style": "*"
+    react-responsive-tabs: 4.4.3
+    react-slick: ^0.30.1
+    slick-carousel: ^1.8.1
+  checksum: 2eecb168eb27f5349da9420384c74d7aab3b6e87362a2d754103bc7b4a360ccb069654dc1bff35b165d75218877fe3eead4e077aa05243c2ece85db1d7d7ee25
   languageName: node
   linkType: hard
 
@@ -17700,7 +17713,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 3.0.0
     "@eeacms/volto-embed": 11.0.1
     "@eeacms/volto-embed-static-content": 1.0.2
-    "@eeacms/volto-freshwater-policy": 2.0.0
+    "@eeacms/volto-freshwater-policy": 2.0.1
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-object-widget": 9.1.0
     "@eeacms/volto-openlayers-map": 2.0.0
