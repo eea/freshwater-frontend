@@ -4,6 +4,7 @@
 .storybook
 build
 cache
+**/.git
 locales/*.json
 node_modules
 omelette
@@ -14,6 +15,7 @@ omelette
 .dockerignore
 .editorconfig
 .eslintignore
+src/addons
 .eslintrc.js
 .gitignore
 .gitmodules
