@@ -2469,9 +2469,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.60.3":
-  version: 1.60.3
-  resolution: "@eeacms/volto-eea-design-system@npm:1.60.3"
+"@eeacms/volto-eea-design-system@npm:1.60.5":
+  version: 1.60.5
+  resolution: "@eeacms/volto-eea-design-system@npm:1.60.5"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2480,7 +2480,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 6676b0620141f9047404d444db8360045bcbe0bb5cf8288ba53a2044a9661a5cf235eab90295c1308260c0d01745d123db3ff64ed5fceb4df699e894443b1478
+  checksum: 7b9a968190942522f4f1b9cb4a790c060ef4562156b7da6e07ea3f1a43592612204ef83a767ab5f8cb5b07857dae43303e436ee9be80aadb213795a84335fec7
   languageName: node
   linkType: hard
 
@@ -2557,9 +2557,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.3.2":
-  version: 4.3.2
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.2"
+"@eeacms/volto-eea-website-theme@npm:4.3.5":
+  version: 4.3.5
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.5"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2567,7 +2567,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 57eca36440686320ee9e02a33091c6a859e2e48dc082fb7ab713ff4cbd49abdfdd7c7304455563da600175cd29482b58aacf73b8fc63773091da571d32e8bf2b
+  checksum: 26243c4ae57de2a632e67e88c07b49840ccd134637fbec077b59f8872e941793aa37007fb85b80c11f6768cbadad45d487f76d262eeb719b1ae49878afb82444
   languageName: node
   linkType: hard
 
@@ -2614,13 +2614,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@eeacms/volto-embed@npm:11.0.3"
+"@eeacms/volto-embed@npm:11.0.4":
+  version: 11.0.4
+  resolution: "@eeacms/volto-embed@npm:11.0.4"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: 3c286f0f2ff34b8ae6b2bbb52ca6244237b50c66ed9adcc7f97c06307f2d748fdc2f973a55fe591077869038230c89e83247688b5b93e0a3bca761b9367b292f
+  checksum: a2794bc31d89de1b9429f9b328ae368f4303ab648ac8ddb8b2d8f2df7f1e4ce08e239d61e7f6348d61af03ce9273abadf058e36c552965730ecd43773ffd91c7
   languageName: node
   linkType: hard
 
@@ -2739,12 +2739,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-openlayers-map@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-openlayers-map@npm:2.0.0"
+"@eeacms/volto-openlayers-map@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-openlayers-map@npm:2.0.1"
   dependencies:
     ol: 6.6.x
-  checksum: 74379666d34ab8c79397b0da7be0dff31244c09e9d49b9480c2b1b84846af474e6c7b84415a5c3750c5df9f8afeb141b6c72198b423d008ba6fea42b263ef4e7
+  checksum: e4b003bce1ccd7d7a4d6f7e0cf9924c506fdd89f1a1e504c55c28c05da91a4c2f5969ab2b2224c3b8b5b3cfb9674961ebe22c211f25fe64c465b22c3ab087131
   languageName: node
   linkType: hard
 
@@ -17759,19 +17759,19 @@ __metadata:
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": ^2.0.3
-    "@eeacms/volto-eea-design-system": 1.60.3
+    "@eeacms/volto-eea-design-system": 1.60.5
     "@eeacms/volto-eea-kitkat": ^33.0.0
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-slate-glossary": 2.0.0
-    "@eeacms/volto-eea-website-theme": 4.3.2
+    "@eeacms/volto-eea-website-theme": 4.3.5
     "@eeacms/volto-elastic-csv-widget": 3.0.0
-    "@eeacms/volto-embed": 11.0.3
+    "@eeacms/volto-embed": 11.0.4
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-freshwater-policy": 2.0.1
     "@eeacms/volto-genai-blocks": "github:eea/volto-genai-blocks#main"
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-object-widget": 9.1.1
-    "@eeacms/volto-openlayers-map": 2.0.0
+    "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.4
     "@eeacms/volto-prefixpath": 2.0.3
     "@eeacms/volto-redmine-helpdesk": 2.0.1
