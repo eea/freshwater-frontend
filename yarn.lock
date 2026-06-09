@@ -2244,6 +2244,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-data-figure@npm:*":
+  version: 9.0.2
+  resolution: "@eeacms/volto-block-data-figure@npm:9.0.2"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    "@eeacms/volto-widget-dataprovenance": "*"
+    "@eeacms/volto-widget-geolocation": "*"
+    "@eeacms/volto-widget-temporal-coverage": "*"
+  checksum: fd95695044173638dc4bee6443a3ca105ade456de6bde4365dfe0ffb6a1c62a996e32b3977064249177414ecc5a10616b70c160c0644a9e9a2c0dff78833a048
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-block-data-table@npm:2.0.1":
   version: 2.0.1
   resolution: "@eeacms/volto-block-data-table@npm:2.0.1"
@@ -2469,9 +2481,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.60.6":
-  version: 1.60.6
-  resolution: "@eeacms/volto-eea-design-system@npm:1.60.6"
+"@eeacms/volto-eea-design-system@npm:1.60.7":
+  version: 1.60.7
+  resolution: "@eeacms/volto-eea-design-system@npm:1.60.7"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2480,7 +2492,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: f0dfbdc89526c434fe6e041b2d04efc5ed8b5db7c5e55cc6f9baef16512a6fad233c7782fc325ddf122eaa53573022233cfc50d00ac2d3918ff3ef3571630daf
+  checksum: 9924a9069a58e5c735f4c61bbd781438e30cf3fa62b56243cbf1b511b94e62453c572627f7ca5a0a8a49b0acb81fcf74d9d5a10aa3d87c801a17fa5616f71f8e
   languageName: node
   linkType: hard
 
@@ -2532,7 +2544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:6.0.1":
+"@eeacms/volto-eea-map@npm:*, @eeacms/volto-eea-map@npm:6.0.1":
   version: 6.0.1
   resolution: "@eeacms/volto-eea-map@npm:6.0.1"
   dependencies:
@@ -2595,7 +2607,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed-static-content@npm:1.0.4":
+"@eeacms/volto-embed-content@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@eeacms/volto-embed-content@npm:1.0.2"
+  dependencies:
+    "@eeacms/volto-block-data-figure": "*"
+    "@eeacms/volto-eea-map": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-embed-static-content": "*"
+    "@eeacms/volto-plotlycharts": "*"
+    "@eeacms/volto-tableau": "*"
+  checksum: 51a9d1658d6dd7ba45f0431729171b4dd32e2cb3d2bef8af4f4349b231c9b8f2b2ddce611b492f97edf8a6b81410eddc7fbf49002e07040cb5a0419c8dd77e1b
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-embed-static-content@npm:*, @eeacms/volto-embed-static-content@npm:1.0.4":
   version: 1.0.4
   resolution: "@eeacms/volto-embed-static-content@npm:1.0.4"
   dependencies:
@@ -2741,7 +2767,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:14.0.5":
+"@eeacms/volto-plotlycharts@npm:*, @eeacms/volto-plotlycharts@npm:14.0.5":
   version: 14.0.5
   resolution: "@eeacms/volto-plotlycharts@npm:14.0.5"
   dependencies:
@@ -2892,7 +2918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:9.0.3":
+"@eeacms/volto-tableau@npm:*, @eeacms/volto-tableau@npm:9.0.3":
   version: 9.0.3
   resolution: "@eeacms/volto-tableau@npm:9.0.3"
   dependencies:
@@ -2978,10 +3004,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-dataprovenance@npm:2.0.1":
+"@eeacms/volto-widget-dataprovenance@npm:*, @eeacms/volto-widget-dataprovenance@npm:2.0.1":
   version: 2.0.1
   resolution: "@eeacms/volto-widget-dataprovenance@npm:2.0.1"
   checksum: eb665d6f5239a4d6eb011828ef110d256738598c837fedd80b9f3a074d1cd4410ddf1444e39bfa928453903d6889e2c9055232a9516675c61fe778836910c8b7
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-widget-geolocation@npm:*":
+  version: 7.0.4
+  resolution: "@eeacms/volto-widget-geolocation@npm:7.0.4"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: fce14852fd364956a6a8d155f3ad0780688127d5785e6f7760387a35814e419eac97884ea248d5a3671d54da698fad8ae20998f09e8ffb7750eb89cbfe0c1957
   languageName: node
   linkType: hard
 
@@ -2995,7 +3031,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-temporal-coverage@npm:7.0.1":
+"@eeacms/volto-widget-temporal-coverage@npm:*, @eeacms/volto-widget-temporal-coverage@npm:7.0.1":
   version: 7.0.1
   resolution: "@eeacms/volto-widget-temporal-coverage@npm:7.0.1"
   dependencies:
@@ -17752,13 +17788,14 @@ __metadata:
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": ^2.0.2
-    "@eeacms/volto-eea-design-system": 1.60.6
+    "@eeacms/volto-eea-design-system": 1.60.7
     "@eeacms/volto-eea-kitkat": ^33.0.0
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-slate-glossary": 2.0.0
     "@eeacms/volto-eea-website-theme": 4.3.7
     "@eeacms/volto-elastic-csv-widget": 3.0.0
     "@eeacms/volto-embed": 11.0.4
+    "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-freshwater-policy": 2.0.1
     "@eeacms/volto-globalsearch": 4.0.1
