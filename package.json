@@ -72,7 +72,7 @@
     "@eeacms/volto-eea-chatbot": "2.0.5",
     "@eeacms/volto-eea-design-system": "1.60.8",
     "@eeacms/volto-eea-kitkat": "^33.0.0",
-    "@eeacms/volto-eea-map": "6.0.1",
+    "@eeacms/volto-eea-map": "6.0.2",
     "@eeacms/volto-eea-slate-glossary": "2.0.0",
     "@eeacms/volto-eea-website-theme": "4.3.9",
     "@eeacms/volto-elastic-csv-widget": "3.0.0",
