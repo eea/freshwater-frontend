@@ -32,6 +32,7 @@
   "addons": [
     "@eeacms/volto-tree-view-block",
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-genai-blocks",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-custom-html-block",
     "@eeacms/volto-eea-design-system",
@@ -78,6 +79,7 @@
     "@eeacms/volto-embed-content": "1.0.2",
     "@eeacms/volto-embed-static-content": "1.0.4",
     "@eeacms/volto-freshwater-policy": "2.0.1",
+    "@eeacms/volto-genai-blocks": "1.0.1",
     "@eeacms/volto-globalsearch": "4.0.1",
     "@eeacms/volto-object-widget": "9.1.1",
     "@eeacms/volto-openlayers-map": "2.0.1",
