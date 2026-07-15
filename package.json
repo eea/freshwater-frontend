@@ -78,7 +78,7 @@
     "@eeacms/volto-embed": "11.0.5",
     "@eeacms/volto-embed-content": "1.0.2",
     "@eeacms/volto-embed-static-content": "1.0.4",
-    "@eeacms/volto-freshwater-policy": "2.0.1",
+    "@eeacms/volto-freshwater-policy": "2.0.2",
     "@eeacms/volto-genai-blocks": "1.0.1",
     "@eeacms/volto-globalsearch": "4.0.1",
     "@eeacms/volto-object-widget": "9.1.1",
