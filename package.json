@@ -27,7 +27,9 @@
     "react-error-overlay": "6.0.9",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "classnames": "2.2.6",
-    "react-countup/countup.js": "2.5.0"
+    "react-countup/countup.js": "2.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "addons": [
     "@eeacms/volto-tree-view-block",
