@@ -14,7 +14,7 @@
   "resolutions": {
     "@eeacms/volto-listing-block": "10.0.2",
     "@eeacms/volto-matomo": "^7.0.1",
-    "@eeacms/volto-datablocks": "9.0.0",
+    "@eeacms/volto-datablocks": "9.0.1",
     "@eeacms/volto-openlayers-map": "2.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "3.0.1",
@@ -67,7 +67,7 @@
     "@eeacms/volto-citation": "2.0.1",
     "@eeacms/volto-context-navigation": "1.0.0",
     "@eeacms/volto-custom-html-block": "0.1.2",
-    "@eeacms/volto-datablocks": "9.0.0",
+    "@eeacms/volto-datablocks": "9.0.1",
     "@eeacms/volto-datahub": "4.0.0",
     "@eeacms/volto-editing-progress": "3.0.1",
     "@eeacms/volto-eea-chatbot": "^3.0.1",
