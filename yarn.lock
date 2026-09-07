@@ -2432,6 +2432,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-eea-chatbot@npm:*":
+  version: 4.1.0
+  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.0"
+  dependencies:
+    "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    "@plone-collective/volto-sentry": "*"
+    compromise: 14.14.5
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    luxon: 3.5.0
+    marked: 13.0.3
+    node-fetch: 2.7.0
+    react-markdown: 8.0.7
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  checksum: 9bb8011cbb9ec002ebd92179805be45f5a1385bb514198937887c13134e64d80cf004499b4ddeabbf29b7b14492b86f1041bf61dca8806a7bdd90d91e65d7a11
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-chatbot@npm:^3.0.1":
   version: 3.0.1
   resolution: "@eeacms/volto-eea-chatbot@npm:3.0.1"
@@ -2470,9 +2493,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.60.8":
-  version: 1.60.8
-  resolution: "@eeacms/volto-eea-design-system@npm:1.60.8"
+"@eeacms/volto-eea-design-system@npm:1.61.0":
+  version: 1.61.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.61.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2481,7 +2504,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 98e98fed67cc5e919f1b81e261873c45738e20be76daf090d5fca2410746b1b9628d2103cf2b3e424b626bd5e6c24764f7ee195aea106c82b5f5242e62752698
+  checksum: 73386b5653dddc876589732ebb5fd80b5e073f5f1ba82c0c07bd2a0b29314b8512b703b42b48c19d47b123019136876d55b23e670b0bc2532659d0cb17ca7a4e
   languageName: node
   linkType: hard
 
@@ -2853,15 +2876,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:^2.1.10":
-  version: 2.1.10
-  resolution: "@eeacms/volto-searchlib@npm:2.1.10"
+"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@eeacms/volto-searchlib@npm:5.0.0"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-eea-chatbot": "*"
     "@eeacms/volto-matomo": "*"
-    "@elastic/react-search-ui": 1.20.2
-    "@elastic/react-search-ui-views": 1.20.2
-    "@elastic/search-ui": 1.20.2
+    "@elastic/react-search-ui": 1.21.2
+    "@elastic/react-search-ui-views": 1.21.2
+    "@elastic/search-ui": 1.21.2
+    "@plone/scripts": ^3.10.6
     "@visx/group": ^1.7.0
     "@visx/responsive": ^1.10.1
     "@visx/scale": ^1.11.1
@@ -2894,7 +2919,54 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
+  checksum: e8ee6e0a4336c89a4adf56f601e3b18ef912ccd153de1889fc0ee9f3e4b7241a6a1cb2e36dc075284c4455b6e19f96f5249d30a50cae8693d0411515b3cb3c89
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-searchlib@npm:^4.0.1":
+  version: 4.1.1
+  resolution: "@eeacms/volto-searchlib@npm:4.1.1"
+  dependencies:
+    "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-eea-chatbot": "*"
+    "@eeacms/volto-matomo": "*"
+    "@elastic/react-search-ui": 1.21.2
+    "@elastic/react-search-ui-views": 1.21.2
+    "@elastic/search-ui": 1.21.2
+    "@plone/scripts": ^3.10.6
+    "@visx/group": ^1.7.0
+    "@visx/responsive": ^1.10.1
+    "@visx/scale": ^1.11.1
+    "@visx/shape": ^1.12.0
+    "@visx/tooltip": ^1.7.2
+    classnames: ^2.2.6
+    csv-stringify: ^5.6.5
+    d3-array: ^2.12.1
+    d3-scale: ^3.3.0
+    deep-equal: ^2.0.5
+    downshift: ^3.4.8
+    elasticsearch: 16.7.3
+    fast-deep-equal: ^3.1.3
+    http-proxy-middleware: ^2.0.1
+    jotai: 2.0.3
+    lodash: 4.17.21
+    lodash.clonedeep: ^4.5.0
+    lodash.isfunction: ^3.0.9
+    lodash.uniq: ^4.5.0
+    luxon: ^1.22.0
+    node-fetch: ^2.6.1
+    re-resizable: ^6.9.0
+    react-compound-slider: ^3.4.0
+    react-masonry-component: 6.3.0
+    react-motion: ^0.5.2
+    react-speech-recognition: ^3.8.2
+    react-toastify: 5.4.1
+    redux: 4.1.0
+    semantic-ui-react: 2.0.3
+    superagent: 3.8.2
+    svg-loader: 0.0.2
+    use-deep-compare-effect: 1.8.1
+  checksum: 3f049a389437a4e34029c157e8ce8cd38dcfd57e192f1b42097e8b37b704aad630f28a542e049d0869a7ab5269d4a58ad8cea1d66efffa25fb44e8d3c1818b84
   languageName: node
   linkType: hard
 
@@ -3104,31 +3176,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@elastic/react-search-ui-views@npm:1.20.2":
-  version: 1.20.2
-  resolution: "@elastic/react-search-ui-views@npm:1.20.2"
+"@elastic/react-search-ui-views@npm:1.21.2":
+  version: 1.21.2
+  resolution: "@elastic/react-search-ui-views@npm:1.21.2"
   dependencies:
-    "@elastic/search-ui": 1.20.2
+    "@elastic/search-ui": 1.21.2
     downshift: ^3.2.10
-    rc-pagination: ^1.20.1
+    rc-pagination: ^4.0.4
     react-select: ^5.0.0
   peerDependencies:
-    react: ">= 16.8.0 <= 18"
-    react-dom: ">= 16.8.0 <= 18"
-  checksum: d8f451ce7a931e32e2806fab561d1d0dfbd7dadb6343ed84abaecde221041412b04d6267dd01fee047c8112ad33d37141489408f5253d803a00982d4e5c3dba0
+    react: ">= 16.8.0 < 19"
+    react-dom: ">= 16.8.0 < 19"
+  checksum: 6366881375c3ac6d7758b9b55b3c800481d1e5acabf8ac4372c5e33ee2fde5fc48a711870020cf24ff717f8a8eecb70aa15d1a7b4b87c438668483c34be7d64a
   languageName: node
   linkType: hard
 
-"@elastic/react-search-ui@npm:1.20.2":
-  version: 1.20.2
-  resolution: "@elastic/react-search-ui@npm:1.20.2"
+"@elastic/react-search-ui@npm:1.21.2":
+  version: 1.21.2
+  resolution: "@elastic/react-search-ui@npm:1.21.2"
   dependencies:
-    "@elastic/react-search-ui-views": 1.20.2
-    "@elastic/search-ui": 1.20.2
+    "@elastic/react-search-ui-views": 1.21.2
+    "@elastic/search-ui": 1.21.2
   peerDependencies:
-    react: ">= 16.8.0 <= 18"
-    react-dom: ">= 16.8.0 <= 18"
-  checksum: dcf0f80174c6d397afca0bc039f4fecfa4d6d7aa1d1101fe7e8c2bcbe476cac922ce2eb59dedc7e52291a67f65bc0209bdb4babf89d36f536a7117946ebbef2d
+    react: ">= 16.8.0 < 19"
+    react-dom: ">= 16.8.0 < 19"
+  checksum: 96319f375abf8ffda67ba63c2304797da2876e651610bcf33cc6d34a9fcefa6ed699eba2f7a53d6c3d98784d5d41c9d43d540cc5ca1d9c79df8e9490d5afd86c
   languageName: node
   linkType: hard
 
@@ -17856,7 +17928,7 @@ __metadata:
     "@eeacms/volto-datahub": 4.0.0
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": ^3.0.1
-    "@eeacms/volto-eea-design-system": 1.60.8
+    "@eeacms/volto-eea-design-system": 1.61.0
     "@eeacms/volto-eea-kitkat": 33.2.0
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-slate-glossary": 2.0.0
@@ -27884,15 +27956,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rc-pagination@npm:^1.20.1":
-  version: 1.21.1
-  resolution: "rc-pagination@npm:1.21.1"
+"rc-pagination@npm:^4.0.4":
+  version: 4.3.0
+  resolution: "rc-pagination@npm:4.3.0"
   dependencies:
-    babel-runtime: 6.x
-    classnames: ^2.2.6
-    prop-types: ^15.5.7
-    react-lifecycles-compat: ^3.0.4
-  checksum: 5772fff7a6cc580deeec8db5b83302acc7bbc0d167f641e42e7b02b50efcc0957540ee9c017e6d6f67607d5f83cf2b2d3541f4831f9963701236315d9dfc876d
+    "@babel/runtime": ^7.10.1
+    classnames: ^2.3.2
+    rc-util: ^5.38.0
+  peerDependencies:
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: 7f75327557926557f334ec874d4f5dd9d6378c30b3ca9f09ec67fec2e265c33906dbc33797268f88a4c8dc95fed11c281534301ef1e9c1687759ce7a7ce59000
   languageName: node
   linkType: hard
 
@@ -27952,7 +28026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rc-util@npm:^5.36.0":
+"rc-util@npm:^5.36.0, rc-util@npm:^5.38.0":
   version: 5.44.4
   resolution: "rc-util@npm:5.44.4"
   dependencies:
