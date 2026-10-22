@@ -62,7 +62,7 @@
     "@dnd-kit/core": "6.0.8",
     "@dnd-kit/sortable": "7.0.2",
     "@dnd-kit/utilities": "3.2.2",
-    "@eeacms/volto-block-toc": "9.0.3",
+    "@eeacms/volto-block-toc": "9.0.4",
     "@eeacms/volto-citation": "2.0.1",
     "@eeacms/volto-context-navigation": "1.0.0",
     "@eeacms/volto-custom-html-block": "0.1.2",

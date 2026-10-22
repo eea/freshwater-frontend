@@ -2322,13 +2322,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:9.0.3":
-  version: 9.0.3
-  resolution: "@eeacms/volto-block-toc@npm:9.0.3"
+"@eeacms/volto-block-toc@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-block-toc@npm:9.0.4"
   dependencies:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
-  checksum: c8cf28c6f07d5b5d1b89ca19d641fa947f3f491d2c66aa050c8c08e730dd4ab51d7f348436a28d9824c196dbde070339f55ac997339682444e13d58f5931dda2
+  checksum: ae5461f42569e6f2f6e7e25d61a8f3080b8f56ca485320e12fec59029c4f42c12aa811e01ed680c0fc73d4f5e505bebb9c19e35e649306b6e70429dcbc5a753b
   languageName: node
   linkType: hard
 
@@ -17968,7 +17968,7 @@ __metadata:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
-    "@eeacms/volto-block-toc": 9.0.3
+    "@eeacms/volto-block-toc": 9.0.4
     "@eeacms/volto-citation": 2.0.1
     "@eeacms/volto-context-navigation": 1.0.0
     "@eeacms/volto-custom-html-block": 0.1.2
