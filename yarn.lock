@@ -2714,10 +2714,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-genai-blocks@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@eeacms/volto-genai-blocks@npm:1.0.1"
-  checksum: 8fc4a149dd9706662d6f1b3bae2f7d2b5f4278d252f9d1ae5347b29044ae9f252846bf4b8753ca152e7ee01cf61cc0ee66a5b3ef8c6bc0aa119b87277c113ce6
+"@eeacms/volto-genai-blocks@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@eeacms/volto-genai-blocks@npm:1.0.2"
+  checksum: 9963a25fde164604d5b67476496f86a759153c12da8e84dbe4d3ea537b823c269aa35803aa970887503e9b98f7156b828ea3835b088050bbc66febcf953a815c
   languageName: node
   linkType: hard
 
@@ -18046,7 +18046,7 @@ __metadata:
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-freshwater-policy": 2.0.3
-    "@eeacms/volto-genai-blocks": 1.0.1
+    "@eeacms/volto-genai-blocks": 1.0.2
     "@eeacms/volto-globalsearch": 4.1.1
     "@eeacms/volto-object-widget": 9.1.1
     "@eeacms/volto-openlayers-map": 2.0.1
