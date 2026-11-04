@@ -12,7 +12,7 @@
   ],
   "theme": "@eeacms/volto-freshwater-policy",
   "resolutions": {
-    "@eeacms/volto-listing-block": "11.0.2",
+    "@eeacms/volto-listing-block": "11.0.3",
     "@eeacms/volto-matomo": "^7.0.1",
     "@eeacms/volto-datablocks": "9.0.6",
     "@eeacms/volto-openlayers-map": "2.0.1",
