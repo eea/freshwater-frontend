@@ -2465,14 +2465,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-eea-chatbot@npm:3.0.1"
+"@eeacms/volto-eea-chatbot@npm:4.1.7":
+  version: 4.1.7
+  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.7"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
-    "@plone-collective/volto-sentry": "*"
+    "@sentry/browser": 7.15.0
     compromise: 14.14.5
     fast-json-patch: 3.1.1
     highlight.js: 11.10.0
@@ -2484,7 +2484,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 66f7a0dd4e6d42132c56e56d3e33dcf252915b6f59bda19251a2fed3149053602bf31b555b5a013e02b70ee7967c8e04930bac4c01eeadc19ec90222b9e39c5a
+  checksum: 91ae27c91822dd84db60703656053feb12634ad4efdd1e77af90dbd88e36f6e88b0d3aadc15689e299e6196acf1aa53c09136e0e33753ee4791bdef6c7d785fd
   languageName: node
   linkType: hard
 
@@ -2872,10 +2872,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-redmine-helpdesk@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-redmine-helpdesk@npm:2.0.2"
-  checksum: b2fc7a0794fabfa2c3db84af9414f69d81870900af0906f1fbe430364c711f4e14ffe44e419bd24a3db4366979f8bfef42eceb25769e27929f6adeada335dcbd
+"@eeacms/volto-redmine-helpdesk@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@eeacms/volto-redmine-helpdesk@npm:2.0.3"
+  checksum: e53cbd1b9ba9bbc157e5161939e09452229c0d492bf7d4ea354c2d099eb890ab854d851d9bcc2dba478d42c0923663fcde8a93172036d12a50afb9c466ec3d07
   languageName: node
   linkType: hard
 
@@ -18036,7 +18036,7 @@ __metadata:
     "@eeacms/volto-datablocks": 9.0.6
     "@eeacms/volto-datahub": 4.0.0
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": ^3.0.1
+    "@eeacms/volto-eea-chatbot": 4.1.7
     "@eeacms/volto-eea-design-system": 1.61.10
     "@eeacms/volto-eea-kitkat": 34.0.4
     "@eeacms/volto-eea-map": 6.0.2
@@ -18053,7 +18053,7 @@ __metadata:
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-prefixpath": 2.0.8
-    "@eeacms/volto-redmine-helpdesk": 2.0.2
+    "@eeacms/volto-redmine-helpdesk": 2.0.3
     "@eeacms/volto-searchlib": 7.0.0
     "@eeacms/volto-slate-dataentity": 5.0.1
     "@eeacms/volto-tableau": 9.0.4
