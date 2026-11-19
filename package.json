@@ -17,7 +17,7 @@
     "@eeacms/volto-datablocks": "10.0.0",
     "@eeacms/volto-openlayers-map": "2.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@eeacms/volto-description-block": "3.0.1",
+    "@eeacms/volto-description-block": "4.0.0",
     "@elastic/search-ui": "1.21.2",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "draft-js": "0.10.5",
