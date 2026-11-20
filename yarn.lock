@@ -2354,13 +2354,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-citation@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-citation@npm:2.0.1"
+"@eeacms/volto-citation@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-citation@npm:3.0.0"
   dependencies:
     "@citation-js/plugin-ris": ^0.6.8
     citation-js: ^0.6.8
-  checksum: 98bd9a77c8d11193c97c46470f9fd3aa4c2b1a9d590c5661fcfa7a63cd60a0daeb33adba7db0772810b17c2bf5c42593405acd8a3a65ebae0909ae276291aeb6
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: c13990add9777843ba2bb76bbd147923a1108a0599e58d71900536f45a727fdb8b45791fc4f77b136537b443111f482d6c30fcb17b25ddcd3ebfbffc9092b5b1
   languageName: node
   linkType: hard
 
@@ -18140,7 +18143,7 @@ __metadata:
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
     "@eeacms/volto-block-toc": 10.0.0
-    "@eeacms/volto-citation": 2.0.1
+    "@eeacms/volto-citation": 3.0.0
     "@eeacms/volto-context-navigation": 1.0.0
     "@eeacms/volto-custom-html-block": 0.1.2
     "@eeacms/volto-datablocks": 10.0.0
