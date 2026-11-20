@@ -2945,10 +2945,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-redmine-helpdesk@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@eeacms/volto-redmine-helpdesk@npm:2.0.3"
-  checksum: e53cbd1b9ba9bbc157e5161939e09452229c0d492bf7d4ea354c2d099eb890ab854d851d9bcc2dba478d42c0923663fcde8a93172036d12a50afb9c466ec3d07
+"@eeacms/volto-redmine-helpdesk@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-redmine-helpdesk@npm:3.0.0"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 9b3b6baf2d1c34162a309bffccbb577acc74a05d4ee6a999f84d396b7ae139de08cc7032da48d372f24d50c57a7edd5c6e7b38f22799d72b44a7a7ed9635240e
   languageName: node
   linkType: hard
 
@@ -18202,7 +18205,7 @@ __metadata:
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-prefixpath": 2.0.8
-    "@eeacms/volto-redmine-helpdesk": 2.0.3
+    "@eeacms/volto-redmine-helpdesk": 3.0.0
     "@eeacms/volto-searchlib": 8.0.0
     "@eeacms/volto-slate-dataentity": 5.0.1
     "@eeacms/volto-tableau": 10.0.0
