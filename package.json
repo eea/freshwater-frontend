@@ -68,7 +68,7 @@
     "@eeacms/volto-custom-html-block": "0.1.2",
     "@eeacms/volto-datablocks": "10.0.0",
     "@eeacms/volto-datahub": "5.0.0",
-    "@eeacms/volto-editing-progress": "3.0.1",
+    "@eeacms/volto-editing-progress": "4.0.0",
     "@eeacms/volto-eea-chatbot": "4.1.7",
     "@eeacms/volto-eea-design-system": "1.61.10",
     "@eeacms/volto-eea-kitkat": "34.0.4",

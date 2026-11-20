@@ -2460,12 +2460,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-editing-progress@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-editing-progress@npm:3.0.1"
+"@eeacms/volto-editing-progress@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@eeacms/volto-editing-progress@npm:4.0.0"
   dependencies:
     "@eeacms/volto-workflow-progress": "*"
-  checksum: 0559607eb56d09e5804a04f878c141f6e73c4d407df8a82b0ef91dc0c115d848fb3a3f1ee34cbb590fb90f8f3c28ac8db9b1b09c05cc59efa209e8e4519e4744
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 744f1d80bed38aa81f46205b3d969153792f9c0f4ab93cd3bc49ceafca7f634694cf99c0f425307a561372c3f585016bc3625f548599c9b82c3bbba93bec6a67
   languageName: node
   linkType: hard
 
@@ -18148,7 +18151,7 @@ __metadata:
     "@eeacms/volto-custom-html-block": 0.1.2
     "@eeacms/volto-datablocks": 10.0.0
     "@eeacms/volto-datahub": 5.0.0
-    "@eeacms/volto-editing-progress": 3.0.1
+    "@eeacms/volto-editing-progress": 4.0.0
     "@eeacms/volto-eea-chatbot": 4.1.7
     "@eeacms/volto-eea-design-system": 1.61.10
     "@eeacms/volto-eea-kitkat": 34.0.4
