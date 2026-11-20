@@ -2687,9 +2687,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed-content@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@eeacms/volto-embed-content@npm:1.0.2"
+"@eeacms/volto-embed-content@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-embed-content@npm:2.0.0"
   dependencies:
     "@eeacms/volto-block-data-figure": "*"
     "@eeacms/volto-eea-map": "*"
@@ -2697,7 +2697,10 @@ __metadata:
     "@eeacms/volto-embed-static-content": "*"
     "@eeacms/volto-plotlycharts": "*"
     "@eeacms/volto-tableau": "*"
-  checksum: 51a9d1658d6dd7ba45f0431729171b4dd32e2cb3d2bef8af4f4349b231c9b8f2b2ddce611b492f97edf8a6b81410eddc7fbf49002e07040cb5a0419c8dd77e1b
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 970eb5107860b4887b7509162951e2d8ff3953d1eb497ff92e8751cf69e361479c78ccb48acd0b14c7d29dc05a11610b0026637d48c614613d8ffd53e4b8d942
   languageName: node
   linkType: hard
 
@@ -18190,7 +18193,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 5.0.7
     "@eeacms/volto-elastic-csv-widget": 3.0.0
     "@eeacms/volto-embed": 12.0.0
-    "@eeacms/volto-embed-content": 1.0.2
+    "@eeacms/volto-embed-content": 2.0.0
     "@eeacms/volto-embed-static-content": 2.0.0
     "@eeacms/volto-freshwater-policy": 2.0.3
     "@eeacms/volto-genai-blocks": 1.0.2
