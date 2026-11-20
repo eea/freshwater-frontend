@@ -78,7 +78,7 @@
     "@eeacms/volto-elastic-csv-widget": "3.0.0",
     "@eeacms/volto-embed": "12.0.0",
     "@eeacms/volto-embed-content": "1.0.2",
-    "@eeacms/volto-embed-static-content": "1.0.4",
+    "@eeacms/volto-embed-static-content": "2.0.0",
     "@eeacms/volto-freshwater-policy": "2.0.3",
     "@eeacms/volto-genai-blocks": "1.0.2",
     "@eeacms/volto-globalsearch": "4.1.1",
